@@ -1,4 +1,4 @@
-Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe gedacht.
+Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optimiert.
 
 ## Alleinstellungsmerkmale
 - Aufgeräumtes Design
