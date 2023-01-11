@@ -1,6 +1,3 @@
-*Note: The source code of this project, the vocabulary lists and the documentation of this project are mainly written in german.*
-
-# Vokabeltraining
 Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe gedacht.
 
 ## Alleinstellungsmerkmale
@@ -12,7 +9,7 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe gedac
 - Die Wörter lernen, nicht die Formatierung. In den Listen wird auf einen einheitlichen Stil geachtet. Beispiel: Synonyme sind immer mit ; getrennt. So muss man nur die Wörter lernen - und nicht, wo ein Schrägstrich, ein Komma oder ein Semikolon verwendet wird.
 - Kein überflüssiges Tippen. So wird etwa bei englischen Verben kein "to " vorangestellt.
 - Optimierung für Französisch: Es wird angezeigt, wenn ein Wort mit einem bestimmten (le/la/l'/les) oder unbestimmten (un/une) Artikel anfängt.
-- Ein ebenso banaler wie überlegener Algorithmus.
+- Ein ebenso banaler wie überlegener Lernalgorithmus.
 
 ## Lernalgorithmus
 1. Die Vokabeln werden in einer zufälligen Reihenfolge abgefragt.
@@ -25,3 +22,6 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe gedac
 Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut formattiert, nicht sinnvoll getrennt, nicht von mir abgetippt und teils urheberrechtlich geschützt. Verfügbar sind aber:
 
 [Englisch auf 23. Februar 2023](einmeterhecht.github.io/vokabeltraining/abfragen.html?folder=english&file=2023-01-13)
+
+
+*Note: The source code of this project, the vocabulary lists and the documentation of this project are mainly written in german.*
