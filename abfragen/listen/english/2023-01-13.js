@@ -274,10 +274,10 @@ var liste = {
         },
         {
             "English": [
-                "the desire for sth"
+                "desire for sth"
             ],
             "German": [
-                "der Wunsch nach etw"
+                "Wunsch nach etw"
             ]
         },
         {
@@ -1306,7 +1306,7 @@ var liste = {
         },
         {
             "English": [
-                "municipal counsil"
+                "municipal council"
             ],
             "German": [
                 "Stadtverwaltung"
