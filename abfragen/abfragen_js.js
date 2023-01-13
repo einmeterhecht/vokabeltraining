@@ -158,7 +158,7 @@ function antwort_anpassen(antwort){
 		.replace("abl.","abl")
 		.replace("ablativ","abl")
 		.replace(";","/") // Trennzeichen
-		.replace(", ","/")
+		.replace(",","/")
 		.replace(" /","/")
 		.replace("/ ","/");
 }
