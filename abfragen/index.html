@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Abfragen</title>
         <script src="abfragen_js.js"></script>
+        <script src="schwierige.js"></script>
         <script src="liste_laden.js"></script>
         <style>
             .anzeige {
@@ -46,7 +47,7 @@
     <body style="background: #226618;">
 	    <p class="zentriert" style="margin-top: 25px; margin-bottom: 0px">
 		    <progress id="progress" class="progress_bar" max=100 value=0>progress</progress>
-		    <button id="download_schwierige_button" class="progress_text" style="background-color: #264B87" onclick="dlk();" hidden="true">Nicht sofort gewusste Wörter als Datei herunterladen</button>
+		    <button id="download_schwierige_button" class="progress_text" style="background-color: #264B87" onclick="download_nicht_sofort_gewusste();" hidden="true">Nicht sofort gewusste Wörter als Datei herunterladen</button>
 		    <b id="progress_text" class="progress_text">0/0</b>
 		</p>
 	    <p>

@@ -1,8 +1,9 @@
 console.log("abfragen_js.js started");
-var aufgaben = [];
 
 var aufgabe_index = 0;
 var beantwortet = false;
+
+var aufgaben = [];
 
 var knacknuesse = [];
 var nicht_sofort_klar = [];
@@ -17,8 +18,6 @@ function initialisiere_aufgabenliste () {
 	}
     aufgaben = shuffle_array(aufgaben);
 }
-
-
 
 function shuffle_array(list){
 	// Using Fisher-Yates algorithm:
@@ -58,6 +57,8 @@ function get_frage(){
 }
 
 function erste_aufgabe(){
+	aufgabe_index = 0;
+	beantwortet = false;
 	initialisiere_aufgabenliste();
 	frage_laden();
 	update_progress();
@@ -115,13 +116,20 @@ function update_progress(){
 }
 
 function check_double_space(){
+	if (beantwortet) {
+		if (eingabe.value.endsWith(" ")) {
+			wiederholen();
+			naechste_frage();
+		}
+		else {
+			check_for_knacknuss();
+			naechste_frage();
+		}
+	}
     if (eingabe.value.endsWith(" ")){
 		if (beantwortet){
 			pruefe_eingabe();
 		}
-		/*else if (input_correct(eingabe.value.substring(0, eingabe.value.length - 1))){
-		    pruefe_eingabe();
-		}*/
 		else if (count_occurrences(eingabe.value, " ") == count_occurrences(get_gefragtes(), " ") + 1){
 			pruefe_eingabe();
 		}
@@ -161,54 +169,56 @@ function input_correct(input=eingabe.value){
 }
 
 function pruefe_eingabe(){
+	beantwortet = true;
 	if (eingabe.value.endsWith(" ")){
 		eingabe.value = eingabe.value.substring(0, eingabe.value.length - 1);
 	}
-	var directly_load_next_question = false;
-	if (beantwortet){
-		if (aufgabe_index >= aufgaben.length){
-			fertig();
-		}
-		else{
-		    frage_laden();
-		}
-		return false;
+	
+	eingabe.selectionStart = eingabe.selectionEnd = eingabe.value.length; // Set cursor to end
+	
+	if (input_correct()){
+		eingabe.style.background = "#006604"; // Original AbfrageApp - Farbe
+		gefragtes_attribut.innerHTML = "Richtig!"
+		check_for_knacknuss();		
+		naechste_frage();			
 	}
 	else{
-		var aufgabe = aufgaben[aufgabe_index];
-		if (input_correct()){
-			eingabe.style.background = "#006604"; // Original AbfrageApp - Farbe
-			gefragtes_attribut.innerHTML = "Richtig!"
-			if (count_occurrences(aufgaben, aufgabe) > MAX_UNTIL_KNACKNUSS && knacknuesse.indexOf(aufgabe) == -1){
-				// Needed at least 3 attempts
-				aufgaben.splice(aufgabe_index + KNACKNUSS_CHECK_INTERVAL + 1, 0, aufgabe);
-				knacknuesse.push(aufgabe);
-			}
-			directly_load_next_question = true;
-		}
-		else{
-			eingabe.style.background = "#990000";
-			gefragtes_attribut.innerHTML = "Falsch. Richtig wäre: " + get_gefragtes(get_frage());
-			aufgaben.splice(aufgabe_index + REPEAT_INTERVAL + 1, 0, aufgabe);
-			if (knacknuesse.indexOf(aufgabe) != -1){
-				knacknuesse.splice(knacknuesse.indexOf(aufgabe), 1);
-				// Repetition of difficult word
-			}
-			if (nicht_sofort_klar.indexOf(liste.fragen[aufgabe]) == -1){
-				nicht_sofort_klar.push(liste.fragen[aufgabe]);
-			}
-		}
-		beantwortet = true;
-		aufgabe_index++;
-	    update_progress();
-		if (directly_load_next_question){
-			pruefe_eingabe();
-		}
-		return false;
+		eingabe.style.background = "#990000";
+		gefragtes_attribut.innerHTML = "Falsch. Richtig wäre: " + get_gefragtes(get_frage());
 	}
 }
 
-function war_doch_richtig(){}
+function check_for_knacknuss() {
+	aufgabe = aufgaben[aufgabe_index];
+	if (count_occurrences(aufgaben, aufgabe) > MAX_UNTIL_KNACKNUSS && knacknuesse.indexOf(aufgabe) == -1){
+		// Needed at least 3 attempts
+		aufgaben.splice(aufgabe_index + KNACKNUSS_CHECK_INTERVAL + 1, 0, aufgabe);
+		knacknuesse.push(aufgabe);
+	}
+}
+
+function wiederholen(aufgabe){
+	index_falsch_beantwortetes = aufgabe_index + REPEAT_INTERVAL + 1;
+	aufgaben.splice(index_falsch_beantwortetes, 0, aufgabe);
+	if (knacknuesse.indexOf(aufgabe) != -1){
+		knacknuesse.splice(knacknuesse.indexOf(aufgabe), 1);
+		// Repetition of difficult word
+	}
+	if (nicht_sofort_klar.indexOf(liste.fragen[aufgabe]) == -1){
+		nicht_sofort_klar.push(liste.fragen[aufgabe]);
+	}
+}
+
+function naechste_frage() {
+	aufgabe_index++;
+	update_progress();
+	if (aufgabe_index >= aufgaben.length){
+		fertig();
+	}
+	else{
+		frage_laden();
+	}
+}
 
 function get_knacknuesse(){
 	var knacknuesse_string = "";
@@ -271,6 +281,6 @@ function fertig(){
 	
 }
 
-function dlk(){
-	download('_schwierige.js', "var liste = " + get_knacknuesse_json() + ";");
+function download_nicht_sofort_gewusste(){
+	download('schwierige.js', "var liste = " + get_knacknuesse_json() + "; erste_aufgabe();");
 }
