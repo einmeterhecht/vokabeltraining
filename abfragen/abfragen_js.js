@@ -3,6 +3,8 @@ console.log("abfragen_js.js started");
 var aufgabe_index = 0;
 var beantwortet = false;
 
+var enter_pressed = false;
+
 var aufgaben = [];
 
 var knacknuesse = [];
@@ -13,7 +15,7 @@ var REPEAT_INTERVAL = 5;
 var KNACKNUSS_CHECK_INTERVAL = 14;
 
 function initialisiere_aufgabenliste () {
-	for (var i in liste.fragen){
+	for (i in liste.fragen){
 	    aufgaben.push(i);
 	}
     aufgaben = shuffle_array(aufgaben);
@@ -22,20 +24,20 @@ function initialisiere_aufgabenliste () {
 function shuffle_array(list){
 	// Using Fisher-Yates algorithm:
 	// https://bost.ocks.org/mike/shuffle/
-	var shuffled = [];
+	shuffled = [];
 	// Create copy
-	for (var i in list){
+	for (i in list){
 		shuffled.push(list[i]);
 	}
 	
-	var remaining_elements = shuffled.length;
+	remaining_elements = shuffled.length;
 	
 	while (remaining_elements != 0) {
 		// Pick a remaining element...
-		var random_index = Math.floor(Math.random() * remaining_elements);
+		random_index = Math.floor(Math.random() * remaining_elements);
 		remaining_elements--;
 		// And swap it with the current element.
-		var random_element = shuffled[random_index];
+		random_element = shuffled[random_index];
 		shuffled[random_index] = shuffled[remaining_elements];
 		shuffled[remaining_elements] = random_element;
     }
@@ -43,13 +45,21 @@ function shuffle_array(list){
 }
 
 function count_occurrences(list, item){
-	var count = 0;
-	for (var i in list){
+	count = 0;
+	for (i in list){
 		if (list[i] == item){
 			count++;
 		}
 	}
 	return count;
+}
+
+function remove_spaces_at_end(string) {
+	while (string.endsWith(" ")){
+        string = string.substring(0, string.length - 1);
+		console.log("remove space");
+	}
+	return string;
 }
 
 function get_frage(){
@@ -62,11 +72,12 @@ function erste_aufgabe(){
 	initialisiere_aufgabenliste();
 	frage_laden();
 	update_progress();
+	eingabe.focus(); // Cursor ins Eingabefeld setzen
 }
 
 function get_gefragte(){
-	var gefragte = [];
-	for (var key in get_frage()){
+	gefragte = [];
+	for (key in get_frage()){
 		if (key != liste.frage_attribut){
 			gefragte.push(key);
 		}
@@ -75,11 +86,12 @@ function get_gefragte(){
 }
 
 function get_gefragtes_attribut(frage = get_frage()){
-	for (var key in frage){
+	for (key in frage){
 		if (key != liste.frage_attribut){
 	        return key;
 		}
 	}
+	return "NotFound";
 }
 
 function get_gefragtes(frage = get_frage()){
@@ -115,7 +127,63 @@ function update_progress(){
 	
 }
 
-function check_double_space(){
+function eingabefeld_onkeyup(){
+	if (enter_pressed) enter_pressed = false;
+	else if (beantwortet){
+		pruefe_eingabe();
+	}
+	else if (count_occurrences(eingabe.value, " ") > count_occurrences(get_gefragtes(), " ")){
+		pruefe_eingabe();
+	}
+}
+
+function antwort_anpassen(antwort){
+	return antwort.replace("jemand","jmd") // Deutsch
+		.replace("jemanden","jmd")
+		.replace("jemandem","jmd")
+		.replace("jmd.","jmd")
+		.replace("jnd.","jmd")
+		.replace("etwas","etw")
+		.replace("sb.","sb") // English
+		.replace("somebody","sb")
+		.replace("sb's","sbs")
+		.replace("sth.","sth")
+		.replace("something","sth")
+		.replace("gen.","gen") // Latein
+		.replace("genitiv","gen")
+		.replace("dat.","dat")
+		.replace("dativ","dat")
+		.replace("akk.","akk")
+		.replace("akkusativ","akk")
+		.replace("abl.","abl")
+		.replace("ablativ","abl")
+		.replace(";","/") // Trennzeichen
+		.replace(", ","/")
+		.replace(" /","/")
+		.replace("/ ","/");
+}
+
+function input_correct(input=eingabe.value){
+	loesung = antwort_anpassen(get_gefragtes(get_frage()));
+	gegebene_antwort = antwort_anpassen(input);
+	if (loesung/*.toUpperCase()*/ == gegebene_antwort/*.toUpperCase()*/){
+		return true;
+	}
+	else{
+		return false;
+	}
+}
+
+function submit_eingabe(){
+	if (!enter_pressed){
+		enter_pressed = true;
+		eingabe.value += " ";
+		pruefe_eingabe();
+	}
+	return false;
+}
+
+function pruefe_eingabe(){
 	if (beantwortet) {
 		if (eingabe.value.endsWith(" ")) {
 			wiederholen();
@@ -125,54 +193,11 @@ function check_double_space(){
 			check_for_knacknuss();
 			naechste_frage();
 		}
+		return;
 	}
-    if (eingabe.value.endsWith(" ")){
-		if (beantwortet){
-			pruefe_eingabe();
-		}
-		else if (count_occurrences(eingabe.value, " ") == count_occurrences(get_gefragtes(), " ") + 1){
-			pruefe_eingabe();
-		}
-	}
-}
 
-function antwort_anpassen(antwort){
-	return antwort.replace("jemand","jmd")
-		.replace("jemanden","jmd")
-		.replace("jemandem","jmd")
-		.replace("jmd.","jmd")
-		.replace("jnd.","jmd")
-		.replace("etwas","etw")
-		.replace("gen.","gen")
-		.replace("genitiv","gen")
-		.replace("dat.","dat")
-		.replace("dativ","dat")
-		.replace("akk.","akk")
-		.replace("akkusativ","akk")
-		.replace("abl.","abl")
-		.replace("ablativ","abl")
-		.replace(";","/")
-		.replace(", ","/")
-		.replace(" /","/")
-		.replace("/ ","/");
-}
-
-function input_correct(input=eingabe.value){
-	var loesung = antwort_anpassen(get_gefragtes(get_frage()));
-	var gegebene_antwort = antwort_anpassen(input);
-	if (loesung/*.toUpperCase()*/ == gegebene_antwort/*.toUpperCase()*/){
-		return true;
-	}
-	else{
-		return false;
-	}
-}
-
-function pruefe_eingabe(){
 	beantwortet = true;
-	if (eingabe.value.endsWith(" ")){
-		eingabe.value = eingabe.value.substring(0, eingabe.value.length - 1);
-	}
+	eingabe.value = remove_spaces_at_end(eingabe.value);
 	
 	eingabe.selectionStart = eingabe.selectionEnd = eingabe.value.length; // Set cursor to end
 	
@@ -197,9 +222,9 @@ function check_for_knacknuss() {
 	}
 }
 
-function wiederholen(aufgabe){
-	index_falsch_beantwortetes = aufgabe_index + REPEAT_INTERVAL + 1;
-	aufgaben.splice(index_falsch_beantwortetes, 0, aufgabe);
+function wiederholen(){
+	aufgabe = aufgaben[aufgabe_index];
+	aufgaben.splice(aufgabe_index + REPEAT_INTERVAL + 1, 0, aufgabe);
 	if (knacknuesse.indexOf(aufgabe) != -1){
 		knacknuesse.splice(knacknuesse.indexOf(aufgabe), 1);
 		// Repetition of difficult word
@@ -221,28 +246,28 @@ function naechste_frage() {
 }
 
 function get_knacknuesse(){
-	var knacknuesse_string = "";
-	for (var i in knacknuesse){
+	knacknuesse_string = "";
+	for (i in knacknuesse){
 		knacknuesse_string += get_gefragtes(liste.fragen[knacknuesse[i]]) + "<br>";
 	}
 	return knacknuesse_string.substring(0, knacknuesse_string.length - 4);
 }
 
 function get_knacknuesse_json(){
-	var knacknuesse_json = {
+	knacknuesse_json = {
     "fragen": nicht_sofort_klar,
 	"hinweis_attribute": liste.hinweis_attribute,
     "titel": "schwierige_" + liste.titel,
     "frage_attribut": liste.frage_attribut
     };
-	//for (var i in knacknuesse){
+	//for (i in knacknuesse){
 	//	knacknuesse_json.fragen.push(liste.fragen[knacknuesse[i]]);
 	//}
 	return JSON.stringify(knacknuesse_json);
 }
 
 function download(filename, contained_string) {
-    var element = document.createElement('a');
+    element = document.createElement('a');
     element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(contained_string));
     element.setAttribute('download', filename);
 

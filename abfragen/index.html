@@ -58,15 +58,14 @@
 				<p id="gefragtes_attribut" class="frage_info">Browser unterstützt kein JavaScript...</p>
 			</div>
 		    <div class="zentriert">
-				<form onsubmit="return pruefe_eingabe();">
-					<input id="eingabe" class="ergebnisse" type="text" onkeyup="check_double_space();">
+				<form onsubmit="return submit_eingabe();">
+					<input id="eingabe" class="ergebnisse" type="text" onkeyup="eingabefeld_onkeyup();">
 				</form>
 			</div>
 		</p>
 		<!--<div class="anzeige" id="start_knopf" onclick="erste_aufgabe();">
 				<p class="frage_info" style="color: #264B87;">Starten</p>
 		</div>-->
-		<script>gefragtes_attribut.innerHTML = "Fragen konnten nicht geladen werden";
-		liste_laden();</script>
+		<script>gefragtes_attribut.innerHTML = "Fragen konnten nicht geladen werden"; liste_laden();</script>
     </body>
 </html>
