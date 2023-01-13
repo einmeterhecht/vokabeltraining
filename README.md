@@ -28,6 +28,7 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut formattiert, nicht sinnvoll getrennt, nicht von mir abgetippt und teils urheberrechtlich geschützt. Verfügbar sind aber:
 
 [Englisch auf 23. Februar 2023](https://einmeterhecht.github.io/vokabeltraining/abfragen?folder=english&file=2023-01-13)
+
 [Lateinische Deponentien](https://einmeterhecht.github.io/vokabeltraining/abfragen?folder=latein&file=deponentien)
 
 
