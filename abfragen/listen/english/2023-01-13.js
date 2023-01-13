@@ -1090,7 +1090,7 @@ var liste = {
         },
         {
             "English": [
-                "Constitution"
+                "constitution"
             ],
             "German": [
                 "Verfassung"

@@ -128,8 +128,31 @@ function check_double_space(){
 	}
 }
 
+function antwort_anpassen(antwort){
+	return antwort.replace("jemand","jmd")
+		.replace("jemanden","jmd")
+		.replace("jemandem","jmd")
+		.replace("jmd.","jmd")
+		.replace("jnd.","jmd")
+		.replace("etwas","etw")
+		.replace("gen.","gen")
+		.replace("genitiv","gen")
+		.replace("dat.","dat")
+		.replace("dativ","dat")
+		.replace("akk.","akk")
+		.replace("akkusativ","akk")
+		.replace("abl.","abl")
+		.replace("ablativ","abl")
+		.replace(";","/")
+		.replace(", ","/")
+		.replace(" /","/")
+		.replace("/ ","/");
+}
+
 function input_correct(input=eingabe.value){
-	if (get_gefragtes(get_frage())/*.toUpperCase()*/ == input/*.toUpperCase()*/){
+	var loesung = antwort_anpassen(get_gefragtes(get_frage()));
+	var gegebene_antwort = antwort_anpassen(input);
+	if (loesung/*.toUpperCase()*/ == gegebene_antwort/*.toUpperCase()*/){
 		return true;
 	}
 	else{
@@ -184,6 +207,8 @@ function pruefe_eingabe(){
 		return false;
 	}
 }
+
+function war_doch_richtig(){}
 
 function get_knacknuesse(){
 	var knacknuesse_string = "";

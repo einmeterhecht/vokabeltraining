@@ -6,7 +6,7 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 - Keine Möglichkeit, den Fortschritt online zu speichern
 - Keine motivierenden Botschaften. Bei einer richtigen Antwort kommt kommentarlos das nächste Wort.
 - Schnelle Eingaben. Zum Absenden einer Antwort kann man statt Enter die Leertaste drücken. Sobald im Eingabefeld ein Leerschlag mehr ist als in der richtigen Lösung, wird die Antwort abgesendet.
-- Die Wörter lernen, nicht die Formatierung. In den Listen wird auf einen einheitlichen Stil geachtet. Beispiel: Synonyme sind immer mit ; getrennt. So muss man nur die Wörter lernen - und nicht, wo ein Schrägstrich, ein Komma oder ein Semikolon verwendet wird.
+- Die Wörter lernen, nicht die Formatierung. Ob Synonyme mit Semikolon, Komma oder Schrägstrich getrennt sind, spielt keine Rolle.
 - Kein überflüssiges Tippen. So wird etwa bei englischen Verben kein "to " vorangestellt.
 - Optimierung für Französisch: Es wird angezeigt, wenn ein Wort mit einem bestimmten (le/la/l'/les) oder unbestimmten (un/une) Artikel anfängt.
 - Ein ebenso banaler wie überlegener Lernalgorithmus.
@@ -24,4 +24,4 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 [Englisch auf 23. Februar 2023](https://einmeterhecht.github.io/vokabeltraining/abfragen?folder=english&file=2023-01-13)
 
 
-*Note: The source code of this project, the vocabulary lists and the documentation of this project are mainly written in german.*
+*Note: The source code, the vocabulary lists and the documentation of this project are mainly written in german.*
