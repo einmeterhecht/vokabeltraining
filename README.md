@@ -27,9 +27,11 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Online verfügbare Listen
 Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut formattiert, nicht sinnvoll getrennt, nicht von mir abgetippt und teils urheberrechtlich geschützt. Verfügbar sind aber:
 
-[Englisch auf 23. Februar 2023](https://einmeterhecht.github.io/vokabeltraining/abfragen?folder=english&file=2023-01-13)
+[Englisch auf 23. Januar 2023](/abfragen?folder=english&file=2023-01-13)
 
-[Lateinische Deponentien](https://einmeterhecht.github.io/vokabeltraining/abfragen?folder=latein&file=deponentien)
+[Französisch auf 1. Februar 2023 (GAWS S. 250-264)](/abfragen?folder=franz&file=2023-02-01)
+
+[Lateinische Deponentien](/abfragen?folder=latein&file=deponentien)
 
 
 *Note: The source code, the vocabulary lists and the documentation of this project are mainly written in german.*
