@@ -458,14 +458,6 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "un empire colonial"
-            ],
-            "Deutsch": [
-                "Kolonialreich"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
                 "une colonie"
             ],
             "Deutsch": [
@@ -1079,7 +1071,7 @@ var liste = {
             "Deutsch": [
                 "die Landung [der Alliierten in der Normandie 1944]"
             ]
-        },
+        },/*
         {
             "Franz\u00f6sisch": [
                 "la Guerre franco-allemande 1870/1871"
@@ -1151,7 +1143,7 @@ var liste = {
             "Deutsch": [
                 "die EZB (Europ\u00e4ische Zentralbank)"
             ]
-        },
+        },*/
         {
             "Franz\u00f6sisch": [
                 "religieux"
@@ -1970,14 +1962,6 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "un conte philosophique"
-            ],
-            "Deutsch": [
-                "philosophische Erz\u00e4hlung"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
                 "la philosophie"
             ],
             "Deutsch": [
@@ -1991,7 +1975,7 @@ var liste = {
             "Deutsch": [
                 "Philosoph"
             ]
-        },
+        },/*
         {
             "Franz\u00f6sisch": [
                 "la m\u00e9taphysique"
@@ -2063,7 +2047,7 @@ var liste = {
             "Deutsch": [
                 "Existenzialismus"
             ]
-        },
+        },*/
         {
             "Franz\u00f6sisch": [
                 "penser"
@@ -2110,14 +2094,6 @@ var liste = {
             ],
             "Deutsch": [
                 "Theorie"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "\u00e9mettre une th\u00e9orie"
-            ],
-            "Deutsch": [
-                "eine Theorie aufstellen"
             ]
         },
         {
