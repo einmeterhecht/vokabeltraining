@@ -62,6 +62,20 @@ function remove_spaces_at_end(string) {
 	return string;
 }
 
+function remove_content_in_brackets(string) {
+	index = string.indexOf("(");
+	while (index != -1) {
+		until_bracket = string.substring(0, index);
+		index_of_closing_bracket = string.indexOf(")", index);
+		if (index_of_closing_bracket == -1) return string; // Bracket not closed
+		after_bracket = string.substring(index_of_closing_bracket + 1, string.length);
+		string = until_bracket + after_bracket;
+		if (index == string.length) return string; // End of string
+		index = string.indexOf("(", index);
+	}
+	return string;
+}
+
 function get_frage(){
 	return liste.fragen[aufgaben[aufgabe_index]];
 }
