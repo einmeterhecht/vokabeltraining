@@ -213,17 +213,20 @@ function pruefe_eingabe(){
 	beantwortet = true;
 	eingabe.value = remove_spaces_at_end(eingabe.value);
 	
-	eingabe.selectionStart = eingabe.selectionEnd = eingabe.value.length; // Set cursor to end
 	
 	if (input_correct()){
 		eingabe.style.background = "#006604"; // Original AbfrageApp - Farbe
 		gefragtes_attribut.innerHTML = "Richtig!"
+		
 		check_for_knacknuss();		
-		naechste_frage();			
+		naechste_frage();
 	}
 	else{
 		eingabe.style.background = "#990000";
 		gefragtes_attribut.innerHTML = "Falsch. Richtig wäre: " + get_gefragtes(get_frage());
+		
+		eingabe.value = eingabe.value + " "
+	    eingabe.selectionStart = eingabe.selectionEnd = eingabe.value.length; // Set cursor to end
 	}
 }
 

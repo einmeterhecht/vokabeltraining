@@ -322,7 +322,7 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "l'\u00e2ge de la pierre/due bronze"
+                "l'\u00e2ge de la pierre/du bronze"
             ],
             "Deutsch": [
                 "Stein-/Bronzezeit"
