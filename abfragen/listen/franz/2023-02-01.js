@@ -778,7 +778,7 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "le pouvoir ex\u00e9cutive"
+                "le pouvoir ex\u00e9cutif"
             ],
             "Deutsch": [
                 "Exekutive"
@@ -1226,10 +1226,10 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "an Gott glauben / glauben an"
+                "croire en Dieu / croire \u00e0"
             ],
             "Deutsch": [
-                "croire en Dieu / croire \u00e0"
+                "an Gott glauben / glauben an"
             ]
         },
         {
