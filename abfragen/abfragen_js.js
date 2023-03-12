@@ -163,6 +163,8 @@ function antwort_anpassen(antwort){
 		.replace("sb's","sbs")
 		.replace("sth.","sth")
 		.replace("something","sth")
+		.replace("qn.","qn") // Franzoesisch
+		.replace("qc.","qc")
 		.replace("gen.","gen") // Latein
 		.replace("genitiv","gen")
 		.replace("dat.","dat")
@@ -180,12 +182,15 @@ function antwort_anpassen(antwort){
 function input_correct(input=eingabe.value){
 	loesung = antwort_anpassen(get_gefragtes(get_frage()));
 	gegebene_antwort = antwort_anpassen(input);
-	if (loesung/*.toUpperCase()*/ == gegebene_antwort/*.toUpperCase()*/){
+	if (loesung/*.toUpperCase()*/ == gegebene_antwort/*.toUpperCase()*/) {
 		return true;
 	}
 	else{
-		return false;
+		if (remove_content_in_brackets(loesung).replace("  ", " ") == gegebene_antwort) {
+			return true;
+		}
 	}
+	return false;
 }
 
 function submit_eingabe(){
@@ -199,15 +204,21 @@ function submit_eingabe(){
 
 function pruefe_eingabe(){
 	if (beantwortet) {
-		if (eingabe.value.endsWith(" ")) {
-			wiederholen();
-			naechste_frage();
+		if (eingabe.selectionStart > 0) {
+			char_entered = eingabe.value[eingabe.selectionStart - 1];
+			if (char_entered == "<" || char_entered == ">") {
+				// "Antwort war richtig"
+				check_for_knacknuss();
+				naechste_frage();
+			}
+			else if (char_entered == " ") {
+				// Naechste Frage
+				wiederholen();
+				naechste_frage();
+			}
+		    return;
+			// Andere Tasten werden ignoriert (Enter wird woanders gefangen)
 		}
-		else {
-			check_for_knacknuss();
-			naechste_frage();
-		}
-		return;
 	}
 
 	beantwortet = true;
