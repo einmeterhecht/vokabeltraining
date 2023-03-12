@@ -303,8 +303,6 @@ function download(filename, contained_string) {
     document.body.appendChild(element);
 
     element.click();
-
-    //document.body.removeChild(dummy_element);
 }
 
 function fertig(){
