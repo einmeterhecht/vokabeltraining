@@ -205,7 +205,7 @@ function pruefe_eingabe(){
 	if (beantwortet) {
 		if (eingabe.selectionStart > 0) {
 			char_entered = eingabe.value[eingabe.selectionStart - 1];
-			if (char_entered == "<" || char_entered == ">") {
+			if (char_entered == "<" || char_entered == ">" || char_entered == "a") {
 				// "Antwort war richtig"
 				check_for_knacknuss();
 				naechste_frage();

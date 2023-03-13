@@ -3,7 +3,7 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ## Neu hinzugefügt:
 - Alles in Klammern kann man ab jetzt weglassen.
-- Wenn die Antwort falsch war, kommt man wie bisher mit Enter oder der Leertaste zur nächsten Frage. Wenn man < eingibt, wird die Antwort als richtig gezählt. Andere Tasten machen nichts.
+- Wenn die Antwort falsch war, kommt man wie bisher mit Enter oder der Leertaste zur nächsten Frage. Wenn man "<" oder "a" eingibt, wird die Antwort als richtig gezählt. Andere Tasten machen nichts.
 
 ## Alleinstellungsmerkmale
 - Aufgeräumtes Design
