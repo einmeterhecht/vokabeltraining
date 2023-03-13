@@ -2153,7 +2153,7 @@ var liste = {
                 "ermorden"
             ],
             "Franz\u00f6sisch": [
-                "assasiner"
+                "assassiner"
             ]
         },
         {
