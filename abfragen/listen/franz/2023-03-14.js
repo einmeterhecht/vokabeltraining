@@ -2169,7 +2169,7 @@ var liste = {
                 "M\u00f6rder"
             ],
             "Franz\u00f6sisch": [
-                "un assasin"
+                "un assassin"
             ]
         },
         {
@@ -2230,7 +2230,7 @@ var liste = {
         },
         {
             "Deutsch": [
-                "\u00fcberfall"
+                "\u00dcberfall"
             ],
             "Franz\u00f6sisch": [
                 "une attaque"
