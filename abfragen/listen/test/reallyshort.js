@@ -2,10 +2,10 @@ var liste = {
     "fragen": [
         {
             "English": [
-                "migration"
+                "élire qn (élu)"
             ],
             "German": [
-                "Zu- und Abwanderung, Migration, Wanderungsbewegung"
+                "wählen"
             ]
         },
         {

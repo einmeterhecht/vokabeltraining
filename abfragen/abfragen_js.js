@@ -57,7 +57,6 @@ function count_occurrences(list, item){
 function remove_spaces_at_end(string) {
 	while (string.endsWith(" ")){
         string = string.substring(0, string.length - 1);
-		console.log("remove space");
 	}
 	return string;
 }
@@ -152,7 +151,7 @@ function eingabefeld_onkeyup(){
 }
 
 function antwort_anpassen(antwort){
-	return antwort.replace("jemand","jmd") // Deutsch
+	return remove_spaces_at_end(antwort).replace("jemand","jmd") // Deutsch
 		.replace("jemanden","jmd")
 		.replace("jemandem","jmd")
 		.replace("jmd.","jmd")
@@ -182,13 +181,13 @@ function antwort_anpassen(antwort){
 function input_correct(input=eingabe.value){
 	loesung = antwort_anpassen(get_gefragtes(get_frage()));
 	gegebene_antwort = antwort_anpassen(input);
-	if (loesung.replace("(","").replace(")","") == gegebene_antwort.replace("(","").replace(")","")) {
+	if (loesung.replace("(","").replace(")","") == 
+	gegebene_antwort.replace("(","").replace(")","")) {
 		return true;
 	}
-	else{
-		if (remove_content_in_brackets(loesung).replace("  ", " ") == gegebene_antwort) {
-			return true;
-		}
+	else if (remove_spaces_at_end(
+	remove_content_in_brackets(loesung).replace("  ", " ")) == gegebene_antwort) {
+		return true;
 	}
 	return false;
 }
