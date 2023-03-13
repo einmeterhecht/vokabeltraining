@@ -182,7 +182,7 @@ function antwort_anpassen(antwort){
 function input_correct(input=eingabe.value){
 	loesung = antwort_anpassen(get_gefragtes(get_frage()));
 	gegebene_antwort = antwort_anpassen(input);
-	if (loesung/*.toUpperCase()*/ == gegebene_antwort/*.toUpperCase()*/) {
+	if (loesung.replace("(","").replace(")","") == gegebene_antwort.replace("(","").replace(")","")) {
 		return true;
 	}
 	else{
