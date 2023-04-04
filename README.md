@@ -2,7 +2,7 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 
 ## Neu hinzugefügt:
-- Alles in Klammern kann man ab jetzt weglassen.
+- Alles in Klammern kann man ab jetzt weglassen (oder zumindest die Klammern selbst).
 - Wenn die Antwort falsch war, kommt man wie bisher mit Enter oder der Leertaste zur nächsten Frage. Wenn man "<" oder "a" eingibt, wird die Antwort als richtig gezählt. Andere Tasten machen nichts.
 
 ## Alleinstellungsmerkmale
@@ -26,7 +26,7 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Online verfügbare Listen
 Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut formattiert, nicht sinnvoll getrennt, nicht von mir abgetippt und teils urheberrechtlich geschützt. Verfügbar sind aber:
 
-[Französisch auf 11. April 2023 (Nur der erste Teil: GAWS S. 291 - 303)](/vokabeltraining/abfragen?folder=franz&file=2023-04-11_teil1_291-303)
+[Französisch auf 11. April 2023 (GAWS S. 291-315)](/vokabeltraining/abfragen?folder=franz&file=2023-04-11)
 
 [Französisch auf 14. März 2023 (GAWS S. 265-290)](/vokabeltraining/abfragen?folder=franz&file=2023-03-14)
 
