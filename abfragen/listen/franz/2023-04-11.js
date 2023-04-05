@@ -682,7 +682,7 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "signer/rater/rompre un trait\u00e9"
+                "signer/ratifier/rompre un trait\u00e9"
             ],
             "Deutsch": [
                 "einen Vertrag unterzeichnen/ratifizieren/brechen"
