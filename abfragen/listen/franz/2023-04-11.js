@@ -2010,7 +2010,7 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "une f\u00f4ret"
+                "une for\u00eat"
             ],
             "Deutsch": [
                 "Wald"
