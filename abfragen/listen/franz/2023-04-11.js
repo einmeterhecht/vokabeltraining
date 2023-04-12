@@ -2090,7 +2090,7 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "moissoner"
+                "moissonner"
             ],
             "Deutsch": [
                 "Getreide ernten"
