@@ -2,10 +2,18 @@ var liste = {
     "fragen": [
         {
             "Franz\u00f6sisch": [
-                "\u00e0"
+                "\u00e0 / vers"
             ],
             "Deutsch": [
-                "zu"
+                "zu (2x)"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "de"
+            ],
+            "Deutsch": [
+                "von"
             ]
         },
         {
@@ -34,10 +42,10 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "dans"
+                "dans / en"
             ],
             "Deutsch": [
-                "in"
+                "in (2x)"
             ]
         },
         {
@@ -45,7 +53,7 @@ var liste = {
                 "devant"
             ],
             "Deutsch": [
-                "vor"
+                "vor (\u00f6rtlich)"
             ]
         },
         {
@@ -62,14 +70,6 @@ var liste = {
             ],
             "Deutsch": [
                 "zwischen"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "jusque"
-            ],
-            "Deutsch": [
-                "bis"
             ]
         },
         {
@@ -98,10 +98,10 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "sous"
+                "sous; au-dessous de"
             ],
             "Deutsch": [
-                "unter"
+                "unter (\u00f6rtlich)(2x)"
             ]
         },
         {
@@ -114,26 +114,10 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "vers"
-            ],
-            "Deutsch": [
-                "zu"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
                 "au-dessus de"
             ],
             "Deutsch": [
-                "\u00fcber"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "au-dessous de"
-            ],
-            "Deutsch": [
-                "unter"
+                "\u00fcber (\u00f6rtlich)"
             ]
         },
         {
@@ -170,10 +154,10 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "\u00e0 l'ext\u00e9rieur de"
+                "\u00e0 l'ext\u00e9rieur de; en dehors de"
             ],
             "Deutsch": [
-                "au\u00dferhalb von"
+                "ausserhalb von (2x)"
             ]
         },
         {
@@ -186,10 +170,10 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "en face de"
+                "en face de; vis-\u00e0-vis de"
             ],
             "Deutsch": [
-                "gegen\u00fcber"
+                "gegen\u00fcber (2x)"
             ]
         },
         {
@@ -221,7 +205,7 @@ var liste = {
                 "selon"
             ],
             "Deutsch": [
-                "gem\u00e4\u00df"
+                "gem\u00e4ss"
             ]
         },
         {
@@ -237,15 +221,15 @@ var liste = {
                 "\u00e0 partir de"
             ],
             "Deutsch": [
-                "von"
+                "ab"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u00e0 propos de"
+                "\u00e0 propos de; au sujet de"
             ],
             "Deutsch": [
-                "\u00fcber"
+                "zum Thema ... (2x)"
             ]
         },
         {
@@ -254,14 +238,6 @@ var liste = {
             ],
             "Deutsch": [
                 "bis zu"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "au sujet de"
-            ],
-            "Deutsch": [
-                "\u00fcber"
             ]
         },
         {
@@ -293,7 +269,7 @@ var liste = {
                 "avant"
             ],
             "Deutsch": [
-                "vor"
+                "vor (zeitlich)"
             ]
         },
         {
@@ -317,7 +293,7 @@ var liste = {
                 "\u00e0 l'arri\u00e8re de"
             ],
             "Deutsch": [
-                "hinten"
+                "auf der R\u00fcckseite von"
             ]
         },
         {
@@ -325,7 +301,7 @@ var liste = {
                 "\u00e0 l'avant de"
             ],
             "Deutsch": [
-                "vorne"
+                "vorne an"
             ]
         },
         {
@@ -334,14 +310,6 @@ var liste = {
             ],
             "Deutsch": [
                 "am Rand von"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "\u00e0 l'oppos\u00e9 de"
-            ],
-            "Deutsch": [
-                "gegen\u00fcber"
             ]
         },
         {
@@ -362,42 +330,10 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "en dehors de"
-            ],
-            "Deutsch": [
-                "au\u00dferhalb"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "en de\u00e7\u00e0 de"
-            ],
-            "Deutsch": [
-                "unterhalb von"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "en amont de"
-            ],
-            "Deutsch": [
-                "oberhalb von"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
                 "par rapport \u00e0"
             ],
             "Deutsch": [
                 "im Vergleich zu"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "vis-\u00e0-vis de"
-            ],
-            "Deutsch": [
-                "gegen\u00fcber"
             ]
         },
         {
@@ -421,7 +357,7 @@ var liste = {
                 "\u00e0 l'ext\u00e9rieur"
             ],
             "Deutsch": [
-                "au\u00dfen"
+                "aussen"
             ]
         },
         {
@@ -438,14 +374,6 @@ var liste = {
             ],
             "Deutsch": [
                 "rechts von"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "en face"
-            ],
-            "Deutsch": [
-                "gegen\u00fcber"
             ]
         },
         {
@@ -474,14 +402,6 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "\u00e0 proximit\u00e9 de"
-            ],
-            "Deutsch": [
-                "in der N\u00e4he von"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
                 "\u00e0 vol d'oiseau de"
             ],
             "Deutsch": [
@@ -498,30 +418,6 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "en arri\u00e8re de"
-            ],
-            "Deutsch": [
-                "hinter"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "en avant de"
-            ],
-            "Deutsch": [
-                "vor"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "\u00e0 c\u00f4t\u00e9"
-            ],
-            "Deutsch": [
-                "neben"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
                 "au bout de"
             ],
             "Deutsch": [
@@ -534,14 +430,6 @@ var liste = {
             ],
             "Deutsch": [
                 "um...herum"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "par rapport"
-            ],
-            "Deutsch": [
-                "im Verh\u00e4ltnis zu"
             ]
         }
     ],
