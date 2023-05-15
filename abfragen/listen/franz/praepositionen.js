@@ -282,14 +282,6 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "pr\u00e8s"
-            ],
-            "Deutsch": [
-                "in der N\u00e4he von"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
                 "depuis"
             ],
             "Deutsch": [
@@ -474,14 +466,6 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "pr\u00e8s de"
-            ],
-            "Deutsch": [
-                "in der N\u00e4he von"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
                 "le long de"
             ],
             "Deutsch": [
@@ -530,14 +514,6 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "tout pr\u00e8s de"
-            ],
-            "Deutsch": [
-                "ganz in der N\u00e4he von"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
                 "\u00e0 c\u00f4t\u00e9"
             ],
             "Deutsch": [
@@ -558,14 +534,6 @@ var liste = {
             ],
             "Deutsch": [
                 "um...herum"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "pr\u00e8s"
-            ],
-            "Deutsch": [
-                "nahe"
             ]
         },
         {

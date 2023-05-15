@@ -5,7 +5,7 @@ var liste = {
                 "d\u00e9j\u00e0"
             ],
             "Deutsch": [
-                "schon"
+                "schon, bereits"
             ]
         },
         {
@@ -326,30 +326,6 @@ var liste = {
             ],
             "Deutsch": [
                 "derzeit"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "d\u00e9j\u00e0"
-            ],
-            "Deutsch": [
-                "bereits"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "seulement"
-            ],
-            "Deutsch": [
-                "lediglich"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "souvent"
-            ],
-            "Deutsch": [
-                "h\u00e4ufig"
             ]
         },
         {
