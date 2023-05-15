@@ -34,6 +34,14 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
+                "bien s\u00fbr"
+            ],
+            "Deutsch": [
+                "selbstverst\u00e4ndlich"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
                 "toujours"
             ],
             "Deutsch": [
@@ -141,7 +149,7 @@ var liste = {
                 "ainsi"
             ],
             "Deutsch": [
-                "so"
+                "somit"
             ]
         },
         {
@@ -170,7 +178,7 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "s\u00fbrement"
+                "certainement"
             ],
             "Deutsch": [
                 "sicherlich"
@@ -178,10 +186,10 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "quelquefois"
+                "quelquefois; parfois"
             ],
             "Deutsch": [
-                "manchmal"
+                "manchmal (2x)"
             ]
         },
         {
@@ -214,14 +222,6 @@ var liste = {
             ],
             "Deutsch": [
                 "nur"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "parfois"
-            ],
-            "Deutsch": [
-                "manchmal"
             ]
         },
         {
@@ -394,10 +394,10 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "pr\u00e9cis\u00e9ment"
+                "exactement; pr\u00e9cis\u00e9ment"
             ],
             "Deutsch": [
-                "genau"
+                "genau (2x)"
             ]
         },
         {
@@ -418,22 +418,6 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "naturellement"
-            ],
-            "Deutsch": [
-                "nat\u00fcrlich"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "clairement"
-            ],
-            "Deutsch": [
-                "klar"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
                 "malheureusement"
             ],
             "Deutsch": [
@@ -442,10 +426,10 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "finalement"
+                "finalement; enfin"
             ],
             "Deutsch": [
-                "schlie\u00dflich"
+                "schlie\u00dflich, endlich (2x)"
             ]
         },
         {
@@ -474,14 +458,6 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "directement"
-            ],
-            "Deutsch": [
-                "direkt"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
                 "\u00e9videmment"
             ],
             "Deutsch": [
@@ -494,14 +470,6 @@ var liste = {
             ],
             "Deutsch": [
                 "laut"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "intens\u00e9ment"
-            ],
-            "Deutsch": [
-                "intensiv"
             ]
         },
         {
@@ -522,34 +490,10 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "relativ"
-            ],
-            "Deutsch": [
-                "assez"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "ouvertement"
-            ],
-            "Deutsch": [
-                "offen"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
                 "gentiment"
             ],
             "Deutsch": [
                 "freundlich"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "fid\u00e8lement"
-            ],
-            "Deutsch": [
-                "treu"
             ]
         },
         {
@@ -562,10 +506,10 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "nettement"
+                "clairement; nettement"
             ],
             "Deutsch": [
-                "deutlich"
+                "deutlich (2x)"
             ]
         },
         {
@@ -578,34 +522,10 @@ var liste = {
         },
         {
             "Franz\u00f6sisch": [
-                "enfin"
-            ],
-            "Deutsch": [
-                "endlich"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "activement"
-            ],
-            "Deutsch": [
-                "aktiv"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
                 "indirectement"
             ],
             "Deutsch": [
                 "indirekt"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "\u00e9nergiquement"
-            ],
-            "Deutsch": [
-                "energisch"
             ]
         },
         {
@@ -630,14 +550,6 @@ var liste = {
             ],
             "Deutsch": [
                 "t\u00e4glich"
-            ]
-        },
-        {
-            "Franz\u00f6sisch": [
-                "r\u00e9ellement"
-            ],
-            "Deutsch": [
-                "wirklich"
             ]
         },
         {
