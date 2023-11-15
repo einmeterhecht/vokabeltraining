@@ -181,7 +181,7 @@ var liste = {
                 "das Elsass"
             ],
             "Franz\u00f6sisch": [
-                "l'Alsace (f)"
+                "l'Alsace f"
             ]
         },
         {
@@ -229,7 +229,7 @@ var liste = {
                 "der Herbst"
             ],
             "Franz\u00f6sisch": [
-                "l'automne (m)"
+                "l'automne m"
             ]
         },
         {
@@ -509,7 +509,7 @@ var liste = {
                 "die Industrie"
             ],
             "Franz\u00f6sisch": [
-                "l'industrie (f)"
+                "l'industrie f"
             ]
         },
         {
