@@ -40,5 +40,7 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 
 [Lateinische Deponentien](/vokabeltraining/abfragen?folder=latein&file=deponentien)
 
+[Latein: VIVA Lektionen 26-45](/vokabeltraining/abfragen?folder=latein&file=viva_26-45)
+
 
 *Note: The source code, the vocabulary lists and the documentation of this project are mainly written in german.*
