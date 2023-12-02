@@ -5487,14 +5487,6 @@ var liste = {
             "Deutsch": [
                 "Arzt"
             ]
-        },
-        {
-            "Latein": [
-                ""
-            ],
-            "Deutsch": [
-                ""
-            ]
         }
     ],
     "hinweis_attribute": [
