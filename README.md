@@ -42,5 +42,8 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 
 [Latein: VIVA Lektionen 26-45](/vokabeltraining/abfragen?folder=latein&file=viva_26-45)
 
+### Für g2023k:
+- [Französisch: CI Buch 1, leçon 3 - Entrée + Atelier A und B](https://einmeterhecht.github.io/vokabeltraining/abfragen?folder=g2023k&file=CI-1-3_entree_atelier-AB)
+
 
 *Note: The source code, the vocabulary lists and the documentation of this project are mainly written in german.*
