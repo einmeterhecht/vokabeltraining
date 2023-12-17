@@ -10,10 +10,10 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u03b4\u03b9\u03b1\u03bb\u03ad\u03b3\u03bf\u03bc\u03b1\u03b9 (+ Dat.)"
+                "\u03b4\u03b9\u03b1\u03bb\u03ad\u03b3\u03bf\u03bc\u03b1\u03b9 + Dat."
             ],
             "Deutsch": [
-                "ich unterhalte mich (mit)"
+                "ich unterhalte mich mit"
             ]
         },
         {
@@ -29,12 +29,12 @@ var liste = {
                 "\u1f40\u03c1\u03b3\u03af\u03b6\u03bf\u03bc\u03b1\u03b9"
             ],
             "Deutsch": [
-                "ich bin zornig (auf), z\u00fcrne"
+                "ich bin zornig auf, z\u00fcrne"
             ]
         },
         {
             "Griechisch": [
-                "\u03c0\u03c1\u03cc (+ Gen.)"
+                "\u03c0\u03c1\u03cc + Gen."
             ],
             "Deutsch": [
                 "vor"
@@ -74,7 +74,7 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u03b4\u03b9\u03ac (+ Akk.)"
+                "\u03b4\u03b9\u03ac + Akk."
             ],
             "Deutsch": [
                 "wegen"
@@ -93,12 +93,12 @@ var liste = {
                 "\u03b4\u03b5\u03b9\u03bd\u03cc\u03c2, \u03ae, \u03cc\u03bd"
             ],
             "Deutsch": [
-                "gef\u00fcrchtet: (-) furchtbar,(+) t\u00fcchtig, f\u00e4hig"
+                "gef\u00fcrchtet: - furchtbar,+ t\u00fcchtig, f\u00e4hig"
             ]
         },
         {
             "Griechisch": [
-                "\u03ba\u03b1\u03af\u03c0\u03b5\u03c1 (mit Partizip)"
+                "\u03ba\u03b1\u03af\u03c0\u03b5\u03c1 mit Partizip"
             ],
             "Deutsch": [
                 "obwohl, auch wenn"
@@ -130,10 +130,10 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u03b5\u1f54\u03c7\u03bf\u03bc\u03b1\u03b9 (+ Dat.)"
+                "\u03b5\u1f54\u03c7\u03bf\u03bc\u03b1\u03b9 + Dat."
             ],
             "Deutsch": [
-                "ich bete (zu), w\u00fcnsche"
+                "ich bete zu, w\u00fcnsche"
             ]
         },
         {
@@ -146,10 +146,10 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1f10\u03c0\u03af (+ Akk.)"
+                "\u1f10\u03c0\u03af + Akk."
             ],
             "Deutsch": [
-                "auf (...hinauf), zu (...hin), gegen"
+                "auf ...hinauf, zu ...hin, gegen"
             ]
         },
         {
@@ -157,7 +157,7 @@ var liste = {
                 "\u1f10\u03c0\u1f76 \u03c4\u1f78\u03bd \u1f35\u03c0\u03c0\u03bf\u03bd"
             ],
             "Deutsch": [
-                "auf das Pferd (hinauf)"
+                "auf das Pferd hinauf"
             ]
         },
         {
@@ -165,7 +165,7 @@ var liste = {
                 "\u1f10\u03c0\u1f76 \u03c4\u1f78 \u1f31\u03b5\u03c1\u03cc\u03bd"
             ],
             "Deutsch": [
-                "zum Heiligtum (hin)"
+                "zum Heiligtum hin"
             ]
         },
         {
@@ -186,7 +186,7 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1f10\u03be\u03b1\u03c0\u03af\u03bd\u03b7\u03c2 (Adv.)"
+                "\u1f10\u03be\u03b1\u03c0\u03af\u03bd\u03b7\u03c2 Adv."
             ],
             "Deutsch": [
                 "pl\u00f6tzlich"
@@ -194,10 +194,10 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1f00\u03bd\u03c4\u03af (+ Gen.)"
+                "\u1f00\u03bd\u03c4\u03af + Gen."
             ],
             "Deutsch": [
-                "gegen\u00fcber, anstelle (von)"
+                "gegen\u00fcber, anstelle von"
             ]
         },
         {
@@ -282,10 +282,10 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u03c3\u03cd\u03bd (m. Dat.)"
+                "\u03c3\u03cd\u03bd m. Dat."
             ],
             "Deutsch": [
-                "(zusammen) mit"
+                "zusammen mit"
             ]
         },
         {
@@ -298,7 +298,7 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u03c4\u03cc\u03c4\u03b5 (Adv.)"
+                "\u03c4\u03cc\u03c4\u03b5 Adv."
             ],
             "Deutsch": [
                 "da, damals, fr\u00fcher"
@@ -330,10 +330,10 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u03bc\u03bd\u03b7\u03bc\u03bf\u03bd\u03b5\u03cd\u03c9 (m. Gen. oder Akk.)"
+                "\u03bc\u03bd\u03b7\u03bc\u03bf\u03bd\u03b5\u03cd\u03c9 m. Gen. oder Akk."
             ],
             "Deutsch": [
-                "ich erinnere mich (an), erw\u00e4hne"
+                "ich erinnere mich an, erw\u00e4hne"
             ]
         },
         {
@@ -346,7 +346,7 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u03c3\u03c6\u03cc\u03b4\u03c1\u03b1 (Adv.)"
+                "\u03c3\u03c6\u03cc\u03b4\u03c1\u03b1 Adv."
             ],
             "Deutsch": [
                 "sehr, heftig"
@@ -378,7 +378,7 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u03c0\u03c1\u1ff6\u03c4\u03bf\u03bd (Adv.)"
+                "\u03c0\u03c1\u1ff6\u03c4\u03bf\u03bd Adv."
             ],
             "Deutsch": [
                 "zuerst"
@@ -386,7 +386,7 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1f14\u03c0\u03b5\u03b9\u03c4\u03b1 (Adv.)"
+                "\u1f14\u03c0\u03b5\u03b9\u03c4\u03b1 Adv."
             ],
             "Deutsch": [
                 "danach"
@@ -450,10 +450,10 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u03bc\u03ac\u03c7\u03bf\u03bc\u03b1\u03b9 (+ Dat.)"
+                "\u03bc\u03ac\u03c7\u03bf\u03bc\u03b1\u03b9 + Dat."
             ],
             "Deutsch": [
-                "ich k\u00e4mpfe (mit)"
+                "ich k\u00e4mpfe mit"
             ]
         },
         {
@@ -498,7 +498,7 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1f41 \u03b1\u1f50\u03c4\u03cc\u03c2 (mit Dat.)/ \u1f41 \u03b1\u1f50\u03c4\u1f78\u03c2 \u03ba\u03b1\u03af"
+                "\u1f41 \u03b1\u1f50\u03c4\u03cc\u03c2 mit Dat./ \u1f41 \u03b1\u1f50\u03c4\u1f78\u03c2 \u03ba\u03b1\u03af"
             ],
             "Deutsch": [
                 "derselbe wie"
@@ -514,7 +514,7 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1f15\u03bd\u03b5\u03ba\u03b1 (mit Gen., nachgestellt)"
+                "\u1f15\u03bd\u03b5\u03ba\u03b1 mit Gen., nachgestellt"
             ],
             "Deutsch": [
                 "zum Zweck von, wegen"
@@ -533,7 +533,7 @@ var liste = {
                 "\u03b3\u03af\u03b3\u03bd\u03bf\u03bc\u03b1\u03b9"
             ],
             "Deutsch": [
-                "ich werde (geboren)"
+                "ich werde geboren"
             ]
         },
         {
@@ -562,7 +562,7 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1f14\u03be\u03b5\u03c3\u03c4\u03b9(\u03bd)"
+                "\u1f14\u03be\u03b5\u03c3\u03c4\u03b9\u03bd"
             ],
             "Deutsch": [
                 "es ist m\u00f6glich, erlaubt"
@@ -578,7 +578,7 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u03c4\u03ad\u03bb\u03bf\u03c2 (Adv.)"
+                "\u03c4\u03ad\u03bb\u03bf\u03c2 Adv."
             ],
             "Deutsch": [
                 "schliesslich, zuletzt"
@@ -618,7 +618,7 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1f24\u03b4\u03b7 (Adv.)"
+                "\u1f24\u03b4\u03b7 Adv."
             ],
             "Deutsch": [
                 "schon, bereits"
@@ -629,7 +629,7 @@ var liste = {
                 "\u03ba\u03c1\u03af\u03bd\u03c9"
             ],
             "Deutsch": [
-                "ich (be)urteile, richte, unterscheide"
+                "ich beurteile, richte, unterscheide"
             ]
         },
         {
@@ -650,10 +650,10 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1fe5\u03af\u03c0\u03c4\u03c9 (Impf. \u1f14\u03c1\u03c1\u03b9\u03c0\u03c4\u03bf\u03bd)"
+                "\u1fe5\u03af\u03c0\u03c4\u03c9 Impf. \u1f14\u03c1\u03c1\u03b9\u03c0\u03c4\u03bf\u03bd"
             ],
             "Deutsch": [
-                "ich werfe, schleudere (weg)"
+                "ich werfe, schleudere weg"
             ]
         },
         {
@@ -669,7 +669,7 @@ var liste = {
                 "\u03b3\u03c5\u03bc\u03bd\u03ac\u03b6\u03c9"
             ],
             "Deutsch": [
-                "ich \u00fcbe, trainiere (jdn.)"
+                "ich \u00fcbe, trainiere jdn."
             ]
         },
         {
@@ -682,10 +682,10 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1f51\u03c0\u03ad\u03c1 (m. Gen.)"
+                "\u1f51\u03c0\u03ad\u03c1 m. Gen."
             ],
             "Deutsch": [
-                "(\u00f6rtlich) oberhalb von, \u00fcber (... hin / hinaus), (\u00fcbertragen) f\u00fcr"
+                "\u00f6rtlich oberhalb von, \u00fcber ... hin / hinaus, \u00fcbertragen f\u00fcr"
             ]
         },
         {
@@ -725,7 +725,7 @@ var liste = {
                 "\u1f41 \u03c0\u03bf\u03bb\u03ad\u03bc\u03b9\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u03c0\u03bf\u03bb\u03b5\u03bc\u03af\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Feind (im Krieg)"
+                "der Feind im Krieg"
             ]
         },
         {
@@ -802,7 +802,7 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1f10\u03c0\u03b5\u03af / \u1f10\u03c0\u03b5\u03b9\u03b4\u03ae (mit Aorist)"
+                "\u1f10\u03c0\u03b5\u03af / \u1f10\u03c0\u03b5\u03b9\u03b4\u03ae mit Aorist"
             ],
             "Deutsch": [
                 "als, nachdem, da, weil"
@@ -834,7 +834,7 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1f31\u03b5\u03c1\u03cc\u03c2, -\u03ac, -\u03cc\u03bd (mit Gen.)"
+                "\u1f31\u03b5\u03c1\u03cc\u03c2, -\u03ac, -\u03cc\u03bd mit Gen."
             ],
             "Deutsch": [
                 "heilig, geweiht"
@@ -853,7 +853,7 @@ var liste = {
                 "\u1f04\u03c1\u03c7\u03bf\u03bc\u03b1\u03b9"
             ],
             "Deutsch": [
-                "(m. Gen.:) ich beginne (mit), (m. Inf.:) ich beginne (zu tun)"
+                "m. Gen.: ich beginne mit, m. Inf.: ich beginne zu tun"
             ]
         },
         {
@@ -893,7 +893,7 @@ var liste = {
                 "\u03b2\u03b1\u03c3\u03b9\u03bb\u03b5\u03cd\u03c9"
             ],
             "Deutsch": [
-                "ich bin / herrsche als K\u00f6nig (\u00fcber)"
+                "ich bin / herrsche als K\u00f6nig \u00fcber"
             ]
         },
         {
@@ -981,7 +981,7 @@ var liste = {
                 "\u03bd\u03bf\u03bc\u03af\u03b6\u03c9"
             ],
             "Deutsch": [
-                "ich glaube, meine, (mit doppeltem Akk.:) ich halte f\u00fcr"
+                "ich glaube, meine, mit doppeltem Akk.: ich halte f\u00fcr"
             ]
         },
         {
@@ -989,7 +989,7 @@ var liste = {
                 "\u1f40\u03bd\u03bf\u03bc\u03ac\u03b6\u03c9"
             ],
             "Deutsch": [
-                "ich nenne, benenne, (mit doppeltem Akk.:) ich nenne, bezeichne als"
+                "ich nenne, benenne, mit doppeltem Akk.: ich nenne, bezeichne als"
             ]
         },
         {
@@ -1013,7 +1013,7 @@ var liste = {
                 "\u1f10\u03bc\u03c0\u03af\u03c0\u03c4\u03c9 \u03b5\u1f30\u03c2"
             ],
             "Deutsch": [
-                "(mit Akk.:) ich falle in (...hinein), gerate (in einen Zustand)"
+                "mit Akk.: ich falle in ...hinein, gerate in einen Zustand"
             ]
         },
         {
@@ -1034,10 +1034,10 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1f00\u03c0\u03b1\u03bb\u03bb\u03ac\u03c4\u03c4\u03c9 (mit Gen.)"
+                "\u1f00\u03c0\u03b1\u03bb\u03bb\u03ac\u03c4\u03c4\u03c9 mit Gen."
             ],
             "Deutsch": [
-                "ich entferne, befreie (von)"
+                "ich entferne, befreie von"
             ]
         },
         {
@@ -1045,7 +1045,7 @@ var liste = {
                 "\u039a\u03b9\u03bd\u03b4\u03cd\u03bd\u03c9\u03bd \u03ba\u03b1\u1f76 \u03c0\u03cc\u03bd\u03c9\u03bd \u1f00\u03c0\u03b1\u03bb\u03bb\u03b1\u03c4\u03c4\u03cc\u03bc\u03b5\u03b8\u03b1."
             ],
             "Deutsch": [
-                "Wir werden von Gefahren und (von) N\u00f6ten befreit."
+                "Wir werden von Gefahren und von N\u00f6ten befreit."
             ]
         }
     ],
@@ -1054,7 +1054,7 @@ var liste = {
         "Lernhilfe"
     ],
     "titel": "griechisch_2023-12-19",
-    "frage_attribut": "Deutsch"
+    "frage_attribut": "Griechisch"
 };
 
 erste_aufgabe();
