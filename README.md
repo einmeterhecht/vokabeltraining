@@ -48,6 +48,8 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 
 - [Latein: VIVA Lektionen 40-45 exkl. 41](/vokabeltraining/abfragen?folder=latein&file=viva_40_42_43_44_45)
 
+- [Griechisch auf 19.12.2023](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2023-12-19)
+
 ### Für g2023k:
 - [Französisch: CI Buch 1, leçon 3 - Entrée + Atelier A und B](/vokabeltraining/abfragen?folder=g2023k&file=CI-1-3_entree_atelier-AB)
 
