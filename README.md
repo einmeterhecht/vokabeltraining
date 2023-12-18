@@ -42,6 +42,8 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 
 - [Englisch auf 23. Januar 2023](/vokabeltraining/abfragen?folder=english&file=2023-01-13)
 
+- [Englisch auf 20. Dezember 2023](/vokabeltraining/abfragen?folder=g2023k&file=englisch_2023-12-20)
+
 ### Für g2020c:
 
 - [Latein: VIVA Lektionen 26-45](/vokabeltraining/abfragen?folder=latein&file=viva_26-45)
