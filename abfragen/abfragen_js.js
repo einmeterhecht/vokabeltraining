@@ -151,42 +151,44 @@ function eingabefeld_onkeyup(){
 }
 
 function antwort_anpassen(antwort){
-	return remove_spaces_at_end(antwort).replace("jemand","jmd") // Deutsch
-		.replace("jemanden","jmd")
-		.replace("jemandem","jmd")
-		.replace("jmd.","jmd")
-		.replace("jnd.","jmd")
-		.replace("etwas","etw")
-		.replace("sb.","sb") // English
-		.replace("somebody","sb")
-		.replace("sb's","sbs")
-		.replace("sth.","sth")
-		.replace("something","sth")
-		.replace("qn.","qn") // Franzoesisch
-		.replace("qc.","qc")
-		.replace("gen.","gen") // Latein
-		.replace("genitiv","gen")
-		.replace("dat.","dat")
-		.replace("dativ","dat")
-		.replace("akk.","akk")
-		.replace("akkusativ","akk")
-		.replace("abl.","abl")
-		.replace("ablativ","abl")
-		.replace(";","/") // Trennzeichen
-		.replace(",","/")
-		.replace(" /","/")
-		.replace("/ ","/");
+	return remove_spaces_at_end(antwort).replaceAll("jemand","jmd") // Deutsch
+		.replaceAll("jemanden","jmd")
+		.replaceAll("jemandem","jmd")
+		.replaceAll("jmd.","jmd")
+		.replaceAll("jnd.","jmd")
+		.replaceAll("etwas","etw")
+		.replaceAll("sb.","sb") // English
+		.replaceAll("somebody","sb")
+		.replaceAll("sb's","sbs")
+		.replaceAll("sth.","sth")
+		.replaceAll("something","sth")
+		.replaceAll("qn.","qn") // Franzoesisch
+		.replaceAll("qc.","qc")
+		.replaceAll("gen.","gen") // Latein
+		.replaceAll("genitiv","gen")
+		.replaceAll("dat.","dat")
+		.replaceAll("dativ","dat")
+		.replaceAll("akk.","akk")
+		.replaceAll("akkusativ","akk")
+		.replaceAll("abl.","abl")
+		.replaceAll("ablativ","abl")
+		.replaceAll(";","/") // Trennzeichen
+		.replaceAll(",","/")
+		.replaceAll(" /","/")
+		.replaceAll("/ ","/")
+		.replaceAll("`","'")
+		.replaceAll("‘","'");
 }
 
 function input_correct(input=eingabe.value){
 	loesung = antwort_anpassen(get_gefragtes(get_frage()));
 	gegebene_antwort = antwort_anpassen(input);
-	if (loesung.replace("(","").replace(")","") == 
-	gegebene_antwort.replace("(","").replace(")","")) {
+	if (loesung.replaceAll("(","").replaceAll(")","") == 
+	gegebene_antwort.replaceAll("(","").replaceAll(")","")) {
 		return true;
 	}
 	else if (remove_spaces_at_end(
-	remove_content_in_brackets(loesung).replace("  ", " ")) == gegebene_antwort) {
+	remove_content_in_brackets(loesung).replaceAll("  ", " ")) == gegebene_antwort) {
 		return true;
 	}
 	return false;

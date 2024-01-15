@@ -2,10 +2,10 @@ var liste = {
     "fragen": [
         {
             "English": [
-                "élire qn (élu)"
+                "actually"
             ],
             "German": [
-                "wählen"
+                "' ' ' jmd. jmd."
             ]
         },
         {
@@ -21,7 +21,7 @@ var liste = {
         "Beispiele"
     ],
     "titel": "reallyshort",
-    "frage_attribut": "German"
+    "frage_attribut": "English"
 };
 
 erste_aufgabe();
