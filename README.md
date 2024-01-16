@@ -32,17 +32,9 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 
 [Lateinische Deponentien](/vokabeltraining/abfragen?folder=latein&file=deponentien)
 
-### Für g2017b:
+### Für g2023k:
 
-- [Französisch auf 11. April 2023 (GAWS S. 291-315)](/vokabeltraining/abfragen?folder=franz&file=2023-04-11)
-
-- [Französisch auf 14. März 2023 (GAWS S. 265-290)](/vokabeltraining/abfragen?folder=franz&file=2023-03-14)
-
-- [Französisch auf 1. Februar 2023 (GAWS S. 250-264)](/vokabeltraining/abfragen?folder=franz&file=2023-02-01)
-
-- [Englisch auf 23. Januar 2023](/vokabeltraining/abfragen?folder=english&file=2023-01-13)
-
-- [Englisch auf 20. Dezember 2023](/vokabeltraining/abfragen?folder=g2023k&file=englisch_2023-12-20)
+- [Französisch: CI Buch 1, leçon 3 - Entrée + Atelier A und B](/vokabeltraining/abfragen?folder=g2023k&file=CI-1-3_entree_atelier-AB)
 
 ### Für g2020c:
 
@@ -52,8 +44,17 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 
 - [Griechisch auf 19.12.2023](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2023-12-19)
 
-### Für g2023k:
-- [Französisch: CI Buch 1, leçon 3 - Entrée + Atelier A und B](/vokabeltraining/abfragen?folder=g2023k&file=CI-1-3_entree_atelier-AB)
 
+### Für g2017b:
+
+- [Englisch auf 20. Dezember 2023](/vokabeltraining/abfragen?folder=g2023k&file=englisch_2023-12-20)
+
+- [Französisch auf 11. April 2023 (GAWS S. 291-315)](/vokabeltraining/abfragen?folder=franz&file=2023-04-11)
+
+- [Französisch auf 14. März 2023 (GAWS S. 265-290)](/vokabeltraining/abfragen?folder=franz&file=2023-03-14)
+
+- [Französisch auf 1. Februar 2023 (GAWS S. 250-264)](/vokabeltraining/abfragen?folder=franz&file=2023-02-01)
+
+- [Englisch auf 23. Januar 2023](/vokabeltraining/abfragen?folder=english&file=2023-01-13)
 
 *Note: The source code, the vocabulary lists and the documentation of this project are mainly written in german.*
