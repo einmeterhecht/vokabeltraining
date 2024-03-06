@@ -223,7 +223,7 @@ function antwort_anpassen(antwort){
 		.replaceAll(",","/")
 		.replaceAll(" /","/")
 		.replaceAll("/ ","/")*/
-		.replaceAll(", ","")   // Trennzeichen ignorieren
+		.replaceAll(","," ")   // Trennzeichen ignorieren
 		.replaceAll(";"," ")
 		.replaceAll("/"," ")
 		.replaceAll("  "," ") // Leerschlag reicht
