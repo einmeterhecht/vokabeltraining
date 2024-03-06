@@ -75,6 +75,32 @@ function remove_content_in_brackets(string) {
 	return string;
 }
 
+const base64urlchars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
+
+function booleans_to_base64url(booleans) {
+	while (booleans.length % 6 !== 0) booleans.push(false);
+	let str = "";
+	for (let i = 0; i < booleans.length; i += 6) {
+		let char_index = 0;
+	    for (let j = 5; j >= 0; j--) {
+            char_index += booleans[i + j] ? 2 ** j : 0;
+	    }
+		str += base64urlchars[char_index]
+    }
+	return str;
+}
+
+function base64url_to_booleans(base64url) {
+	booleans = [];
+	for (const char of base64url) {
+		char_index = base64urlchars.indexOf(char);
+		for (let j = 5; j >= 0; j--) {
+			booleans.push((char_index & (1 << j)) != 0);
+		}
+	}
+	return booleans;
+}
+
 function get_frage(){
 	return liste.fragen[aufgaben[aufgabe_index]];
 }
@@ -193,10 +219,15 @@ function antwort_anpassen(antwort){
 		.replaceAll("\u016c","U")
 		.replaceAll("\u016d","u")*/
 		.replaceAll("…","...")
-		.replaceAll(";","/") // Trennzeichen
+		/*.replaceAll(";","/") // Trennzeichen
 		.replaceAll(",","/")
 		.replaceAll(" /","/")
-		.replaceAll("/ ","/")
+		.replaceAll("/ ","/")*/
+		.replaceAll(", ","")   // Trennzeichen ignorieren
+		.replaceAll(";"," ")
+		.replaceAll("/"," ")
+		.replaceAll("  "," ") // Leerschlag reicht
+		.replaceAll("  "," ")
 		.replaceAll("`","'")
 		.replaceAll("‘","'");
 }
