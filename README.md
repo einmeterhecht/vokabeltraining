@@ -1,10 +1,6 @@
 Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optimiert.
 
 
-## Neu hinzugefügt:
-- Alles in Klammern kann man ab jetzt weglassen (oder zumindest die Klammern selbst).
-- Wenn die Antwort falsch war, kommt man wie bisher mit Enter oder der Leertaste zur nächsten Frage. Wenn man "<" oder "a" eingibt, wird die Antwort als richtig gezählt. Andere Tasten machen nichts.
-
 ## Alleinstellungsmerkmale
 - Aufgeräumtes Design
 - Keine Logins, Ladezeiten, Cookies & Bezahlung
@@ -43,6 +39,8 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 - [Franz&ouml;sisch: CI Buch 1, leçon 3 - Entrée + Atelier A und B](/vokabeltraining/abfragen?folder=g2023k&file=CI-1-3_entree_atelier-AB)
 
 ### Für g2020c:
+
+- [Griechisch-Repetition M&auml;rz 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_1-25)
 
 - [Latein: VIVA Lektionen 26-45](/vokabeltraining/abfragen?folder=latein&file=viva_26-45)
 
