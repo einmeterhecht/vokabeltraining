@@ -30,6 +30,8 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 
 ### Für g2023k:
 
+- [Latein auf 15. M&auml;rz 2024 (VIVA Lektion 7)](/vokabeltraining/abfragen?folder=g2023k&file=latein_2024-03-15)
+
 - [Latein: VIVA Lektionen 1-6](/vokabeltraining/abfragen?folder=g2023k&file=latein_2024-04-27)
 
 - [Franz&ouml;sisch auf 27. Februar 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-02-27)
