@@ -7,17 +7,24 @@
         <script src="schwierige.js"></script>
         <script src="liste_laden.js"></script>
         <style>
+			:root {
+				--color-light: #EEC;
+				--color-dark: #264B87;
+				--color-box-background: #C2CFE4;
+				--color-green-background: #226618;
+				--color-hover: #C2CFE4;
+			}
             .anzeige {
-                background: #C2CFE4;
+                background: var(--color-box-background);
                 width: auto; height: auto;
-                border: 4px solid #264B87;
+                border: 4px solid var(--color-dark);
                 border-radius: 15px;
                 box-shadow: inset 10px 8px 10px grey;
             }
             .zentriert {
                 margin:0px auto;
                 text-align: center;
-				color: #EEEECC;
+				color: var(--color-light);
             }
 			.frage_info{
 				font-size: 30px;
@@ -26,29 +33,48 @@
             /* Das ist unser Eingabefeld für die Ergebnisse */
             .ergebnisse {
                 font-size: 48px;
-                background-color: #EEEECC;
+                background-color: var(--color-light);
                 height: 64px; width: 80%;
                 padding: 20px;
 			}
 			.progress_bar {
-			    background: #C2CFE4;
-                width: 85%;
-				height: 15px;
-                border: 2px solid #264B87;
+			    background: var(--color-box-background);
+				width: 100%;
+                border: 2px solid var(--color-dark);
                 border-radius: 15px;
 			}
 			.progress_text {
-			    margin-left: 5px;
 				font-size: 18px;
-				color: #EEEECC;
+				color: var(--color-light);
+			}
+			.button_style {
+				transition-duration: 0.5s;
+			    font-size: 18px;
+				padding: 5px 10px;
+				border: 2px solid;
+				border-radius: 15px;
+				color: var(--color-light);
+				background-color: var(--color-green-background);
+				border-color: var(--color-light);
+			}
+			.button_style:hover {
+				color: var(--color-light);
+				background-color: var(--color-dark);
+				border-color: var(--color-light);
+			}
+			.button_style:active {
+				transition-duration: 0.1s;
+				color: var(--color-box-background);
+				background-color: var(--color-dark);
+				border-color: var(--color-dark);
 			}
         </style>
     </head>
-    <body style="background: #226618;">
-	    <p class="zentriert" style="margin-top: 25px; margin-bottom: 0px">
-		    <progress id="progress" class="progress_bar" max=100 value=0>progress</progress>
-		    <button id="download_schwierige_button" class="progress_text" style="background-color: #264B87" onclick="download_nicht_sofort_gewusste();" hidden="true">Nicht sofort gewusste Wörter als Datei herunterladen</button>
-		    <b id="progress_text" class="progress_text">0/0</b>
+    <body style="background: var(--color-green-background);">
+	    <p class="zentriert" style="margin-top: 25px; margin-bottom: 0px; display: flex; align-items: center;">
+		    <progress id="progress" class="progress_bar" style="height: 25px; margin-right: 10px;" max=100 value=0>progress</progress>
+		    <b id="progress_text" class="progress_text" style="margin-right: 10px; white-space: nowrap;">0/0</b>
+		    <button id="download_schwierige_button" class="button_style" style="margin-right: 10px; white-space: nowrap;" onclick="fortschritt_kopieren();">Fortschritt kopieren</button>
 		</p>
 	    <p>
 			<div class="anzeige">

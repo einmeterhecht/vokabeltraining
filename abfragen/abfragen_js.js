@@ -9,14 +9,22 @@ var aufgaben = [];
 
 var knacknuesse = [];
 var nicht_sofort_klar = [];
+var erledigte = [];
 
 var MAX_UNTIL_KNACKNUSS = 2;
 var REPEAT_INTERVAL = 5;
 var KNACKNUSS_CHECK_INTERVAL = 14;
 
+function fortschritt_laden() {
+	let learned = base64url_to_booleans(get_url_parameter("progress"));
+	for (i in learned) {
+		if (learned[i]) erledigte.push(i);
+	}
+}
+
 function initialisiere_aufgabenliste () {
 	for (i in liste.fragen){
-	    aufgaben.push(i);
+	    if (erledigte.indexOf(i) == -1) aufgaben.push(i);
 	}
     aufgaben = shuffle_array(aufgaben);
 }
@@ -108,6 +116,7 @@ function get_frage(){
 function erste_aufgabe(){
 	aufgabe_index = 0;
 	beantwortet = false;
+	fortschritt_laden();
 	initialisiere_aufgabenliste();
 	frage_laden();
 	update_progress();
@@ -280,16 +289,16 @@ function pruefe_eingabe(){
 	
 	if (input_correct()){
 		eingabe.style.background = "#006604"; // Original AbfrageApp - Farbe
-		gefragtes_attribut.innerHTML = "Richtig!"
+		gefragtes_attribut.innerHTML = "Richtig!";
 		
-		check_for_knacknuss();		
+		check_for_knacknuss();
 		naechste_frage();
 	}
 	else{
 		eingabe.style.background = "#990000";
 		gefragtes_attribut.innerHTML = "Falsch. Richtig wäre: " + get_gefragtes(get_frage());
 		
-		eingabe.value = eingabe.value + " "
+		eingabe.value = eingabe.value + " ";
 	    eingabe.selectionStart = eingabe.selectionEnd = eingabe.value.length; // Set cursor to end
 	}
 }
@@ -301,6 +310,7 @@ function check_for_knacknuss() {
 		aufgaben.splice(aufgabe_index + KNACKNUSS_CHECK_INTERVAL + 1, 0, aufgabe);
 		knacknuesse.push(aufgabe);
 	}
+	else erledigte.push(aufgabe);
 }
 
 function wiederholen(){
@@ -378,7 +388,7 @@ function fertig(){
 		"Schwierig waren diese " + knacknuesse.length + ":<br>" +
 		"<i>" + get_knacknuesse() + "</i>";
 
-		download_schwierige_button.hidden = false;
+		//download_schwierige_button.hidden = false;
 		progress.hidden = true;
 	}
 	eingabe.remove();
@@ -387,4 +397,14 @@ function fertig(){
 
 function download_nicht_sofort_gewusste(){
 	download('schwierige.js', "var liste = " + get_knacknuesse_json() + "; erste_aufgabe();");
+}
+
+function fortschritt_kopieren() {
+	let learned = [];
+	for (i in liste.fragen) {
+		learned.push(erledigte.indexOf(i) != -1);
+	}
+	console.log(learned);
+	let url_without_progress = window.location.href.replace(/&progress=[\w\-]+/, "");
+	navigator.clipboard.writeText(url_without_progress + "&progress=" + booleans_to_base64url(learned));
 }
