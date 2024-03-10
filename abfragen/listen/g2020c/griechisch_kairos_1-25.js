@@ -1042,10 +1042,10 @@ var liste = {
         },
         {
             "Griechisch": [
-                "\u1f41 \u03ba\u03cd\u03c1\u03b9\u03bf\u03c2, \u03bf\u03c5"
+                "\u03c4\u1f78 \u03c4\u1f73\u03ba\u03bd\u03bf\u03bd, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "Herr, Hausherr"
+                "Kind"
             ]
         },
         {
@@ -2429,7 +2429,7 @@ var liste = {
                 "\u1f41 \u1f41\u03c0\u03bb\u03af\u03c4\u03b7\u03c2, \u03c4\u03bf\u1fe6 \u1f41\u03c0\u03bb\u03af\u03c4\u03bf\u03c5"
             ],
             "Deutsch": [
-                "Schwerbewaffnete, Hoplit"
+                "Schwerbewaffneter, Hoplit"
             ]
         },
         {
@@ -3189,7 +3189,7 @@ var liste = {
                 "\u1f41 \u03c0\u03c1\u1ff6\u03c4\u03bf\u03c2, -\u03b7, -\u03bf\u03bd"
             ],
             "Deutsch": [
-                "(die, das) erste, als Erster"
+                "der (die, das) erste, als Erster"
             ]
         },
         {
@@ -4206,14 +4206,6 @@ var liste = {
             ],
             "Deutsch": [
                 "ich erweise einen Gefallen"
-            ]
-        },
-        {
-            "Griechisch": [
-                "\u03c4\u1f78 \u03c4\u1f73\u03ba\u03bd\u03bf\u03bd, \u03bf\u03c5"
-            ],
-            "Deutsch": [
-                "Kind"
             ]
         }
     ],
