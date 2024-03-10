@@ -93,7 +93,7 @@ var liste = {
                 "\u1f41 \u03c6\u03b9\u03bb\u03cc\u03c3\u03bf\u03c6\u03bf\u03c2"
             ],
             "Deutsch": [
-                "der Philosoph"
+                "Philosoph"
             ]
         },
         {
@@ -101,7 +101,7 @@ var liste = {
                 "\u1f41 \u03b3\u03b5\u03c9\u03c1\u03b3\u03cc\u03c2"
             ],
             "Deutsch": [
-                "der Bauer"
+                "Bauer"
             ]
         },
         {
@@ -109,7 +109,7 @@ var liste = {
                 "\u1f41 \u03c6\u03cc\u03b2\u03bf\u03c2"
             ],
             "Deutsch": [
-                "die Furcht, der Schrecken"
+                "Furcht, Schrecken"
             ]
         },
         {
@@ -117,7 +117,7 @@ var liste = {
                 "\u1f41 \u03c4\u03cd\u03c1\u03b1\u03bd\u03bd\u03bf\u03c2"
             ],
             "Deutsch": [
-                "der Gewaltherrscher, der Tyrann"
+                "Gewaltherrscher, Tyrann"
             ]
         },
         {
@@ -125,7 +125,7 @@ var liste = {
                 "\u1f41 \u03c7\u03bf\u03c1\u03cc\u03c2"
             ],
             "Deutsch": [
-                "der Tanz, die Tanzgruppe, der Chor"
+                "Tanz, Tanzgruppe, Chor"
             ]
         },
         {
@@ -133,7 +133,7 @@ var liste = {
                 "\u1f41 \u03be\u03ad\u03bd\u03bf\u03c2"
             ],
             "Deutsch": [
-                "der Fremde, der Gast, der Gastgeber, der Gastfreund"
+                "Fremde, Gast, Gastgeber, Gastfreund"
             ]
         },
         {
@@ -141,7 +141,7 @@ var liste = {
                 "\u1f41 \u03c4\u03c1\u03cc\u03c0\u03bf\u03c2"
             ],
             "Deutsch": [
-                "die Art (und Weise), die Sitte, der Charakter"
+                "Art (und Weise), Sitte, Charakter"
             ]
         },
         {
@@ -205,7 +205,7 @@ var liste = {
                 "\u1f41 \u03b4\u1fc6\u03bc\u03bf\u03c2"
             ],
             "Deutsch": [
-                "das Volk"
+                "Volk"
             ]
         },
         {
@@ -213,7 +213,7 @@ var liste = {
                 "\u1f41 \u1f25\u03bb\u03b9\u03bf\u03c2"
             ],
             "Deutsch": [
-                "die Sonne"
+                "Sonne"
             ]
         },
         {
@@ -221,7 +221,7 @@ var liste = {
                 "\u1f41 \u03c4\u03b1\u1fe6\u03c1\u03bf\u03c2"
             ],
             "Deutsch": [
-                "der Stier"
+                "Stier"
             ]
         },
         {
@@ -229,7 +229,7 @@ var liste = {
                 "\u1f41 \u1f04\u03bd\u03b8\u03c1\u03c9\u03c0\u03bf\u03c2"
             ],
             "Deutsch": [
-                "der Mensch"
+                "Mensch"
             ]
         },
         {
@@ -301,7 +301,7 @@ var liste = {
                 "\u1f41 \u1f04\u03b3\u03b3\u03b5\u03bb\u03bf\u03c2"
             ],
             "Deutsch": [
-                "der Bote"
+                "Bote"
             ]
         },
         {
@@ -309,7 +309,7 @@ var liste = {
                 "\u1f41 \u1f30\u03b1\u03c4\u03c1\u03cc\u03c2"
             ],
             "Deutsch": [
-                "der Arzt"
+                "Arzt"
             ]
         },
         {
@@ -317,7 +317,7 @@ var liste = {
                 "\u1f41 \u03b8\u03ac\u03bd\u03b1\u03c4\u03bf\u03c2"
             ],
             "Deutsch": [
-                "der Tod"
+                "Tod"
             ]
         },
         {
@@ -325,7 +325,7 @@ var liste = {
                 "\u1f41 \u03ba\u03af\u03bd\u03b4\u03c5\u03bd\u03bf\u03c2"
             ],
             "Deutsch": [
-                "die Gefahr"
+                "Gefahr"
             ]
         },
         {
@@ -333,7 +333,7 @@ var liste = {
                 "\u1f41 \u03ba\u03b1\u03b9\u03c1\u03cc\u03c2"
             ],
             "Deutsch": [
-                "der rechte Zeitpunkt, der g\u00fcnstige Augenblick"
+                "rechter Zeitpunkt, g\u00fcnstiger Augenblick"
             ]
         },
         {
@@ -397,7 +397,7 @@ var liste = {
                 "\u1f41 \u03bf\u1f36\u03bd\u03bf\u03c2"
             ],
             "Deutsch": [
-                "der Wein"
+                "Wein"
             ]
         },
         {
@@ -413,7 +413,7 @@ var liste = {
                 "\u1f41 \u03ba\u03cc\u03c3\u03bc\u03bf\u03c2"
             ],
             "Deutsch": [
-                "die Ordnung, der Schmuck, die Welt"
+                "Ordnung, Schmuck, Welt"
             ]
         },
         {
@@ -421,7 +421,7 @@ var liste = {
                 "\u1f41 \u03c0\u03cc\u03bd\u03c4\u03bf\u03c2"
             ],
             "Deutsch": [
-                "das Meer"
+                "Meer"
             ]
         },
         {
@@ -429,7 +429,7 @@ var liste = {
                 "\u1f41 \u03b3\u03ac\u03bc\u03bf\u03c2"
             ],
             "Deutsch": [
-                "die Hochzeit, die Ehe"
+                "Hochzeit, Ehe"
             ]
         },
         {
@@ -437,7 +437,7 @@ var liste = {
                 "\u1f41 \u03bf\u1f50\u03c1\u03b1\u03bd\u03cc\u03c2"
             ],
             "Deutsch": [
-                "der Himmel"
+                "Himmel"
             ]
         },
         {
@@ -445,7 +445,7 @@ var liste = {
                 "\u1f41 \u1f06\u03b8\u03bb\u03bf\u03c2"
             ],
             "Deutsch": [
-                "der Wettkampf, die M\u00fche"
+                "Wettkampf, M\u00fche"
             ]
         },
         {
@@ -453,7 +453,7 @@ var liste = {
                 "\u1f41 \u03bc\u1fe6\u03b8\u03bf\u03c2"
             ],
             "Deutsch": [
-                "die Erz\u00e4hlung, die Sage, die Geschichte"
+                "Erz\u00e4hlung, Sage, Geschichte"
             ]
         },
         {
@@ -461,7 +461,7 @@ var liste = {
                 "\u1f41 \u1f55\u03c0\u03bd\u03bf\u03c2"
             ],
             "Deutsch": [
-                "der Schlaf"
+                "Schlaf"
             ]
         },
         {
@@ -501,7 +501,7 @@ var liste = {
                 "\u1f41 \u1f10\u03bd\u03b1\u03bd\u03c4\u03af\u03bf\u03c2, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Gegner, Feind"
+                "Gegner, Feind"
             ]
         },
         {
@@ -509,7 +509,7 @@ var liste = {
                 "\u1f41 \u03c0\u03cc\u03bd\u03bf\u03c2, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "die M\u00fche, die Strapaze, die Not"
+                "M\u00fche, Strapaze, Not"
             ]
         },
         {
@@ -517,7 +517,7 @@ var liste = {
                 "\u1f41 \u03b8\u03c1\u03cc\u03bd\u03bf\u03c2, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Sessel, der (Ehren)Sitz, der Thron"
+                "Sessel, (Ehren)Sitz, Thron"
             ]
         },
         {
@@ -845,7 +845,7 @@ var liste = {
                 "\u1f41 \u03bd\u03ad\u03bf\u03c2, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "der junge Mann"
+                "junge Mann"
             ]
         },
         {
@@ -861,7 +861,7 @@ var liste = {
                 "\u1f41 \u03c3\u03c4\u03cc\u03bb\u03bf\u03c2, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Kriegszug, das Heer, die Flotte"
+                "Kriegszug, Heer, Flotte"
             ]
         },
         {
@@ -909,7 +909,7 @@ var liste = {
                 "\u1f41 \u03ba\u03cd\u03c1\u03b9\u03bf\u03c2, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Herr, der Hausherr"
+                "Herr, Hausherr"
             ]
         },
         {
@@ -917,7 +917,7 @@ var liste = {
                 "\u1f41 \u03b4\u03bf\u1fe6\u03bb\u03bf\u03c2, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Sklave"
+                "Sklave"
             ]
         },
         {
@@ -925,7 +925,7 @@ var liste = {
                 "\u1f41 \u03c3\u1fd6\u03c4\u03bf\u03c2, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "das Getreide, die Nahrung, die Speise"
+                "Getreide, Nahrung, Speise"
             ]
         },
         {
@@ -933,7 +933,7 @@ var liste = {
                 "\u1f41 \u03c5\u1f31\u03cc\u03c2, \u03bf\u1fe6"
             ],
             "Deutsch": [
-                "der Sohn"
+                "Sohn"
             ]
         },
         {
@@ -941,7 +941,7 @@ var liste = {
                 "\u1f41 \u1f00\u03b3\u03c1\u03cc\u03c2"
             ],
             "Deutsch": [
-                "der Acker, das Feld, das Land (als Gegensatz zur Stadt)"
+                "Acker, Feld, Land (als Gegensatz zur Stadt)"
             ]
         },
         {
@@ -1045,7 +1045,7 @@ var liste = {
                 "\u1f41 \u03ba\u03cd\u03c1\u03b9\u03bf\u03c2, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "\u03c4\u1f78 \u03c4\u1f73\u03ba\u03bd\u03bf\u03bd, \u03bf\u03c5<>das Kind"
+                "Herr, Hausherr"
             ]
         },
         {
@@ -1053,7 +1053,7 @@ var liste = {
                 "\u03c4\u1f78 \u03b4\u1f71\u03ba\u03c1\u03c5\u03bf\u03bd, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "die Tr\u00e4ne"
+                "Tr\u00e4ne"
             ]
         },
         {
@@ -1061,7 +1061,7 @@ var liste = {
                 "\u03c4\u1f78 \u03c0\u03c1\u1f79\u03c3\u03c9\u03c0\u03bf\u03bd, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "das Gesicht"
+                "Gesicht"
             ]
         },
         {
@@ -1069,7 +1069,7 @@ var liste = {
                 "\u03c4\u1f78 \u03b8\u03b7\u03c1\u1f77\u03bf\u03bd, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "das Tier"
+                "Tier"
             ]
         },
         {
@@ -1077,7 +1077,7 @@ var liste = {
                 "\u03c4\u1f78 \u03ba\u03b1\u03ba\u1f79\u03bd, \u03bf\u1fe6"
             ],
             "Deutsch": [
-                "das \u00dcbel, das Leid, das Ungl\u00fcck"
+                "\u00dcbel, Leid, Ungl\u00fcck"
             ]
         },
         {
@@ -1085,7 +1085,7 @@ var liste = {
                 "\u03c4\u1f78 \u03b4\u1f73\u03bd\u03b4\u03c1\u03bf\u03bd, \u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Baum"
+                "Baum"
             ]
         },
         {
@@ -1165,7 +1165,7 @@ var liste = {
                 "\u1f41 \u1f04\u03bd\u03b5\u03bc\u03bf\u03c2, o\u03c5"
             ],
             "Deutsch": [
-                "der Wind"
+                "Wind"
             ]
         },
         {
@@ -1261,7 +1261,7 @@ var liste = {
                 "\u1f41 \u03ba\u03b1\u03ba\u03bf\u1fe6\u03c1\u03b3\u03bf\u03c2"
             ],
             "Deutsch": [
-                "der \u00dcbelt\u00e4ter, der Verbrecher"
+                "\u00dcbelt\u00e4ter, Verbrecher"
             ]
         },
         {
@@ -1301,7 +1301,7 @@ var liste = {
                 "\u03c4\u1f78 \u1f14\u03c1\u03b3\u03bf\u03bd"
             ],
             "Deutsch": [
-                "das Werk, die T\u00e4tigkeit, die Tat"
+                "Werk, T\u00e4tigkeit, Tat"
             ]
         },
         {
@@ -1437,7 +1437,7 @@ var liste = {
                 "\u1f41 \u1f10\u03c7\u03b8\u03c1\u1f79\u03c2, \u03c4\u03bf\u1fe6 \u1f10\u03c7\u03b8\u03c1\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "der Feind"
+                "Feind"
             ]
         },
         {
@@ -1541,7 +1541,7 @@ var liste = {
                 "\u03c4\u1f78 \u03c6\u1f71\u03c1\u03bc\u03b1\u03ba\u03bf\u03bd, \u03c4\u03bf\u1fe6 \u03c6\u03b1\u03c1\u03bc\u1f71\u03ba\u03bf\u03c5"
             ],
             "Deutsch": [
-                "das Zaubermittel, das Heimittel, das Gift"
+                "Zaubermittel, Heimittel, Gift"
             ]
         },
         {
@@ -1565,7 +1565,7 @@ var liste = {
                 "\u1f41 \u1f10\u03c0\u1f77\u03ba\u03bf\u03c5\u03c1\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u1f10\u03c0\u03b9\u03ba\u03bf\u1f7b\u03c1\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Helfer, der Bundesgenosse"
+                "Helfer, Bundesgenosse"
             ]
         },
         {
@@ -1589,7 +1589,7 @@ var liste = {
                 "\u1f21 \u03b3\u03bd\u03ce\u03bc\u03b7, \u03c4\u1fc6\u03c2 \u03b3\u03bd\u03ce\u03bc\u03b7\u03c2"
             ],
             "Deutsch": [
-                "die Einsicht, die Meinung, der Ausspruch"
+                "Einsicht, Meinung, Ausspruch"
             ]
         },
         {
@@ -1597,7 +1597,7 @@ var liste = {
                 "\u1f21 \u1f00\u03bd\u03ac\u03b3\u03ba\u03b7, \u03c4\u1fc6\u03c2 \u1f00\u03bd\u03ac\u03b3\u03ba\u03b7\u03c2"
             ],
             "Deutsch": [
-                "der Zwang, die Notwendigkeit"
+                "Zwang, Notwendigkeit"
             ]
         },
         {
@@ -1605,7 +1605,7 @@ var liste = {
                 "\u1f21 \u1fe5\u03ce\u03bc\u03b7, \u03c4\u1fc6\u03c2 \u1fe5\u03ce\u03bc\u03b7\u03c2"
             ],
             "Deutsch": [
-                "die Kraft, die Macht"
+                "Kraft, Macht"
             ]
         },
         {
@@ -1613,7 +1613,7 @@ var liste = {
                 "\u1f21 \u03c4\u03cd\u03c7\u03b7, \u03c4\u1fc6\u03c2 \u03c4\u03cd\u03c7\u03b7\u03c2"
             ],
             "Deutsch": [
-                "der Zufall, das Schicksal, das Gl\u00fcck"
+                "Zufall, Schicksal, Gl\u00fcck"
             ]
         },
         {
@@ -1629,7 +1629,7 @@ var liste = {
                 "\u03c4\u1f78 \u1f31\u03b5\u03c1\u03cc\u03bd, \u03c4\u03bf\u1fe6 \u1f31\u03b5\u03c1\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "das Heiligtum, die Tempelanlage"
+                "Heiligtum, Tempelanlage"
             ]
         },
         {
@@ -1637,7 +1637,7 @@ var liste = {
                 "\u03c4\u1f78 \u03b5\u1f34\u03b4\u03c9\u03bb\u03bf\u03bd, \u03c4\u03bf\u1fe6 \u03b5\u1f30\u03b4\u03ce\u03bb\u03bf\u03c5"
             ],
             "Deutsch": [
-                "das Bild, das G\u00f6tterbild"
+                "Bild, G\u00f6tterbild"
             ]
         },
         {
@@ -1661,7 +1661,7 @@ var liste = {
                 "\u1f21 \u03b5\u1f50\u03c7\u03ae, \u03c4\u1fc6\u03c2 \u03b5\u1f50\u03c7\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "das Gebet, die Bitte"
+                "Gebet, Bitte"
             ]
         },
         {
@@ -1669,7 +1669,7 @@ var liste = {
                 "\u1f21 \u1f11\u03bf\u03c1\u03c4\u03ae, \u03c4\u1fc6\u03c2 \u1f11\u03bf\u03c1\u03c4\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "das (religi\u00f6se) Fest"
+                "(religi\u00f6se) Fest"
             ]
         },
         {
@@ -1677,7 +1677,7 @@ var liste = {
                 "\u1f21 \u03c4\u03b9\u03bc\u03ae, \u03c4\u1fc6\u03c2 \u03c4\u03b9\u03bc\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "die Ehre"
+                "Ehre"
             ]
         },
         {
@@ -1685,7 +1685,7 @@ var liste = {
                 "\u1f21 \u1f00\u03c1\u03b5\u03c4\u03ae, \u03c4\u1fc6\u03c2 \u1f00\u03c1\u03b5\u03c4\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "die T\u00fcchtigkeit, die Tugend"
+                "T\u00fcchtigkeit, Tugend"
             ]
         },
         {
@@ -1701,7 +1701,7 @@ var liste = {
                 "\u1f41 \u03bd\u03b1\u03cc\u03c2, \u03c4\u03bf\u1fe6 \u03bd\u03b1\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "der Tempel"
+                "Tempel"
             ]
         },
         {
@@ -1805,7 +1805,7 @@ var liste = {
                 "\u1f41 \u1f44\u03bd\u03b5\u03b9\u03c1\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u1f40\u03bd\u03b5\u03af\u03c1\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Traum"
+                "Traum"
             ]
         },
         {
@@ -1813,7 +1813,7 @@ var liste = {
                 "\u1f21 \u03ba\u03c1\u03ae\u03bd\u03b7, \u03c4\u1fc6\u03c2 \u03ba\u03c1\u03ae\u03bd\u03b7\u03c2"
             ],
             "Deutsch": [
-                "die Quelle"
+                "Quelle"
             ]
         },
         {
@@ -1821,7 +1821,7 @@ var liste = {
                 "\u1f41 \u1f40\u03c6\u03b8\u03b1\u03bb\u03bc\u03cc\u03c2, \u03c4\u03bf\u1fe6 \u1f40\u03c6\u03b8\u03b1\u03bb\u03bc\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "das Auge"
+                "Auge"
             ]
         },
         {
@@ -1837,7 +1837,7 @@ var liste = {
                 "\u1f21 \u03c4\u03ad\u03c7\u03bd\u03b7, \u03c4\u1fc6\u03c2 \u03c4\u03ad\u03c7\u03bd\u03b7\u03c2"
             ],
             "Deutsch": [
-                "das Handwerk, die Kunst, die List"
+                "Handwerk, Kunst, List"
             ]
         },
         {
@@ -1885,7 +1885,7 @@ var liste = {
                 "\u1f41 \u03c7\u03c1\u03cc\u03bd\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u03c7\u03c1\u03cc\u03bd\u03bf\u03c5"
             ],
             "Deutsch": [
-                "die Zeit"
+                "Zeit"
             ]
         },
         {
@@ -1925,7 +1925,7 @@ var liste = {
                 "\u03c4\u1f78 \u03b8\u03ad\u03b1\u03c4\u03c1\u03bf\u03bd, \u03c4\u03bf\u1fe6 \u03b8\u03b5\u03ac\u03c4\u03c1\u03bf\u03c5"
             ],
             "Deutsch": [
-                "das Theater"
+                "Theater"
             ]
         },
         {
@@ -1957,7 +1957,7 @@ var liste = {
                 "\u1f21 \u03c3\u03ba\u03b7\u03bd\u03ae, \u03c4\u1fc6\u03c2 \u03c3\u03ba\u03b7\u03bd\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "das Zelt, die B\u00fchne"
+                "Zelt, B\u00fchne"
             ]
         },
         {
@@ -1997,7 +1997,7 @@ var liste = {
                 "\u1f41 \u03b4\u03b5\u03c3\u03bc\u03cc\u03c2, \u03c4\u03bf\u1fe6 \u03b4\u03b5\u03c3\u03bc\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "die Fessel, das Band"
+                "Fessel, Band"
             ]
         },
         {
@@ -2165,7 +2165,7 @@ var liste = {
                 "\u1f21 \u03ba\u03cc\u03c1\u03b7, \u03c4\u1fc6\u03c2 \u03ba\u03cc\u03c1\u03b7\u03c2"
             ],
             "Deutsch": [
-                "das M\u00e4dchen, die Tochter"
+                "M\u00e4dchen, Tochter"
             ]
         },
         {
@@ -2173,7 +2173,7 @@ var liste = {
                 "\u1f41 \u1f00\u03b4\u03b5\u03bb\u03c6\u03cc\u03c2, \u03c4\u03bf\u1fe6 \u1f00\u03b4\u03b5\u03bb\u03c6\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "der Bruder"
+                "Bruder"
             ]
         },
         {
@@ -2229,7 +2229,7 @@ var liste = {
                 "\u03c4\u1f78 \u03c3\u03c4\u03c1\u03b1\u03c4\u03cc\u03c0\u03b5\u03b4\u03bf\u03bd, \u03c4\u03bf\u1fe6 \u03c3\u03c4\u03c1\u03b1\u03c4\u03bf\u03c0\u03ad\u03b4\u03bf\u03c5"
             ],
             "Deutsch": [
-                "das Heerlager"
+                "Heerlager"
             ]
         },
         {
@@ -2285,7 +2285,7 @@ var liste = {
                 "\u1f41 \u03b2\u03c9\u03bc\u03cc\u03c2, \u03c4\u03bf\u1fe6 \u03b2\u03c9\u03bc\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "der Altar"
+                "Altar"
             ]
         },
         {
@@ -2317,7 +2317,7 @@ var liste = {
                 "\u1f21 \u1f00\u03b4\u03b9\u03ba\u03af\u03b1, \u03c4\u1fc6\u03c2 \u1f00\u03b4\u03b9\u03ba\u03af\u03b1\u03c2"
             ],
             "Deutsch": [
-                "das Unrecht, die Kr\u00e4nkung"
+                "Unrecht, Kr\u00e4nkung"
             ]
         },
         {
@@ -2325,7 +2325,7 @@ var liste = {
                 "\u1f21 \u03c4\u03b9\u03bc\u03c9\u03c1\u03af\u03b1, \u03c4\u1fc6\u03c2 \u03c4\u03b9\u03bc\u03c9\u03c1\u03af\u03b1\u03c2"
             ],
             "Deutsch": [
-                "die Strafe, die Rache"
+                "Strafe, Rache"
             ]
         },
         {
@@ -2333,7 +2333,7 @@ var liste = {
                 "\u1f21 \u03bf\u1f30\u03ba\u03af\u03b1, \u03c4\u1fc6\u03c2 \u03bf\u1f30\u03ba\u03af\u03b1\u03c2"
             ],
             "Deutsch": [
-                "das Haus"
+                "Haus"
             ]
         },
         {
@@ -2341,7 +2341,7 @@ var liste = {
                 "\u1f21 \u03c3\u03c9\u03c4\u03b7\u03c1\u03af\u03b1, \u03c4\u1fc6\u03c2 \u03c3\u03c9\u03c4\u03b7\u03c1\u03af\u03b1\u03c2"
             ],
             "Deutsch": [
-                "die Rettung, das Wohlergehen"
+                "Rettung, Wohlergehen"
             ]
         },
         {
@@ -2349,7 +2349,7 @@ var liste = {
                 "\u1f21 \u03b3\u03b5\u03bd\u03b5\u03ac, \u03c4\u1fc6\u03c2 \u03b3\u03b5\u03bd\u03b5\u1fb6\u03c2"
             ],
             "Deutsch": [
-                "die Nachkommenschaft, die Abstammung, die Geburt"
+                "Nachkommenschaft, Abstammung, Geburt"
             ]
         },
         {
@@ -2357,7 +2357,7 @@ var liste = {
                 "\u1f21 \u03ba\u03b1\u03c1\u03b4\u03af\u03b1, \u03c4\u1fc6\u03c2 \u03ba\u03b1\u03c1\u03b4\u03af\u03b1\u03c2"
             ],
             "Deutsch": [
-                "das Herz"
+                "Herz"
             ]
         },
         {
@@ -2365,7 +2365,7 @@ var liste = {
                 "\u1f21 \u03b8\u03cd\u03c1\u03b1, \u03c4\u1fc6\u03c2 \u03b8\u03cd\u03c1\u03b1\u03c2"
             ],
             "Deutsch": [
-                "die T\u00fcr, das Tor"
+                "T\u00fcr, Tor"
             ]
         },
         {
@@ -2373,7 +2373,7 @@ var liste = {
                 "\u1f41 \u03c0\u03cc\u03bb\u03b5\u03bc\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u03c0\u03bf\u03bb\u03ad\u03bc\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Krieg"
+                "Krieg"
             ]
         },
         {
@@ -2381,7 +2381,7 @@ var liste = {
                 "\u1f21 \u03bd\u03af\u03ba\u03b7, \u03c4\u1fc6\u03c2 \u03bd\u03af\u03ba\u03b7\u03c2"
             ],
             "Deutsch": [
-                "der Sieg"
+                "Sieg"
             ]
         },
         {
@@ -2413,7 +2413,7 @@ var liste = {
                 "\u1f41 \u03c0\u03bf\u03b9\u03b7\u03c4\u03ae\u03c2, \u03c4\u03bf\u1fe6 \u03c0\u03bf\u03b9\u03b7\u03c4\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "der Dichter"
+                "Dichter"
             ]
         },
         {
@@ -2421,7 +2421,7 @@ var liste = {
                 "\u1f41 \u03bd\u03b5\u03b1\u03bd\u03af\u03b1\u03c2, \u03c4\u03bf\u1fe6 \u03bd\u03b5\u03b1\u03bd\u03af\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der junge Mann"
+                "junge Mann"
             ]
         },
         {
@@ -2429,7 +2429,7 @@ var liste = {
                 "\u1f41 \u1f41\u03c0\u03bb\u03af\u03c4\u03b7\u03c2, \u03c4\u03bf\u1fe6 \u1f41\u03c0\u03bb\u03af\u03c4\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Schwerbewaffnete, der Hoplit"
+                "Schwerbewaffnete, Hoplit"
             ]
         },
         {
@@ -2461,7 +2461,7 @@ var liste = {
                 "\u1f21 \u1f40\u03c1\u03b3\u03ae, \u03c4\u1fc6\u03c2 \u1f40\u03c1\u03b3\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "der Zorn"
+                "Zorn"
             ]
         },
         {
@@ -2501,7 +2501,7 @@ var liste = {
                 "\u1f41 \u1f14\u03bb\u03b5\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u1f10\u03bb\u03ad\u03bf\u03c5"
             ],
             "Deutsch": [
-                "das Mitleid, das Erbarmen"
+                "Mitleid, Erbarmen"
             ]
         },
         {
@@ -2581,7 +2581,7 @@ var liste = {
                 "\u1f41 \u03c6\u03cc\u03bd\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u03c6\u03cc\u03bd\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Mord"
+                "Mord"
             ]
         },
         {
@@ -2653,7 +2653,7 @@ var liste = {
                 "\u1f21 \u03c7\u03ce\u03c1\u03b1, \u03c4\u1fc6\u03c2 \u03c7\u03ce\u03c1\u03b1\u03c2"
             ],
             "Deutsch": [
-                "das Land"
+                "Land"
             ]
         },
         {
@@ -2677,7 +2677,7 @@ var liste = {
                 "\u1f21 \u03b8\u03b5\u03ac, \u03c4\u1fc6\u03c2 \u03b8\u03b5\u1fb6\u03c2/\u1f21 \u03b8\u03b5\u03cc\u03c2, \u03c4\u1fc6\u03c2 \u03b8\u03b5\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "die G\u00f6ttin"
+                "G\u00f6ttin"
             ]
         },
         {
@@ -2693,7 +2693,7 @@ var liste = {
                 "\u1f21 \u03c0\u03b1\u03b9\u03b4\u03b5\u03af\u03b1, \u03c4\u1fc6\u03c2 \u03c0\u03b1\u03b9\u03b4\u03b5\u03af\u03b1\u03c2"
             ],
             "Deutsch": [
-                "die Erziehung, die Bildung"
+                "Erziehung, Bildung"
             ]
         },
         {
@@ -2709,7 +2709,7 @@ var liste = {
                 "\u1f21 \u1f00\u03bd\u03b4\u03c1\u03b5\u03af\u03b1, \u03c4\u1fc6\u03c2 \u1f00\u03bd\u03b4\u03c1\u03b5\u03af\u03b1\u03c2"
             ],
             "Deutsch": [
-                "die Tapferkeit"
+                "Tapferkeit"
             ]
         },
         {
@@ -2717,7 +2717,7 @@ var liste = {
                 "\u1f21 \u1f00\u03bb\u03ba\u03ae, \u03c4\u1fc6\u03c2 \u1f00\u03bb\u03ba\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "die Wehrkraft, die Verteidigung"
+                "Wehrkraft, Verteidigung"
             ]
         },
         {
@@ -2765,7 +2765,7 @@ var liste = {
                 "\u1f41 \u03bb\u03b5\u03b3\u03cc\u03bc\u03b5\u03bd\u03bf\u03c2"
             ],
             "Deutsch": [
-                "der sogenannte"
+                "sogenannte"
             ]
         },
         {
@@ -2781,7 +2781,7 @@ var liste = {
                 "\u1f21 \u03c3\u03b9\u03b3\u03ae, \u03c4\u1fc6\u03c2 \u03c3\u03b9\u03b3\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "das Schweigen"
+                "Schweigen"
             ]
         },
         {
@@ -2821,7 +2821,7 @@ var liste = {
                 "\u1f21 \u1f10\u03bb\u03b5\u03c5\u03b8\u03b5\u03c1\u03af\u03b1, \u03c4\u1fc6\u03c2 \u1f10\u03bb\u03b5\u03c5\u03b8\u03b5\u03c1\u03af\u03b1\u03c2"
             ],
             "Deutsch": [
-                "die Freiheit"
+                "Freiheit"
             ]
         },
         {
@@ -2829,7 +2829,7 @@ var liste = {
                 "\u1f41 \u03c0\u03bf\u03bb\u03ad\u03bc\u03b9\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u03c0\u03bf\u03bb\u03b5\u03bc\u03af\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Feind (im Krieg)"
+                "Feind (im Krieg)"
             ]
         },
         {
@@ -2837,7 +2837,7 @@ var liste = {
                 "\u1f21 \u03b2\u03af\u03b1, \u03c4\u1fc6\u03c2 \u03b2\u03af\u03b1\u03c2"
             ],
             "Deutsch": [
-                "die Gewalt"
+                "Gewalt"
             ]
         },
         {
@@ -2901,7 +2901,7 @@ var liste = {
                 "\u1f41 \u03bc\u03ad\u03b3\u03b9\u03c3\u03c4\u03bf\u03c2, (-\u03b7, -\u03bf\u03bd)"
             ],
             "Deutsch": [
-                "der (die, das) gr\u00f6sste"
+                "(die, das) gr\u00f6sste"
             ]
         },
         {
@@ -2909,7 +2909,7 @@ var liste = {
                 "\u1f41 \u03b4\u03c1\u03cc\u03bc\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u03b4\u03c1\u03cc\u03bc\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Lauf, das Wettrennen, die Rennbahn"
+                "Lauf, Wettrennen, Rennbahn"
             ]
         },
         {
@@ -2941,7 +2941,7 @@ var liste = {
                 "\u03b1\u1f31 \u03b5\u1f30\u03c2 \u1f00\u03bb\u03bb\u03ae\u03bb\u03bf\u03c5\u03c2 \u1f00\u03b4\u03b9\u03ba\u03af\u03b1\u03b9"
             ],
             "Deutsch": [
-                "die gegenseitigen Kr\u00e4nkungen"
+                "gegenseitigen Kr\u00e4nkungen"
             ]
         },
         {
@@ -3013,7 +3013,7 @@ var liste = {
                 "\u1f41 \u03c3\u03c4\u03c1\u03b1\u03c4\u03cc\u03c2, \u03c4\u03bf\u1fe6 \u03c3\u03c4\u03c1\u03b1\u03c4\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "das Heer"
+                "Heer"
             ]
         },
         {
@@ -3021,7 +3021,7 @@ var liste = {
                 "\u1f41 \u03c3\u03c4\u03c1\u03b1\u03c4\u03b9\u03ce\u03c4\u03b7\u03c2, \u03c4\u03bf\u1fe6 \u03c3\u03c4\u03c1\u03b1\u03c4\u03b9\u03ce\u03c4\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Soldat"
+                "Soldat"
             ]
         },
         {
@@ -3029,7 +3029,7 @@ var liste = {
                 "\u1f41 \u1f00\u03c1\u03b9\u03b8\u03bc\u03cc\u03c2, \u03c4\u03bf\u1fe6 \u1f00\u03c1\u03b9\u03b8\u03bc\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "die Zahl, Anzahl"
+                "Zahl, Anzahl"
             ]
         },
         {
@@ -3037,7 +3037,7 @@ var liste = {
                 "\u1f21 \u03ba\u03b5\u03c6\u03b1\u03bb\u03ae, \u03c4\u1fc6\u03c2 \u03ba\u03b5\u03c6\u03b1\u03bb\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "der Kopf"
+                "Kopf"
             ]
         },
         {
@@ -3045,7 +3045,7 @@ var liste = {
                 "\u1f21 \u03c8\u03c5\u03c7\u03ae, \u03c4\u1fc6\u03c2 \u03c8\u03c5\u03c7\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "die Seele, das Leben"
+                "Seele, Leben"
             ]
         },
         {
@@ -3093,7 +3093,7 @@ var liste = {
                 "\u1f41 \u03c4\u03cc\u03c0\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u03c4\u03cc\u03c0\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Ort, der Platz, die Gegend"
+                "Ort, Platz, Gegend"
             ]
         },
         {
@@ -3109,7 +3109,7 @@ var liste = {
                 "\u1f21 \u03bc\u03ac\u03c7\u03b7, \u03c4\u1fc6\u03c2 \u03bc\u03ac\u03c7\u03b7\u03c2"
             ],
             "Deutsch": [
-                "der Kampf, die Schlacht"
+                "Kampf, Schlacht"
             ]
         },
         {
@@ -3181,7 +3181,7 @@ var liste = {
                 "\u1f21 \u03b4\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1, \u03c4\u1fc6\u03c2 \u03b4\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1\u03c2"
             ],
             "Deutsch": [
-                "die Demokratie"
+                "Demokratie"
             ]
         },
         {
@@ -3189,7 +3189,7 @@ var liste = {
                 "\u1f41 \u03c0\u03c1\u1ff6\u03c4\u03bf\u03c2, -\u03b7, -\u03bf\u03bd"
             ],
             "Deutsch": [
-                "der (die, das) erste, als Erster"
+                "(die, das) erste, als Erster"
             ]
         },
         {
@@ -3205,7 +3205,7 @@ var liste = {
                 "\u1f41 \u1f14\u03bc\u03c0\u03bf\u03c1\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u1f10\u03bc\u03c0\u03cc\u03c1\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Kaufmann (im \u00dcberseehandel)"
+                "Kaufmann (im \u00dcberseehandel)"
             ]
         },
         {
@@ -3261,7 +3261,7 @@ var liste = {
                 "\u1f21 \u1f10\u03c0\u03b9\u03c3\u03c4\u03bf\u03bb\u03ae, \u03c4\u1fc6\u03c2 \u1f10\u03c0\u03b9\u03c3\u03c4\u03bf\u03bb\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "der Brief"
+                "Brief"
             ]
         },
         {
@@ -3333,7 +3333,7 @@ var liste = {
                 "\u1f41 \u03c0\u03c1\u03cc\u03b3\u03bf\u03bd\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u03c0\u03c1\u03bf\u03b3\u03cc\u03bd\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Vorfahr"
+                "Vorfahr"
             ]
         },
         {
@@ -3533,7 +3533,7 @@ var liste = {
                 "\u1f41 \u03c7\u03c1\u03b7\u03c3\u03bc\u03cc\u03c2, \u03c4\u03bf\u1fe6 \u03c7\u03c1\u03b7\u03c3\u03bc\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "der Orakelspruch, die Weissagung"
+                "Orakelspruch, Weissagung"
             ]
         },
         {
@@ -3541,7 +3541,7 @@ var liste = {
                 "\u1f41 \u1f44\u03bb\u03b5\u03b8\u03c1\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u1f40\u03bb\u03ad\u03b8\u03c1\u03bf\u03c5"
             ],
             "Deutsch": [
-                "das Verderben, der Untergang, der Tod"
+                "Verderben, Untergang, Tod"
             ]
         },
         {
@@ -3621,7 +3621,7 @@ var liste = {
                 "\u1f41 \u03b4\u03b5\u03c3\u03c0\u03cc\u03c4\u03b7\u03c2, \u03c4\u03bf\u1fe6 \u03b4\u03b5\u03c3\u03c0\u03cc\u03c4\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Herr, der Herrscher"
+                "Herr, Herrscher"
             ]
         },
         {
@@ -3629,7 +3629,7 @@ var liste = {
                 "\u1f41 \u1f11\u03c4\u03b1\u1fd6\u03c1\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u1f11\u03c4\u03b1\u03af\u03c1\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Gef\u00e4hrte, der Kamerad"
+                "Gef\u00e4hrte, Kamerad"
             ]
         },
         {
@@ -3661,7 +3661,7 @@ var liste = {
                 "\u1f21 \u03bd\u03cc\u03c3\u03bf\u03c2, \u03c4\u1fc6\u03c2 \u03bd\u03cc\u03c3\u03bf\u03c5"
             ],
             "Deutsch": [
-                "die Krankheit, die Seuche"
+                "Krankheit, Seuche"
             ]
         },
         {
@@ -3669,7 +3669,7 @@ var liste = {
                 "\u1f21 \u1f41\u03b4\u03cc\u03c2, \u03c4\u1fc6\u03c2 \u1f41\u03b4\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "der Weg, der Marsch, die Reise"
+                "Weg, Marsch, Reise"
             ]
         },
         {
@@ -3677,7 +3677,7 @@ var liste = {
                 "\u1f21 \u1f24\u03c0\u03b5\u03b9\u03c1\u03bf\u03c2, \u03c4\u1fc6\u03c2 \u1f20\u03c0\u03b5\u03af\u03c1\u03bf\u03c5"
             ],
             "Deutsch": [
-                "das Festland"
+                "Festland"
             ]
         },
         {
@@ -3685,7 +3685,7 @@ var liste = {
                 "\u1f21 \u03bd\u1fc6\u03c3\u03bf\u03c2, \u03c4\u1fc6\u03c2 \u03bd\u03ae\u03c3\u03bf\u03c5"
             ],
             "Deutsch": [
-                "die Insel"
+                "Insel"
             ]
         },
         {
@@ -3693,7 +3693,7 @@ var liste = {
                 "\u1f21 \u03c0\u03b1\u03c1\u03b8\u03ad\u03bd\u03bf\u03c2, \u03c4\u1fc6\u03c2 \u03c0\u03b1\u03c1\u03b8\u03ad\u03bd\u03bf\u03c5"
             ],
             "Deutsch": [
-                "das M\u00e4dchen, die junge Frau, die Jungfrau"
+                "M\u00e4dchen, junge Frau, Jungfrau"
             ]
         },
         {
@@ -3869,7 +3869,7 @@ var liste = {
                 "\u03c4\u1f78 \u03c4\u03cc\u03be\u03bf\u03bd, \u03c4\u03bf\u1fe6 \u03c4\u03cc\u03be\u03bf\u03c5"
             ],
             "Deutsch": [
-                "der Bogen (zum Schiessen)"
+                "Bogen (zum Schiessen)"
             ]
         },
         {
@@ -3877,7 +3877,7 @@ var liste = {
                 "\u03c4\u1f70 \u03c4\u03cc\u03be\u03b1, \u03c4\u1ff6\u03bd \u03c4\u03cc\u03be\u03c9\u03bd"
             ],
             "Deutsch": [
-                "der Bogen und Pfeile, die Pfeile"
+                "Bogen und Pfeile, Pfeile"
             ]
         },
         {
@@ -3885,7 +3885,7 @@ var liste = {
                 "\u1f21 \u03bc\u03b7\u03c7\u03b1\u03bd\u03ae, \u03c4\u1fc6\u03c2 \u03bc\u03b7\u03c7\u03b1\u03bd\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "das Mittel, der Trick, die Maschine"
+                "Mittel, Trick, Maschine"
             ]
         },
         {
@@ -3901,7 +3901,7 @@ var liste = {
                 "\u1f41 \u1f66\u03bc\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u1f64\u03bc\u03bf\u03c5"
             ],
             "Deutsch": [
-                "die Schulter"
+                "Schulter"
             ]
         },
         {
@@ -3965,7 +3965,7 @@ var liste = {
                 "\u03c4\u1f78 \u1f31\u03bc\u03ac\u03c4\u03b9\u03bf\u03bd, \u03c4\u03bf\u1fe6 \u1f31\u03bc\u03b1\u03c4\u03af\u03bf\u03c5"
             ],
             "Deutsch": [
-                "das Obergewand"
+                "Obergewand"
             ]
         },
         {
@@ -4021,7 +4021,7 @@ var liste = {
                 "\u1f21 \u03c6\u03c9\u03bd\u03ae, \u03c4\u1fc6\u03c2 \u03c6\u03c9\u03bd\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "der Ton, die Stimme"
+                "Ton, Stimme"
             ]
         },
         {
@@ -4029,7 +4029,7 @@ var liste = {
                 "\u03c4\u1f78 \u03c0\u03b1\u03b9\u03b4\u03af\u03bf\u03bd, \u03c4\u03bf\u1fe6 \u03c0\u03b1\u03b9\u03b4\u03af\u03bf\u03c5"
             ],
             "Deutsch": [
-                "das (kleine) Kind"
+                "(kleine) Kind"
             ]
         },
         {
@@ -4037,7 +4037,7 @@ var liste = {
                 "\u1f21 \u03b4\u03bf\u03c5\u03bb\u03b5\u03af\u03b1, \u03c4\u1fc6\u03c2 \u03b4\u03bf\u03c5\u03bb\u03b5\u03af\u03b1\u03c2"
             ],
             "Deutsch": [
-                "die Sklaverei, die Knechtschaft"
+                "Sklaverei, Knechtschaft"
             ]
         },
         {
@@ -4045,7 +4045,7 @@ var liste = {
                 "\u1f21 \u03b4\u03cc\u03be\u03b1, \u03c4\u1fc6\u03c2 \u03b4\u03cc\u03be\u03b1\u03c2"
             ],
             "Deutsch": [
-                "die Meinung, der (gute) Ruf, der Ruhm"
+                "Meinung, (guter) Ruf, Ruhm"
             ]
         },
         {
@@ -4053,7 +4053,7 @@ var liste = {
                 "\u1f21 \u1f31\u03ad\u03c1\u03b5\u03b9\u03b1, \u03c4\u1fc6\u03c2 \u1f31\u03b5\u03c1\u03b5\u03af\u03b1\u03c2"
             ],
             "Deutsch": [
-                "die Priesterin"
+                "Priesterin"
             ]
         },
         {
@@ -4061,7 +4061,7 @@ var liste = {
                 "\u1f21 \u1f00\u03bb\u03ae\u03b8\u03b5\u03b9\u03b1, \u03c4\u1fc6\u03c2 \u1f00\u03bb\u03b7\u03b8\u03b5\u03af\u03b1\u03c2"
             ],
             "Deutsch": [
-                "die Wahrheit"
+                "Wahrheit"
             ]
         },
         {
@@ -4069,7 +4069,7 @@ var liste = {
                 "\u1f21 \u03b8\u03ac\u03bb\u03b1\u03c4\u03c4\u03b1, \u03c4\u1fc6\u03c2 \u03b8\u03b1\u03bb\u03ac\u03c4\u03c4\u03b7\u03c2"
             ],
             "Deutsch": [
-                "das Meer, die See"
+                "Meer, See"
             ]
         },
         {
@@ -4077,7 +4077,7 @@ var liste = {
                 "\u1f21 \u03bc\u03bf\u1fd6\u03c1\u03b1, \u03c4\u1fc6\u03c2 \u03bc\u03bf\u03af\u03c1\u03b1\u03c2"
             ],
             "Deutsch": [
-                "der Anteil, das Schicksal"
+                "Anteil, Schicksal"
             ]
         },
         {
@@ -4085,7 +4085,7 @@ var liste = {
                 "\u1f21 \u03b3\u1fc6, \u03c4\u1fc6\u03c2 \u03b3\u1fc6\u03c2"
             ],
             "Deutsch": [
-                "die Erde, der Erdboden, das Land"
+                "Erde, Erdboden, Land"
             ]
         },
         {
@@ -4125,7 +4125,7 @@ var liste = {
                 "\u1f41 \u03bd\u03bf\u1fe6\u03c2, \u03c4\u03bf\u1fe6 \u03bd\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "der Verstand, die Gesinnung, die Absicht"
+                "Verstand, Gesinnung, Absicht"
             ]
         },
         {
@@ -4149,7 +4149,7 @@ var liste = {
                 "\u1f41 \u03c0\u03bb\u03bf\u1fe6\u03c2, \u03c4\u03bf\u1fe6 \u03c0\u03bb\u03bf\u1fe6"
             ],
             "Deutsch": [
-                "die Fahrt (auf einem Schiff)"
+                "Fahrt (auf einem Schiff)"
             ]
         },
         {
@@ -4206,6 +4206,14 @@ var liste = {
             ],
             "Deutsch": [
                 "ich erweise einen Gefallen"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03c4\u1f73\u03ba\u03bd\u03bf\u03bd, \u03bf\u03c5"
+            ],
+            "Deutsch": [
+                "Kind"
             ]
         }
     ],

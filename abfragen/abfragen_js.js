@@ -404,7 +404,6 @@ function fortschritt_kopieren() {
 	for (i in liste.fragen) {
 		learned.push(erledigte.indexOf(i) != -1);
 	}
-	console.log(learned);
 	let url_without_progress = window.location.href.replace(/&progress=[\w\-]+/, "");
 	navigator.clipboard.writeText(url_without_progress + "&progress=" + booleans_to_base64url(learned));
 }
