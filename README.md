@@ -42,6 +42,8 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 
 ### Für g2020c:
 
+- [Griechisch auf 12. März 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2024-03-12)
+
 - [Griechisch-Repetition M&auml;rz 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_1-25)
 
 - [Latein: VIVA Lektionen 26-45](/vokabeltraining/abfragen?folder=latein&file=viva_26-45)
