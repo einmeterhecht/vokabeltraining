@@ -30,7 +30,7 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 
 ### Für g2023k:
 
-- [Hauptst&auml;dte Afrikas (Auswahl)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl) | [umgekehrt (Land zur Hauptstadt nennen)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl-frage_mit_stadt)
+- [Hauptst&auml;dte Afrikas (Auswahl)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl) - [umgekehrt (Land zur Hauptstadt nennen)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl-frage_mit_stadt)
 
 - [Latein auf 15. M&auml;rz 2024 (VIVA Lektion 7)](/vokabeltraining/abfragen?folder=g2023k&file=latein_2024-03-15)
 
@@ -43,6 +43,8 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 - [Franz&ouml;sisch: CI Buch 1, leçon 3 - Entrée + Atelier A und B](/vokabeltraining/abfragen?folder=g2023k&file=CI-1-3_entree_atelier-AB)
 
 ### Für g2020c:
+
+- [Englisch auf 22. M&auml;rz 2024](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-03-22)
 
 - [Griechisch auf 12. März 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2024-03-12)
 
