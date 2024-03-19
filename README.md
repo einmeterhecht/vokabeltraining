@@ -30,7 +30,9 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 
 ### Für g2023k:
 
-- [Hauptst&auml;dte Afrikas (Auswahl)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl) - [umgekehrt (Land zur Hauptstadt nennen)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl-frage_mit_stadt)
+- [Hauptst&auml;dte Afrikas (Auswahl)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl)
+
+  - [umgekehrt (Land zur Hauptstadt nennen)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl-frage_mit_stadt)
 
 - [Latein auf 15. M&auml;rz 2024 (VIVA Lektion 7)](/vokabeltraining/abfragen?folder=g2023k&file=latein_2024-03-15)
 
