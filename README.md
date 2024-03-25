@@ -30,6 +30,8 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 
 ### Für g2023k:
 
+- [Latein: VIVA Lektion 8](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_8)
+
 - [Hauptst&auml;dte Afrikas (Auswahl)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl)
 
   - [umgekehrt (Land zur Hauptstadt nennen)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl-frage_mit_stadt)

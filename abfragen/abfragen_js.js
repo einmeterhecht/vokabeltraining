@@ -237,6 +237,9 @@ function antwort_anpassen(antwort){
 		.replaceAll("/"," ")
 		.replaceAll("  "," ") // Leerschlag reicht
 		.replaceAll("  "," ")
+		.replaceAll("„","'")
+		.replaceAll("“","'")
+		.replaceAll("\"","'")
 		.replaceAll("`","'")
 		.replaceAll("‘","'");
 }
