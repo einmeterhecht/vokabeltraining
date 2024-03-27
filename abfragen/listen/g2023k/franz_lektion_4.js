@@ -2,6 +2,238 @@ var liste = {
     "fragen": [
         {
             "Franz\u00f6sisch": [
+                "\u00e0 c\u00f4t\u00e9 de"
+            ],
+            "Deutsch": [
+                "neben"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "une discussion"
+            ],
+            "Deutsch": [
+                "eine Diskussion, eine Unterhaltung, ein Gespr\u00e4ch"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "avoir l'air"
+            ],
+            "Deutsch": [
+                "aussehen"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "\u00c7a va mieux."
+            ],
+            "Deutsch": [
+                "Es geht besser."
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "pleurer"
+            ],
+            "Deutsch": [
+                "weinen"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "un b\u00e9b\u00e9"
+            ],
+            "Deutsch": [
+                "ein Baby, ein S\u00e4ugling"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "Hein?"
+            ],
+            "Deutsch": [
+                "Was? H\u00e4?"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "Pourquoi est-ce que...?"
+            ],
+            "Deutsch": [
+                "Warum...?"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "Quand est-ce que...?"
+            ],
+            "Deutsch": [
+                "Wann...?"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "pr\u00e9f\u00e9rer faire qc"
+            ],
+            "Deutsch": [
+                "vorziehen etw. zu tun, etw. lieber tun"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "vers qn/qc"
+            ],
+            "Deutsch": [
+                "auf jdn./etw. zu, zu jdm./etw. hin"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "un banc de touche"
+            ],
+            "Deutsch": [
+                "eine Ersatzbank"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "Quelle photo?"
+            ],
+            "Deutsch": [
+                "Welches Foto?"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "sortir qc de qc"
+            ],
+            "Deutsch": [
+                "etw. herausholen aus, etw. hervorholen aus"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "hier"
+            ],
+            "Deutsch": [
+                "gestern"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "Comment est-ce que...?"
+            ],
+            "Deutsch": [
+                "Wie...?"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "si"
+            ],
+            "Deutsch": [
+                "wenn, falls"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "Quel blaireau!"
+            ],
+            "Deutsch": [
+                "Was f\u00fcr eine Null!"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "Tout va bien!"
+            ],
+            "Deutsch": [
+                "Alles in Ordnung!"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "un h\u00e9ros/une h\u00e9ro\u00efne"
+            ],
+            "Deutsch": [
+                "ein Held/eine Heldin"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "craquer"
+            ],
+            "Deutsch": [
+                "die Nerven verlieren, zusammenbrechen"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "C'est bon."
+            ],
+            "Deutsch": [
+                "Es ist gut."
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "un r\u00e9seau/des r\u00e9seaux"
+            ],
+            "Deutsch": [
+                "ein Netz/Netze"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "un r\u00e9seau social"
+            ],
+            "Deutsch": [
+                "ein soziales Netzwerk"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "C'est grave!"
+            ],
+            "Deutsch": [
+                "Das ist schlimm!"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "le harc\u00e8lement"
+            ],
+            "Deutsch": [
+                "das Mobbing"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "\u00e7a sonne"
+            ],
+            "Deutsch": [
+                "es klingelt"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "parler \u00e0 qn"
+            ],
+            "Deutsch": [
+                "mit jdm. sprechen"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "Internet (m.)"
+            ],
+            "Deutsch": [
+                "das Internet"
+            ]
+        },
+		{
+            "Franz\u00f6sisch": [
                 "un loisir"
             ],
             "Deutsch": [
@@ -445,7 +677,7 @@ var liste = {
         "Beispiele",
         "Lernhilfe"
     ],
-    "titel": "franz_2024-02-27",
+    "titel": "franz_lektion_4",
     "frage_attribut": "Deutsch"
 };
 
