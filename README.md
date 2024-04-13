@@ -50,6 +50,8 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 
 ### Für g2020c:
 
+- [Latein auf 16. April 2024](/vokabeltraining/abfragen?folder=g2020c&file=latein_2024-04-16)
+
 - [Englisch auf 22. M&auml;rz 2024](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-03-22)
 
 - [Griechisch auf 12. März 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2024-03-12)
