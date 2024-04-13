@@ -30,6 +30,8 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 
 ### Für g2023k:
 
+- [Franz Le&ccedil;on 4 Entr&eacute;e + 4A](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-04-13)
+
 - [Franz&ouml;sisch: CI Buch 1, leçon 3 - Entrée + Atelier A und B](/vokabeltraining/abfragen?folder=g2023k&file=CI-1-3_entree_atelier-AB)
 
 - [Latein: VIVA Lektion 8](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_8)
