@@ -1,96 +1,114 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Abfragen</title>
-        <script src="abfragen_js.js"></script>
-        <script src="schwierige.js"></script>
-        <script src="liste_laden.js"></script>
-        <style>
-			:root {
-				--color-light: #EEC;
-				--color-dark: #264B87;
-				--color-box-background: #C2CFE4;
-				--color-green-background: #226618;
-				--color-hover: #C2CFE4;
-			}
-            .anzeige {
-                background: var(--color-box-background);
-                width: auto; height: auto;
-                border: 4px solid var(--color-dark);
-                border-radius: 15px;
-                box-shadow: inset 10px 8px 10px grey;
-            }
-            .zentriert {
-                margin:0px auto;
-                text-align: center;
-				color: var(--color-light);
-            }
-			.frage_info{
-				font-size: 30px;
-                text-align: center;
-			}
-            /* Das ist unser Eingabefeld für die Ergebnisse */
-            .ergebnisse {
-                font-size: 48px;
-                background-color: var(--color-light);
-                height: 64px; width: 80%;
-                padding: 20px;
-			}
-			.progress_bar {
-			    background: var(--color-box-background);
-				width: 100%;
-                border: 2px solid var(--color-dark);
-                border-radius: 15px;
-			}
-			.progress_text {
-				font-size: 18px;
-				color: var(--color-light);
-			}
-			.button_style {
-				transition-duration: 0.5s;
-			    font-size: 18px;
-				padding: 5px 10px;
-				border: 2px solid #0000;
-				border-radius: 15px;
-				color: var(--color-light);
-				background-color: var(--color-green-background);
-			}
-			.button_style:hover {
-				color: var(--color-light);
-				background-color: var(--color-dark);
-				/*border: 2px solid var(--color-light);*/
-			}
-			.button_style:active {
-				transition-duration: 0.1s;
-				color: var(--color-box-background);
-				background-color: var(--color-dark);
-				/*border-color: var(--color-dark);*/
-			}
-        </style>
-    </head>
-    <body style="background: var(--color-green-background);">
-	    <p class="zentriert" style="margin-top: 25px; margin-bottom: 0px; display: flex; align-items: center;">
-		    <progress id="progress" class="progress_bar" style="height: 25px; margin-right: 10px;" max=100 value=0>progress</progress>
-		    <b id="progress_text" class="progress_text" style="margin-right: 10px; white-space: nowrap;">0/0</b>
-		    <button id="download_schwierige_button" class="button_style" style="margin-right: 10px; white-space: nowrap;" onclick="fortschritt_kopieren();">Fortschritt kopieren</button>
-		</p>
-	    <p>
-			<div class="anzeige">
-				<p id="frage_attribut" class="frage_info" style="color: #264B87;">Abfragen - HTML</p>
-			</div>
-			<div class="zentriert" style="margin-top: 20px; margin-bottom: 35px">
-				<p id="gefragtes_attribut" class="frage_info">Browser unterstützt kein JavaScript...</p>
-			</div>
-		    <div class="zentriert">
-				<form onsubmit="return submit_eingabe();">
-					<input id="eingabe" class="ergebnisse" type="text" onkeyup="eingabefeld_onkeyup();"/>
-				</form>
-			</div>
-		</p>
-		<!--<div class="anzeige" id="start_knopf" onclick="erste_aufgabe();">
+
+<head>
+	<meta charset="utf-8">
+	<title>Abfragen</title>
+	<script src="abfragen_js.js"></script>
+	<script src="schwierige.js"></script>
+	<script src="liste_laden.js"></script>
+	<style>
+		:root {
+			--color-light: #EEC;
+			--color-dark: #264B87;
+			--color-box-background: #C2CFE4;
+			--color-green-background: #226618;
+			--color-hover: #C2CFE4;
+		}
+
+		.anzeige {
+			background: var(--color-box-background);
+			width: auto;
+			height: auto;
+			border: 4px solid var(--color-dark);
+			border-radius: 15px;
+			box-shadow: inset 10px 8px 10px grey;
+		}
+
+		.zentriert {
+			margin: 0px auto;
+			text-align: center;
+			color: var(--color-light);
+		}
+
+		.frage_info {
+			font-size: 30px;
+			text-align: center;
+		}
+
+		/* Das ist unser Eingabefeld für die Ergebnisse */
+		.ergebnisse {
+			font-size: 48px;
+			background-color: var(--color-light);
+			height: 64px;
+			width: 80%;
+			padding: 20px;
+		}
+
+		.progress_bar {
+			background: var(--color-box-background);
+			width: 100%;
+			border: 2px solid var(--color-dark);
+			border-radius: 15px;
+		}
+
+		.progress_text {
+			font-size: 18px;
+			color: var(--color-light);
+		}
+
+		.button_style {
+			transition-duration: 0.5s;
+			font-size: 18px;
+			padding: 5px 10px;
+			border: 2px solid #0000;
+			border-radius: 15px;
+			color: var(--color-light);
+			background-color: var(--color-green-background);
+		}
+
+		.button_style:hover {
+			color: var(--color-light);
+			background-color: var(--color-dark);
+			/*border: 2px solid var(--color-light);*/
+		}
+
+		.button_style:active {
+			transition-duration: 0.1s;
+			color: var(--color-box-background);
+			background-color: var(--color-dark);
+			/*border-color: var(--color-dark);*/
+		}
+	</style>
+</head>
+
+<body style="background: var(--color-green-background);">
+	<p class="zentriert" style="margin-top: 25px; margin-bottom: 0px; display: flex; align-items: center;">
+		<progress id="progress" class="progress_bar" style="height: 25px; margin-right: 10px;" max=100
+			value=0>progress</progress>
+		<b id="progress_text" class="progress_text" style="margin-right: 10px; white-space: nowrap;">0/0</b>
+		<button id="download_schwierige_button" class="button_style" style="margin-right: 10px; white-space: nowrap;"
+			onclick="fortschritt_kopieren();">Fortschritt kopieren</button>
+	</p>
+	<p>
+	<div class="anzeige">
+		<p id="fragestellung" class="frage_info" style="color: #264B87;">Abfragen - HTML</p>
+	</div>
+	<div class="zentriert" style="margin-top: 20px; margin-bottom: 35px; display: flex; justify-content: space-around;">
+		<div id="eingabeaufforderung" class="frage_info">Browser unterstützt kein JavaScript...</div>
+		<button class="button_style" style="position:absolute; right: 20px; font-size: 24px;"
+			onclick="frage_attribut_tauschen();">&#x21c5;</button>
+	</div>
+	<div class="zentriert">
+		<form onsubmit="return submit_eingabe();">
+			<input id="eingabe" class="ergebnisse" type="text" onkeyup="eingabefeld_onkeyup();" />
+		</form>
+	</div>
+	</p>
+	<!--<div class="anzeige" id="start_knopf" onclick="erste_aufgabe();">
 				<p class="frage_info" style="color: #264B87;">Starten</p>
 		</div>-->
-		<script>gefragtes_attribut.innerHTML = "Fragen konnten nicht geladen werden"; liste_laden();</script>
-    </body>
+	<script>eingabeaufforderung.innerHTML = "Fragen konnten nicht geladen werden"; liste_laden();</script>
+</body>
+
 </html>

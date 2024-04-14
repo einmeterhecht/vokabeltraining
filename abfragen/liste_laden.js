@@ -1,8 +1,8 @@
 
 // https://stackoverflow.com/a/16699153
-function get_url_parameter(name) {
+function get_url_parameter(name, resultifnotfound='') {
     name = RegExp ('[?&]' + name.replace (/([[\]])/, '\\$1') + '=([^&#]*)');
-    return (window.location.href.match (name) || ['', ''])[1];
+    return decodeURIComponent((window.location.href.match (name) || ['', resultifnotfound])[1]);
 }
 
 // https://stackoverflow.com/a/14786759

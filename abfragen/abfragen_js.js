@@ -14,6 +14,7 @@ var erledigte = [];
 var MAX_UNTIL_KNACKNUSS = 2;
 var REPEAT_INTERVAL = 5;
 var KNACKNUSS_CHECK_INTERVAL = 14;
+var frage_attribut;
 
 function fortschritt_laden() {
 	let learned = base64url_to_booleans(get_url_parameter("progress"));
@@ -116,6 +117,9 @@ function get_frage(){
 function erste_aufgabe(){
 	aufgabe_index = 0;
 	beantwortet = false;
+	frage_attribut = decodeURIComponent(get_url_parameter("askwith", liste.frage_attribut));
+	console.log(get_url_parameter("askwith", liste.frage_attribut), decodeURIComponent(get_url_parameter("askwith", liste.frage_attribut)));
+	//gefragtes_attribut = get_url_parameter("askfor", get_gefragtes_attribut());
 	fortschritt_laden();
 	initialisiere_aufgabenliste();
 	frage_laden();
@@ -126,7 +130,7 @@ function erste_aufgabe(){
 function get_gefragte(){
 	gefragte = [];
 	for (key in get_frage()){
-		if (key != liste.frage_attribut){
+		if (key != frage_attribut){
 			gefragte.push(key);
 		}
 	}
@@ -135,7 +139,7 @@ function get_gefragte(){
 
 function get_gefragtes_attribut(frage = get_frage()){
 	for (key in frage){
-		if (key != liste.frage_attribut){
+		if (key != frage_attribut){
 	        return key;
 		}
 	}
@@ -158,11 +162,11 @@ function frage_laden(){
 	         get_gefragtes().startsWith("l'")){
 		hinweis = " (le/la/l'/les)";
 	}
-	frage_attribut.innerHTML = liste.frage_attribut
+	document.getElementById("fragestellung").innerHTML = frage_attribut
 	+ ": "
-	+ get_frage()[liste.frage_attribut]
+	+ get_frage()[frage_attribut]
 	+ hinweis;
-	gefragtes_attribut.innerHTML = get_gefragtes_attribut() + ":";
+	document.getElementById("eingabeaufforderung").innerHTML = get_gefragtes_attribut() + ":";
 	eingabe.style.background = "#EEEECC";
 	eingabe.value = "";
 	beantwortet = false;
@@ -292,14 +296,14 @@ function pruefe_eingabe(){
 	
 	if (input_correct()){
 		eingabe.style.background = "#006604"; // Original AbfrageApp - Farbe
-		gefragtes_attribut.innerHTML = "Richtig!";
+		document.getElementById("eingabeaufforderung").innerHTML = "Richtig!";
 		
 		check_for_knacknuss();
 		naechste_frage();
 	}
 	else{
 		eingabe.style.background = "#990000";
-		gefragtes_attribut.innerHTML = "Falsch. Richtig wäre: " + get_gefragtes(get_frage());
+		document.getElementById("eingabeaufforderung").innerHTML = "Falsch. Richtig wäre: " + get_gefragtes(get_frage());
 		
 		eingabe.value = eingabe.value + " ";
 	    eingabe.selectionStart = eingabe.selectionEnd = eingabe.value.length; // Set cursor to end
@@ -352,7 +356,7 @@ function get_knacknuesse_json(){
     "fragen": nicht_sofort_klar,
 	"hinweis_attribute": liste.hinweis_attribute,
     "titel": "schwierige_" + liste.titel,
-    "frage_attribut": liste.frage_attribut
+    "frage_attribut": frage_attribut
     };
 	//for (i in knacknuesse){
 	//	knacknuesse_json.fragen.push(liste.fragen[knacknuesse[i]]);
@@ -374,19 +378,19 @@ function download(filename, contained_string) {
 function fertig(){
 	frage_attribut.innerHTML = "<b>FERTIG! " + String(liste.fragen.length) + " Wörter gelernt!</b>";
 	if (knacknuesse.length == 0){
-		gefragtes_attribut.innerHTML = "Diese W\u00f6rter sitzen.";
+		document.getElementById("eingabeaufforderung").innerHTML = "Diese W\u00f6rter sitzen.";
 		
 		download_schwierige_button.hidden = false;
 		progress.hidden = true;
 	}
 	else if (knacknuesse.length == 1){
-		gefragtes_attribut.innerHTML = "Gut gemacht.<br>Nur <i>" + get_knacknuesse() + "</i> war knifflig.";
+		document.getElementById("eingabeaufforderung").innerHTML = "Gut gemacht.<br>Nur <i>" + get_knacknuesse() + "</i> war knifflig.";
 		
 		download_schwierige_button.hidden = false;
 		progress.hidden = true;
 	}
 	else{
-		gefragtes_attribut.innerHTML = "Geschafft!<br>" +
+		document.getElementById("eingabeaufforderung").innerHTML = "Geschafft!<br>" +
 		Math.round(100 * (1 - (knacknuesse.length / liste.fragen.length))) + "% sitzen.<br>" +
 		"Schwierig waren diese " + knacknuesse.length + ":<br>" +
 		"<i>" + get_knacknuesse() + "</i>";
@@ -402,11 +406,38 @@ function download_nicht_sofort_gewusste(){
 	download('schwierige.js', "var liste = " + get_knacknuesse_json() + "; erste_aufgabe();");
 }
 
+function remove_parameter_from_url(parameter, url=window.location.href) {
+    return url.replace(RegExp("&" + parameter +"=[\\w\\-\\_\\%]+"), "");
+}
+
+function get_url_with_parameter(parameter, value, url=window.location.href) {
+	return remove_parameter_from_url(parameter, url) + "&" + parameter + "=" + value;
+}
+
 function fortschritt_kopieren() {
+	navigator.clipboard.writeText(get_fortschritt_url());
+}
+
+function get_fortschritt_url() {
 	let learned = [];
 	for (i in liste.fragen) {
 		learned.push(erledigte.indexOf(i) != -1);
 	}
-	let url_without_progress = window.location.href.replace(/&progress=[\w\-]+/, "");
-	navigator.clipboard.writeText(url_without_progress + "&progress=" + booleans_to_base64url(learned));
+	return get_url_with_parameter("progress", booleans_to_base64url(learned));
+}
+
+function frage_attribut_tauschen_moeglich() {	
+    let neues_frage_attribut = get_gefragtes_attribut();
+	for (frage of liste.fragen) {
+		if (!frage[neues_frage_attribut]) return false;
+	}
+	return true;
+}
+
+function frage_attribut_tauschen() {
+	if (!frage_attribut_tauschen_moeglich()) return; // Currently not an issue
+    window.location.href = get_url_with_parameter(
+		"askwith",
+		encodeURIComponent(get_gefragtes_attribut()),
+		remove_parameter_from_url("progress"));
 }
