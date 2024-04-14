@@ -2718,7 +2718,7 @@ var liste = {
         "Lernhilfe"
     ],
     "titel": "latein_2024-04-16",
-    "frage_attribut": "Deutsch"
+    "frage_attribut": "Latein"
 };
 
 erste_aufgabe();
