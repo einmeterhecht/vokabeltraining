@@ -196,6 +196,7 @@ function antwort_anpassen(antwort){
 		.replaceAll("jmd.","jmd")
 		.replaceAll("jnd.","jmd")
 		.replaceAll("etwas","etw")
+		.replaceAll("\u00df","ss")
 		.replaceAll("sb.","sb") // English
 		.replaceAll("somebody","sb")
 		.replaceAll("sb's","sbs")
