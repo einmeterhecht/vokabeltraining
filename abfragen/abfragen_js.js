@@ -91,8 +91,8 @@ function booleans_to_base64url(booleans) {
 	let str = "";
 	for (let i = 0; i < booleans.length; i += 6) {
 		let char_index = 0;
-	    for (let j = 5; j >= 0; j--) {
-            char_index += booleans[i + j] ? 2 ** j : 0;
+	    for (let j = 0; j < 6; j++) {
+            char_index += booleans[i + j] ? 2 ** (5 - j) : 0;
 	    }
 		str += base64urlchars[char_index]
     }
