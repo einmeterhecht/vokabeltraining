@@ -1,6 +1,7 @@
 Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optimiert.
 
 ## Letzte Änderungen:
+- Wenn man mit einer Liste durch ist, kann man jetzt mit nur den nicht gewussten Fragen weiterlernen.
 - Man kann nun tauschen, in welche Richtung gelernt wird. Dafür gibt es auf der rechten Seite einen &#x21c5;-Knopf.
 - Man kann den jetzigen Fortschritt bei einer Liste als URL kopieren.
 - Semikolon, Komma, Schrägstriche etc können jetzt ganz weggelassen werden.
@@ -8,7 +9,6 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Alleinstellungsmerkmale
 - Aufgeräumtes Design
 - Keine Logins, Ladezeiten, Cookies & Bezahlung
-- Keine Möglichkeit, den Fortschritt online zu speichern
 - Keine motivierenden Botschaften. Bei einer richtigen Antwort kommt kommentarlos das nächste Wort.
 - Schnelle Eingaben. Zum Absenden einer Antwort kann man statt Enter die Leertaste drücken. Sobald im Eingabefeld ein Leerschlag mehr ist als in der richtigen Lösung, wird die Antwort abgesendet. Hat man etwas falsches eingegeben, kann man die Leertaste oder Enter drücken, um weiterzumachen (Wort wird wiederholt) oder "a" drücken, um "meine Antwort war richtig" zu sagen.
 - Die Wörter lernen, nicht die Formatierung. Ob Wörter mit Semikolon, Komma, Schrägstrich, Leerzeichen getrennt sind, spielt keine Rolle.
@@ -24,7 +24,6 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 5. Zur Sicherheit wird nach 14 Wörtern noch einmal überprüft, ob man es sich immer noch gemerkt hat. Wenn nicht, wird wieder zu 4. gesprungen.
 
 ## Online verfügbare Listen
-Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut formattiert, nicht sinnvoll getrennt, nicht von mir abgetippt und teils urheberrechtlich geschützt. Verfügbar sind aber:
 
 [Häufigste französische Präpositionen](/vokabeltraining/abfragen?folder=franz&file=praepositionen)
 
