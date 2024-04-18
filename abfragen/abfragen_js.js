@@ -71,7 +71,7 @@ function remove_spaces_at_end(string) {
 }
 
 function remove_content_in_brackets(string) {
-	index = string.indexOf("(");
+	let index = string.indexOf("(");
 	while (index != -1) {
 		until_bracket = string.substring(0, index);
 		index_of_closing_bracket = string.indexOf(")", index);
@@ -328,8 +328,8 @@ function wiederholen(){
 		knacknuesse.splice(knacknuesse.indexOf(aufgabe), 1);
 		// Repetition of difficult word
 	}
-	if (nicht_sofort_klar.indexOf(liste.fragen[aufgabe]) == -1){
-		nicht_sofort_klar.push(liste.fragen[aufgabe]);
+	if (nicht_sofort_klar.indexOf(aufgabe) == -1){
+		nicht_sofort_klar.push(aufgabe);
 	}
 }
 
@@ -347,22 +347,9 @@ function naechste_frage() {
 function get_knacknuesse(){
 	knacknuesse_string = "";
 	for (i in knacknuesse){
-		knacknuesse_string += get_gefragtes(liste.fragen[knacknuesse[i]]) + "<br>";
+		knacknuesse_string += liste.fragen[knacknuesse[i]][frage_attribut] + " &ndash; " + get_gefragtes(liste.fragen[knacknuesse[i]]) + "<br>";
 	}
 	return knacknuesse_string.substring(0, knacknuesse_string.length - 4);
-}
-
-function get_knacknuesse_json(){
-	knacknuesse_json = {
-    "fragen": nicht_sofort_klar,
-	"hinweis_attribute": liste.hinweis_attribute,
-    "titel": "schwierige_" + liste.titel,
-    "frage_attribut": frage_attribut
-    };
-	//for (i in knacknuesse){
-	//	knacknuesse_json.fragen.push(liste.fragen[knacknuesse[i]]);
-	//}
-	return JSON.stringify(knacknuesse_json);
 }
 
 function download(filename, contained_string) {
@@ -377,34 +364,41 @@ function download(filename, contained_string) {
 }
 
 function fertig(){
-	frage_attribut.innerHTML = "<b>FERTIG! " + String(liste.fragen.length) + " Wörter gelernt!</b>";
+	document.getElementById("fragestellung").innerHTML = "<b>FERTIG! " + String(liste.fragen.length) + " Wörter gelernt!</b>";
 	if (knacknuesse.length == 0){
-		document.getElementById("eingabeaufforderung").innerHTML = "Diese W\u00f6rter sitzen.";
-		
-		download_schwierige_button.hidden = false;
-		progress.hidden = true;
+		document.getElementById("eingabeaufforderung").innerHTML = "Diese W\u00f6rter sitzen.<br>";
 	}
 	else if (knacknuesse.length == 1){
-		document.getElementById("eingabeaufforderung").innerHTML = "Gut gemacht.<br>Nur <i>" + get_knacknuesse() + "</i> war knifflig.";
-		
-		download_schwierige_button.hidden = false;
-		progress.hidden = true;
+		document.getElementById("eingabeaufforderung").innerHTML = "Gut gemacht.<br>" +
+		"Nur <i>" + get_knacknuesse() + "</i> war knifflig.<br>";
 	}
 	else{
 		document.getElementById("eingabeaufforderung").innerHTML = "Geschafft!<br>" +
-		Math.round(100 * (1 - (knacknuesse.length / liste.fragen.length))) + "% sitzen.<br>" +
-		"Schwierig waren diese " + knacknuesse.length + ":<br>" +
-		"<i>" + get_knacknuesse() + "</i>";
-
+		Math.round(100 * (1 - (knacknuesse.length / liste.fragen.length))) + "% sitzen.<br>";
+		
 		//download_schwierige_button.hidden = false;
-		progress.hidden = true;
 	}
+
+    document.getElementById("eingabeaufforderung").innerHTML += "<a href='" + remove_parameter_from_url("progress") + "'>Alle nochmal lernen</a><br>";
+
+	if (nicht_sofort_klar.length > 0) {
+	    document.getElementById("eingabeaufforderung").innerHTML +=
+	    "<a href='" + get_fortschritt_url((frage_nr)=>{return nicht_sofort_klar.indexOf(frage_nr)==-1}) +
+	    "'>Nicht sofort gewusste lernen (" + format_fragenzahl(nicht_sofort_klar.length) + ")</a><br>";
+	}
+	if (knacknuesse.length > 1) {
+		document.getElementById("eingabeaufforderung").innerHTML +="<a href='" + get_fortschritt_url((frage_nr)=>{return knacknuesse.indexOf(frage_nr)==-1}) +
+		"'>Erst nach " + (MAX_UNTIL_KNACKNUSS + 1) + " oder mehr Versuchen gewusste lernen (" + format_fragenzahl(knacknuesse.length) + ")</a><br>" +
+		"Das sind:<br>" +
+		"<i>" + get_knacknuesse() + "</i>";
+	}
+	document.getElementById("fortschritt_kopieren_button").remove();
 	eingabe.remove();
 	
 }
 
-function download_nicht_sofort_gewusste(){
-	download('schwierige.js', "var liste = " + get_knacknuesse_json() + "; erste_aufgabe();");
+function format_fragenzahl(i) {
+    return (i==liste.fragen.length ? "Alle " : "") + i + (i==1 ? " Frage" : " Fragen");
 }
 
 function remove_parameter_from_url(parameter, url=window.location.href) {
@@ -419,12 +413,12 @@ function fortschritt_kopieren() {
 	navigator.clipboard.writeText(get_fortschritt_url());
 }
 
-function get_fortschritt_url() {
-	let learned = [];
+function get_fortschritt_url(ist_gelernt=(frage_nr)=>{return erledigte.indexOf(frage_nr) != -1;}) {
+	let gelernt = [];
 	for (i in liste.fragen) {
-		learned.push(erledigte.indexOf(i) != -1);
+		gelernt.push(ist_gelernt(i));
 	}
-	return get_url_with_parameter("progress", booleans_to_base64url(learned));
+	return get_url_with_parameter("progress", booleans_to_base64url(gelernt));
 }
 
 function frage_attribut_tauschen_moeglich() {	

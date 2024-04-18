@@ -84,4 +84,4 @@ Der Grossteil meiner gut 8000 Vokabeln umfassenden Datenbank ist nicht gut forma
 - [Englisch auf 23. Januar 2023](/vokabeltraining/abfragen?folder=english&file=2023-01-13)
 
 *Note: The source code, the vocabulary lists and the documentation of this project are mainly written in german.*
-*And PLEASE don't look at the source. It's terribly written. You do not want to read it.*
+*And PLEASE don't look at the source unless you are looking for examples of how not to write code.*
