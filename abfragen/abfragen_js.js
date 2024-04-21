@@ -63,7 +63,17 @@ function count_occurrences(list, item){
 	return count;
 }
 
-function remove_spaces_at_end(string) {
+function remove_trailing_spaces(string) {
+	while (string.endsWith(" ")){
+        string = string.substring(0, string.length - 1);
+	}
+	return string;
+}
+
+function trim(string) {
+	while (string.startsWith(" ")){
+		string = string.substring(1, string.length);
+	}
 	while (string.endsWith(" ")){
         string = string.substring(0, string.length - 1);
 	}
@@ -190,7 +200,7 @@ function eingabefeld_onkeyup(){
 }
 
 function antwort_anpassen(antwort){
-	return remove_spaces_at_end(antwort).replaceAll("jemand","jmd") // Deutsch
+	return trim(antwort).replaceAll("jemand","jmd") // Deutsch
 		.replaceAll("jemanden","jmd")
 		.replaceAll("jemandem","jmd")
 		.replaceAll("jmd.","jmd")
@@ -256,7 +266,7 @@ function input_correct(input=eingabe.value){
 	gegebene_antwort.replaceAll("(","").replaceAll(")","")) {
 		return true;
 	}
-	else if (remove_spaces_at_end(
+	else if (trim(
 	remove_content_in_brackets(loesung).replaceAll("  ", " ")) == gegebene_antwort) {
 		return true;
 	}
@@ -292,7 +302,7 @@ function pruefe_eingabe(){
 	}
 
 	beantwortet = true;
-	eingabe.value = remove_spaces_at_end(eingabe.value);
+	eingabe.value = remove_trailing_spaces(eingabe.value);
 	
 	
 	if (input_correct()){
