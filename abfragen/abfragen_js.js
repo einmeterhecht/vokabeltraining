@@ -162,11 +162,11 @@ function frage_laden(){
 	         get_gefragtes().startsWith("l'")){
 		hinweis = " (le/la/l'/les)";
 	}
-	document.getElementById("fragestellung").innerHTML = frage_attribut
+	document.getElementById("fragestellung").innerHTML = frage_attribut.replaceAll("_", " ")
 	+ ": "
 	+ get_frage()[frage_attribut]
 	+ hinweis;
-	document.getElementById("eingabeaufforderung").innerHTML = get_gefragtes_attribut() + ":";
+	document.getElementById("eingabeaufforderung").innerHTML = get_gefragtes_attribut().replaceAll("_", " ") + ":";
 	eingabe.style.background = "#EEEECC";
 	eingabe.value = "";
 	beantwortet = false;
