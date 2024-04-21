@@ -13,6 +13,12 @@ function load_script(path) {
     document.body.appendChild(js);
     // Script is loaded asynchronously -> won't be available immediately
 }
+
+// https://stackoverflow.com/a/3561711
+function escape_regex(string) {
+    return string.replace(/[/\-\\^$*+?.()|[\]{}]/g, '\\$&');
+}
+
 function liste_laden() {
     var sprach_ordner = get_url_parameter("folder");
     var filename = get_url_parameter("file");

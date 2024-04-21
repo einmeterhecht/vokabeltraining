@@ -266,11 +266,25 @@ function input_correct(input=eingabe.value){
 	gegebene_antwort.replaceAll("(","").replaceAll(")","")) {
 		return true;
 	}
-	else if (trim(
-	remove_content_in_brackets(loesung).replaceAll("  ", " ")) == gegebene_antwort) {
+	else if (matches_ignore_brackets(loesung, gegebene_antwort)) {
 		return true;
 	}
 	return false;
+}
+
+function matches_ignore_brackets(loesung, gegebene_antwort) {
+	try {
+		if (count_occurrences(loesung, "(") != count_occurrences(loesung, ")")) return loesung==gegebene_antwort;
+		let pattern = RegExp("^ *" + escape_regex(loesung)
+			.replaceAll(/ \\\(([^\\])*\\\) /g, " *\\($1\\) ")
+			.replaceAll(/\\\(/g, "\\(?(")
+			.replaceAll(/\\\)/g, ")?\\)?") + " *$");
+		// console.log(pattern);
+		return pattern.exec("       " + gegebene_antwort) != null;
+	}
+	catch {
+        return false;
+	}
 }
 
 function submit_eingabe(){
