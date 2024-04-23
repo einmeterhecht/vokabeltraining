@@ -300,19 +300,18 @@ function pruefe_eingabe(){
 	if (beantwortet) {
 		if (eingabe.selectionStart > 0) {
 			char_entered = eingabe.value[eingabe.selectionStart - 1];
-			if (char_entered == "<" || char_entered == ">" || char_entered == "a") {
+			if (char_entered == "a") {
 				// "Antwort war richtig"
 				check_for_knacknuss();
 				naechste_frage();
 			}
-			else if (char_entered == " ") {
+			else {
 				// Naechste Frage
 				wiederholen();
 				naechste_frage();
 			}
-		    return;
-			// Andere Tasten werden ignoriert (Enter wird woanders gefangen)
 		}
+		return;
 	}
 
 	beantwortet = true;
@@ -330,7 +329,7 @@ function pruefe_eingabe(){
 		eingabe.style.background = "#990000";
 		document.getElementById("eingabeaufforderung").innerHTML = "Falsch. Richtig wäre: " + get_gefragtes(get_frage());
 		
-		eingabe.value = eingabe.value + " ";
+		if (eingabe.value != "") eingabe.value = eingabe.value + " ";
 	    eingabe.selectionStart = eingabe.selectionEnd = eingabe.value.length; // Set cursor to end
 	}
 }
