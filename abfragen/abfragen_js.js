@@ -326,8 +326,8 @@ function pruefe_eingabe(){
 		naechste_frage();
 	}
 	else{
-		eingabe.style.background = "#990000";
-		document.getElementById("eingabeaufforderung").innerHTML = "Falsch. Richtig wäre: " + get_gefragtes(get_frage());
+		if (trim(eingabe.value) != "") eingabe.style.background = "#990000";
+		document.getElementById("eingabeaufforderung").innerHTML = "Falsch. Richtig wäre: <b>" + get_gefragtes(get_frage()) + "</b>";
 		
 		if (eingabe.value != "") eingabe.value = eingabe.value + " ";
 	    eingabe.selectionStart = eingabe.selectionEnd = eingabe.value.length; // Set cursor to end
