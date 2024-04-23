@@ -312,8 +312,9 @@ function pruefe_eingabe(pressed_a_key=false){
 		naechste_frage();
 	}
 	else{
-		if (trim(eingabe.value) != "") eingabe.style.background = "#990000";
-		document.getElementById("eingabeaufforderung").innerHTML = "Falsch. Richtig wäre: <b>" + get_gefragtes(get_frage()) + "</b>";
+		let is_empty = trim(eingabe.value) == "";
+		if (!is_empty) eingabe.style.background = "#990000";
+		document.getElementById("eingabeaufforderung").innerHTML = (is_empty ? "" : "Falsch. ") + "Richtig wäre: <b>" + get_gefragtes(get_frage()) + "</b>";
 	    eingabe.selectionStart = eingabe.selectionEnd = eingabe.value.length; // Set cursor to end
 	}
 }
