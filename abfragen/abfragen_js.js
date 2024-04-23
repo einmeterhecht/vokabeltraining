@@ -3,8 +3,6 @@ console.log("abfragen_js.js started");
 var aufgabe_index = 0;
 var beantwortet = false;
 
-var enter_pressed = false;
-
 var aufgaben = [];
 
 var knacknuesse = [];
@@ -135,6 +133,7 @@ function erste_aufgabe(){
 	frage_laden();
 	update_progress();
 	eingabe.focus(); // Cursor ins Eingabefeld setzen
+	document.getElementById("eingabe").addEventListener("keyup", eingabefeld_onkeyup);
 }
 
 function get_gefragte(){
@@ -189,12 +188,11 @@ function update_progress(){
 	
 }
 
-function eingabefeld_onkeyup(){
-	if (enter_pressed) enter_pressed = false;
-	else if (beantwortet){
-		pruefe_eingabe();
+function eingabefeld_onkeyup(e){
+	if (beantwortet){
+		pruefe_eingabe(e.key=="a");
 	}
-	else if (count_occurrences(eingabe.value, " ") > count_occurrences(get_gefragtes(), " ")){
+	else if (e.key=="Enter" || count_occurrences(eingabe.value, " ") > count_occurrences(get_gefragtes(), " ")){
 		pruefe_eingabe();
 	}
 }
@@ -287,29 +285,17 @@ function matches_ignore_brackets(loesung, gegebene_antwort) {
 	}
 }
 
-function submit_eingabe(){
-	if (!enter_pressed){
-		enter_pressed = true;
-		eingabe.value += " ";
-		pruefe_eingabe();
-	}
-	return false;
-}
-
-function pruefe_eingabe(){
+function pruefe_eingabe(pressed_a_key=false){
 	if (beantwortet) {
-		if (eingabe.selectionStart > 0) {
-			char_entered = eingabe.value[eingabe.selectionStart - 1];
-			if (char_entered == "a") {
-				// "Antwort war richtig"
-				check_for_knacknuss();
-				naechste_frage();
-			}
-			else {
-				// Naechste Frage
-				wiederholen();
-				naechste_frage();
-			}
+		if (pressed_a_key) {
+			// "Antwort war richtig"
+			check_for_knacknuss();
+			naechste_frage();
+		}
+		else {
+			// Naechste Frage
+			wiederholen();
+			naechste_frage();
 		}
 		return;
 	}
@@ -328,8 +314,6 @@ function pruefe_eingabe(){
 	else{
 		if (trim(eingabe.value) != "") eingabe.style.background = "#990000";
 		document.getElementById("eingabeaufforderung").innerHTML = "Falsch. Richtig wäre: <b>" + get_gefragtes(get_frage()) + "</b>";
-		
-		if (eingabe.value != "") eingabe.value = eingabe.value + " ";
 	    eingabe.selectionStart = eingabe.selectionEnd = eingabe.value.length; // Set cursor to end
 	}
 }
