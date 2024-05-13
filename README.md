@@ -33,6 +33,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Hauptst&auml;dte Afrikas (Alle)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas)
+
 - [Latein: VIVA Lektion 9](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_9)
 
 - [Englisch auf 15. April 2024](/vokabeltraining/abfragen?folder=g2023k&file=englisch_2024-04-15)
