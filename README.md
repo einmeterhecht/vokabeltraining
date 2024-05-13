@@ -33,6 +33,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Latein: VIVA Lektion 9](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_9)
+
 - [Englisch auf 15. April 2024](/vokabeltraining/abfragen?folder=g2023k&file=englisch_2024-04-15)
 
 - [Franz Le&ccedil;on 4 Entr&eacute;e + 4A](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-04-13)
