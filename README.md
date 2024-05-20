@@ -33,6 +33,10 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Franz&ouml;sisch auf 20. Mai 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-05-20)
+
+- [Franz&ouml;sisch auf 20. Mai 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-05-20)
+
 - [Hauptst&auml;dte Afrikas (Alle)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas)
 
 - [Latein: VIVA Lektion 9](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_9)
