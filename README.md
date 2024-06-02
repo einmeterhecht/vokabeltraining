@@ -33,6 +33,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [English File Elementary, File 8-9](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-10)
+
 - [Franz&ouml;sisch auf 20. Mai 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-05-20)
 
 - [Franz&ouml;sisch auf 20. Mai 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-05-20)
