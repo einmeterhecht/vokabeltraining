@@ -35,6 +35,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Latein: VIVA Lektion 10](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_10)
 
+- [Latein: VIVA Lektionen 5-6](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_5-6)
+
 - [English File Elementary, File 8-9](/vokabeltraining/abfragen?folder=g2023k&file=englisch_2024-06-10)
 
 - [Franz&ouml;sisch auf 20. Mai 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-05-20)
