@@ -125,7 +125,7 @@ var liste = {
                 "liegen"
             ],
             "Latein": [
-                "iac\u0113re (iace\u014d, iacu\u012b)"
+                "iac\u0113re (iace\u014d, iacu\u012b, iactum)"
             ]
         },
         {
