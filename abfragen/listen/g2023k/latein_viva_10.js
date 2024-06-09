@@ -1,203 +1,203 @@
 var liste = {
     "fragen": [
         {
-            "Latein": [
-                "alius"
-            ],
             "Deutsch": [
                 "ein anderer"
+            ],
+            "Latein": [
+                "alius (alia, aliud)"
             ]
         },
         {
-            "Latein": [
-                "c\u0101rus"
-            ],
             "Deutsch": [
                 "teuer, wertvoll, lieb"
+            ],
+            "Latein": [
+                "c\u0101rus (c\u0101ra, c\u0101rum)"
             ]
         },
         {
-            "Latein": [
-                "cupidit\u0101s"
-            ],
             "Deutsch": [
                 "Begierde, Leidenschaft"
+            ],
+            "Latein": [
+                "cupidit\u0101s (cupidit\u0101tis f.)"
             ]
         },
         {
-            "Latein": [
-                "cupidus"
-            ],
             "Deutsch": [
                 "gierig (auf etw.)"
+            ],
+            "Latein": [
+                "cupidus (cupida, cupidum)"
             ]
         },
         {
-            "Latein": [
-                "d\u012bgnus"
-            ],
             "Deutsch": [
                 "w\u00fcrdig "
+            ],
+            "Latein": [
+                "d\u012bgnus (d\u012bgna, d\u012bgnum)"
             ]
         },
         {
-            "Latein": [
-                "eques"
-            ],
             "Deutsch": [
                 "Reiter, Ritter"
+            ],
+            "Latein": [
+                "eques (equitis m.)"
             ]
         },
         {
-            "Latein": [
-                "erg\u014d"
-            ],
             "Deutsch": [
                 "also"
+            ],
+            "Latein": [
+                "erg\u014d"
             ]
         },
         {
-            "Latein": [
-                "forum"
-            ],
             "Deutsch": [
                 "Forum, Marktplatz"
+            ],
+            "Latein": [
+                "forum (for\u012b n.)"
             ]
         },
         {
-            "Latein": [
-                "id\u014dneus"
-            ],
             "Deutsch": [
                 "geeignet (f\u00fcr etw.)"
+            ],
+            "Latein": [
+                "id\u014dneus (id\u014dnea, id\u014dneum)"
             ]
         },
         {
-            "Latein": [
-                "intellegere"
-            ],
             "Deutsch": [
                 "bemerken, verstehen"
+            ],
+            "Latein": [
+                "intellegere (intelleg\u014d, intell\u0113x\u012b, intell\u0113ctum)"
             ]
         },
         {
-            "Latein": [
-                "is"
-            ],
             "Deutsch": [
                 "der, dieser, er"
+            ],
+            "Latein": [
+                "is (ea, id)"
             ]
         },
         {
-            "Latein": [
-                "minim\u0113"
-            ],
             "Deutsch": [
                 "ganz und gar nicht, am wenigsten"
+            ],
+            "Latein": [
+                "minim\u0113"
             ]
         },
         {
-            "Latein": [
-                "mon\u0113re"
-            ],
             "Deutsch": [
                 "(er)mahnen"
+            ],
+            "Latein": [
+                "mon\u0113re (mone\u014d, monu\u012b, monitum)"
             ]
         },
         {
-            "Latein": [
-                "neglegere"
-            ],
             "Deutsch": [
                 "nicht beachten, missachten, vernachl\u00e4ssigen"
+            ],
+            "Latein": [
+                "neglegere (negleg\u014d, negl\u0113x\u012b, negl\u0113ctum)"
             ]
         },
         {
-            "Latein": [
-                "novus"
-            ],
             "Deutsch": [
                 "neu"
+            ],
+            "Latein": [
+                "novus (nova, novum)"
             ]
         },
         {
-            "Latein": [
-                "numquam"
-            ],
             "Deutsch": [
                 "niemals"
+            ],
+            "Latein": [
+                "numquam"
             ]
         },
         {
-            "Latein": [
-                "\u014drn\u0101mentum"
-            ],
             "Deutsch": [
                 "Schmuck"
+            ],
+            "Latein": [
+                "\u014drn\u0101mentum (\u014drn\u0101ment\u012b n.)"
             ]
         },
         {
-            "Latein": [
-                "p\u0101nis"
-            ],
             "Deutsch": [
                 "Brot"
+            ],
+            "Latein": [
+                "p\u0101nis (p\u0101nis m.)"
             ]
         },
         {
-            "Latein": [
-                "pec\u016bnia"
-            ],
             "Deutsch": [
                 "Geld"
+            ],
+            "Latein": [
+                "pec\u016bnia (pec\u016bniae f.)"
             ]
         },
         {
-            "Latein": [
-                "pretium"
-            ],
             "Deutsch": [
                 "Preis, Lohn"
+            ],
+            "Latein": [
+                "pretium (preti\u012b n.)"
             ]
         },
         {
-            "Latein": [
-                "profect\u014d"
-            ],
             "Deutsch": [
                 "in der Tat, sicherlich"
+            ],
+            "Latein": [
+                "profect\u014d"
             ]
         },
         {
-            "Latein": [
-                "quid"
-            ],
             "Deutsch": [
                 "was?"
+            ],
+            "Latein": [
+                "quid"
             ]
         },
         {
-            "Latein": [
-                "toga"
-            ],
             "Deutsch": [
                 "Toga"
+            ],
+            "Latein": [
+                "toga (togae f.)"
             ]
         },
         {
-            "Latein": [
-                "varius"
-            ],
             "Deutsch": [
                 "verschieden, bunt, vielf\u00e4ltig"
+            ],
+            "Latein": [
+                "varius (varia, varium)"
             ]
         },
         {
-            "Latein": [
-                "vestis"
-            ],
             "Deutsch": [
                 "Bekleidung"
+            ],
+            "Latein": [
+                "vestis (vestis f.)"
             ]
         }
     ],
