@@ -61,7 +61,7 @@ var liste = {
                 "Forum, Marktplatz"
             ],
             "Latein": [
-                "forum (for\u012b n.)"
+                "forum"
             ]
         },
         {
@@ -133,7 +133,7 @@ var liste = {
                 "Schmuck"
             ],
             "Latein": [
-                "\u014drn\u0101mentum (\u014drn\u0101ment\u012b n.)"
+                "\u014drn\u0101mentum"
             ]
         },
         {
@@ -149,7 +149,7 @@ var liste = {
                 "Geld"
             ],
             "Latein": [
-                "pec\u016bnia (pec\u016bniae f.)"
+                "pec\u016bnia"
             ]
         },
         {
@@ -157,7 +157,7 @@ var liste = {
                 "Preis, Lohn"
             ],
             "Latein": [
-                "pretium (preti\u012b n.)"
+                "pretium"
             ]
         },
         {
@@ -181,7 +181,7 @@ var liste = {
                 "Toga"
             ],
             "Latein": [
-                "toga (togae f.)"
+                "toga"
             ]
         },
         {

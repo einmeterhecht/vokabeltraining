@@ -69,7 +69,7 @@ var liste = {
                 "List"
             ],
             "Latein": [
-                "dolus (dol\u012b m.)"
+                "dolus"
             ]
         },
         {
@@ -101,7 +101,7 @@ var liste = {
                 "Schwert"
             ],
             "Latein": [
-                "gladius (gladi\u012b m.)"
+                "gladius"
             ]
         },
         {
@@ -117,7 +117,7 @@ var liste = {
                 "Stunde"
             ],
             "Latein": [
-                "h\u014dra (h\u014drae f.)"
+                "h\u014dra"
             ]
         },
         {
@@ -157,7 +157,7 @@ var liste = {
                 "Volk"
             ],
             "Latein": [
-                "populus (popul\u012b m.)"
+                "populus"
             ]
         },
         {
@@ -165,7 +165,7 @@ var liste = {
                 "Kampf, Schlacht"
             ],
             "Latein": [
-                "p\u016bgna (p\u016bgnae f.)"
+                "p\u016bgna"
             ]
         },
         {
@@ -173,7 +173,7 @@ var liste = {
                 "k\u00e4mpfen"
             ],
             "Latein": [
-                "p\u016bgn\u0101re (p\u016bgn\u014d, p\u016bgn\u0101v\u012b, p\u016bgn\u0101tum)"
+                "p\u016bgn\u0101re (p\u016bgno, -av\u012b, -atum)"
             ]
         },
         {
@@ -197,7 +197,7 @@ var liste = {
                 "gr\u00fcssen"
             ],
             "Latein": [
-                "sal\u016bt\u0101re (sal\u016bt\u014d, sal\u016bt\u0101v\u012b, sal\u016bt\u0101tum)"
+                "sal\u016bt\u0101re (sal\u016bto, -av\u012b, -atum)"
             ]
         },
         {
@@ -205,7 +205,7 @@ var liste = {
                 "Zeichen, Feldzeichen, Statue"
             ],
             "Latein": [
-                "s\u012bgnum (s\u012bgn\u012b n.)"
+                "s\u012bgnum"
             ]
         },
         {
@@ -229,7 +229,7 @@ var liste = {
                 "Leben"
             ],
             "Latein": [
-                "v\u012bta (v\u012btae f.)"
+                "v\u012bta"
             ]
         },
         {
@@ -261,7 +261,7 @@ var liste = {
                 "erfreuen, jmdm. Spass machen"
             ],
             "Latein": [
-                "d\u0113lect\u0101re (d\u0113lect\u014d, d\u0113lect\u0101v\u012b, d\u0113lect\u0101tum)"
+                "d\u0113lect\u0101re (d\u0113lecto, -av\u012b, -atum)"
             ]
         },
         {
@@ -309,7 +309,7 @@ var liste = {
                 "Spiel, Wettkampf, Schule"
             ],
             "Latein": [
-                "l\u016bdus (l\u016bd\u012b m.)"
+                "l\u016bdus"
             ]
         },
         {
@@ -317,7 +317,7 @@ var liste = {
                 "Ehemann"
             ],
             "Latein": [
-                "mar\u012btus (mar\u012bt\u012b m.)"
+                "mar\u012btus"
             ]
         },
         {
@@ -381,7 +381,7 @@ var liste = {
                 "Opfer"
             ],
             "Latein": [
-                "sacrificium (sacrifici\u012b n.)"
+                "sacrificium"
             ]
         },
         {
