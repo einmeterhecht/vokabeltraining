@@ -53,7 +53,7 @@ var liste = {
                 "F"
             ],
             "Element": [
-                "F"
+                "Fluor"
             ]
         },
         {
@@ -176,9 +176,16 @@ var liste = {
                 "Kupfer"
             ]
         },
+            "Symbol": [
+                "Zn"
+            ],
+            "Element": [
+                "Zink"
+            ]
+        },
         {
             "Symbol": [
-                "Zn Zink\nBr"
+                "Br"
             ],
             "Element": [
                 "Brom"
