@@ -33,6 +33,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Wichtigste chemische Elemente](/vokabeltraining/abfragen?folder=g2023k&file=wichtigste_elemente)
+
 - [Latein: VIVA Lektion 10](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_10)
 
 - [Latein: VIVA Lektionen 5-6](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_5-6)
