@@ -176,6 +176,7 @@ var liste = {
                 "Kupfer"
             ]
         },
+        {
             "Symbol": [
                 "Zn"
             ],
