@@ -33,6 +33,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Hauptst&auml;dte Asiens](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_asiens)
+
 - [Wichtigste chemische Elemente](/vokabeltraining/abfragen?folder=g2023k&file=wichtigste_elemente)
 
 - [Latein: VIVA Lektion 10](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_10)
