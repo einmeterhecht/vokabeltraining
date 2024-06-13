@@ -273,10 +273,10 @@ function input_correct(input=eingabe.value){
 function matches_ignore_brackets(loesung, gegebene_antwort) {
 	try {
 		if (count_occurrences(loesung, "(") != count_occurrences(loesung, ")")) return loesung==gegebene_antwort;
-		let pattern = RegExp("^ *" + escape_regex(loesung)
-			.replaceAll(/ \\\(([^\\])*\\\) /g, " *\\($1\\) ")
-			.replaceAll(/\\\(/g, "\\(?(")
-			.replaceAll(/\\\)/g, ")?\\)?") + " *$");
+		let pattern = RegExp("^ *"
+			+ escape_regex(loesung)
+			  .replaceAll(/( ?)\\\(([^\\]*)\\\)/g, "($1\\(?$2\\)?)?")
+			+ " *$");
 		// console.log(pattern);
 		return pattern.exec("       " + gegebene_antwort) != null;
 	}
