@@ -1,10 +1,10 @@
 Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optimiert.
 
 ## Letzte Änderungen:
+- Was in Klammern steht, kann man weglassen, sogar wenn es mehrere Teile in Klammern gibt
 - Wenn man mit einer Liste durch ist, kann man jetzt mit nur den nicht gewussten Fragen weiterlernen.
 - Man kann nun tauschen, in welche Richtung gelernt wird. Dafür gibt es auf der rechten Seite einen &#x21c5;-Knopf.
-- Man kann den jetzigen Fortschritt bei einer Liste als URL kopieren.
-- Semikolon, Komma, Schrägstriche etc können jetzt ganz weggelassen werden.
+- Trennzeichen (Komma, Semikolon, Schrägstriche) und Klammern können jetzt ganz weggelassen werden.
 
 ## Alleinstellungsmerkmale
 - Aufgeräumtes Design
