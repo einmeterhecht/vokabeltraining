@@ -33,6 +33,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Franz&ouml;sisch auf 17. Juni 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-06-17)
+
 - [Hauptst&auml;dte Asiens](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_asiens)
 
 - [Wichtigste chemische Elemente](/vokabeltraining/abfragen?folder=g2023k&file=wichtigste_elemente)
