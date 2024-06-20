@@ -39,6 +39,19 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Wichtigste chemische Elemente](/vokabeltraining/abfragen?folder=g2023k&file=wichtigste_elemente)
 
+### Für g2020c:
+
+- [Englisch auf 25. Juni 2024 - Teil 1: EF Additional Vocabulary 1-6](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-25_1)
+
+- [Englisch auf 6. Juni 2024](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-06)
+
+- [Griechisch auf 4. Juni 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_24-30)
+
+<details>
+<summary>Archiv</summary>
+
+### Für g2023k:
+
 - [Latein: VIVA Lektion 10](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_10)
 
 - [Latein: VIVA Lektionen 5-6](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_5-6)
@@ -73,13 +86,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Latein auf 18. Januar 2024](/vokabeltraining/abfragen?folder=g2023k&file=latein_2024-01-18)
 
+
 ### Für g2020c:
-
-- [Englisch auf 25. Juni 2024 - Teil 1: EF Additional Vocabulary 1-6](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-25)
-
-- [Englisch auf 6. Juni 2024](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-06)
-
-- [Griechisch auf 4. Juni 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_24-30)
 
 - [Franz&ouml;sisch auf 3. Juni 2024](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-06-03)
 
@@ -109,6 +117,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 - [Französisch auf 1. Februar 2023 (GAWS S. 250-264)](/vokabeltraining/abfragen?folder=franz&file=2023-02-01)
 
 - [Englisch auf 23. Januar 2023](/vokabeltraining/abfragen?folder=english&file=2023-01-13)
+
+</details>
 
 *Note: The source code, the vocabulary lists and the documentation of this project are mainly written in german.*
 *And PLEASE don't look at the source unless you are looking for examples of how not to write code.*
