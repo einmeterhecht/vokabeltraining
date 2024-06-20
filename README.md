@@ -49,10 +49,11 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Griechisch auf 4. Juni 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_24-30)
 
-<details>
-  <summary>Archiv</summary>
+---
 
-Für g2023k:
+## Archiv
+
+### Für g2023k:
 
 - [Latein: VIVA Lektion 10](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_10)
 
@@ -89,7 +90,7 @@ Für g2023k:
 - [Latein auf 18. Januar 2024](/vokabeltraining/abfragen?folder=g2023k&file=latein_2024-01-18)
 
 
-Für g2020c:
+### Für g2020c:
 
 - [Englisch auf 25. Juni 2024 - Teil 3: EF Intermediate alles](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-25)
 
@@ -110,7 +111,7 @@ Für g2020c:
 - [Griechisch auf 19.12.2023](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2023-12-19)
 
 
-Für g2017b:
+### Für g2017b:
 
 - [Englisch auf 20. Dezember 2023](/vokabeltraining/abfragen?folder=g2023k&file=englisch_2023-12-20)
 
@@ -121,8 +122,6 @@ Für g2017b:
 - [Französisch auf 1. Februar 2023 (GAWS S. 250-264)](/vokabeltraining/abfragen?folder=franz&file=2023-02-01)
 
 - [Englisch auf 23. Januar 2023](/vokabeltraining/abfragen?folder=english&file=2023-01-13)
-
-</details>
 
 
 *Note: The source code, the vocabulary lists and the documentation of this project are mainly written in german.*
