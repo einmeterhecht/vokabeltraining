@@ -48,7 +48,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 - [Griechisch auf 4. Juni 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_24-30)
 
 <details>
-<summary>Archiv</summary>
+<summary>Archiv</summary> 
+
 
 ### Für g2023k:
 
@@ -119,6 +120,7 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 - [Englisch auf 23. Januar 2023](/vokabeltraining/abfragen?folder=english&file=2023-01-13)
 
 </details>
+
 
 *Note: The source code, the vocabulary lists and the documentation of this project are mainly written in german.*
 *And PLEASE don't look at the source unless you are looking for examples of how not to write code.*
