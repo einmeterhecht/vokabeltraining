@@ -1,7 +1,3 @@
----
-title: "Vokabeltraining"
----
-
 Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optimiert.
 
 ## Letzte Änderungen:
