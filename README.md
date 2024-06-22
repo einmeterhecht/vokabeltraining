@@ -1,6 +1,7 @@
 Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optimiert.
 
 ## Letzte Änderungen:
+- "to " am Wortanfang kann weggelassen werden
 - Was in Klammern steht, kann man weglassen, sogar wenn es mehrere Teile in Klammern gibt
 - Wenn man mit einer Liste durch ist, kann man jetzt mit nur den nicht gewussten Fragen weiterlernen.
 - Man kann nun tauschen, in welche Richtung gelernt wird. Dafür gibt es auf der rechten Seite einen &#x21c5;-Knopf.
@@ -41,9 +42,9 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2020c:
 
-- [Englisch auf 25. Juni 2024 - Teil 2: EF additional vocab 7-10](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-25_2)
-
 - [Englisch auf 25. Juni 2024 - Teil 1: EF Additional Vocabulary 1-6](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-25_1)
+
+- [Englisch auf 25. Juni 2024 - Teil 2: EF Additional Vocabulary 7-10](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-25_2)
 
 - [Englisch auf 25. Juni 2024 - Teil 3: EF Intermediate alles](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-25_3)
 

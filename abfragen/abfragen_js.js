@@ -210,6 +210,7 @@ function antwort_anpassen(antwort){
 		.replaceAll("sb's","sbs")
 		.replaceAll("sth.","sth")
 		.replaceAll("something","sth")
+		.replaceAll(/^to /g,"")
 		.replaceAll("qn.","qn") // Franzoesisch
 		.replaceAll("qc.","qc")
 		.replaceAll("gen.","gen") // Latein
