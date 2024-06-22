@@ -261,12 +261,12 @@ var liste = {
                 "CV (BE), r\u00e9sum\u00e9 (AE)"
             ],
             "Deutsch": [
-                ""
+                "Lebenslauf"
             ]
         },
         {
             "Englisch": [
-                "Lebenslauf, Curriculum Vitae\nsalary"
+                "salary"
             ],
             "Deutsch": [
                 "Gehalt, Besoldung"
