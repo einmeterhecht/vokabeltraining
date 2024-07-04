@@ -42,6 +42,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2020c:
 
+- [Latein Lernwortschatz zu Caesars bello gallico](/vokabeltraining/abfragen?folder=g2020c&file=latein_lws-caesar)
+
 - [Englisch auf 25. Juni 2024 - Teil 1: EF Additional Vocabulary 1-6](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-25_1)
 
 - [Englisch auf 25. Juni 2024 - Teil 2: EF Additional Vocabulary 7-10](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-25_2)
@@ -94,6 +96,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 
 ### Für g2020c:
+
+- [Latein Lernwortschatz zu Caesars bello gallico](/vokabeltraining/abfragen?folder=g2020c&file=latein_lws-caesar)
 
 - [Franz&ouml;sisch auf 3. Juni 2024](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-06-03)
 
