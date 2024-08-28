@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Latein: VIVA Lektion 11](/vokabeltraining/abfragen?folder=g2023k&file=Latein_viva_11)
+
 - [Franz&ouml;sisch auf 17. Juni 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-06-17)
 
 - [Hauptst&auml;dte Asiens](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_asiens)
@@ -59,6 +61,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Latein: VIVA Lektion 11](/vokabeltraining/abfragen?folder=g2023k&file=Latein_viva_11)
 
 - [Latein: VIVA Lektion 10](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_10)
 
