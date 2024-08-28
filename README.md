@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Franz&ouml;sisch CI 1, Atelier B](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_B)
+
 - [Latein: VIVA Lektion 11](/vokabeltraining/abfragen?folder=g2023k&file=Latein_viva_11)
 
 - [Franz&ouml;sisch auf 17. Juni 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-06-17)
@@ -61,6 +63,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Franz&ouml;sisch CI 1, Atelier B](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_B)
 
 - [Latein: VIVA Lektion 11](/vokabeltraining/abfragen?folder=g2023k&file=Latein_viva_11)
 
