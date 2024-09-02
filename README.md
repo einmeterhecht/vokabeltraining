@@ -48,6 +48,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2020c:
 
+- [Griechisch Kairos 31-34](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_31-34)
+
 - [Latein Lernwortschatz zu Caesars bello gallico](/vokabeltraining/abfragen?folder=g2020c&file=latein_lws-caesar)
 
 - [Englisch auf 25. Juni 2024 - Teil 1: EF Additional Vocabulary 1-6](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-25_1)
@@ -108,6 +110,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 
 ### Für g2020c:
+
+- [Griechisch Kairos 31-34](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_31-34)
 
 - [Latein Lernwortschatz zu Caesars bello gallico](/vokabeltraining/abfragen?folder=g2020c&file=latein_lws-caesar)
 
