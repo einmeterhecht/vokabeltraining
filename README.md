@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Latein Stammformen 7-8](/vokabeltraining/abfragen?folder=g2023k&file=latein_StaFo_7-8)
+
 - [Latein: VIVA Lektion 12](/vokabeltraining/abfragen?folder=g2023k&file=Latein_2024-09-08)
 
 - [Franz&ouml;sisch CI 1, Atelier C](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_C)
@@ -69,6 +71,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Latein Stammformen 7-8](/vokabeltraining/abfragen?folder=g2023k&file=latein_StaFo_7-8)
 
 - [Franz&ouml;sisch CI 1, Atelier C](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_C)
 
