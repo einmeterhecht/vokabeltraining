@@ -1,7 +1,7 @@
 var liste = {
     "fragen": [
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "aedific\u0101re"
             ],
             "Deutsch": [
@@ -9,7 +9,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "am\u012bcus"
             ],
             "Deutsch": [
@@ -17,7 +17,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ant\u012bquus"
             ],
             "Deutsch": [
@@ -25,7 +25,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "bellum"
             ],
             "Deutsch": [
@@ -33,7 +33,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "contr\u0101"
             ],
             "Deutsch": [
@@ -41,7 +41,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "d\u0113l\u012bber\u0101re"
             ],
             "Deutsch": [
@@ -49,7 +49,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "d\u016bcere"
             ],
             "Deutsch": [
@@ -57,7 +57,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "f\u012bnis"
             ],
             "Deutsch": [
@@ -65,7 +65,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "g\u0113ns"
             ],
             "Deutsch": [
@@ -73,7 +73,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "inv\u012bt\u0101re"
             ],
             "Deutsch": [
@@ -81,7 +81,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "multum"
             ],
             "Deutsch": [
@@ -89,7 +89,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "par\u0101re"
             ],
             "Deutsch": [
@@ -97,7 +97,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "postquam"
             ],
             "Deutsch": [
@@ -105,7 +105,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "rapere"
             ],
             "Deutsch": [
@@ -113,7 +113,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "sine"
             ],
             "Deutsch": [
@@ -121,7 +121,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "s\u014dlus"
             ],
             "Deutsch": [
@@ -129,7 +129,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "tamquam"
             ],
             "Deutsch": [
@@ -137,7 +137,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "\u016bnus"
             ],
             "Deutsch": [
@@ -145,7 +145,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "urbs"
             ],
             "Deutsch": [
@@ -153,7 +153,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "v\u012bvere"
             ],
             "Deutsch": [
@@ -161,7 +161,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "vol\u0101re"
             ],
             "Deutsch": [

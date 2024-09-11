@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Latein: VIVA Lektion 12](/vokabeltraining/abfragen?folder=g2023k&file=Latein_2024-09-08)
+
 - [Franz&ouml;sisch CI 1, Atelier C](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_C)
 
 - [Franz&ouml;sisch CI 1, Atelier B](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_B)
@@ -47,8 +49,6 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 - [Wichtigste chemische Elemente](/vokabeltraining/abfragen?folder=g2023k&file=wichtigste_elemente)
 
 ### Für g2020c:
-
-- [Latein: VIVA Lektion 12](/vokabeltraining/abfragen?folder=g2020c&file=Latein_2024-09-08)
 
 - [Griechisch Kairos 31-34](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_31-34)
 
