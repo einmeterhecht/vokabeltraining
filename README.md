@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Franz&ouml;sisch CI 1, entree](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-09-24)
+
 - [Latein Stammformen 7-8](/vokabeltraining/abfragen?folder=g2023k&file=latein_StaFo_7-8)
 
 - [Latein: VIVA Lektion 12](/vokabeltraining/abfragen?folder=g2023k&file=Latein_2024-09-08)
