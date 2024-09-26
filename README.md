@@ -56,6 +56,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2020c:
 
+- [Franz&ouml;sisch: 24.9 2024](/vokabeltraining/abfragen?folder=g2020c&file=franz_24.9_2024)
+
 - [Griechisch Kairos 31-34](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_31-34)
 
 - [Latein Lernwortschatz zu Caesars bello gallico](/vokabeltraining/abfragen?folder=g2020c&file=latein_lws-caesar)
@@ -120,6 +122,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 
 ### Für g2020c:
+
+- [Franz&ouml;sisch: 24.9 2024](/vokabeltraining/abfragen?folder=g2020c&file=franz_24.9_2024)
 
 - [Latein: VIVA Lektion 12](/vokabeltraining/abfragen?folder=g2020c&file=Latein_2024-09-08)
 
