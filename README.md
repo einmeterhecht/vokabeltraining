@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Franz CI Lektion 6 entrée](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_entrée)
+
 - [Latein VIVA Lektion 15](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_15)
 
 - [Latein VIVA Lektion 14](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_14)
@@ -83,6 +85,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Franz CI Lektion 6 entrée](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_entrée)
 
 - [Latein VIVA Lektion 15](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_15)
 
