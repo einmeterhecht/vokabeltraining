@@ -42,19 +42,19 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Latein VIVA Lektion 14](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_14)
 
-- [Englisch_2.10.24](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_2.10.24)
-
 - [Latein: VIVA Lektion 13](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_13)
 
-- [Franz&ouml;sisch CI 1, entree](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-09-24)
+- [Englisch_2.10.24](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_2.10.24)
+
+- [Franz CI 1 Lektion 5 entree](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-09-24)
 
 - [Latein Stammformen 7-8](/vokabeltraining/abfragen?folder=g2023k&file=latein_StaFo_7-8)
 
 - [Latein: VIVA Lektion 12](/vokabeltraining/abfragen?folder=g2023k&file=Latein_2024-09-08)
 
-- [Franz&ouml;sisch CI 1, Atelier C](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_C)
+- [Franz&ouml;sisch CI 1 Lektion 7 C](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_C)
 
-- [Franz&ouml;sisch CI 1, Atelier B](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_B)
+- [Franz&ouml;sisch CI 1 Lektion 7 B](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_B)
 
 - [Latein: VIVA Lektion 11](/vokabeltraining/abfragen?folder=g2023k&file=Latein_viva_11)
 
