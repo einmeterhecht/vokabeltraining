@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Franz&ouml;sisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
+
 - [Franz&ouml;sisch_2: 2024-10-25](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-10-25)
 
 - [Franz&ouml;sisch CI Lektion 6 A](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_A)
@@ -93,6 +95,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Franz&ouml;sisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
 
 - [Franz&ouml;sisch_2: 2024-10-25](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-10-25)
 
