@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Latein VIVA Lektion 1-15](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_1-15)
+
 - [Franz&ouml;sisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
 
 - [Franz&ouml;sisch_2: 2024-10-25](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-10-25)
@@ -95,6 +97,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Latein VIVA Lektion 1-15](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_1-15)
 
 - [Franz&ouml;sisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
 
