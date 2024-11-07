@@ -1,803 +1,1043 @@
 var liste = {
     "fragen": [
         {
-            "Latein": [
+            "Stammformen": [
                 "abire"
             ],
-            "Stammformen": [
-                "abeo, abii,\tabitum"
+            "Deutsch": [
+                "abeo, abii, abitum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "accipere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "accipio, accepi, acceptum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "adesse"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "adsum, affui, -"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "adire"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "adeo, adii, aditum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "aedificare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "aedifico, aedificavi, aedificatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "agere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "ago, egi, actum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "amare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "amo, amavi, amatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "amittere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "amitto, amisi, amissum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "apportare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "apporto, apportavi, apportatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "ardere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "ardeo, arsi, -"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "audire"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "audio, audivi, auditum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "augere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "augeo, auxi, auctum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "cantare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "canto, cantavi, cantatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "capere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "capio, cepi, captum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "censere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "censeo, censui, censum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "clamare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "clamo, clamavi, clamatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "comperire"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "comperio, comperi, compertum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "complere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "compleo, complevi, completum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "comprehendere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "comprehendo, comprehendi, comprehensum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "constare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "consto, constiti, -"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "constare (3. Sg.)"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "constat, constitit, -"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "contendere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "contendo, contendi, contentum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "convenire"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "convenio, conveni, conventum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "credere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "credo, credidi, creditum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "cupere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "cupio, cupivi, cupitum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "curare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "curo, curavi, curatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "currere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "curro, cucurri, cursum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "dare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "do, dedi, datum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "debere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "debeo, debui, debitum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "delectare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "delecto, delectavi, delectatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "delere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "deleo, delevi, deletum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "deliberare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "delibero, deliberavi, deliberatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "demonstrare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "demonstro, demonstravi, demonstratum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "desinere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "desino, desii, desitum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "desperare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "despero, desperavi, desperatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "dicere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "dico, dixi, dictum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "ducere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "duco, duxi, ductum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "emere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "emo, emi, emptum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "eripere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "eripio, eripui, ereptum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "errare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "erro, erravi, erratum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "esse"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "sum, fui, -"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "exspectare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "exspecto, exspectavi, exspectatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "exstinguere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "exstinguo, exstinxi, exstinctum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "facere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "facio, feci, factum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "flere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "fleo, flevi, fletum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "fundere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "fundo, fudi, fusum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "gaudere + Abl."
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "gaudeo, gavisus sum, -"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "habere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "habeo, habui, habitum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "habitare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "habito, habitavi, habitatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "haerere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "haereo, haesi, haesum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "iacere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "iaceo, iacui, -"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "ignorare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "ignoro, ignoravi, ignoratum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "non ignorare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "non ignoro, non ignoravi, non ignoratum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "immolare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "immolo, immolavi, immolatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "implorare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "imploro, imploravi, imploratum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "incipere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "incipio, coepi, coeptum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "incitare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "incito, incitavi, incitatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "intellegere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "intellego, intellexi, intellectum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "intrare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "intro, intravi, intratum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "invenire"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "invenio, inveni, inventum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "invitare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "invito, invitavi, invitatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "ire"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "eo, ii, itum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "iubere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "iubeo, iussi, iussum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "iuvare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "iuvo, iuvi, iutum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "laborare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "laboro, laboravi, laboratum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "legere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "lego, legi, lectum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "ludere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "ludo, lusi, lusum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "monere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "moneo, monui, monitum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "movere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "moveo, movi, motum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "narrare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "narro, narravi, narratum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "necare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "neco, necavi, necatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "neglegere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "neglego, neglexi, neglectum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "nescire"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "nescio, nescivi, nescitum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "nubere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "Dat., nubo, nupsi, nuptum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "parare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "paro, paravi, paratum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "parere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "pareo, parui, paritum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "parere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "pario, peperi, partum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "pergere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "pergo, perrexi, perrectum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "petere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "peto, petivi, petitum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "placare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "placo, placavi, placatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "placere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "placeo, placui, placitum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "ponere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "pono, posui, positum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "posse"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "possum, potui, -"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "praebere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "praebeo, praebui, praebitum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "promittere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "promitto, promisi, promissum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "properare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "propero, properavi, properatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "pugnare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "pugno, pugnavi, pugnatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "putare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "puto, putavi, putatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "quaerere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "quaero, quaesivi, quaesitum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "quaerere ex"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "quaero ex, quaesivi ex, quaesitum ex"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "rapere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "rapio, rapui, raptum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "recipere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "recipio, recepi, receptum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "se recipere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "se recipio, se recepi, se receptum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "relinquere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "relinquo, reliqui, relictum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "remanere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "remaneo, remansi, -"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "removere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "removeo, removi, remotum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "reparare"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "reparo, reparavi, reparatum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "repellere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "repello, reppuli, repulsum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "reprehendere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "reprehendo, reprehendi, reprehensum"
             ]
         },
         {
-            "Latein": [
+            "Stammformen": [
                 "resistere"
             ],
-            "Stammformen": [
+            "Deutsch": [
                 "resisto, restiti, -"
+            ]
+        },
+        {
+            "Stammformen": [
+                "respond\u0113re, responde\u014d, respond\u012b, resp\u014dnsum"
+            ],
+            "Deutsch": [
+                "antworten"
+            ]
+        },
+        {
+            "Stammformen": [
+                "restituere, restitu\u014d, restitu\u012b, restit\u016btum"
+            ],
+            "Deutsch": [
+                "wiederherstellen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "r\u012bd\u0113re, r\u012bde\u014d, r\u012bs\u012b, r\u012bsum"
+            ],
+            "Deutsch": [
+                "lachen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "rog\u0101re, rog\u014d, rog\u0101v\u012b, rog\u0101tum"
+            ],
+            "Deutsch": [
+                "1. fragen 2. bitten"
+            ]
+        },
+        {
+            "Stammformen": [
+                "rumpere, rump\u014d, r\u016bp\u012b, ruptum"
+            ],
+            "Deutsch": [
+                "(zer)brechen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "sal\u016bt\u0101re, sal\u016bt\u014d, sal\u016bt\u0101v\u012b, sal\u016bt\u0101tum"
+            ],
+            "Deutsch": [
+                "gr\u00fcssen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "sc\u012bre, sci\u014d, sc\u012bv\u012b, sc\u012btum"
+            ],
+            "Deutsch": [
+                "wissen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "serv\u0101re, serv\u014d, serv\u0101v\u012b, serv\u0101tum"
+            ],
+            "Deutsch": [
+                "retten, bewahren"
+            ]
+        },
+        {
+            "Stammformen": [
+                "simul\u0101re, simul\u014d, simul\u0101v\u012b, simul\u0101tum"
+            ],
+            "Deutsch": [
+                "vort\u00e4uschen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "spect\u0101re, spect\u014d, spect\u0101v\u012b, spect\u0101tum"
+            ],
+            "Deutsch": [
+                "betrachten, (hin)schauen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "sp\u0113r\u0101re, sp\u0113r\u014d, sp\u0113r\u0101v\u012b, sp\u0113r\u0101tum"
+            ],
+            "Deutsch": [
+                "hoffen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "st\u0101re, st\u014d, stet\u012b, statum"
+            ],
+            "Deutsch": [
+                "stehen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "stud\u0113re + Dat., stude\u014d, studu\u012b, studitum"
+            ],
+            "Deutsch": [
+                "sich bem\u00fchen (um)"
+            ]
+        },
+        {
+            "Stammformen": [
+                "tac\u0113re, tace\u014d, tacu\u012b, tacitum"
+            ],
+            "Deutsch": [
+                "schweigen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "tim\u0113re, time\u014d, timu\u012b, -"
+            ],
+            "Deutsch": [
+                "(sich) f\u00fcrchten (vor)"
+            ]
+        },
+        {
+            "Stammformen": [
+                "tim\u0113re, n\u0113, time\u014d, n\u0113, timu\u012b, n\u0113, -"
+            ],
+            "Deutsch": [
+                "f\u00fcrchten, dass"
+            ]
+        },
+        {
+            "Stammformen": [
+                "toler\u0101re, toler\u014d, toler\u0101v\u012b, toler\u0101tum"
+            ],
+            "Deutsch": [
+                "ertragen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "tr\u0101dere, tr\u0101d\u014d, tr\u0101did\u012b, tr\u0101ditum"
+            ],
+            "Deutsch": [
+                "1. \u00fcbergeben, 2. \u00fcberliefern"
+            ]
+        },
+        {
+            "Stammformen": [
+                "trahere, trah\u014d, tr\u0101x\u012b, tr\u0101ctum"
+            ],
+            "Deutsch": [
+                "ziehen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "tr\u0101ns\u012bre, tr\u0101nse\u014d, tr\u0101nsi\u012b, tr\u0101nsitum"
+            ],
+            "Deutsch": [
+                "hin\u00fcbergehen, \u00fcberqueren"
+            ]
+        },
+        {
+            "Stammformen": [
+                "tribuere, tribu\u014d, tribu\u012b, trib\u016btum"
+            ],
+            "Deutsch": [
+                "zuteilen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "v\u0113ndere, v\u0113nd\u014d, v\u0113ndid\u012b, v\u0113nditum"
+            ],
+            "Deutsch": [
+                "verkaufen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "ven\u012bre, veni\u014d, v\u0113n\u012b, ventum"
+            ],
+            "Deutsch": [
+                "kommen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "verber\u0101re, verber\u014d, verber\u0101v\u012b, verber\u0101tum"
+            ],
+            "Deutsch": [
+                "pr\u00fcgeln"
+            ]
+        },
+        {
+            "Stammformen": [
+                "vertere, vert\u014d, vert\u012b, versum"
+            ],
+            "Deutsch": [
+                "drehen, wenden"
+            ]
+        },
+        {
+            "Stammformen": [
+                "vid\u0113re, vide\u014d, v\u012bd\u012b, v\u012bsum"
+            ],
+            "Deutsch": [
+                "sehen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "vincere, vinc\u014d, v\u012bc\u012b, victum"
+            ],
+            "Deutsch": [
+                "(be)siegen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "v\u012bvere, v\u012bv\u014d, v\u012bx\u012b, v\u012bctum"
+            ],
+            "Deutsch": [
+                "leben"
+            ]
+        },
+        {
+            "Stammformen": [
+                "voc\u0101re, voc\u014d, voc\u0101v\u012b, voc\u0101tum"
+            ],
+            "Deutsch": [
+                "1. rufen 2. nennen"
+            ]
+        },
+        {
+            "Stammformen": [
+                "vol\u0101re, vol\u014d, vol\u0101v\u012b, vol\u0101tum"
+            ],
+            "Deutsch": [
+                "fliegen"
             ]
         }
     ],
@@ -806,7 +1046,7 @@ var liste = {
         "Lernhilfe"
     ],
     "titel": "Latein_VIVA_1-15_Stammformen",
-    "frage_attribut": "Latein"
+    "frage_attribut": "Deutsch"
 };
 
 erste_aufgabe();
