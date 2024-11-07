@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Latein VIVA 1-15 kons. Stammformen](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_kons._Stammformen)
+
 - [Latein VIVA 1-15 Stammformen](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_Stammformen)
 
 - [Latein VIVA Lektion 1-15](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_1-15)
@@ -99,6 +101,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Latein VIVA 1-15 kons. Stammformen](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_kons._Stammformen)
 
 - [Latein VIVA 1-15 Stammformen](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_Stammformen)
 
