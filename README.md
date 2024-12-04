@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Franz CI Lektion 6B](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6B)
+
 - [Latein VIVA Stammformen 1-15 mit Deutsch](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Stammformen_1-15_mit_Deutsch)
 
 - [Latein VIVA 1-15 Stammformen Teil 2](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_Stammformen_Teil_2)
@@ -109,6 +111,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Franz CI Lektion 6B](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6B)
 
 - [Latein VIVA Stammformen 1-15 mit Deutsch](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Stammformen_1-15_mit_Deutsch)
 
