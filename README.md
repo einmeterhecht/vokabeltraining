@@ -86,6 +86,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2020c:
 
+- [Franz&ouml;sisch: 2024-13-12](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-13-12)
+
 - [Latein 10.12.2024](/vokabeltraining/abfragen?folder=g2020c&file=Latein_10.12.2024)
 
 - [Griechisch 25.11.24](/vokabeltraining/abfragen?folder=g2020c&file=Griechisch_25.11.24)
@@ -200,6 +202,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 
 ### Für g2020c:
+
+- [Franz&ouml;sisch: 2024-13-12](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-13-12)
 
 - [Latein 10.12.2024](/vokabeltraining/abfragen?folder=g2020c&file=Latein_10.12.2024)
 
