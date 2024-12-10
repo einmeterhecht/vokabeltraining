@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Englisch Christmas Vocabulary&File 10 2](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_Christmas_Vocabulary&File_10_2)
+
 - [Englisch File 10&Christmas Vocabulary](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_10&Christmas_Vocabulary)
 
 - [Franz CI Lektion 6B](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6B)
@@ -117,6 +119,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Englisch Christmas Vocabulary&File 10 2](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_Christmas_Vocabulary&File_10_2)
 
 - [Englisch File 10&Christmas Vocabulary](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_10&Christmas_Vocabulary)
 
