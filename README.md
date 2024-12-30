@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Franz CI Lecon 6 AB+coin lecture](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lecon_6_AB+coin_lecture)
+
 - [Englisch F10 Xmas Vocab](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_F10_Xmas_Vocab)
 
 - [Englisch File 10&Christmas Vocab](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_10&Christmas_Vocab)
@@ -135,6 +137,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Franz CI Lecon 6 AB+coin lecture](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lecon_6_AB+coin_lecture)
 
 - [Englisch F10 Xmas Vocab](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_F10_Xmas_Vocab)
 
