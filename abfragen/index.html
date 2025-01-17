@@ -44,6 +44,7 @@
 		/* Das ist unser Eingabefeld für die Ergebnisse */
 		.ergebnisse {
 			font-size: 48px;
+			font-family: sans-serif;
 			background-color: var(--color-light);
 			height: 64px;
 			width: 80%;
@@ -124,6 +125,41 @@
 				<p class="frage_info" style="color: #264B87;">Starten</p>
 		</div>-->
 	<script>eingabeaufforderung.innerHTML = "Fragen konnten nicht geladen werden"; liste_laden();</script>
+	<style>
+		@font-face {
+		  font-family: cmunrm;
+		  font-weight: normal;
+		  font-style: normal;
+		  src: url(fonts/cmunrm.woff) format(woff)
+		}
+
+        /*
+		@font-face {
+		  font-family: cmunrm;
+		  font-weight: bold;
+		  font-style: normal;
+		  src: url(fonts/cmunbx.woff) format(woff)
+		}
+		*/
+
+		@font-face {
+		  font-family: cmunrm;
+		  font-weight: normal;
+		  font-style: italic;
+		  src: url(fonts/cmunti.woff) format(woff)
+		}
+
+		@font-face {
+		  font-family: cmunrm;
+		  font-weight: bold;
+		  font-style: italic;
+		  src: url(fonts/cmunbi.woff) format(woff)
+		}
+		
+		* {
+		    font-family: "cmunrm", "serif";
+		}
+	</style>
 </body>
 
 </html>
