@@ -173,7 +173,7 @@ function frage_laden(){
 	}
 	document.getElementById("fragestellung").innerHTML = frage_attribut.replaceAll("_", " ")
 	+ ": "
-	+ get_frage()[frage_attribut].replaceAll(
+	+ get_frage()[frage_attribut][0].replaceAll(
 	"^2", "²").replace(
 	"^x", "ˣ").replace(
 	"^n", "ⁿ")
