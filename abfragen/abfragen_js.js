@@ -330,7 +330,7 @@ function pruefe_eingabe(pressed_a_key=false){
 	
 	
 	if (input_correct()){
-		//eingabe.classList.add("correct"); // Original AbfrageApp - Farbe
+		//eingabe.classList.add("correct");
 		//document.getElementById("eingabeaufforderung").innerHTML = "Richtig!";
 		
 		check_for_knacknuss();
