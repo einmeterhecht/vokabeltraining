@@ -173,7 +173,10 @@ function frage_laden(){
 	}
 	document.getElementById("fragestellung").innerHTML = frage_attribut.replaceAll("_", " ")
 	+ ": "
-	+ get_frage()[frage_attribut]
+	+ get_frage()[frage_attribut].replaceAll(
+	"^2", "²").replace(
+	"^x", "ˣ").replace(
+	"^n", "ⁿ")
 	+ hinweis;
 	document.getElementById("eingabeaufforderung").innerHTML = get_gefragtes_attribut().replaceAll("_", " ") + ":";
 	eingabe.style.background = "#EEEECC";
