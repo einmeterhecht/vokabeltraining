@@ -53,17 +53,31 @@
 		.ergebnisse:focus-visible {
 		    outline: 3px solid var(--color-light);
 		}
+		.ergebnisse.correct {
+		   /* Currently not in use */
+		    background-color: #006604; /* Original Abfrageapp Farbe*/
+		}
+		.ergebnisse.incorrect {
+		    background-color: #900;
+			transition: 0.1s ease-in-out;
+		}
 
 		.progress_bar {
 			background: var(--color-inner);
 			width: 100%;
+			height: 30px;
 			border: 2px solid var(--color-outer);
 			border-radius: 15px;
+			overflow: hidden;
+			display: inline;
 		}
 
-		.progress_bar[value]::-webkit-progress-value,
-        .progress_bar[value]::-moz-progress-bar {
+		.progress_bar_value {
+		    width: 0; /* this is controlled from js */
+		
+		    height: 100%;
 			background: var(--color-outer);
+			transition: width 0.5s ease-out;
 		}
 
 		.progress_text {
@@ -97,29 +111,47 @@
 		#eingabeaufforderung a {
 			color: var(--color-light);
 		}
+		
+		.fade_out {
+		    transform: translateY(100%);
+			opacity: 0%;
+			transition: transform 0.2s, opacity 0.1s;
+		}
+		
+		@keyframes fade_from_above {
+            0% { transform: translateY(-100%); opacity: 0%; }
+            20% { transform: translateY(-80%); opacity: 0%; }
+            100% { transform: none; opacity: 100%; }
+        }
+		
+		.fade_in {
+		    animation: fade_from_above 0.1s;
+		}
+		
 	</style>
 </head>
 
 <body style="background: var(--color-main-background);">
-	<p class="zentriert" style="margin-top: 25px; margin-bottom: 0px; display: flex; align-items: center;">
-		<progress id="progress" class="progress_bar" style="height: 25px; margin-right: 10px;" max=100
-			value=0>progress</progress>
+	<div class="zentriert" style="margin-top: 25px; margin-bottom: 0px; display: flex; align-items: center;">
+		<div id="progress" class="progress_bar" style="height: 25px; margin-right: 10px;">
+		    <div class="progress_bar_value"></div>
+		</div>
 		<b id="progress_text" class="progress_text" style="margin-right: 10px; white-space: nowrap;">0/0</b>
 		<button id="fortschritt_kopieren_button" class="button_style" style="margin-right: 10px; white-space: nowrap;"
 			onclick="fortschritt_kopieren();">Fortschritt kopieren</button>
-	</p>
+	</div>
 	<p>
-	<div class="anzeige">
-		<p id="fragestellung" class="frage_info">Abfragen - HTML</p>
-	</div>
-	<div class="zentriert" style="margin-top: 20px; margin-bottom: 35px; display: flex; justify-content: space-around;">
-		<div id="eingabeaufforderung" class="frage_info">Browser unterstützt kein JavaScript...</div>
-		<button class="button_style" style="position:absolute; right: 20px; font-size: 24px;"
-			onclick="frage_attribut_tauschen();" title="Soll der Fortschritt erhalten bleiben? Feedback willkommen!">&#x21c5;</button>
-	</div>
-	<div class="zentriert">
-		<input id="eingabe" class="ergebnisse" type="text"/>
-	</div>
+		<div class="anzeige">
+			<p id="fragestellung" class="frage_info">Abfragen - HTML</p>
+		</div>
+		<div class="zentriert" style="margin-top: 20px; margin-bottom: 35px; display: flex; justify-content: space-around;">
+			<div id="eingabeaufforderung" class="frage_info">Browser unterstützt kein JavaScript...</div>
+			<button class="button_style" style="position:absolute; right: 20px; font-size: 24px;"
+				onclick="frage_attribut_tauschen();" title="Soll der Fortschritt erhalten bleiben? Feedback willkommen!">&#x21c5;</button>
+		</div>
+		<div class="zentriert">
+			<input id="eingabe" class="ergebnisse" type="text"/>
+		</div>
 	</p>
 	<!--<div class="anzeige" id="start_knopf" onclick="erste_aufgabe();">
 				<p class="frage_info" style="color: #264B87;">Starten</p>

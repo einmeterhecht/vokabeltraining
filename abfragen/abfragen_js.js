@@ -171,25 +171,41 @@ function frage_laden(){
 	         get_gefragtes().startsWith("l'")){
 		hinweis = " (le/la/l'/les)";
 	}
-	document.getElementById("fragestellung").innerHTML = frage_attribut.replaceAll("_", " ")
-	+ ": "
-	+ get_frage()[frage_attribut][0].replaceAll(
-	"^2", "²").replace(
-	"^x", "ˣ").replace(
-	"^x", "ˣ").replace(
-	"*", "⋅")
-	+ hinweis;
-	document.getElementById("eingabeaufforderung").innerHTML = get_gefragtes_attribut().replaceAll("_", " ") + ":";
-	eingabe.style.background = "#EEEECC";
+	fade_text(document.getElementById("fragestellung"), frage_attribut.replaceAll("_", " ")
+		+ ": "
+		+ get_frage()[frage_attribut][0].replaceAll(
+		"^2", "²").replace(
+		"^x", "ˣ").replace(
+		"^x", "ˣ").replace(
+		"*", "⋅")
+		+ hinweis
+	);
+	fade_text(
+	    document.getElementById("eingabeaufforderung"),
+	    get_gefragtes_attribut().replaceAll("_", " ") + ":"
+	);
+	eingabe.classList.remove("incorrect");
+	eingabe.classList.remove("correct");
 	eingabe.value = "";
 	beantwortet = false;
 }
 
 function update_progress(){
-	progress.max = liste.fragen.length;
-	progress.value = liste.fragen.length + aufgabe_index - aufgaben.length;
-	progress_text.innerHTML = String(progress.value) + " / " + String(progress.max)
-	
+	fragen_geloest = liste.fragen.length + aufgabe_index - aufgaben.length;
+	fragen_gesamt = liste.fragen.length;
+	progress_text.innerHTML = String(fragen_geloest) + " / " + String(fragen_gesamt);
+	document.querySelector("#progress>.progress_bar_value").style.width=(fragen_geloest/ fragen_gesamt*100  + "%");
+}
+
+function fade_text(target, new_text) {
+	target.classList.remove("fade_in");
+	if (target.innerHTML == new_text) return;
+	target.classList.add("fade_out");
+	setTimeout(() => {
+		target.classList.remove("fade_out");
+        target.innerHTML = new_text;
+		target.classList.add("fade_in");
+      }, 50);
 }
 
 function eingabefeld_onkeyup(e){
@@ -314,16 +330,19 @@ function pruefe_eingabe(pressed_a_key=false){
 	
 	
 	if (input_correct()){
-		eingabe.style.background = "#006604"; // Original AbfrageApp - Farbe
-		document.getElementById("eingabeaufforderung").innerHTML = "Richtig!";
+		//eingabe.classList.add("correct"); // Original AbfrageApp - Farbe
+		//document.getElementById("eingabeaufforderung").innerHTML = "Richtig!";
 		
 		check_for_knacknuss();
 		naechste_frage();
 	}
 	else{
 		let is_empty = trim(eingabe.value) == "";
-		if (!is_empty) eingabe.style.background = "#990000";
-		document.getElementById("eingabeaufforderung").innerHTML = (is_empty ? "" : "Falsch. ") + "Richtig wäre: <b>" + get_gefragtes(get_frage()) + "</b>";
+		if (!is_empty) eingabe.classList.add("incorrect");
+		fade_text(
+			document.getElementById("eingabeaufforderung"),
+			(is_empty ? "" : "Falsch. ") + "Richtig wäre: <b>" + get_gefragtes(get_frage()) + "</b>"
+		);
 	    eingabe.selectionStart = eingabe.selectionEnd = eingabe.value.length; // Set cursor to end
 	}
 }
