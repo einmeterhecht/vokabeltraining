@@ -176,7 +176,8 @@ function frage_laden(){
 	+ get_frage()[frage_attribut][0].replaceAll(
 	"^2", "²").replace(
 	"^x", "ˣ").replace(
-	"^n", "ⁿ")
+	"^x", "ˣ").replace(
+	"*", "⋅")
 	+ hinweis;
 	document.getElementById("eingabeaufforderung").innerHTML = get_gefragtes_attribut().replaceAll("_", " ") + ":";
 	eingabe.style.background = "#EEEECC";
