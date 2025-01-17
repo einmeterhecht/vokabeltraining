@@ -414,7 +414,7 @@ function format_fragenzahl(i) {
 }
 
 function remove_parameter_from_url(parameter, url=window.location.href) {
-    return url.replace(RegExp("&" + parameter +"=[\\w\\-\\_\\%]+"), "");
+    return url.replace(RegExp("&" + escape_regex(parameter) +"=[\\w\\-\\_\\%]+"), "");
 }
 
 function get_url_with_parameter(parameter, value, url=window.location.href) {
