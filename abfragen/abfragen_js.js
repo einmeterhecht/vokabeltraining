@@ -198,6 +198,10 @@ function eingabefeld_onkeyup(e){
 	else if (e.key=="Enter" || count_occurrences(eingabe.value, " ") > count_occurrences(get_gefragtes(), " ")){
 		pruefe_eingabe();
 	}
+	else if (e.key=="(" && eingabe.selectionStart == eingabe.selectionEnd == eingabe.value.length) {
+		eingabe.value += ")";
+		eingabe.selectionStart = eingabe.selectionEnd = eingabe.value.length-1;
+	}
 }
 
 function antwort_anpassen(antwort){
