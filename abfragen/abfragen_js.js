@@ -171,14 +171,16 @@ function frage_laden(){
 	         get_gefragtes().startsWith("l'")){
 		hinweis = " (le/la/l'/les)";
 	}
-	fade_text(document.getElementById("fragestellung"), frage_attribut.replaceAll("_", " ")
+	fade_text(document.getElementById("fragestellung"),
+	    "<div style='display: inline;'>"
+		+ frage_attribut.replaceAll("_", " ")
 		+ ": "
 		+ get_frage()[frage_attribut][0].replaceAll(
 		"^2", "²").replace(
 		"^x", "ˣ").replace(
 		"^x", "ˣ").replace(
 		"*", "⋅")
-		+ hinweis
+		+ ' </div><div style="white-space: nowrap; display: inline;">' + hinweis + "</div>"
 	);
 	fade_text(
 	    document.getElementById("eingabeaufforderung"),
@@ -341,7 +343,7 @@ function pruefe_eingabe(pressed_a_key=false){
 		if (!is_empty) eingabe.classList.add("incorrect");
 		fade_text(
 			document.getElementById("eingabeaufforderung"),
-			(is_empty ? "" : "Falsch. ") + "Richtig wäre: <b>" + get_gefragtes(get_frage()) + "</b>"
+			(is_empty ? "" : "Falsch. ") + "Richtig wäre: <b class='break_on_mobile'>" + get_gefragtes(get_frage()) + "</b>"
 		);
 	    eingabe.selectionStart = eingabe.selectionEnd = eingabe.value.length; // Set cursor to end
 	}

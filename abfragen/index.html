@@ -14,6 +14,9 @@
 			--color-inner: #301020;
 			--color-main-background: #100020;
 			--color-hover: #C2CFE4;
+			
+			/* Prevent any zooming/scrolling on mobile */
+			touch-action: pan-x;
 		}
 		
 		* {
@@ -39,6 +42,15 @@
 			font-size: 30px;
 			text-align: center;
 			color: var(--color-light);
+		}
+		
+		#fragestellung {
+			margin: 20px 20px;
+		}
+		
+		#eingabeaufforderung {
+			max-width: calc(100vw - 2ex - 100px);
+			padding-bottom: 0.2rem;
 		}
 
 		/* Das ist unser Eingabefeld für die Ergebnisse */
@@ -119,20 +131,45 @@
 		}
 		
 		@keyframes fade_from_above {
-            0% { transform: translateY(-100%); opacity: 0%; }
-            20% { transform: translateY(-80%); opacity: 0%; }
+            0% { transform: translateY(-80%); opacity: 0%; }
             100% { transform: none; opacity: 100%; }
         }
 		
 		.fade_in {
 		    animation: fade_from_above 0.1s;
 		}
+
+        .less_margin_on_mobile {
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+		}
+		.break_on_mobile {
+			display: inline;
+		}
+		@media (max-width: 800px) {
+			.break_on_mobile {
+				display: block;
+			}
+			.less_margin_on_mobile {
+				margin-top: 1rem;
+				margin-bottom: 1rem;
+			}
+			
+			#fragestellung {
+				margin: 20px 20px;
+			}
+			.frage_info {
+			    min-height: 3em;
+			    min-height: 2l h;
+				align-content: center;
+			}
+		}
 		
 	</style>
 </head>
 
 <body style="background: var(--color-main-background);">
-	<div class="zentriert" style="margin-top: 25px; margin-bottom: 0px; display: flex; align-items: center;">
+	<div class="zentriert" style="margin-top: 10px; margin-bottom: 10px; display: flex; align-items: center;">
 		<div id="progress" class="progress_bar" style="height: 25px; margin-right: 10px;">
 		    <div class="progress_bar_value"></div>
 		</div>
@@ -140,19 +177,17 @@
 		<button id="fortschritt_kopieren_button" class="button_style" style="margin-right: 10px; white-space: nowrap;"
 			onclick="fortschritt_kopieren();">Fortschritt kopieren</button>
 	</div>
-	<p>
-		<div class="anzeige">
-			<p id="fragestellung" class="frage_info">Abfragen - HTML</p>
-		</div>
-		<div class="zentriert" style="margin-top: 20px; margin-bottom: 35px; display: flex; justify-content: space-around;">
-			<div id="eingabeaufforderung" class="frage_info">Browser unterstützt kein JavaScript...</div>
-			<button class="button_style" style="position:absolute; right: 20px; font-size: 24px;"
-				onclick="frage_attribut_tauschen();" title="Soll der Fortschritt erhalten bleiben? Feedback willkommen!">&#x21c5;</button>
-		</div>
-		<div class="zentriert">
-			<input id="eingabe" class="ergebnisse" type="text"/>
-		</div>
-	</p>
+	<div class="anzeige">
+		<div id="fragestellung" class="frage_info">Abfragen - HTML</div>
+	</div>
+	<div class="zentriert less_margin_on_mobile" style="display: flex; justify-content: space-around;">
+		<div id="eingabeaufforderung" class="frage_info">Browser unterstützt kein JavaScript...</div>
+		<button class="button_style" style="position:absolute; right: 20px; font-size: 24px;"
+			onclick="frage_attribut_tauschen();" title="Soll der Fortschritt erhalten bleiben? Feedback willkommen!">&#x21c5;</button>
+	</div>
+	<div class="zentriert">
+		<input id="eingabe" class="ergebnisse" type="text"/>
+	</div>
 	<!--<div class="anzeige" id="start_knopf" onclick="erste_aufgabe();">
 				<p class="frage_info" style="color: #264B87;">Starten</p>
 		</div>-->
