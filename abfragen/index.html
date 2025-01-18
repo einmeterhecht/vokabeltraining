@@ -51,6 +51,8 @@
 			font-size: 30px;
 			text-align: center;
 			color: var(--color-light);
+			
+			animation: color_from_transparent 0.5s;
 		}
 		
 		#fragestellung {
@@ -142,6 +144,12 @@
 		@keyframes fade_from_above {
             0% { transform: translateY(-80%); opacity: 0%; }
             100% { transform: none; opacity: 100%; }
+        }
+		
+		@keyframes color_from_transparent {
+            0% { color: transparent; }
+            40% { color: transparent; }
+            100% { color: var(--color-light); }
         }
 		
 		.fade_in {
