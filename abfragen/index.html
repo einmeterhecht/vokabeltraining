@@ -13,6 +13,7 @@
 			--color-outer: #6d224a;
 			--color-inner: #301020;
 			--color-main-background: #221534;
+			--color-incorrect: #900;
 			--color-hover: #C2CFE4; /* currently not in use */
 			
 			/* Prevent any zooming/scrolling on mobile */
@@ -81,7 +82,7 @@
 		    background-color: #006604; /* Original Abfrageapp Farbe*/
 		}
 		.ergebnisse.incorrect {
-		    background-color: #900;
+		    background-color: var(--color-incorrect);
 			transition: 0.1s ease-in-out;
 		}
 
@@ -112,7 +113,7 @@
 			transition-duration: 0.5s;
 			font-size: 18px;
 			padding: 5px 10px;
-			border: 2px solid #0000;
+			border: 2px solid transparent;
 			border-radius: 15px;
 			color: var(--color-light);
 			background-color: var(--color-main-background);
