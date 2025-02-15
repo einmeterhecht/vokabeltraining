@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Franz Couleurs et Vetements](/vokabeltraining/abfragen?folder=g2023k&file=Franz_Couleurs_et_vetements)
+
 - [Franz CI Lecon 6 AB+coin lecture](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lecon_6_AB+coin_lecture)
 
 - [Englisch F10 Xmas Vocab](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_F10_Xmas_Vocab)
@@ -119,6 +121,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Franz Couleurs et Vetements](/vokabeltraining/abfragen?folder=g2023k&file=Franz_Couleurs_et_vetements)
 
 - [Franz CI Lecon 6 AB+coin lecture](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lecon_6_AB+coin_lecture)
 
