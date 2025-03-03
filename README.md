@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Franz CI L7 entrée, A, B](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_L7_entrée,_A,_B)
+
 - [Franz Couleurs et Vetements](/vokabeltraining/abfragen?folder=g2023k&file=Franz_Couleurs_et_vetements)
 
 - [Franz CI Lecon 6 AB+coin lecture](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lecon_6_AB+coin_lecture)
@@ -123,6 +125,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Franz CI L7 entrée, A, B](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_L7_entrée,_A,_B)
 
 - [Franz Couleurs et Vetements](/vokabeltraining/abfragen?folder=g2023k&file=Franz_Couleurs_et_vetements)
 
