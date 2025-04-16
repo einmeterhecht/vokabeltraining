@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Englisch File 12](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_12)
+
 - [Franz&ouml;sisch 14.4](/vokabeltraining/abfragen?folder=g2023k&file=Französisch_14.4)
 
 - [Franz&ouml;sisch CI Leçon 8](/vokabeltraining/abfragen?folder=g2023k&file=Französisch_CI_Leçon_8)
@@ -143,6 +145,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Englisch File 12](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_12)
 
 - [Franz&ouml;sisch CI Leçon 8](/vokabeltraining/abfragen?folder=g2023k&file=Französisch_CI_Leçon_8)
 
