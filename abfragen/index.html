@@ -15,6 +15,8 @@
 			--color-main-background: #221534;
 			--color-incorrect: #900;
 			--color-hover: #C2CFE4; /* currently not in use */
+
+			--ergebnisse-width: 80%;
 			
 			/* Prevent any zooming/scrolling on mobile */
 			touch-action: pan-x;
@@ -71,8 +73,9 @@
 			font-family: sans-serif;
 			background-color: var(--color-light);
 			height: 64px;
-			width: 80%;
+			width: var(--ergebnisse-width);
 			padding: 20px;
+			border: inset var(--color-light);
 		}
 		.ergebnisse:focus-visible {
 		    outline: 3px solid var(--color-light);
@@ -86,6 +89,20 @@
 			outline: 3px solid var(--color-incorrect);
 			border: solid var(--color-incorrect);
 			box-shadow: 0px 0px 8px 8px inset var(--color-incorrect);
+		}
+		
+		.ergebnisse + .hint-message {
+			color: var(--color-incorrect);
+			font-size: 16px;
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity 2s ease-out;
+			text-align: right;
+			margin: 12px calc((100% - var(--ergebnisse-width))/2) 0;
+		}
+		.ergebnisse.incorrect + .hint-message {
+			visibility: visible;
+			opacity: 1;
 		}
 
 		.progress_bar {
@@ -207,6 +224,7 @@
 	</div>
 	<div class="zentriert">
 		<input id="eingabe" class="ergebnisse" type="text"/>
+		<div class="hint-message">'a' drücken, um als richtig zu werten</div>
 	</div>
 	<!--<div class="anzeige" id="start_knopf" onclick="erste_aufgabe();">
 				<p class="frage_info" style="color: #264B87;">Starten</p>
