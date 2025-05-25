@@ -164,24 +164,6 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Englisch F10 Xmas Vocab](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_F10_Xmas_Vocab)
 
-- [Englisch File 10&Christmas Vocab](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_10&Christmas_Vocab)
-
-- [Englisch File 10&Christmas Vocabulary](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_10&Christmas_Vocabulary)
-
-- [Englisch File 10&Christmas Vocabulary](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_10&Christmas_Vocabulary)
-
-- [Englisch File 10&Christmas Vocabulary](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_10&Christmas_Vocabulary)
-
-- [test](/vokabeltraining/abfragen?folder=g2023k&file=test)
-
-- [Englisch Christmas Vocabulary&File 10 3](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_Christmas_Vocabulary&File_10_3)
-
-- [Englisch Christmas Vocabulary&File 10 3](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_Christmas_Vocabulary&File_10_3)
-
-- [Englisch Christmas Vocabulary&File 10 2](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_Christmas_Vocabulary&File_10_2)
-
-- [Englisch File 10&Christmas Vocabulary](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_10&Christmas_Vocabulary)
-
 - [Franz CI Lektion 6B](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6B)
 
 - [Latein VIVA Stammformen 1-15 mit Deutsch](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Stammformen_1-15_mit_Deutsch)
