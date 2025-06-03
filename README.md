@@ -34,6 +34,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
+- [Latein VIVA 17](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_17)
+
 - [Englisch File 12](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_12)
 
 - [Franz&ouml;sisch 14.4](/vokabeltraining/abfragen?folder=g2023k&file=Französisch_14.4)
@@ -149,6 +151,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ## Archiv
 
 ### Für g2023k:
+
+- [Latein VIVA 17](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_17)
 
 - [Englisch File 12](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_12)
 
