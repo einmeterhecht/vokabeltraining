@@ -157,6 +157,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Latein VIVA Lektion 11](/vokabeltraining/abfragen?folder=g2023k&file=Latein_viva_11)
 
+- [Latein VIVA Lektion 12](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_12)
+
 - [Latein VIVA Lektion 13](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_13)
 
 - [Latein VIVA Lektion 14](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_14)
