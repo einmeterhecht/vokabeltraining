@@ -34,26 +34,6 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
-- [Latein VIVA Lektion 12](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_12)
-
-- [Latein VIVA Lektion 8](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_8)
-
-- [Latein VIVA Lektion 7](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_7)
-
-- [Latein VIVA Lektion 6](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_6)
-
-- [Latein VIVA Lektion 5](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_5)
-
-- [Latein VIVA Lektion 5](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_5)
-
-- [Latein VIVA Lektion 4](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_4)
-
-- [Latein VIVA Lektion 3](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_3)
-
-- [Latein VIVA Lektion 2](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_2)
-
-- [Latein VIVA Lektion 1](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_1)
-
 - [Latein VIVA 17](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_17)
 
 - [Englisch File 12](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_12)
@@ -154,26 +134,22 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2023k:
 
-- [Latein VIVA Lektion 12](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_12)
-
-- [Latein VIVA Lektion 8](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_8)
-
-- [Latein VIVA Lektion 7](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_7)
-
-- [Latein VIVA Lektion 6](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_6)
-
-- [Latein VIVA Lektion 5](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_5)
-
-- [Latein VIVA Lektion 5](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_5)
-
-- [Latein VIVA Lektion 4](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_4)
-
-- [Latein VIVA Lektion 3](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_3)
-
-- [Latein VIVA Lektion 2](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_2)
 
 - [Latein VIVA Lektion 1](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_1)
 
+- [Latein VIVA Lektion 2](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_2)
+
+- [Latein VIVA Lektion 3](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_3)
+
+- [Latein VIVA Lektion 4](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_4)
+
+- [Latein VIVA Lektion 5](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_5)
+
+- [Latein VIVA Lektion 6](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_6)
+
+- [Latein VIVA Lektion 7](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_7)
+
+- [Latein VIVA Lektion 8](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_8)
 
 - [Latein: VIVA Lektion 9](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_9)
 
