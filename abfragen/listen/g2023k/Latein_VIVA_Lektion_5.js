@@ -231,6 +231,14 @@ var liste = {
             "Deutsch": [
                 "Leben"
             ]
+        },
+        {
+            "Latein": [
+                "vox"
+            ],
+            "Deutsch": [
+                "Stimme, Wort, \u00c4usserung"
+            ]
         }
     ],
     "hinweis_attribute": [
