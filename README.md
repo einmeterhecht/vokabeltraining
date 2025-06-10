@@ -82,26 +82,6 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Latein: VIVA Lektion 13](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_13)
 
-- [Englisch_2.10.24](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_2.10.24)
-
-- [Franz CI 1 Lektion 5 entree](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-09-24)
-
-- [Latein Stammformen 7-8](/vokabeltraining/abfragen?folder=g2023k&file=latein_StaFo_7-8)
-
-- [Latein: VIVA Lektion 12](/vokabeltraining/abfragen?folder=g2023k&file=Latein_2024-09-08)
-
-- [Franz&ouml;sisch CI 1 Lektion 7 C](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_C)
-
-- [Franz&ouml;sisch CI 1 Lektion 7 B](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_B)
-
-- [Latein: VIVA Lektion 11](/vokabeltraining/abfragen?folder=g2023k&file=Latein_viva_11)
-
-- [Franz&ouml;sisch auf 17. Juni 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-06-17)
-
-- [Hauptst&auml;dte Asiens](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_asiens)
-
-- [Wichtigste chemische Elemente](/vokabeltraining/abfragen?folder=g2023k&file=wichtigste_elemente)
-
 ### Für g2020c:
 
 - [Latein auf 2025.06.10](/vokabeltraining/abfragen?folder=g2020c&file=Latein_2025-06-10)
