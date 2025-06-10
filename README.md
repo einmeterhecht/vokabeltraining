@@ -245,10 +245,6 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
   - [umgekehrt (Land zur Hauptstadt nennen)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl-frage_mit_stadt)
 
-- [Latein auf 15. M&auml;rz 2024 (VIVA Lektion 7)](/vokabeltraining/abfragen?folder=g2023k&file=latein_2024-03-15)
-
-- [Latein: VIVA Lektionen 1-6](/vokabeltraining/abfragen?folder=g2023k&file=latein_2024-04-27)
-
 - [Franz&ouml;sisch auf 27. Februar 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-02-27)
 
 - [Latein auf 18. Januar 2024](/vokabeltraining/abfragen?folder=g2023k&file=latein_2024-01-18)
