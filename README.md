@@ -211,8 +211,6 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Franz&ouml;sisch CI 1, Atelier B](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_B)
 
-
-
 - [Franz&ouml;sisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
 
 - [Franz&ouml;sisch_2: 2024-10-25](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-10-25)
