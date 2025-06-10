@@ -181,6 +181,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Englisch 4.10.24](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_4.10.24)
 
+- [Englisch F10 Xmas Vocab](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_F10_Xmas_Vocab)
+
 - [Franz&ouml;sisch CI Leçon 8](/vokabeltraining/abfragen?folder=g2023k&file=Französisch_CI_Leçon_8)
 
 - [Franz CI L7 entrée, A, B](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_L7_entrée,_A,_B)
@@ -189,9 +191,19 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Franz CI Lecon 6 AB+coin lecture](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lecon_6_AB+coin_lecture)
 
-- [Englisch F10 Xmas Vocab](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_F10_Xmas_Vocab)
-
 - [Franz CI Lektion 6B](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6B)
+
+- [Franz&ouml;sisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
+
+- [Franz&ouml;sisch_2: 2024-10-25](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-10-25)
+
+- [Franz CI Lektion 6 A](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_A)
+
+- [Franz CI Lektion 6 entrée](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_entrée)
+
+- [Franz&ouml;sisch CI 1, Atelier C](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_C)
+
+- [Franz&ouml;sisch CI 1, Atelier B](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_B)
 
 - [Latein Stammformen 7-8](/vokabeltraining/abfragen?folder=g2023k&file=latein_StaFo_7-8)
 
@@ -216,14 +228,6 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 - [Franz CI Lektion 6 A](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_A)
 
 - [Franz CI Lektion 6 entrée](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_entrée)
-
-- [Latein Stammformen 7-8](/vokabeltraining/abfragen?folder=g2023k&file=latein_StaFo_7-8)
-
-- [Franz&ouml;sisch CI 1, Atelier C](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_C)
-
-- [Franz&ouml;sisch CI 1, Atelier B](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_B)
-
-- [Latein: VIVA Lektionen 5-6](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_5-6)
 
 - [English File Elementary, File 8-9](/vokabeltraining/abfragen?folder=g2023k&file=englisch_2024-06-10)
 
