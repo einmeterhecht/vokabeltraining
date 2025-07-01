@@ -1,0 +1,29 @@
+@font-face {
+  font-family: cmunrm;
+  font-weight: normal;
+  font-style: normal;
+  src: url(cmunrm.woff) format(woff)
+}
+
+@font-face {
+  font-family: cmunrm;
+  font-weight: normal;
+  font-style: italic;
+  src: url(cmunti.woff) format(woff)
+}
+
+@font-face {
+  font-family: cmunrm;
+  font-weight: bold;
+  font-style: italic;
+  src: url(cmunbi.woff) format(woff)
+}
+
+/*
+@font-face {
+    font-family: cmunrm;
+    font-weight: bold;
+    font-style: normal;
+    src: url(fonts/cmunbx.woff) format(woff)
+}
+*/
