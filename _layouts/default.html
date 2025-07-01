@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: "Vokabeltraining" }}</title>
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="fonts/cmu-serif.css">
+    <style>
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .anleitung-link {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="anleitung-link">
+        <a href="index.html">← Zurück zu Listen</a>
+    </div>
+    
+    <div class="content">
+        {{ content }}
+    </div>
+</body>
+</html>

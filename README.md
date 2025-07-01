@@ -1,3 +1,8 @@
+---
+layout: default
+title: Anleitung
+---
+
 Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optimiert.
 
 ## Letzte Änderungen:
