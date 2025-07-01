@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: "Abfragen" }}</title>
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="fonts/cmu-serif.css">
+    <style>
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-size: large;
+        }
+        
+        li {
+            margin: 4px;
+        }
+    </style>
+</head>
+<body>
+<div class="content">{{ content }}</div>
+</body>
+</html>

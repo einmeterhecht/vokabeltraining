@@ -11,6 +11,15 @@
     font-family: "cmunrm", serif;
 }
 
+a {
+    color: var(--color-light);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     background: var(--color-main-background);
     color: var(--color-light);
@@ -28,7 +37,7 @@ body {
 }
 
 .button_style {
-    transition-duration: 0.5s;
+    transition: background 0.5s;
     font-size: 18px;
     padding: 5px 10px;
     border: 2px solid transparent;
