@@ -1,7 +1,7 @@
 var liste = {
     "fragen": [
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "interpellare"
             ],
             "Deutsch": [
@@ -9,7 +9,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "hilaris , -e"
             ],
             "Deutsch": [
@@ -17,7 +17,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "contentus"
             ],
             "Deutsch": [
@@ -25,7 +25,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "minister , -tri , m"
             ],
             "Deutsch": [
@@ -33,7 +33,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "torus"
             ],
             "Deutsch": [
@@ -41,7 +41,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ecce"
             ],
             "Deutsch": [
@@ -49,7 +49,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "porcus"
             ],
             "Deutsch": [
@@ -57,7 +57,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "stringere , -o , -nxi , strictum"
             ],
             "Deutsch": [
@@ -65,7 +65,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "percutere , -io , -cussi , -cussum"
             ],
             "Deutsch": [
@@ -73,7 +73,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "momentum"
             ],
             "Deutsch": [
@@ -81,7 +81,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "operam dare sermonibus"
             ],
             "Deutsch": [
@@ -89,7 +89,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "oportet facias"
             ],
             "Deutsch": [
@@ -97,7 +97,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "cena contentus"
             ],
             "Deutsch": [
@@ -105,7 +105,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "suspicionem mittere aliquo"
             ],
             "Deutsch": [
@@ -113,7 +113,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "clamorem tollere"
             ],
             "Deutsch": [
@@ -121,7 +121,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "aper summae magnitudinis"
             ],
             "Deutsch": [
@@ -129,7 +129,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "gladio stricto"
             ],
             "Deutsch": [
@@ -137,7 +137,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "momento facere"
             ],
             "Deutsch": [
@@ -145,7 +145,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "cubiculum"
             ],
             "Deutsch": [
@@ -153,7 +153,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "calidus"
             ],
             "Deutsch": [
@@ -161,7 +161,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "bibere , -o , bibi"
             ],
             "Deutsch": [
@@ -169,7 +169,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "cerebrum"
             ],
             "Deutsch": [
@@ -177,7 +177,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "bellus"
             ],
             "Deutsch": [
@@ -185,7 +185,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ambulare"
             ],
             "Deutsch": [
@@ -193,7 +193,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "medicus"
             ],
             "Deutsch": [
@@ -201,7 +201,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "bonum"
             ],
             "Deutsch": [
@@ -209,7 +209,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "plangere , -o , -nxi , -nctum"
             ],
             "Deutsch": [
@@ -217,7 +217,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "manu mittere"
             ],
             "Deutsch": [
@@ -225,7 +225,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "plorare"
             ],
             "Deutsch": [
@@ -233,7 +233,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "inter se colloqui"
             ],
             "Deutsch": [
@@ -241,7 +241,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "potione rogata"
             ],
             "Deutsch": [
@@ -249,7 +249,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "fabulae partem excipere"
             ],
             "Deutsch": [
@@ -257,7 +257,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "sibi videri"
             ],
             "Deutsch": [
@@ -265,7 +265,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "minoris esse"
             ],
             "Deutsch": [
@@ -273,7 +273,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "pluris esse"
             ],
             "Deutsch": [
@@ -281,7 +281,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "efferre aliquem"
             ],
             "Deutsch": [
@@ -289,7 +289,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "aliquid boni facere"
             ],
             "Deutsch": [
@@ -297,7 +297,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ferculum"
             ],
             "Deutsch": [
@@ -305,7 +305,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "novitas , -atis , f"
             ],
             "Deutsch": [
@@ -313,7 +313,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "piscis , -is , m"
             ],
             "Deutsch": [
@@ -321,7 +321,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "natare"
             ],
             "Deutsch": [
@@ -329,7 +329,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "plausus , -us , m"
             ],
             "Deutsch": [
@@ -337,7 +337,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "eligere , -o , elegi , electum"
             ],
             "Deutsch": [
@@ -345,7 +345,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "interrogare"
             ],
             "Deutsch": [
@@ -353,7 +353,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "nummus"
             ],
             "Deutsch": [
@@ -361,7 +361,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "metiri , -ior , messus"
             ],
             "Deutsch": [
@@ -369,7 +369,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "genius"
             ],
             "Deutsch": [
@@ -377,7 +377,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "panis , -is , m"
             ],
             "Deutsch": [
@@ -385,7 +385,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "meridies , -iei , m"
             ],
             "Deutsch": [
@@ -393,7 +393,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "fundus"
             ],
             "Deutsch": [
@@ -401,7 +401,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "volare"
             ],
             "Deutsch": [
@@ -409,7 +409,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "libertus"
             ],
             "Deutsch": [
@@ -417,7 +417,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "familia"
             ],
             "Deutsch": [
@@ -425,7 +425,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "mehercule ( s )"
             ],
             "Deutsch": [
@@ -433,7 +433,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "collum"
             ],
             "Deutsch": [
@@ -441,7 +441,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "recumbere , -o , -cubui"
             ],
             "Deutsch": [
@@ -449,7 +449,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "portare"
             ],
             "Deutsch": [
@@ -457,7 +457,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "omnium oculos convertere"
             ],
             "Deutsch": [
@@ -465,7 +465,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "converti ad aliquem"
             ],
             "Deutsch": [
@@ -473,7 +473,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "huc atque illuc discurrere"
             ],
             "Deutsch": [
@@ -481,7 +481,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "Fortunata appellatur"
             ],
             "Deutsch": [
@@ -489,7 +489,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ad summam"
             ],
             "Deutsch": [
@@ -497,7 +497,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "malae linguae esse"
             ],
             "Deutsch": [
@@ -505,7 +505,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "in fortunis habere"
             ],
             "Deutsch": [
@@ -513,7 +513,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "dominum suum novisse"
             ],
             "Deutsch": [
@@ -521,7 +521,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "cave contemnas"
             ],
             "Deutsch": [
@@ -529,7 +529,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "de nihilo crescere"
             ],
             "Deutsch": [
@@ -537,7 +537,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "solet ligna portare"
             ],
             "Deutsch": [
@@ -545,7 +545,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "fors , -tis , f"
             ],
             "Deutsch": [
@@ -553,7 +553,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "excidere , -o , \u00e9xcidi"
             ],
             "Deutsch": [
@@ -561,7 +561,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "punire"
             ],
             "Deutsch": [
@@ -569,7 +569,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "proicere , -io , -ieci"
             ],
             "Deutsch": [
@@ -577,7 +577,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "vinum"
             ],
             "Deutsch": [
@@ -585,7 +585,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "porrigere , -o , -rexi , rectum"
             ],
             "Deutsch": [
@@ -593,7 +593,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "amphora ( griech . )"
             ],
             "Deutsch": [
@@ -601,7 +601,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "vitreus"
             ],
             "Deutsch": [
@@ -609,7 +609,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "plaudere , -o , -si , -sum"
             ],
             "Deutsch": [
@@ -617,7 +617,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "eheu"
             ],
             "Deutsch": [
@@ -625,7 +625,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "potare"
             ],
             "Deutsch": [
@@ -633,7 +633,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "abicere , -io , -ieci"
             ],
             "Deutsch": [
@@ -641,7 +641,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "mobilis , -e"
             ],
             "Deutsch": [
@@ -649,7 +649,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "figura"
             ],
             "Deutsch": [
@@ -657,7 +657,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "exprimere , -o , -pressi"
             ],
             "Deutsch": [
@@ -665,7 +665,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "adicere , -io , -ieci"
             ],
             "Deutsch": [
@@ -673,7 +673,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "mihi bene est"
             ],
             "Deutsch": [
@@ -681,7 +681,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ludo intermisso"
             ],
             "Deutsch": [
@@ -689,7 +689,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "eadem omnia"
             ],
             "Deutsch": [
@@ -697,7 +697,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "potestatem facere"
             ],
             "Deutsch": [
@@ -705,7 +705,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "puniri eum iussit"
             ],
             "Deutsch": [
@@ -713,7 +713,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "vinum centum annorum"
             ],
             "Deutsch": [
@@ -721,7 +721,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "vinum praestare"
             ],
             "Deutsch": [
@@ -729,7 +729,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "potantibus nobis"
             ],
             "Deutsch": [
@@ -737,7 +737,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "in omnem partem flecti"
             ],
             "Deutsch": [
@@ -745,7 +745,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "aliquot figuras exprimere"
             ],
             "Deutsch": [
@@ -753,7 +753,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "imprudens , -ntis"
             ],
             "Deutsch": [
@@ -761,7 +761,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "onerare"
             ],
             "Deutsch": [
@@ -769,7 +769,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "cervix , -icis , f"
             ],
             "Deutsch": [
@@ -777,7 +777,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "digitus"
             ],
             "Deutsch": [
@@ -785,7 +785,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "articulus"
             ],
             "Deutsch": [
@@ -793,7 +793,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "nudare"
             ],
             "Deutsch": [
@@ -801,7 +801,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "lacertus"
             ],
             "Deutsch": [
@@ -809,7 +809,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "argenteus"
             ],
             "Deutsch": [
@@ -817,7 +817,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "dens , dentis , m"
             ],
             "Deutsch": [
@@ -825,7 +825,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "suavis , -e"
             ],
             "Deutsch": [
@@ -833,7 +833,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "finire"
             ],
             "Deutsch": [
@@ -841,7 +841,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "gustare"
             ],
             "Deutsch": [
@@ -849,7 +849,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "repositorium"
             ],
             "Deutsch": [
@@ -857,7 +857,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "gallina"
             ],
             "Deutsch": [
@@ -865,7 +865,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "lignum"
             ],
             "Deutsch": [
@@ -873,7 +873,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "continuo"
             ],
             "Deutsch": [
@@ -881,7 +881,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ovum"
             ],
             "Deutsch": [
@@ -889,7 +889,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "conviva , ae , m"
             ],
             "Deutsch": [
@@ -897,7 +897,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "gaudium"
             ],
             "Deutsch": [
@@ -905,7 +905,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "me imprudente"
             ],
             "Deutsch": [
@@ -913,7 +913,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ut mihi videtur"
             ],
             "Deutsch": [
@@ -921,7 +921,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "anulus totus aureus"
             ],
             "Deutsch": [
@@ -929,7 +929,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "nondum mihi suave est"
             ],
             "Deutsch": [
@@ -937,7 +937,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "morae esse alicui"
             ],
             "Deutsch": [
@@ -945,7 +945,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "curae esse alicui"
             ],
             "Deutsch": [
@@ -953,7 +953,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "gaudio esse alicui"
             ],
             "Deutsch": [
@@ -961,7 +961,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "res omnium pulcherrima"
             ],
             "Deutsch": [
@@ -969,7 +969,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "obligare, obligo, obligavi, obligatum"
             ],
             "Deutsch": [
@@ -977,7 +977,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "basium, -ii, n."
             ],
             "Deutsch": [
@@ -985,7 +985,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "discumbere, discumbo, discubui"
             ],
             "Deutsch": [
@@ -993,7 +993,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "potio, ionis, f"
             ],
             "Deutsch": [
@@ -1001,7 +1001,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "paratus, -a, -um"
             ],
             "Deutsch": [
@@ -1009,7 +1009,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "mensa, mensae, f."
             ],
             "Deutsch": [
@@ -1017,7 +1017,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "albus, -a, -um"
             ],
             "Deutsch": [
@@ -1025,7 +1025,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "niger, nigra, nigrum"
             ],
             "Deutsch": [
@@ -1033,7 +1033,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "fervere, ferveo, ferbui"
             ],
             "Deutsch": [
@@ -1041,7 +1041,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "beneficio obligare aliquem"
             ],
             "Deutsch": [
@@ -1049,7 +1049,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "idem ille servus"
             ],
             "Deutsch": [
@@ -1057,7 +1057,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "gratias agere humanitati alicuius"
             ],
             "Deutsch": [
@@ -1065,7 +1065,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "insequi ad pedes alicuius"
             ],
             "Deutsch": [
@@ -1073,7 +1073,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ne id quidem"
             ],
             "Deutsch": [
@@ -1081,7 +1081,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "officium molestum"
             ],
             "Deutsch": [
@@ -1089,7 +1089,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "experiri , an ( num )"
             ],
             "Deutsch": [
@@ -1097,7 +1097,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "quisquis rogatus erat , ut"
             ],
             "Deutsch": [
@@ -1105,7 +1105,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "imperium excipere"
             ],
             "Deutsch": [
@@ -1113,7 +1113,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "crederes"
             ],
             "Deutsch": [
@@ -1121,7 +1121,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "in altera parte ... , in altera ..."
             ],
             "Deutsch": [
@@ -1129,7 +1129,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "triclinium"
             ],
             "Deutsch": [
@@ -1137,7 +1137,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "praecipuus"
             ],
             "Deutsch": [
@@ -1145,7 +1145,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "foris ( adv . )"
             ],
             "Deutsch": [
@@ -1153,7 +1153,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "luna"
             ],
             "Deutsch": [
@@ -1161,7 +1161,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "notare"
             ],
             "Deutsch": [
@@ -1169,7 +1169,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "peccare"
             ],
             "Deutsch": [
@@ -1177,7 +1177,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "atrium"
             ],
             "Deutsch": [
@@ -1185,7 +1185,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "numerare"
             ],
             "Deutsch": [
@@ -1193,7 +1193,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "deprecari"
             ],
             "Deutsch": [
@@ -1201,7 +1201,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "iactura"
             ],
             "Deutsch": [
@@ -1209,7 +1209,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "cubare , -o , -ui , -itum"
             ],
             "Deutsch": [
@@ -1217,7 +1217,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "si bene memini"
             ],
             "Deutsch": [
@@ -1225,7 +1225,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "foris cenare"
             ],
             "Deutsch": [
@@ -1233,7 +1233,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "unus ex pueris"
             ],
             "Deutsch": [
@@ -1241,7 +1241,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "sine dubio"
             ],
             "Deutsch": [
@@ -1249,7 +1249,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "contra praeceptum"
             ],
             "Deutsch": [
@@ -1257,7 +1257,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "aliquis nostrum"
             ],
             "Deutsch": [
@@ -1265,7 +1265,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "decem sestertiorum esse"
             ],
             "Deutsch": [
@@ -1273,7 +1273,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "pedem referre"
             ],
             "Deutsch": [
@@ -1281,7 +1281,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "non tam ... quam ..."
             ],
             "Deutsch": [
@@ -1289,7 +1289,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "admiratio , -ionis , f"
             ],
             "Deutsch": [
@@ -1297,7 +1297,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ianua"
             ],
             "Deutsch": [
@@ -1305,7 +1305,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "postis , -is , f"
             ],
             "Deutsch": [
@@ -1313,7 +1313,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "figere , -o , fixi , fixum"
             ],
             "Deutsch": [
@@ -1321,7 +1321,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "foras ( adv . )"
             ],
             "Deutsch": [
@@ -1329,7 +1329,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "limen , -inis , n"
             ],
             "Deutsch": [
@@ -1337,7 +1337,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "aureus"
             ],
             "Deutsch": [
@@ -1345,7 +1345,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "intrare"
             ],
             "Deutsch": [
@@ -1353,7 +1353,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ceterum ( adv . )"
             ],
             "Deutsch": [
@@ -1361,7 +1361,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ostium"
             ],
             "Deutsch": [
@@ -1369,7 +1369,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ostiarius ( erg . servus )"
             ],
             "Deutsch": [
@@ -1377,7 +1377,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "cella"
             ],
             "Deutsch": [
@@ -1385,7 +1385,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "canis , -is , m"
             ],
             "Deutsch": [
@@ -1393,7 +1393,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "catena"
             ],
             "Deutsch": [
@@ -1401,7 +1401,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "vincire , -io , -nxi , -nctum"
             ],
             "Deutsch": [
@@ -1409,7 +1409,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "spiritus , -us , m"
             ],
             "Deutsch": [
@@ -1417,7 +1417,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "desistere , -sto , -stiti"
             ],
             "Deutsch": [
@@ -1425,7 +1425,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "titulus"
             ],
             "Deutsch": [
@@ -1433,7 +1433,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "porticus , -us , f"
             ],
             "Deutsch": [
@@ -1441,7 +1441,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "excellere , -o"
             ],
             "Deutsch": [
@@ -1449,7 +1449,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "excelsus"
             ],
             "Deutsch": [
@@ -1457,7 +1457,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "torquere , -eo , -rsi , -rtum"
             ],
             "Deutsch": [
@@ -1465,7 +1465,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "plenus admiratione"
             ],
             "Deutsch": [
@@ -1473,7 +1473,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "quisquis servus"
             ],
             "Deutsch": [
@@ -1481,7 +1481,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "paene c\u00e9cidi"
             ],
             "Deutsch": [
@@ -1489,7 +1489,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ad sinistram intrantibus"
             ],
             "Deutsch": [
@@ -1497,7 +1497,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "canis catena vinctus"
             ],
             "Deutsch": [
@@ -1505,7 +1505,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "spiritum colligere"
             ],
             "Deutsch": [
@@ -1513,7 +1513,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "Minerva ducente ( duce )"
             ],
             "Deutsch": [
@@ -1521,7 +1521,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "diligenter reddere"
             ],
             "Deutsch": [
@@ -1529,7 +1529,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "maestus"
             ],
             "Deutsch": [
@@ -1537,7 +1537,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "deliberare"
             ],
             "Deutsch": [
@@ -1545,7 +1545,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "interpellare"
             ],
             "Deutsch": [
@@ -1553,7 +1553,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "trepidare"
             ],
             "Deutsch": [
@@ -1561,7 +1561,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "lautus ( zu lavare )"
             ],
             "Deutsch": [
@@ -1569,7 +1569,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "cena"
             ],
             "Deutsch": [
@@ -1577,7 +1577,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "invitare"
             ],
             "Deutsch": [
@@ -1585,7 +1585,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "vestimentum"
             ],
             "Deutsch": [
@@ -1593,7 +1593,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "induere , -o , -ui , -utum"
             ],
             "Deutsch": [
@@ -1601,7 +1601,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "malum"
             ],
             "Deutsch": [
@@ -1609,7 +1609,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "balneum"
             ],
             "Deutsch": [
@@ -1617,7 +1617,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "vestire , -io , -ivi , -itum"
             ],
             "Deutsch": [
@@ -1625,7 +1625,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "iocus"
             ],
             "Deutsch": [
@@ -1633,7 +1633,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "tunica"
             ],
             "Deutsch": [
@@ -1641,7 +1641,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "puer"
             ],
             "Deutsch": [
@@ -1649,7 +1649,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "capillus"
             ],
             "Deutsch": [
@@ -1657,7 +1657,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "spectaculum"
             ],
             "Deutsch": [
@@ -1665,7 +1665,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "lautitia , -ae , f ( auch : plurale tantum )"
             ],
             "Deutsch": [
@@ -1673,7 +1673,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "cenare"
             ],
             "Deutsch": [
@@ -1681,7 +1681,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "digitus"
             ],
             "Deutsch": [
@@ -1689,7 +1689,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "spargere , -o , -rsi , -rsum"
             ],
             "Deutsch": [
@@ -1697,7 +1697,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "hinc ( temporal"
             ],
             "Deutsch": [
@@ -1705,7 +1705,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "cantare"
             ],
             "Deutsch": [
@@ -1713,7 +1713,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "quo genere ( = qua ratione )"
             ],
             "Deutsch": [
@@ -1721,7 +1721,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "nonne scis ?"
             ],
             "Deutsch": [
@@ -1729,7 +1729,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "scisne ?"
             ],
             "Deutsch": [
@@ -1737,7 +1737,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "num scis ?"
             ],
             "Deutsch": [
@@ -1745,7 +1745,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "malorum oblivisci"
             ],
             "Deutsch": [
@@ -1753,7 +1753,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "officium tueri"
             ],
             "Deutsch": [
@@ -1761,7 +1761,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "pila ludere"
             ],
             "Deutsch": [
@@ -1769,7 +1769,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "operae pretium est"
             ],
             "Deutsch": [
