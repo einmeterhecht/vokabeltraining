@@ -271,3 +271,5 @@ var liste = {
     "titel": "Japanisch1",
     "frage_attribut": "Deutsch"
 };
+
+erste_aufgabe();

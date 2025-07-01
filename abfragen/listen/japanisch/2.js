@@ -239,3 +239,5 @@ var liste = {
     "titel": "Japanisch2",
     "frage_attribut": "Deutsch"
 };
+
+erste_aufgabe();
