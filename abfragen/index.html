@@ -1,47 +1,21 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=0.8">
 	<title>Abfragen</title>
 	<script src="abfragen_js.js"></script>
 	<script src="liste_laden.js"></script>
+	<link rel="stylesheet" href="../shared.css"></link>
 	<style>
 		:root {
-			--color-light: #EEC;
-			--color-outer: #6d224a;
-			--color-inner: #301020;
-			--color-main-background: #221534;
-			--color-incorrect: #900;
-			--color-hover: #C2CFE4; /* currently not in use */
-
 			--ergebnisse-width: 80%;
-			
-			/* Prevent any zooming/scrolling on mobile */
 			touch-action: pan-x;
-		}
-		
-		* {
-		    font-family: serif;
 		}
 		
 		html, body {
 		    margin-top: 0;
 		    height: 1vh;
-		}
-		
-		body {
-		    background: var(--color-main-background);
-		}
-
-		.anzeige {
-			background: var(--color-inner);
-			width: auto;
-			height: auto;
-			border: 2px solid var(--color-outer);
-			border-radius: 15px;
-			box-shadow: inset 6px 6px 12px var(--color-main-background);
 		}
 
 		.zentriert {
@@ -54,7 +28,6 @@
 			font-size: 30px;
 			text-align: center;
 			color: var(--color-light);
-			
 			animation: color_from_transparent 0.5s;
 		}
 		
@@ -67,7 +40,7 @@
 			padding-bottom: 0.2rem;
 		}
 
-		/* Das ist unser Eingabefeld für die Ergebnisse */
+		/* Eingabefeld für die Ergebnisse */
 		.ergebnisse {
 			font-size: 48px;
 			font-family: sans-serif;
@@ -105,50 +78,9 @@
 			opacity: 1;
 		}
 
-		.progress_bar {
-			background: var(--color-inner);
-			width: 100%;
-			height: 30px;
-			border: 2px solid var(--color-outer);
-			border-radius: 15px;
-			overflow: hidden;
-			display: inline;
-		}
-
-		.progress_bar_value {
-		    width: 0; /* this is controlled from js */
-		
-		    height: 100%;
-			background: var(--color-outer);
-			transition: width 0.1s ease;
-		}
-
 		.progress_text {
 			font-size: 18px;
 			color: var(--color-light);
-		}
-
-		.button_style {
-			transition-duration: 0.5s;
-			font-size: 18px;
-			padding: 5px 10px;
-			border: 2px solid transparent;
-			border-radius: 15px;
-			color: var(--color-light);
-			background-color: var(--color-main-background);
-		}
-
-		.button_style:hover {
-			color: var(--color-light);
-			background-color: var(--color-outer);
-			/*border: 2px solid var(--color-light);*/
-		}
-
-		.button_style:active {
-			transition-duration: 0.1s;
-			color: var(--color-inner);
-			background-color: var(--color-outer);
-			/*border-color: var(--color-outer);*/
 		}
 
 		#eingabeaufforderung a {
@@ -201,7 +133,6 @@
 				align-content: center;
 			}
 		}
-		
 	</style>
 </head>
 
@@ -230,41 +161,6 @@
 				<p class="frage_info" style="color: #264B87;">Starten</p>
 		</div>-->
 	<script>fragestellung.innerHTML="Fragen konnten nicht geladen werden :("; eingabeaufforderung.innerHTML = "Wahrscheinlich gibt es diese Liste nicht."; liste_laden();</script>
-	<style>
-		@font-face {
-		  font-family: cmunrm;
-		  font-weight: normal;
-		  font-style: normal;
-		  src: url(fonts/cmunrm.woff) format(woff)
-		}
-
-        /*
-		@font-face {
-		  font-family: cmunrm;
-		  font-weight: bold;
-		  font-style: normal;
-		  src: url(fonts/cmunbx.woff) format(woff)
-		}
-		*/
-
-		@font-face {
-		  font-family: cmunrm;
-		  font-weight: normal;
-		  font-style: italic;
-		  src: url(fonts/cmunti.woff) format(woff)
-		}
-
-		@font-face {
-		  font-family: cmunrm;
-		  font-weight: bold;
-		  font-style: italic;
-		  src: url(fonts/cmunbi.woff) format(woff)
-		}
-		
-		* {
-		    font-family: "cmunrm", "serif";
-		}
-	</style>
+	<link rel="stylesheet" href="../fonts/cmu-serif.css">
 </body>
-
 </html>
