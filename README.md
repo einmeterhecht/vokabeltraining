@@ -260,13 +260,10 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Franz&ouml;sisch 5.26.2025](/vokabeltraining/abfragen?folder=g2020c&file=Französisch_5.26.2025)
 
-<<<<<<< Updated upstream
 - [Latein 15.4.2025](/vokabeltraining/abfragen?folder=g2020c&file=Latein_15.4.2025)
 
 - [Franz&ouml;sisch 14.4](/vokabeltraining/abfragen?folder=g2020c&file=Französisch_14.4)
-=======
 - [Griechisch Kairos 34 - 40](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_34-40)
->>>>>>> Stashed changes
 
 - [Griechisch auf 24. M&auml;rz 2025](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2025-03-24)
 
