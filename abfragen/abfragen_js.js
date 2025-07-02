@@ -433,8 +433,8 @@ function fertig(){
 		"<i>" + get_knacknuesse() + "</i>";
 	}
 	document.getElementById("fortschritt_kopieren_button").remove();
+	document.querySelector(".ergebnisse + .hint-message").remove();
 	eingabe.remove();
-	
 }
 
 function format_fragenzahl(i) {
