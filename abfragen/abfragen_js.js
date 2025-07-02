@@ -197,6 +197,8 @@ function update_progress(){
 	fragen_gesamt = liste.fragen.length;
 	progress_text.innerHTML = String(fragen_geloest) + " / " + String(fragen_gesamt);
 	document.querySelector("#progress>.progress_bar_value").style.width=(fragen_geloest/ fragen_gesamt*100  + "%");
+
+	window.history.replaceState({}, '', get_fortschritt_url());
 }
 
 function fade_text(target, new_text) {
