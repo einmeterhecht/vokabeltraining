@@ -476,3 +476,7 @@ function frage_attribut_tauschen() {
 		encodeURIComponent(get_gefragtes_attribut()),
 		remove_parameter_from_url("progress"));
 }
+
+function fortschritt_zuruecksetzen() {
+	window.location.href = remove_parameter_from_url("progress");
+}
