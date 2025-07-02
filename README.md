@@ -43,9 +43,9 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Englisch File 12](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_12)
 
-- [Franz&ouml;sisch 14.4](/vokabeltraining/abfragen?folder=g2023k&file=Französisch_14.4)
+- [Französisch 14.4](/vokabeltraining/abfragen?folder=g2023k&file=Franz%C3%B6sisch_14.4)
 
-- [Franz&ouml;sisch CI Leçon 8](/vokabeltraining/abfragen?folder=g2023k&file=Französisch_CI_Leçon_8)
+- [Französisch CI Leçon 8](/vokabeltraining/abfragen?folder=g2023k&file=Franz%C3%B6sisch_CI_Le%C3%A7on_8)
 
 - [Latein Viva 16](/vokabeltraining/abfragen?folder=g2023k&file=Latein-Viva-16)
 
@@ -73,13 +73,13 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Latein VIVA Lektion 1-15](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_1-15)
 
-- [Franz&ouml;sisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
+- [Französisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
 
-- [Franz&ouml;sisch_2: 2024-10-25](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-10-25)
+- [Französisch_2: 2024-10-25](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-10-25)
 
-- [Franz&ouml;sisch CI Lektion 6 A](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_A)
+- [Französisch CI Lektion 6 A](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_A)
 
-- [Franz&ouml;sisch CI Lektion 6 entrée](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_entrée)
+- [Französisch CI Lektion 6 entrée](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_entr%C3%A9e)
 
 - [Latein VIVA Lektion 15](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_15)
 
@@ -93,47 +93,45 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Latein auf 2025.06.10](/vokabeltraining/abfragen?folder=g2020c&file=Latein_2025-06-10)
 
-- [Franz&ouml;sisch 5.26.2025](/vokabeltraining/abfragen?folder=g2020c&file=Französisch_5.26.2025)
-
-- [Griechisch Kairos 34 - 40](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_34-40)
+- [Französisch 5.26.2025](/vokabeltraining/abfragen?folder=g2020c&file=Franz%C3%B6sisch_5.26.2025)
 
 - [Latein 15.4.2025](/vokabeltraining/abfragen?folder=g2020c&file=Latein_15.4.2025)
 
-- [Griechisch auf 24. M&auml;rz 2025](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2025-03-24)
+- [Griechisch auf 24. März 2025](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2025-03-24)
 
-- [Franz&ouml;sisch auf 24. M&auml;rz 2025](/vokabeltraining/abfragen?folder=g2020c&file=franz_2025-03-24)
+- [Französisch auf 24. März 2025](/vokabeltraining/abfragen?folder=g2020c&file=franz_2025-03-24)
 
 - [Griechisch 11.3.2025](/vokabeltraining/abfragen?folder=g2020c&file=Griechisch_11.3.2025)
 
-- [Franz&ouml;sisch 11.3.2025](/vokabeltraining/abfragen?folder=g2020c&file=Französisch_11.3.2025)
+- [Französisch 11.3.2025](/vokabeltraining/abfragen?folder=g2020c&file=Franz%C3%B6sisch_11.3.2025)
 
 - [Franz Voci 17.2.25](/vokabeltraining/abfragen?folder=g2020c&file=Franz_Voci_17.2.25)
 
-- [Franz&ouml;sisch: 2024-13-12](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-13-12)
+- [Französisch: 2024-13-12](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-13-12)
 
 - [Latein 10.12.2024](/vokabeltraining/abfragen?folder=g2020c&file=Latein_10.12.2024)
 
 - [Griechisch 25.11.24](/vokabeltraining/abfragen?folder=g2020c&file=Griechisch_25.11.24)
 
-- [Franz&ouml;sisch auf 2024 10 25](/vokabeltraining/abfragen?folder=g2020c&file=franz_auf_2024_10_25)
+- [Französisch auf 2024 10 25](/vokabeltraining/abfragen?folder=g2020c&file=franz_auf_2024_10_25)
 
-- [Franz&ouml;sisch: 2024-10-25](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-10-25)
+- [Französisch: 2024-10-25](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-10-25)
 
-- [Franz&ouml;sisch: 24.9 2024](/vokabeltraining/abfragen?folder=g2020c&file=franz_24.9_2024)
+- [Französisch: 24.9 2024](/vokabeltraining/abfragen?folder=g2020c&file=franz_24.9_2024)
+
+- [Latein: VIVA Lektion 12](/vokabeltraining/abfragen?folder=g2020c&file=Latein_2024-09-08)
 
 - [Griechisch Kairos 31-34](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_31-34)
 
 - [Latein Lernwortschatz zu Caesars bello gallico](/vokabeltraining/abfragen?folder=g2020c&file=latein_lws-caesar)
 
-- [Englisch auf 25. Juni 2024 - Teil 1: EF Additional Vocabulary 1-6](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-25_1)
+- [Französisch auf 3. Juni 2024](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-06-03)
 
-- [Englisch auf 25. Juni 2024 - Teil 2: EF Additional Vocabulary 7-10](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-25_2)
+- [Englisch auf 22. März 2024](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-03-22)
 
-- [Englisch auf 25. Juni 2024 - Teil 3: EF Intermediate alles](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-25_3)
+- [Griechisch auf 12. März 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2024-03-12)
 
-- [Englisch auf 6. Juni 2024](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-06-06)
-
-- [Griechisch auf 4. Juni 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_24-30)
+- [Griechisch-Repetition März 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_1-25)
 
 ---
 
@@ -192,9 +190,9 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Englisch F10 Xmas Vocab](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_F10_Xmas_Vocab)
 
-- [Franz&ouml;sisch CI Leçon 8](/vokabeltraining/abfragen?folder=g2023k&file=Französisch_CI_Leçon_8)
+- [Französisch CI Leçon 8](/vokabeltraining/abfragen?folder=g2023k&file=Franz%C3%B6sisch_CI_Le%C3%A7on_8)
 
-- [Franz CI L7 entrée, A, B](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_L7_entrée,_A,_B)
+- [Franz CI L7 entrée, A, B](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_L7_entr%C3%A9e,_A,_B)
 
 - [Franz Couleurs et Vetements](/vokabeltraining/abfragen?folder=g2023k&file=Franz_Couleurs_et_vetements)
 
@@ -202,57 +200,59 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Franz CI Lektion 6B](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6B)
 
-- [Franz&ouml;sisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
+- [Französisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
 
-- [Franz&ouml;sisch_2: 2024-10-25](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-10-25)
-
-- [Franz CI Lektion 6 A](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_A)
-
-- [Franz CI Lektion 6 entrée](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_entrée)
-
-- [Franz Le&ccedil;on 4 Entr&eacute;e + 4A](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-04-13)
-
-- [Franz&ouml;sisch: CI 1, leçon 3 - Entrée + Atelier A und B](/vokabeltraining/abfragen?folder=g2023k&file=CI-1-3_entree_atelier-AB)
-
-- [Franz&ouml;sisch CI 1, Atelier C](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_C)
-
-- [Franz&ouml;sisch CI 1, Atelier B](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_B)
-
-- [Franz&ouml;sisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
-
-- [Franz&ouml;sisch_2: 2024-10-25](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-10-25)
+- [Französisch_2: 2024-10-25](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-10-25)
 
 - [Franz CI Lektion 6 A](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_A)
 
-- [Franz CI Lektion 6 entrée](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_entrée)
+- [Franz CI Lektion 6 entrée](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_entr%C3%A9e)
 
-- [Franz&ouml;sisch auf 20. Mai 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-05-20)
+- [Franz Leçon 4 Entrée + 4A](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-04-13)
 
-- [Franz&ouml;sisch auf 20. Mai 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-05-20)
+- [Französisch: CI 1, leçon 3 - Entrée + Atelier A und B](/vokabeltraining/abfragen?folder=g2023k&file=CI-1-3_entree_atelier-AB)
 
-- [Hauptst&auml;dte Afrikas (Alle)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas)
+- [Französisch CI 1, Atelier C](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_C)
 
-- [Latein Stammformen 7-8](/vokabeltraining/abfragen?folder=g2023k&file=latein_StaFo_7-8)
+- [Französisch CI 1, Atelier B](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_B)
 
-- [Latein VIVA Stammformen 1-15 mit Deutsch](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Stammformen_1-15_mit_Deutsch)
+- [Französisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
 
-- [Latein VIVA 1-15 Stammformen Teil 2](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_Stammformen_Teil_2)
+- [Französisch_2: 2024-10-25](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-10-25)
 
-- [Latein VIVA 1-15 Stammformen Teil 1](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_Stammformen_Teil_1)
+- [Französisch CI Lektion 6 A](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_A)
 
-- [Latein VIVA 1-15 Stammformen fixed](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_Stammformen)
+- [Französisch CI Lektion 6 entrée](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_entr%C3%A9e)
 
-- [Latein VIVA 1-15 Stammformen](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_Stammformen)
+- [Französisch auf 20. Mai 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-05-20)
 
-- [Latein VIVA 1-15 kons. Stammformen](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_kons._Stammformen)
+- [Franz Leçon 4 Entrée + 4A](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-04-13)
 
-- [Latein VIVA 1-15 Stammformen](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_Stammformen)
+- [Französisch: CI 1, leçon 3 - Entrée + Atelier A und B](/vokabeltraining/abfragen?folder=g2023k&file=CI-1-3_entree_atelier-AB)
 
-- [Hauptst&auml;dte Afrikas (Auswahl)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl)
+- [Französisch CI 1, Atelier C](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_C)
+
+- [Französisch CI 1, Atelier B](/vokabeltraining/abfragen?folder=g2023k&file=franz_CI_1-5_atelier_B)
+
+- [Französisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
+
+- [Französisch_2: 2024-10-25](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-10-25)
+
+- [Französisch CI Lektion 6 A](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_A)
+
+- [Französisch CI Lektion 6 entrée](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_entr%C3%A9e)
+
+- [Französisch auf 20. Mai 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-05-20)
+
+- [Französisch auf 20. Mai 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-05-20)
+
+- [Hauptstädte Afrikas (Alle)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas)
+
+- [Hauptstädte Afrikas (Auswahl)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl)
 
   - [umgekehrt (Land zur Hauptstadt nennen)](/vokabeltraining/abfragen?folder=g2023k&file=hauptstaedte_afrikas_auswahl-frage_mit_stadt)
 
-- [Franz&ouml;sisch auf 27. Februar 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-02-27)
+- [Französisch auf 27. Februar 2024](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-02-27)
 
 - [Latein auf 18. Januar 2024](/vokabeltraining/abfragen?folder=g2023k&file=latein_2024-01-18)
 
@@ -263,34 +263,31 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Latein auf 2025.06.10](/vokabeltraining/abfragen?folder=g2020c&file=Latein_2025-06-10)
 
-- [Franz&ouml;sisch 5.26.2025](/vokabeltraining/abfragen?folder=g2020c&file=Französisch_5.26.2025)
+- [Französisch 5.26.2025](/vokabeltraining/abfragen?folder=g2020c&file=Franz%C3%B6sisch_5.26.2025)
 
 - [Latein 15.4.2025](/vokabeltraining/abfragen?folder=g2020c&file=Latein_15.4.2025)
 
-- [Franz&ouml;sisch 14.4](/vokabeltraining/abfragen?folder=g2020c&file=Französisch_14.4)
-- [Griechisch Kairos 34 - 40](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_34-40)
+- [Griechisch auf 24. März 2025](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2025-03-24)
 
-- [Griechisch auf 24. M&auml;rz 2025](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2025-03-24)
-
-- [Franz&ouml;sisch auf 24. M&auml;rz 2025](/vokabeltraining/abfragen?folder=g2020c&file=franz_2025-03-24)
+- [Französisch auf 24. März 2025](/vokabeltraining/abfragen?folder=g2020c&file=franz_2025-03-24)
 
 - [Griechisch 11.3.2025](/vokabeltraining/abfragen?folder=g2020c&file=Griechisch_11.3.2025)
 
-- [Franz&ouml;sisch 11.3.2025](/vokabeltraining/abfragen?folder=g2020c&file=Französisch_11.3.2025)
+- [Französisch 11.3.2025](/vokabeltraining/abfragen?folder=g2020c&file=Franz%C3%B6sisch_11.3.2025)
 
 - [Franz Voci 17.2.25](/vokabeltraining/abfragen?folder=g2020c&file=Franz_Voci_17.2.25)
 
-- [Franz&ouml;sisch: 2024-13-12](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-13-12)
+- [Französisch: 2024-13-12](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-13-12)
 
 - [Latein 10.12.2024](/vokabeltraining/abfragen?folder=g2020c&file=Latein_10.12.2024)
 
 - [Griechisch 25.11.24](/vokabeltraining/abfragen?folder=g2020c&file=Griechisch_25.11.24)
 
-- [Franz&ouml;sisch auf 2024 10 25](/vokabeltraining/abfragen?folder=g2020c&file=franz_auf_2024_10_25)
+- [Französisch auf 2024 10 25](/vokabeltraining/abfragen?folder=g2020c&file=franz_auf_2024_10_25)
 
-- [Franz&ouml;sisch: 2024-10-25](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-10-25)
+- [Französisch: 2024-10-25](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-10-25)
 
-- [Franz&ouml;sisch: 24.9 2024](/vokabeltraining/abfragen?folder=g2020c&file=franz_24.9_2024)
+- [Französisch: 24.9 2024](/vokabeltraining/abfragen?folder=g2020c&file=franz_24.9_2024)
 
 - [Latein: VIVA Lektion 12](/vokabeltraining/abfragen?folder=g2020c&file=Latein_2024-09-08)
 
@@ -298,15 +295,13 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Latein Lernwortschatz zu Caesars bello gallico](/vokabeltraining/abfragen?folder=g2020c&file=latein_lws-caesar)
 
-- [Franz&ouml;sisch auf 3. Juni 2024](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-06-03)
+- [Französisch auf 3. Juni 2024](/vokabeltraining/abfragen?folder=g2020c&file=franz_2024-06-03)
 
-- [Latein auf 16. April 2024](/vokabeltraining/abfragen?folder=g2020c&file=latein_2024-04-16)
-
-- [Englisch auf 22. M&auml;rz 2024](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-03-22)
+- [Englisch auf 22. März 2024](/vokabeltraining/abfragen?folder=g2020c&file=englisch_2024-03-22)
 
 - [Griechisch auf 12. März 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2024-03-12)
 
-- [Griechisch-Repetition M&auml;rz 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_1-25)
+- [Griechisch-Repetition März 2024](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_kairos_1-25)
 
 - [Latein: VIVA Lektionen 26-45](/vokabeltraining/abfragen?folder=latein&file=viva_26-45)
 
@@ -323,6 +318,13 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [Französisch auf 14. März 2023 (GAWS S. 265-290)](/vokabeltraining/abfragen?folder=franz&file=2023-03-14)
 
+- [Französisch auf 1. Februar 2023 (GAWS S. 250-264)](/vokabeltraining/abfragen?folder=franz&file=2023-02-01)
+
+- [Englisch auf 23. Januar 2023](/vokabeltraining/abfragen?folder=english&file=2023-01-13)
+
+
+*Note: The source code, the vocabulary lists and the documentation of this project are mainly written in german.*
+*And PLEASE don't look at the source unless you are looking for examples of how not to write code.*
 - [Französisch auf 1. Februar 2023 (GAWS S. 250-264)](/vokabeltraining/abfragen?folder=franz&file=2023-02-01)
 
 - [Englisch auf 23. Januar 2023](/vokabeltraining/abfragen?folder=english&file=2023-01-13)
