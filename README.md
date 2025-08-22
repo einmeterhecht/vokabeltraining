@@ -35,57 +35,15 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 [Häufigste französische Adverbien](/vokabeltraining/abfragen?folder=franz&file=adverbien)
 
-[Lateinische Deponentien](/vokabeltraining/abfragen?folder=latein&file=deponentien)
+### Für g20205b:
 
-### Für g2023k:
+### Für g20205ae:
 
-- [Latein VIVA 17](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_17)
+### Für Latein:
 
-- [Englisch File 12](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_12)
+- [VIVA 16](/vokabeltraining/abfragen?folder=Latein&file=VIVA_16)
 
-- [Französisch 14.4](/vokabeltraining/abfragen?folder=g2023k&file=Franz%C3%B6sisch_14.4)
-
-- [Französisch CI Leçon 8](/vokabeltraining/abfragen?folder=g2023k&file=Franz%C3%B6sisch_CI_Le%C3%A7on_8)
-
-- [Latein Viva 16](/vokabeltraining/abfragen?folder=g2023k&file=Latein-Viva-16)
-
-- [Englisch File 11](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_File_11)
-
-- [Franz CI L7 entrée, A, B](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_L7_entrée,_A,_B)
-
-- [Franz Couleurs et Vetements](/vokabeltraining/abfragen?folder=g2023k&file=Franz_Couleurs_et_vetements)
-
-- [Franz CI Lecon 6 AB+coin lecture](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lecon_6_AB+coin_lecture)
-
-- [Englisch F10 Xmas Vocab](/vokabeltraining/abfragen?folder=g2023k&file=Englisch_F10_Xmas_Vocab)
-
-- [Franz CI Lektion 6B](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6B)
-
-- [Latein VIVA Stammformen 1-15 mit Deutsch](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Stammformen_1-15_mit_Deutsch)
-
-- [Latein VIVA 1-15 Stammformen Teil 2](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_Stammformen_Teil_2)
-
-- [Latein VIVA 1-15 Stammformen Teil 1](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_Stammformen_Teil_1)
-
-- [Latein VIVA 1-15 Stammformen](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_Stammformen_fixed)
-
-- [Latein VIVA 1-15 kons. Stammformen](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_1-15_kons._Stammformen)
-
-- [Latein VIVA Lektion 1-15](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_1-15)
-
-- [Französisch: Verben konjugieren](/vokabeltraining/abfragen?folder=g2023k&file=franz_Voci)
-
-- [Französisch_2: 2024-10-25](/vokabeltraining/abfragen?folder=g2023k&file=franz_2024-10-25)
-
-- [Französisch CI Lektion 6 A](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_A)
-
-- [Französisch CI Lektion 6 entrée](/vokabeltraining/abfragen?folder=g2023k&file=Franz_CI_Lektion_6_entr%C3%A9e)
-
-- [Latein VIVA Lektion 15](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_15)
-
-- [Latein VIVA Lektion 14](/vokabeltraining/abfragen?folder=g2023k&file=Latein_VIVA_Lektion_14)
-
-- [Latein: VIVA Lektion 13](/vokabeltraining/abfragen?folder=g2023k&file=latein_viva_13)
+### Für Italienisch:
 
 ### Für g2020c:
 
@@ -136,6 +94,16 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 ---
 
 ## Archiv
+
+### Für g20205b:
+
+### Für g20205ae:
+
+### Für Latein:
+
+- [VIVA 16](/vokabeltraining/abfragen?folder=Latein&file=VIVA_16)
+
+### Für Italienisch
 
 ### Für g2023k:
 
