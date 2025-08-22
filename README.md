@@ -37,11 +37,15 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g20205b:
 
+- [VIVA 16](/vokabeltraining/abfragen?folder=latein&file=VIVA_16)
+
 ### Für g20205ae:
+
+- [VIVA 16](/vokabeltraining/abfragen?folder=latein&file=VIVA_16)
 
 ### Für Latein:
 
-- [VIVA 16](/vokabeltraining/abfragen?folder=Latein&file=VIVA_16)
+- [VIVA 16](/vokabeltraining/abfragen?folder=latein&file=VIVA_16)
 
 ### Für Italienisch:
 
