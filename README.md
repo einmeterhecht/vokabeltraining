@@ -35,13 +35,9 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 [Häufigste französische Adverbien](/vokabeltraining/abfragen?folder=franz&file=adverbien)
 
-### Für g20205b:
+### Für g2025b:
 
-- [VIVA 16](/vokabeltraining/abfragen?folder=latein&file=VIVA_16)
-
-### Für g20205ae:
-
-- [VIVA 16](/vokabeltraining/abfragen?folder=latein&file=VIVA_16)
+### Für g2025ae:
 
 ### Für Latein:
 
