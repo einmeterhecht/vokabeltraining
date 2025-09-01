@@ -37,6 +37,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2025b:
 
+- [Franz CI2 L1](/vokabeltraining/abfragen?folder=g2025&file=Franz_CI2_L1)
+
 ### Für g2025ae:
 
 ### Für Latein:
