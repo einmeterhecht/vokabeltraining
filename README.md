@@ -43,7 +43,7 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [VIVA 16](/vokabeltraining/abfragen?folder=latein&file=VIVA_16)
 
-- [VIVA 18](/vokabeltraining/abfragen?folder=latein&file=VIVA_18)
+- [VIVA 18](/vokabeltraining/abfragen?folder=latein&file=VIVA_18+)
 
 ### Für Italienisch:
 
