@@ -43,6 +43,9 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2025ae:
 
+
+- [Englisch Voci 1](/vokabeltraining/abfragen?folder=g2025ae&file=Englisch_Voci_1)
+
 ### Für Latein:
 
 - [VIVA 16](/vokabeltraining/abfragen?folder=latein&file=VIVA_16)
