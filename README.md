@@ -55,6 +55,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [VIVA 19](/vokabeltraining/abfragen?folder=latein&file=VIVA_19)
 
+- [VIVA 20](/vokabeltraining/abfragen?folder=latein&file=VIVA_20)
+
 ### Für Italienisch:
 
 ### Für g2020c:
