@@ -49,13 +49,23 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für Latein:
 
+- [VIVA 1](/vokabeltraining/abfragen?folder=latein&file=VIVA_1)
+
+- [VIVA 2](/vokabeltraining/abfragen?folder=latein&file=VIVA_2)
+
+- [VIVA 3](/vokabeltraining/abfragen?folder=latein&file=VIVA_3)
+
 - [VIVA 16](/vokabeltraining/abfragen?folder=latein&file=VIVA_16)
 
-- [VIVA 18](/vokabeltraining/abfragen?folder=latein&file=VIVA_18+)
+- [VIVA 17](/vokabeltraining/abfragen?folder=latein&file=VIVA_17)
+
+- [VIVA 18+](/vokabeltraining/abfragen?folder=latein&file=VIVA_18+)
 
 - [VIVA 19](/vokabeltraining/abfragen?folder=latein&file=VIVA_19)
 
 - [VIVA 20](/vokabeltraining/abfragen?folder=latein&file=VIVA_20)
+
+- [VIVA Stammformen 1-10](/vokabeltraining/abfragen?folder=latein&file=VIVA_Stammformen_1-10)
 
 ### Für Italienisch:
 
