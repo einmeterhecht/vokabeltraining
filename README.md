@@ -71,6 +71,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2020c:
 
+- [Französisch 7.11](/vokabeltraining/abfragen?folder=g2020c&file=Französisch_7.11)
+
 - [Griechisch ALLES](/vokabeltraining/abfragen?folder=g2020c&file=Griechisch_ALLES)
 
 - [Griechisch: 1.7.2025](/vokabeltraining/abfragen?folder=g2020c&file=Griechisch:_1.7.2025)
