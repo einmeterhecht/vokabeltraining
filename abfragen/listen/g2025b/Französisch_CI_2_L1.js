@@ -799,6 +799,214 @@ var liste = {
             "Deutsch": [
                 "ein Kilometer"
             ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "un m\u00e8tre"
+            ],
+            "Deutsch": [
+                "ein Meter"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "sous terre"
+            ],
+            "Deutsch": [
+                "unter der Erde, unterirdisch"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "profond/profonde"
+            ],
+            "Deutsch": [
+                "tief"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "un soldat/une soldate"
+            ],
+            "Deutsch": [
+                "ein Soldat/eine Soldatin"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "le jour"
+            ],
+            "Deutsch": [
+                "der Tag"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "horrible"
+            ],
+            "Deutsch": [
+                "schrecklich, f\u00fcrchterlich, grauenhaft"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "un selfie"
+            ],
+            "Deutsch": [
+                "ein Selfie"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "il y a"
+            ],
+            "Deutsch": [
+                "vor (zeitlich)"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "seul/seule"
+            ],
+            "Deutsch": [
+                "allein"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "environ"
+            ],
+            "Deutsch": [
+                "ungef\u00e4hr, etwa"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "passer qc \u00e0 qn"
+            ],
+            "Deutsch": [
+                "jdm. etw. reichen, jdm. etw. (weiter)geben"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "une grand-m\u00e8re"
+            ],
+            "Deutsch": [
+                "eine Grossmutter"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "se rencontrer"
+            ],
+            "Deutsch": [
+                "sich kennenlernen, sich begegnen"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "un jumelage"
+            ],
+            "Deutsch": [
+                "eine St\u00e4dte-/Schulpartnerschaft"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "se revoir"
+            ],
+            "Deutsch": [
+                "sich wiedersehen"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "se perdre de vue"
+            ],
+            "Deutsch": [
+                "sich aus den Augen verlieren"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "se souvenir de qn/qc"
+            ],
+            "Deutsch": [
+                "sich an jdn/etw erinnern"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "une nouvelle"
+            ],
+            "Deutsch": [
+                "eine Nachricht, Neuigkeit"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "donner rendez-vous \u00e0 qn"
+            ],
+            "Deutsch": [
+                "sich mit jdm. verabreden"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "gentil/gentille"
+            ],
+            "Deutsch": [
+                "nett"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "oublier qc/qn"
+            ],
+            "Deutsch": [
+                "etw./jdn. vergessen"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "participer \u00e0 qc"
+            ],
+            "Deutsch": [
+                "an etw. teilnehmen"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "un sentiment"
+            ],
+            "Deutsch": [
+                "ein Gef\u00fchl"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "un jeu de piste"
+            ],
+            "Deutsch": [
+                "eine Schnitzeljagd"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "assez (+adj)"
+            ],
+            "Deutsch": [
+                "ziemlich"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "courant/courante"
+            ],
+            "Deutsch": [
+                "gew\u00f6hnlich, gel\u00e4ufig"
+            ]
         }
     ],
     "hinweis_attribute": [
