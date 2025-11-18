@@ -37,6 +37,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2025b:
 
+- [Mon Dico Personnel](/vokabeltraining/abfragen?folder=g2025b&file=mon_dico_personnel)
+
 - [Französisch CI 2 L1](/vokabeltraining/abfragen?folder=g2025b&file=Französisch_CI_2_L1)
 
 - [Französisch Le Cours Intensif 1](/vokabeltraining/abfragen?folder=g2025b&file=Franzoesisch_Le_Cours_Intensif_1)
