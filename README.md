@@ -79,6 +79,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2020c:
 
+- [Griechisch auf 21. November 2025](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2025-11-21)
+
 - [Französisch 7.11](/vokabeltraining/abfragen?folder=g2020c&file=Französisch_7.11)
 
 - [Griechisch ALLES](/vokabeltraining/abfragen?folder=g2020c&file=Griechisch_ALLES)
@@ -262,6 +264,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 
 ### Für g2020c:
+
+- [Griechisch auf 21. November 2025](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2025-11-21)
 
 - [Griechisch: 1.7.2025](/vokabeltraining/abfragen?folder=g2020c&file=Griechisch:_1.7.2025)
 
