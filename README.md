@@ -49,6 +49,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2025ae:
 
+- [Le CI2 Leçon 2](/vokabeltraining/abfragen?folder=g2025ae&file=Le_CI_Leçon_2)
+
 - [Französisch CI2 L1](/vokabeltraining/abfragen?folder=g2025ae&file=Französisch_CI2_L1)
 
 - [Englisch Voci 1](/vokabeltraining/abfragen?folder=g2025ae&file=Englisch_Voci_1)
