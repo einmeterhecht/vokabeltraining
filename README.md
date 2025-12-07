@@ -37,13 +37,15 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2025b:
 
+- [English LI L1](/vokabeltraining/abfragen?folder=g2025b&file=English_LI_L1)
+
 - [Mon Dico Personnel](/vokabeltraining/abfragen?folder=g2025b&file=mon_dico_personnel)
 
 - [Französisch CI 2 L1](/vokabeltraining/abfragen?folder=g2025b&file=Französisch_CI_2_L1)
 
 - [Französisch Le Cours Intensif 1](/vokabeltraining/abfragen?folder=g2025b&file=Franzoesisch_Le_Cours_Intensif_1)
 
-- [Englisch LI L1](/vokabeltraining/abfragen?folder=g2025b&file=English_LI_L1)
+- [English LI L1](/vokabeltraining/abfragen?folder=g2025b&file=English_LI_L1)
 
 - [Franz CI2 L1 A](/vokabeltraining/abfragen?folder=g2025b&file=Franz_CI2_L1)
 
