@@ -37,7 +37,7 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2025b:
 
-- [English Li L2&3](/vokabeltraining/abfragen?folder=g2025b&file=English_LI_L1)
+- [English Li L2&3](/vokabeltraining/abfragen?folder=g2025b&file=English_LI_L2&3)
 
 - [Mon Dico Personnel](/vokabeltraining/abfragen?folder=g2025b&file=mon_dico_personnel)
 
