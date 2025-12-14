@@ -77,6 +77,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [VIVA 24](/vokabeltraining/abfragen?folder=latein&file=VIVA_24)
 
+- [VIVA 25](/vokabeltraining/abfragen?folder=latein&file=VIVA_25)
+
 - [VIVA Stammformen 1-10](/vokabeltraining/abfragen?folder=latein&file=VIVA_Stammformen_1-10)
 
 ### Für Italienisch:
