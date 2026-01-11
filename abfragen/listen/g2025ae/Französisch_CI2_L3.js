@@ -165,7 +165,7 @@ var liste = {
                 "r\u00e9fl\u00e9chir wird konjugiert wie finir."
             ],
             "Franz\u00f6sisch": [
-                "je r\u00e9fl\u00e9chisterm-45tu r\u00e9fl\u00e9chisil/elle/on r\u00e9fl\u00e9chitnous r\u00e9f\u00e9chissonsvous r\u00e9fl\u00e9chissezils/elles r\u00e9fl\u00e9chissentp.c.: j'ai r\u00e9fl\u00e9chi"
+                "je r\u00e9fl\u00e9chis/r\u00e9fl\u00e9chisil/elle/on r\u00e9fl\u00e9chitnous r\u00e9f\u00e9chissonsvous r\u00e9fl\u00e9chissezils/elles r\u00e9fl\u00e9chissentp.c.: j'ai r\u00e9fl\u00e9chi"
             ]
         },
         {
