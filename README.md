@@ -77,6 +77,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 - [VIVA 20](/vokabeltraining/abfragen?folder=latein&file=VIVA_20)
 
+- [VIVA 21](/vokabeltraining/abfragen?folder=latein&file=VIVA_21)
+
 - [VIVA 24](/vokabeltraining/abfragen?folder=latein&file=VIVA_24)
 
 - [VIVA 25](/vokabeltraining/abfragen?folder=latein&file=VIVA_25)
