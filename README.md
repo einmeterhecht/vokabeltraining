@@ -89,6 +89,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2020c:
 
+- [Latein 2026.1.30](/vokabeltraining/abfragen?folder=g2020c&file=Latein_2026-1-30)
+
 - [Griechisch 6.1.26](/vokabeltraining/abfragen?folder=g2020c&file=Griechisch_6.1.26)
 
 - [Griechisch auf 21. November 2025](/vokabeltraining/abfragen?folder=g2020c&file=griechisch_2025-11-21)
