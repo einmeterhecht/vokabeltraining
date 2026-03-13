@@ -53,6 +53,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2025ae:
 
+- [Französische Länder](/vokabeltraining/abfragen?folder=g2025ae&file=Französische_Länder)
+
 - [Franz L4+Mon Dico Personel](/vokabeltraining/abfragen?folder=g2025ae&file=Franz_L4+Mon_Dico_personnel)
 
 - [Le CI2 Leçon 3](/vokabeltraining/abfragen?folder=g2025ae&file=Französisch_CI2_L3)
