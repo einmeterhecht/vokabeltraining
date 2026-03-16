@@ -8,6 +8,10 @@ on:
       - reopened
       - labeled
 
+concurrency:
+  group: process-list-submission-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
   pull-requests: write
