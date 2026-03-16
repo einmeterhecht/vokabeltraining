@@ -1,0 +1,152 @@
+name: Process List Submission
+
+on:
+  issues:
+    types:
+      - opened
+      - edited
+      - reopened
+      - labeled
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  process-submission:
+    if: contains(github.event.issue.labels.*.name, 'list-submission')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Parse and validate issue payload
+        id: parse
+        run: |
+          set -euo pipefail
+          python3 scripts/process_list_submission.py --repo-root . --event-file "$GITHUB_EVENT_PATH" --write --output-json result.json
+          python3 - <<'PY'
+          import json
+          import os
+
+          data = json.load(open("result.json", "r", encoding="utf-8"))
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"valid={'true' if data.get('valid') else 'false'}\n")
+              fh.write(f"issue_number={data.get('issue_number', '')}\n")
+              fh.write(f"branch={data.get('branch', '')}\n")
+              fh.write(f"output_file={data.get('output_file', '')}\n")
+              fh.write(f"question_count={data.get('question_count', 0)}\n")
+              fh.write(f"target={data.get('target', '')}\n")
+              fh.write(f"slug={data.get('slug', '')}\n")
+              fh.write("error_message<<EOF\n")
+              fh.write((data.get("error_message") or "") + "\n")
+              fh.write("EOF\n")
+          PY
+
+      - name: Configure git
+        if: steps.parse.outputs.valid == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit generated list file
+        id: commit
+        if: steps.parse.outputs.valid == 'true'
+        run: |
+          set -euo pipefail
+          branch="${{ steps.parse.outputs.branch }}"
+          output_file="${{ steps.parse.outputs.output_file }}"
+
+          git fetch origin main
+          git checkout -B "$branch" origin/main
+          git add "$output_file"
+
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Process list submission #${{ github.event.issue.number }}"
+            git push --force-with-lease origin "$branch"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create or update PR and comment issue
+        if: steps.parse.outputs.valid == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          issue_number="${{ github.event.issue.number }}"
+          branch="${{ steps.parse.outputs.branch }}"
+          output_file="${{ steps.parse.outputs.output_file }}"
+          target="${{ steps.parse.outputs.target }}"
+          slug="${{ steps.parse.outputs.slug }}"
+          question_count="${{ steps.parse.outputs.question_count }}"
+          changed="${{ steps.commit.outputs.changed }}"
+
+          pr_number="$(gh pr list --head "$branch" --base main --json number --jq '.[0].number // empty')"
+
+          if [[ -z "$pr_number" && "$changed" == "true" ]]; then
+            gh pr create \
+              --base main \
+              --head "$branch" \
+              --title "List submission #$issue_number: $slug" \
+              --body "Automatisch erzeugt aus Issue #$issue_number.
+
+- Ziel: \`$target\`
+- Datei: \`$output_file\`
+- Fragen: $question_count"
+            pr_number="$(gh pr list --head "$branch" --base main --json number --jq '.[0].number // empty')"
+          elif [[ -n "$pr_number" && "$changed" == "true" ]]; then
+            gh pr edit "$pr_number" \
+              --title "List submission #$issue_number: $slug" \
+              --body "Automatisch aktualisiert aus Issue #$issue_number.
+
+- Ziel: \`$target\`
+- Datei: \`$output_file\`
+- Fragen: $question_count"
+          fi
+
+          if [[ -n "$pr_number" ]]; then
+            pr_url="$(gh pr view "$pr_number" --json url --jq '.url')"
+            cat > issue_comment.md <<EOF
+          Die Einreichung wurde verarbeitet.
+
+          PR: $pr_url
+          EOF
+            gh issue comment "$issue_number" --body-file issue_comment.md
+          else
+            cat > issue_comment.md <<EOF
+          Die Einreichung ist gueltig, erzeugt aber keine Aenderung gegenueber \`main\`. Es wurde daher kein PR erstellt.
+          EOF
+            gh issue comment "$issue_number" --body-file issue_comment.md
+          fi
+
+          gh issue edit "$issue_number" --add-label submission-processed --remove-label invalid-submission
+
+      - name: Comment invalid submission
+        if: steps.parse.outputs.valid != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          issue_number="${{ github.event.issue.number }}"
+
+          cat > invalid_comment.md <<EOF
+          Die Einreichung konnte nicht verarbeitet werden.
+
+          Fehler:
+          \`\`\`
+          ${{ steps.parse.outputs.error_message }}
+          \`\`\`
+
+          Bitte korrigiere den JSON-Block im Issue und speichere das Issue erneut.
+          EOF
+
+          gh issue comment "$issue_number" --body-file invalid_comment.md
+          gh issue edit "$issue_number" --add-label invalid-submission --remove-label submission-processed
