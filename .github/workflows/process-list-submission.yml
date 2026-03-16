@@ -79,13 +79,14 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Create or update PR and comment issue
+      - name: Create or update PR, close issue and optionally auto-merge
         if: steps.parse.outputs.valid == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           issue_number="${{ github.event.issue.number }}"
+          submitter_login="${{ github.event.issue.user.login }}"
           branch="${{ steps.parse.outputs.branch }}"
           output_file="${{ steps.parse.outputs.output_file }}"
           target="${{ steps.parse.outputs.target }}"
@@ -119,12 +120,57 @@ jobs:
           fi
 
           if [[ -n "$pr_number" ]]; then
+            pr_state="$(gh pr view "$pr_number" --json state --jq '.state')"
             pr_url="$(gh pr view "$pr_number" --json url --jq '.url')"
-            cat > issue_comment.md <<EOF
-          Die Einreichung wurde verarbeitet.
 
-          PR: $pr_url
-          EOF
+            merge_status="not-requested"
+            merge_note=""
+
+            if [[ "$submitter_login" == "einmeterhecht" && "$pr_state" == "OPEN" ]]; then
+              set +e
+              auto_merge_output="$(gh pr merge "$pr_number" --auto --squash --delete-branch 2>&1)"
+              auto_merge_exit=$?
+              set -e
+
+              if [[ $auto_merge_exit -eq 0 ]]; then
+                merge_status="auto-enabled"
+              else
+                merge_note="$auto_merge_output"
+                set +e
+                direct_merge_output="$(gh pr merge "$pr_number" --squash --delete-branch 2>&1)"
+                direct_merge_exit=$?
+                set -e
+
+                if [[ $direct_merge_exit -eq 0 ]]; then
+                  merge_status="merged"
+                  merge_note=""
+                else
+                  merge_status="failed"
+                  merge_note="$merge_note"$'\n'"$direct_merge_output"
+                fi
+              fi
+            fi
+
+            gh api "repos/${{ github.repository }}/issues/$issue_number" \
+              --method PATCH \
+              -f state=closed > /dev/null
+
+            printf '%s\n\n%s\n\n%s\n' \
+              "Die Einreichung wurde verarbeitet." \
+              "PR: $pr_url" \
+              "Das Issue wurde automatisch geschlossen." > issue_comment.md
+
+            if [[ "$submitter_login" == "einmeterhecht" && "$merge_status" == "auto-enabled" ]]; then
+              printf '\n%s\n' "Auto-Merge: aktiviert." >> issue_comment.md
+            elif [[ "$submitter_login" == "einmeterhecht" && "$merge_status" == "merged" ]]; then
+              printf '\n%s\n' "Auto-Merge: sofort zusammengefuehrt." >> issue_comment.md
+            elif [[ "$submitter_login" == "einmeterhecht" && "$merge_status" == "failed" ]]; then
+              {
+                printf '\n%s\n\n%s\n' "Auto-Merge konnte nicht aktiviert werden." "Grund:"
+                printf '```\n%s\n```\n' "$merge_note"
+              } >> issue_comment.md
+            fi
+
             gh issue comment "$issue_number" --body-file issue_comment.md
           else
             cat > issue_comment.md <<EOF
