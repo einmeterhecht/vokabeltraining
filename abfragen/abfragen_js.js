@@ -286,17 +286,21 @@ function antwort_anpassen(antwort){
 		.replaceAll("‘","'");
 }
 
-function input_correct(input=eingabe.value){
-	loesung = antwort_anpassen(get_gefragtes(get_frage()));
-	gegebene_antwort = antwort_anpassen(input);
-	if (loesung.replaceAll("(","").replaceAll(")","") == 
-	gegebene_antwort.replaceAll("(","").replaceAll(")","")) {
-		return true;
-	}
-	else if (matches_ignore_brackets(loesung, gegebene_antwort)) {
-		return true;
-	}
-	return false;
+function input_correct(input = eingabe.value, correctAnswer = null) {
+    // If correctAnswer is provided, use it; otherwise use the existing logic
+    let loesung = correctAnswer ? 
+        antwort_anpassen(correctAnswer) : 
+        antwort_anpassen(get_gefragtes(get_frage()));
+    let gegebene_antwort = antwort_anpassen(input);
+
+    if (loesung.replaceAll("(","").replaceAll(")","") == 
+    gegebene_antwort.replaceAll("(","").replaceAll(")","")) {
+        return true;
+    }
+    else if (matches_ignore_brackets(loesung, gegebene_antwort)) {
+        return true;
+    }
+    return false;
 }
 
 function matches_ignore_brackets(loesung, gegebene_antwort) {
