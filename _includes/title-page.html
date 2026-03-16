@@ -53,7 +53,7 @@
     {% assign folder = spec | split: ":" | first %}
     {% assign section_title = spec | split: ":" | last %}
     {% assign folder_prefix = "/abfragen/listen/" | append: folder | append: "/" %}
-    {% assign files = site.static_files | where_exp: "item", "item.path contains folder_prefix and item.extname == '.js'" | sort: "modified_time" | reverse %}
+    {% assign files = site.static_files | where_exp: "item", "item.path contains folder_prefix" | where_exp: "item", "item.path contains '.js'" | sort: "modified_time" | reverse %}
 <div class="section">
 <h2>{{ section_title }}:</h2>
         {% if files.size > 0 %}
