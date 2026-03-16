@@ -92,24 +92,26 @@ jobs:
           pr_number="$(gh pr list --head "$branch" --base main --json number --jq '.[0].number // empty')"
 
           if [[ -z "$pr_number" && "$changed" == "true" ]]; then
+            pr_body="Automatisch erzeugt aus Issue #$issue_number."
+            pr_body+=$'\n\n'"- Ziel: \`$target\`"
+            pr_body+=$'\n'"- Datei: \`$output_file\`"
+            pr_body+=$'\n'"- Fragen: $question_count"
+
             gh pr create \
               --base main \
               --head "$branch" \
               --title "List submission #$issue_number: $slug" \
-              --body "Automatisch erzeugt aus Issue #$issue_number.
-
-- Ziel: \`$target\`
-- Datei: \`$output_file\`
-- Fragen: $question_count"
+              --body "$pr_body"
             pr_number="$(gh pr list --head "$branch" --base main --json number --jq '.[0].number // empty')"
           elif [[ -n "$pr_number" && "$changed" == "true" ]]; then
+            pr_body="Automatisch aktualisiert aus Issue #$issue_number."
+            pr_body+=$'\n\n'"- Ziel: \`$target\`"
+            pr_body+=$'\n'"- Datei: \`$output_file\`"
+            pr_body+=$'\n'"- Fragen: $question_count"
+
             gh pr edit "$pr_number" \
               --title "List submission #$issue_number: $slug" \
-              --body "Automatisch aktualisiert aus Issue #$issue_number.
-
-- Ziel: \`$target\`
-- Datei: \`$output_file\`
-- Fragen: $question_count"
+              --body "$pr_body"
           fi
 
           if [[ -n "$pr_number" ]]; then
