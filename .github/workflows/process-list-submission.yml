@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   process-submission:
-    if: contains(github.event.issue.labels.*.name, 'list-submission')
+    if: contains(github.event.issue.labels.*.name, 'list-submission') && !contains(github.event.issue.labels.*.name, 'submission-processed')
     runs-on: ubuntu-latest
 
     steps:
@@ -39,18 +39,29 @@ jobs:
           import os
 
           data = json.load(open("result.json", "r", encoding="utf-8"))
+          is_valid = bool(data.get("valid"))
+
+          def write_single_line_output(handle, name, value):
+            text = "" if value is None else str(value)
+            if "\n" in text or "\r" in text:
+              raise ValueError(f"Output field must be single-line: {name}")
+            handle.write(f"{name}={text}\n")
 
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
-              fh.write(f"valid={'true' if data.get('valid') else 'false'}\n")
-              fh.write(f"issue_number={data.get('issue_number', '')}\n")
-              fh.write(f"branch={data.get('branch', '')}\n")
-              fh.write(f"output_file={data.get('output_file', '')}\n")
-              fh.write(f"question_count={data.get('question_count', 0)}\n")
-              fh.write(f"target={data.get('target', '')}\n")
-              fh.write(f"slug={data.get('slug', '')}\n")
-              fh.write("error_message<<EOF\n")
-              fh.write((data.get("error_message") or "") + "\n")
-              fh.write("EOF\n")
+            write_single_line_output(fh, "valid", "true" if is_valid else "false")
+            write_single_line_output(fh, "issue_number", data.get("issue_number", ""))
+            write_single_line_output(fh, "branch", data.get("branch", ""))
+
+            if is_valid:
+              write_single_line_output(fh, "output_file", data.get("output_file", ""))
+              write_single_line_output(fh, "question_count", data.get("question_count", 0))
+              write_single_line_output(fh, "target", data.get("target", ""))
+              write_single_line_output(fh, "slug", data.get("slug", ""))
+            else:
+              write_single_line_output(fh, "output_file", "")
+              write_single_line_output(fh, "question_count", 0)
+              write_single_line_output(fh, "target", "")
+              write_single_line_output(fh, "slug", "")
           PY
 
       - name: Configure git
@@ -62,10 +73,23 @@ jobs:
       - name: Commit generated list file
         id: commit
         if: steps.parse.outputs.valid == 'true'
+        env:
+          SUBMISSION_BRANCH: ${{ steps.parse.outputs.branch }}
+          SUBMISSION_OUTPUT_FILE: ${{ steps.parse.outputs.output_file }}
         run: |
           set -euo pipefail
-          branch="${{ steps.parse.outputs.branch }}"
-          output_file="${{ steps.parse.outputs.output_file }}"
+          branch="$SUBMISSION_BRANCH"
+          output_file="$SUBMISSION_OUTPUT_FILE"
+
+          if [[ ! "$branch" =~ ^submission/issue-[0-9]+$ ]]; then
+            echo "Unexpected branch format: $branch" >&2
+            exit 1
+          fi
+
+          if [[ ! "$output_file" =~ ^abfragen/listen/[A-Za-z0-9._-]+/[A-Za-z0-9._-]+\.js$ ]]; then
+            echo "Unexpected output path format: $output_file" >&2
+            exit 1
+          fi
 
           git fetch origin main
           git checkout -B "$branch" origin/main
@@ -83,16 +107,34 @@ jobs:
         if: steps.parse.outputs.valid == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          SUBMITTER_LOGIN: ${{ github.event.issue.user.login }}
+          SUBMISSION_BRANCH: ${{ steps.parse.outputs.branch }}
+          SUBMISSION_OUTPUT_FILE: ${{ steps.parse.outputs.output_file }}
+          SUBMISSION_TARGET: ${{ steps.parse.outputs.target }}
+          SUBMISSION_SLUG: ${{ steps.parse.outputs.slug }}
+          SUBMISSION_QUESTION_COUNT: ${{ steps.parse.outputs.question_count }}
+          SUBMISSION_CHANGED: ${{ steps.commit.outputs.changed }}
         run: |
           set -euo pipefail
-          issue_number="${{ github.event.issue.number }}"
-          submitter_login="${{ github.event.issue.user.login }}"
-          branch="${{ steps.parse.outputs.branch }}"
-          output_file="${{ steps.parse.outputs.output_file }}"
-          target="${{ steps.parse.outputs.target }}"
-          slug="${{ steps.parse.outputs.slug }}"
-          question_count="${{ steps.parse.outputs.question_count }}"
-          changed="${{ steps.commit.outputs.changed }}"
+          issue_number="$ISSUE_NUMBER"
+          submitter_login="$SUBMITTER_LOGIN"
+          branch="$SUBMISSION_BRANCH"
+          output_file="$SUBMISSION_OUTPUT_FILE"
+          target="$SUBMISSION_TARGET"
+          slug="$SUBMISSION_SLUG"
+          question_count="$SUBMISSION_QUESTION_COUNT"
+          changed="$SUBMISSION_CHANGED"
+
+          if [[ ! "$branch" =~ ^submission/issue-[0-9]+$ ]]; then
+            echo "Unexpected branch format: $branch" >&2
+            exit 1
+          fi
+
+          if [[ ! "$output_file" =~ ^abfragen/listen/[A-Za-z0-9._-]+/[A-Za-z0-9._-]+\.js$ ]]; then
+            echo "Unexpected output path format: $output_file" >&2
+            exit 1
+          fi
 
           pr_number="$(gh pr list --head "$branch" --base main --json number --jq '.[0].number // empty')"
 
@@ -151,7 +193,7 @@ jobs:
               fi
             fi
 
-            gh api "repos/${{ github.repository }}/issues/$issue_number" \
+            gh api "repos/$GITHUB_REPOSITORY/issues/$issue_number" \
               --method PATCH \
               -f state=closed > /dev/null
 
@@ -185,20 +227,29 @@ jobs:
         if: steps.parse.outputs.valid != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
           set -euo pipefail
-          issue_number="${{ github.event.issue.number }}"
+          issue_number="$ISSUE_NUMBER"
 
-          cat > invalid_comment.md <<EOF
-          Die Einreichung konnte nicht verarbeitet werden.
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
 
-          Fehler:
-          \`\`\`
-          ${{ steps.parse.outputs.error_message }}
-          \`\`\`
+          result = json.loads(Path("result.json").read_text(encoding="utf-8"))
+          error_message = str(result.get("error_message") or "").strip()
 
-          Bitte korrigiere den JSON-Block im Issue und speichere das Issue erneut.
-          EOF
+          comment = (
+              "Die Einreichung konnte nicht verarbeitet werden.\n\n"
+              "Fehler:\n"
+              "```\n"
+              f"{error_message}\n"
+              "```\n\n"
+              "Bitte korrigiere den JSON-Block im Issue und speichere das Issue erneut.\n"
+          )
+
+          Path("invalid_comment.md").write_text(comment, encoding="utf-8")
+          PY
 
           gh issue comment "$issue_number" --body-file invalid_comment.md
           gh issue edit "$issue_number" --add-label invalid-submission --remove-label submission-processed

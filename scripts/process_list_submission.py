@@ -22,6 +22,8 @@ MAX_ENTRY_LENGTH = 2_000
 MAX_TITLE_LENGTH = 180
 
 SAFE_NAME_RE = re.compile(r"^[A-Za-z0-9._-]+$")
+BRANCH_NAME_RE = re.compile(r"^submission/(?:issue-[0-9]+|manual)$")
+OUTPUT_FILE_RE = re.compile(r"^abfragen/listen/[A-Za-z0-9._-]+/[A-Za-z0-9._-]+\.js$")
 CODE_FENCE_RE = re.compile(r"```(?:json)?\s*(.*?)\s*```", re.IGNORECASE | re.DOTALL)
 
 
@@ -221,6 +223,9 @@ def _validate_submission(payload: dict[str, Any], repo_root: Path, issue_body: s
             except ValueError:
                 errors.append("Ausgabedatei liegt ausserhalb des Repository-Roots.")
 
+    if output_relative and not OUTPUT_FILE_RE.fullmatch(output_relative):
+        errors.append("Ausgabedatei hat ein ungueltiges Format.")
+
     list_object = {
         "fragen": normalized_questions,
         "hinweis_attribute": cleaned_hinweise or ["Beispiele", "Lernhilfe"],
@@ -247,6 +252,28 @@ def _validate_submission(payload: dict[str, Any], repo_root: Path, issue_body: s
 def _write_output(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
+
+
+def _invalidate_result(result: dict[str, Any], message: str) -> None:
+    result["valid"] = False
+    result["errors"] = [message]
+    result["error_message"] = message
+    result["output_file"] = ""
+    result["target"] = ""
+    result["slug"] = ""
+    result["question_count"] = 0
+
+
+def _enforce_result_invariants(result: dict[str, Any]) -> None:
+    branch = str(result.get("branch") or "")
+    if not BRANCH_NAME_RE.fullmatch(branch):
+        _invalidate_result(result, "Interner Fehler: Ungueltiger Branch-Name erzeugt.")
+        return
+
+    if result.get("valid"):
+        output_file = str(result.get("output_file") or "")
+        if not OUTPUT_FILE_RE.fullmatch(output_file):
+            _invalidate_result(result, "Interner Fehler: Ungueltiger Ausgabepfad erzeugt.")
 
 
 def process_submission(args: argparse.Namespace) -> dict[str, Any]:
@@ -299,7 +326,9 @@ def process_submission(args: argparse.Namespace) -> dict[str, Any]:
         "question_count": validation["question_count"],
     }
 
-    if validation["valid"] and args.write:
+    _enforce_result_invariants(result)
+
+    if result["valid"] and args.write:
         output_file = Path(validation["output_absolute"])
         _write_output(output_file, validation["js_content"])
 
