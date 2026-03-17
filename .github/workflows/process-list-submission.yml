@@ -33,42 +33,12 @@ jobs:
         id: parse
         run: |
           set -euo pipefail
-          python3 scripts/process_list_submission.py --repo-root . --event-file "$GITHUB_EVENT_PATH" --write --output-json result.json
-          python3 - <<'PY'
-          import json
-          import os
-
-          data = json.load(open("result.json", "r", encoding="utf-8"))
-          is_valid = bool(data.get("valid"))
-
-          def write_single_line_output(handle, name, value):
-            text = "" if value is None else str(value)
-            if "\n" in text or "\r" in text:
-              raise ValueError(f"Output field must be single-line: {name}")
-            handle.write(f"{name}={text}\n")
-
-          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
-            write_single_line_output(fh, "valid", "true" if is_valid else "false")
-            write_single_line_output(fh, "issue_number", data.get("issue_number", ""))
-            write_single_line_output(fh, "branch", data.get("branch", ""))
-
-            if is_valid:
-              write_single_line_output(fh, "output_file", data.get("output_file", ""))
-              write_single_line_output(fh, "question_count", data.get("question_count", 0))
-              write_single_line_output(fh, "target", data.get("target", ""))
-              write_single_line_output(fh, "slug", data.get("slug", ""))
-            else:
-              write_single_line_output(fh, "output_file", "")
-              write_single_line_output(fh, "question_count", 0)
-              write_single_line_output(fh, "target", "")
-              write_single_line_output(fh, "slug", "")
-          PY
-
-      - name: Configure git
-        if: steps.parse.outputs.valid == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 scripts/process_list_submission.py \
+            --repo-root . \
+            --event-file "$GITHUB_EVENT_PATH" \
+            --write \
+            --output-json result.json \
+            --github-output "$GITHUB_OUTPUT"
 
       - name: Commit generated list file
         id: commit
@@ -78,28 +48,18 @@ jobs:
           SUBMISSION_OUTPUT_FILE: ${{ steps.parse.outputs.output_file }}
         run: |
           set -euo pipefail
-          branch="$SUBMISSION_BRANCH"
-          output_file="$SUBMISSION_OUTPUT_FILE"
-
-          if [[ ! "$branch" =~ ^submission/issue-[0-9]+$ ]]; then
-            echo "Unexpected branch format: $branch" >&2
-            exit 1
-          fi
-
-          if [[ ! "$output_file" =~ ^abfragen/listen/[A-Za-z0-9._-]+/[A-Za-z0-9._-]+\.js$ ]]; then
-            echo "Unexpected output path format: $output_file" >&2
-            exit 1
-          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git fetch origin main
-          git checkout -B "$branch" origin/main
-          git add "$output_file"
+          git checkout -B "$SUBMISSION_BRANCH" origin/main
+          git add "$SUBMISSION_OUTPUT_FILE"
 
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Process list submission #${{ github.event.issue.number }}"
-            git push --force-with-lease origin "$branch"
+            git push --force-with-lease origin "$SUBMISSION_BRANCH"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -117,48 +77,33 @@ jobs:
           SUBMISSION_CHANGED: ${{ steps.commit.outputs.changed }}
         run: |
           set -euo pipefail
-          issue_number="$ISSUE_NUMBER"
-          submitter_login="$SUBMITTER_LOGIN"
-          branch="$SUBMISSION_BRANCH"
-          output_file="$SUBMISSION_OUTPUT_FILE"
-          target="$SUBMISSION_TARGET"
-          slug="$SUBMISSION_SLUG"
-          question_count="$SUBMISSION_QUESTION_COUNT"
-          changed="$SUBMISSION_CHANGED"
+          pr_number="$(gh pr list --head "$SUBMISSION_BRANCH" --base main --json number --jq '.[0].number // empty')"
 
-          if [[ ! "$branch" =~ ^submission/issue-[0-9]+$ ]]; then
-            echo "Unexpected branch format: $branch" >&2
-            exit 1
-          fi
+          if [[ "$SUBMISSION_CHANGED" == "true" ]]; then
+            body_prefix="Automatisch aktualisiert aus Issue #$ISSUE_NUMBER."
+            if [[ -z "$pr_number" ]]; then
+              body_prefix="Automatisch erzeugt aus Issue #$ISSUE_NUMBER."
+            fi
 
-          if [[ ! "$output_file" =~ ^abfragen/listen/[A-Za-z0-9._-]+/[A-Za-z0-9._-]+\.js$ ]]; then
-            echo "Unexpected output path format: $output_file" >&2
-            exit 1
-          fi
+            {
+              printf '%s\n\n' "$body_prefix"
+              printf '%s\n' "- Ziel: \`$SUBMISSION_TARGET\`"
+              printf '%s\n' "- Datei: \`$SUBMISSION_OUTPUT_FILE\`"
+              printf '%s\n' "- Fragen: $SUBMISSION_QUESTION_COUNT"
+            } > pr_body.md
 
-          pr_number="$(gh pr list --head "$branch" --base main --json number --jq '.[0].number // empty')"
-
-          if [[ -z "$pr_number" && "$changed" == "true" ]]; then
-            pr_body="Automatisch erzeugt aus Issue #$issue_number."
-            pr_body+=$'\n\n'"- Ziel: \`$target\`"
-            pr_body+=$'\n'"- Datei: \`$output_file\`"
-            pr_body+=$'\n'"- Fragen: $question_count"
-
-            gh pr create \
-              --base main \
-              --head "$branch" \
-              --title "List submission #$issue_number: $slug" \
-              --body "$pr_body"
-            pr_number="$(gh pr list --head "$branch" --base main --json number --jq '.[0].number // empty')"
-          elif [[ -n "$pr_number" && "$changed" == "true" ]]; then
-            pr_body="Automatisch aktualisiert aus Issue #$issue_number."
-            pr_body+=$'\n\n'"- Ziel: \`$target\`"
-            pr_body+=$'\n'"- Datei: \`$output_file\`"
-            pr_body+=$'\n'"- Fragen: $question_count"
-
-            gh pr edit "$pr_number" \
-              --title "List submission #$issue_number: $slug" \
-              --body "$pr_body"
+            if [[ -z "$pr_number" ]]; then
+              gh pr create \
+                --base main \
+                --head "$SUBMISSION_BRANCH" \
+                --title "List submission #$ISSUE_NUMBER: $SUBMISSION_SLUG" \
+                --body-file pr_body.md
+              pr_number="$(gh pr list --head "$SUBMISSION_BRANCH" --base main --json number --jq '.[0].number // empty')"
+            else
+              gh pr edit "$pr_number" \
+                --title "List submission #$ISSUE_NUMBER: $SUBMISSION_SLUG" \
+                --body-file pr_body.md
+            fi
           fi
 
           if [[ -n "$pr_number" ]]; then
@@ -168,7 +113,7 @@ jobs:
             merge_status="not-requested"
             merge_note=""
 
-            if [[ "$submitter_login" == "einmeterhecht" && "$pr_state" == "OPEN" ]]; then
+            if [[ "$SUBMITTER_LOGIN" == "einmeterhecht" && "$pr_state" == "OPEN" ]]; then
               set +e
               auto_merge_output="$(gh pr merge "$pr_number" --auto --squash --delete-branch 2>&1)"
               auto_merge_exit=$?
@@ -193,35 +138,30 @@ jobs:
               fi
             fi
 
-            gh api "repos/$GITHUB_REPOSITORY/issues/$issue_number" \
+            gh api "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER" \
               --method PATCH \
               -f state=closed > /dev/null
 
-            printf '%s\n\n%s\n\n%s\n' \
-              "Die Einreichung wurde verarbeitet." \
-              "PR: $pr_url" \
-              "Das Issue wurde automatisch geschlossen." > issue_comment.md
+            printf 'Die Einreichung wurde verarbeitet.\n\nPR: %s\n\nDas Issue wurde automatisch geschlossen.\n' "$pr_url" > issue_comment.md
 
-            if [[ "$submitter_login" == "einmeterhecht" && "$merge_status" == "auto-enabled" ]]; then
+            if [[ "$SUBMITTER_LOGIN" == "einmeterhecht" && "$merge_status" == "auto-enabled" ]]; then
               printf '\n%s\n' "Auto-Merge: aktiviert." >> issue_comment.md
-            elif [[ "$submitter_login" == "einmeterhecht" && "$merge_status" == "merged" ]]; then
+            elif [[ "$SUBMITTER_LOGIN" == "einmeterhecht" && "$merge_status" == "merged" ]]; then
               printf '\n%s\n' "Auto-Merge: sofort zusammengefuehrt." >> issue_comment.md
-            elif [[ "$submitter_login" == "einmeterhecht" && "$merge_status" == "failed" ]]; then
+            elif [[ "$SUBMITTER_LOGIN" == "einmeterhecht" && "$merge_status" == "failed" ]]; then
               {
                 printf '\n%s\n\n%s\n' "Auto-Merge konnte nicht aktiviert werden." "Grund:"
                 printf '```\n%s\n```\n' "$merge_note"
               } >> issue_comment.md
             fi
 
-            gh issue comment "$issue_number" --body-file issue_comment.md
+            gh issue comment "$ISSUE_NUMBER" --body-file issue_comment.md
           else
-            cat > issue_comment.md <<EOF
-          Die Einreichung ist gueltig, erzeugt aber keine Aenderung gegenueber \`main\`. Es wurde daher kein PR erstellt.
-          EOF
-            gh issue comment "$issue_number" --body-file issue_comment.md
+            printf '%s\n' 'Die Einreichung ist gueltig, erzeugt aber keine Aenderung gegenueber `main`. Es wurde daher kein PR erstellt.' > issue_comment.md
+            gh issue comment "$ISSUE_NUMBER" --body-file issue_comment.md
           fi
 
-          gh issue edit "$issue_number" --add-label submission-processed --remove-label invalid-submission
+          gh issue edit "$ISSUE_NUMBER" --add-label submission-processed --remove-label invalid-submission
 
       - name: Comment invalid submission
         if: steps.parse.outputs.valid != 'true'
@@ -230,26 +170,9 @@ jobs:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
           set -euo pipefail
-          issue_number="$ISSUE_NUMBER"
+          error_message="$(python3 -c 'import json; print(str((json.load(open("result.json", "r", encoding="utf-8")).get("error_message") or "")).strip())')"
 
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
+          printf 'Die Einreichung konnte nicht verarbeitet werden.\n\nFehler:\n```\n%s\n```\n\nBitte korrigiere den JSON-Block im Issue und speichere das Issue erneut.\n' "$error_message" > invalid_comment.md
 
-          result = json.loads(Path("result.json").read_text(encoding="utf-8"))
-          error_message = str(result.get("error_message") or "").strip()
-
-          comment = (
-              "Die Einreichung konnte nicht verarbeitet werden.\n\n"
-              "Fehler:\n"
-              "```\n"
-              f"{error_message}\n"
-              "```\n\n"
-              "Bitte korrigiere den JSON-Block im Issue und speichere das Issue erneut.\n"
-          )
-
-          Path("invalid_comment.md").write_text(comment, encoding="utf-8")
-          PY
-
-          gh issue comment "$issue_number" --body-file invalid_comment.md
-          gh issue edit "$issue_number" --add-label invalid-submission --remove-label submission-processed
+          gh issue comment "$ISSUE_NUMBER" --body-file invalid_comment.md
+          gh issue edit "$ISSUE_NUMBER" --add-label invalid-submission --remove-label submission-processed

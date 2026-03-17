@@ -20,6 +20,7 @@ MAX_QUESTIONS = 1_500
 MAX_ATTR_LENGTH = 120
 MAX_ENTRY_LENGTH = 2_000
 MAX_TITLE_LENGTH = 180
+DEFAULT_HINTS = ["Beispiele", "Lernhilfe"]
 
 SAFE_NAME_RE = re.compile(r"^[A-Za-z0-9._-]+$")
 BRANCH_NAME_RE = re.compile(r"^submission/(?:issue-[0-9]+|manual)$")
@@ -146,10 +147,10 @@ def _validate_submission(payload: dict[str, Any], repo_root: Path, issue_body: s
 
     hinweis_attribute = payload.get("hinweis_attribute")
     if hinweis_attribute is None:
-        hinweis_attribute = ["Beispiele", "Lernhilfe"]
+        hinweis_attribute = DEFAULT_HINTS
     if not isinstance(hinweis_attribute, list) or not hinweis_attribute:
         errors.append("'hinweis_attribute' muss ein nicht-leeres Array aus Texten sein.")
-        hinweis_attribute = ["Beispiele", "Lernhilfe"]
+        hinweis_attribute = DEFAULT_HINTS
 
     cleaned_hinweise: list[str] = []
     for idx, value in enumerate(hinweis_attribute):
@@ -228,7 +229,7 @@ def _validate_submission(payload: dict[str, Any], repo_root: Path, issue_body: s
 
     list_object = {
         "fragen": normalized_questions,
-        "hinweis_attribute": cleaned_hinweise or ["Beispiele", "Lernhilfe"],
+        "hinweis_attribute": cleaned_hinweise or DEFAULT_HINTS,
         "titel": slug,
         "frage_attribut": frage_attribut,
     }
@@ -252,6 +253,46 @@ def _validate_submission(payload: dict[str, Any], repo_root: Path, issue_body: s
 def _write_output(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
+
+
+def _base_result(issue_number: int, branch_name: str) -> dict[str, Any]:
+    return {
+        "valid": False,
+        "errors": [],
+        "error_message": "",
+        "issue_number": issue_number,
+        "branch": branch_name,
+        "output_file": "",
+        "target": "",
+        "slug": "",
+        "question_count": 0,
+    }
+
+
+def _invalid_result(issue_number: int, branch_name: str, message: str) -> dict[str, Any]:
+    result = _base_result(issue_number, branch_name)
+    result["errors"] = [message]
+    result["error_message"] = message
+    return result
+
+
+def _write_github_output(path: Path, result: dict[str, Any]) -> None:
+    output_values: dict[str, Any] = {
+        "valid": "true" if result.get("valid") else "false",
+        "issue_number": result.get("issue_number", ""),
+        "branch": result.get("branch", ""),
+        "output_file": result.get("output_file", ""),
+        "question_count": result.get("question_count", 0),
+        "target": result.get("target", ""),
+        "slug": result.get("slug", ""),
+    }
+
+    with path.open("a", encoding="utf-8") as handle:
+        for key, value in output_values.items():
+            text = "" if value is None else str(value)
+            if "\n" in text or "\r" in text:
+                raise ValueError(f"Output field must be single-line: {key}")
+            handle.write(f"{key}={text}\n")
 
 
 def _invalidate_result(result: dict[str, Any], message: str) -> None:
@@ -284,47 +325,28 @@ def process_submission(args: argparse.Namespace) -> dict[str, Any]:
 
     payload, payload_text, parse_error = _extract_payload_json(issue_body)
     if parse_error:
-        return {
-            "valid": False,
-            "error_message": parse_error,
-            "errors": [parse_error],
-            "issue_number": issue_number,
-            "branch": branch_name,
-            "output_file": "",
-            "target": "",
-            "slug": "",
-            "question_count": 0,
-        }
+        return _invalid_result(issue_number, branch_name, parse_error)
 
     if len(payload_text) > MAX_JSON_CHARS:
         message = (
             f"JSON-Block ist zu gross ({len(payload_text)} Zeichen, erlaubt: {MAX_JSON_CHARS})."
         )
-        return {
-            "valid": False,
-            "error_message": message,
-            "errors": [message],
-            "issue_number": issue_number,
-            "branch": branch_name,
-            "output_file": "",
-            "target": "",
-            "slug": "",
-            "question_count": 0,
-        }
+        return _invalid_result(issue_number, branch_name, message)
 
     validation = _validate_submission(payload, repo_root=repo_root, issue_body=issue_body)
 
-    result: dict[str, Any] = {
-        "valid": validation["valid"],
-        "errors": validation["errors"],
-        "error_message": "\n".join(validation["errors"]) if validation["errors"] else "",
-        "issue_number": issue_number,
-        "branch": branch_name,
-        "output_file": validation["output_file"],
-        "target": validation["target"],
-        "slug": validation["slug"],
-        "question_count": validation["question_count"],
-    }
+    result = _base_result(issue_number, branch_name)
+    result.update(
+        {
+            "valid": validation["valid"],
+            "errors": validation["errors"],
+            "error_message": "\n".join(validation["errors"]) if validation["errors"] else "",
+            "output_file": validation["output_file"],
+            "target": validation["target"],
+            "slug": validation["slug"],
+            "question_count": validation["question_count"],
+        }
+    )
 
     _enforce_result_invariants(result)
 
@@ -343,6 +365,7 @@ def _build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--issue-number", type=int, default=0, help="Issue number for --body-file mode")
     parser.add_argument("--write", action="store_true", help="Write generated JS file when valid")
     parser.add_argument("--output-json", help="Write result JSON to this path")
+    parser.add_argument("--github-output", help="Write workflow outputs to this file")
     return parser
 
 
@@ -354,6 +377,9 @@ def main() -> int:
         parser.error("Exactly one of --event-file or --body-file is required.")
 
     result = process_submission(args)
+
+    if args.github_output:
+        _write_github_output(Path(args.github_output), result)
 
     output_text = json.dumps(result, indent=2, ensure_ascii=False)
     if args.output_json:
