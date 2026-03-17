@@ -6,9 +6,8 @@ title: Anleitung
 Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optimiert.
 
 ## Letzte Änderungen:
+- Experimentell: Listen können direkt im Browser erstellt werden. [Hier ausprobieren :)](/erstellen/)
 - "to " am Wortanfang kann weggelassen werden
-- Was in Klammern steht, kann man weglassen, sogar wenn es mehrere Teile in Klammern gibt
-- Wenn man mit einer Liste durch ist, kann man jetzt mit nur den nicht gewussten Fragen weiterlernen.
 - Man kann nun tauschen, in welche Richtung gelernt wird. Dafür gibt es auf der rechten Seite einen &#x21c5;-Knopf.
 - Trennzeichen (Komma, Semikolon, Schrägstriche) und Klammern können jetzt ganz weggelassen werden.
 
@@ -39,19 +38,10 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 Neue Listen können direkt aus `/erstellen/` als GitHub-Issue eingereicht werden:
 
-1. Liste wie gewohnt erstellen und optional als `.js` herunterladen.
-2. Auf `Per GitHub einreichen` klicken.
-3. Es öffnet sich ein vorbefülltes Issue mit JSON-Block zwischen
-	`<!-- LIST_SUBMISSION_START -->` und `<!-- LIST_SUBMISSION_END -->`.
+1. Liste wie gewohnt erstellen.
+2. Auf `Per GitHub einreichen` klicken. Ein GitHub-Account wird benötigt.
+3. Es öffnet sich ein vorbefülltes Issue mit der Liste.
 4. Nach dem Absenden verarbeitet eine GitHub Action das Issue automatisch.
-
-Automatische Verarbeitung:
-
-- Nur Issues mit Label `list-submission` werden verarbeitet.
-- Bei gültigem Inhalt wird eine Datei unter `abfragen/listen/<target>/<title>.js` erstellt.
-- Anschließend wird ein Branch `submission/issue-<nummer>` aktualisiert und ein PR nach `main` erstellt oder aktualisiert.
-- Das Issue erhält einen Kommentar mit PR-Link und das Label `submission-processed`.
-- Bei Fehlern kommentiert die Action die Ursache und setzt `invalid-submission`.
 
 
 *Note: The source code, the vocabulary lists and the documentation of this project are mainly written in german.*

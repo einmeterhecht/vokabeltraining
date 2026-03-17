@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Liste erstellen</title>
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="../fonts/cmu-serif.css">
+    <style>
+        :root {
+            --panel-padding: 12px;
+            --field-gap: 8px;
+            --layout-gap: 10px;
+            --border-soft: #8c5a75;
+            --surface-muted: #170d23;
+            --surface-header: #22132f;
+        }
+
+        body {
+            margin: 10px;
+        }
+
+        .page,
+        .panes {
+            display: grid;
+            gap: var(--layout-gap);
+        }
+
+        .page {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .panel {
+            padding: var(--panel-padding);
+        }
+
+        .panel h1 {
+            margin: 0;
+            font-size: clamp(1.6rem, 2.6vw, 2.2rem);
+            letter-spacing: 0.01em;
+        }
+
+        .title-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: var(--layout-gap);
+        }
+
+        .title-actions {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 4px;
+        }
+
+        .download-top {
+            font-size: 1rem;
+            white-space: nowrap;
+        }
+
+        .split-button {
+            display: inline-flex;
+            align-items: stretch;
+        }
+
+        .split-main {
+            padding: 8px 14px;
+            border-radius: 14px 0 0 14px;
+            border-right-width: 0;
+        }
+
+        .split-menu {
+            position: relative;
+        }
+
+        .split-menu summary {
+            list-style: none;
+        }
+
+        .split-menu summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .split-toggle {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 34px;
+            width: 34px;
+            height: 100%;
+            border-radius: 0 14px 14px 0;
+            padding: 0;
+            line-height: 1;
+            font-size: 1.05rem;
+        }
+
+        .split-dropdown {
+            position: absolute;
+            right: 0;
+            top: calc(100% + 6px);
+            min-width: 170px;
+            padding: 4px;
+            border: 1px solid var(--border-soft);
+            border-radius: 10px;
+            background: var(--surface-muted);
+            z-index: 30;
+        }
+
+        .split-dropdown-item {
+            width: 100%;
+            border-radius: 8px;
+            padding: 7px 9px;
+            text-align: left;
+            justify-content: flex-start;
+        }
+
+        .title-path {
+            opacity: 0.9;
+            font-size: 0.95rem;
+            text-align: right;
+            max-width: 520px;
+            word-break: break-word;
+        }
+
+
+        .form-grid {
+            display: grid;
+            gap: var(--field-gap);
+            grid-template-columns: repeat(4, minmax(190px, 1fr));
+            align-items: end;
+        }
+
+        .field {
+            display: grid;
+            gap: 4px;
+        }
+
+        .field input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 6px 9px;
+            border-radius: 11px;
+            border: 2px solid var(--color-outer);
+            background: #1b1028;
+            color: var(--color-light);
+            font: inherit;
+        }
+
+        .field input:focus-visible,
+        textarea:focus-visible {
+            outline: 2px solid var(--color-light);
+            outline-offset: 1px;
+        }
+
+        .divider-header {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 3px;
+        }
+
+        .divider-field {
+            grid-column: span 2;
+            gap: 6px;
+        }
+
+        .divider-line {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            white-space: nowrap;
+        }
+
+        .divider-field .divider-input {
+            width: 8ch;
+            min-width: 7ch;
+        }
+
+        .divider-line .divider-input {
+            flex: 0 0 8ch;
+        }
+
+        .field label,
+        .divider-header,
+        .divider-break-text {
+            font-size: 0.95rem;
+        }
+
+        .divider-field .divider-input {
+            padding: 0 2px 1px;
+            border: 0;
+            border-bottom: 1px solid var(--border-soft);
+            border-radius: 0;
+            background: transparent;
+            text-align: center;
+        }
+
+        .divider-field .divider-input:focus-visible {
+            outline: none;
+            border-bottom-color: var(--color-light);
+            box-shadow: 0 1px 0 var(--color-light);
+        }
+
+        .info-wrap {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 1px solid var(--border-soft);
+            color: var(--color-light);
+            font-size: 0.85rem;
+            cursor: help;
+            user-select: none;
+        }
+
+        .tooltip {
+            position: absolute;
+            left: 50%;
+            top: calc(100% + 8px);
+            transform: translateX(-50%);
+            width: min(360px, calc(100vw - 32px));
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid var(--border-soft);
+            background: var(--surface-muted);
+            color: var(--color-light);
+            text-align: left;
+            font-size: 0.88rem;
+            line-height: 1.4;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.15s ease;
+            z-index: 20;
+        }
+
+        .info-wrap:hover .tooltip,
+        .info-wrap:focus-visible .tooltip {
+            opacity: 1;
+        }
+
+        .panes {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .pane {
+            padding: 0;
+            overflow: hidden;
+            display: grid;
+            grid-template-rows: auto 1fr;
+            min-height: 430px;
+        }
+
+        .pane-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            height: 2.5rem;
+            min-height: 2.5rem;
+            box-sizing: border-box;
+            padding: 0 10px;
+            border-bottom: 1px solid var(--border-soft);
+            background: var(--surface-header);
+        }
+
+        .pane-header h2 {
+            margin: 0;
+            line-height: 1;
+        }
+
+        .pane-meta {
+            opacity: 0.9;
+            font-size: 18px;
+            white-space: nowrap;
+        }
+
+        .icon-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .icon-button svg {
+            width: 16px;
+            height: 16px;
+            stroke: currentColor;
+            fill: none;
+            stroke-width: 1.8;
+        }
+
+        .icon-button.download-top svg {
+            width: 24px;
+            height: 24px;
+            stroke-width: 2.5;
+        }
+
+        textarea {
+            resize: none;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 0;
+            padding: 14px;
+            color: var(--color-light);
+            background: transparent;
+            font: 0.98rem/1.5 "cmunrm", serif;
+        }
+
+        .preview-list {
+            margin: 0;
+            padding: 12px 16px 14px 34px;
+            overflow: auto;
+            max-height: 62vh;
+        }
+
+        .preview-item {
+            margin-bottom: 12px;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed var(--color-outer);
+            word-break: break-word;
+        }
+
+        .preview-row {
+            display: block;
+            line-height: 1.45;
+        }
+
+        .preview-key {
+            color: #f3eec6;
+            font-weight: 700;
+            margin-right: 6px;
+        }
+
+        .empty-hint {
+            list-style: none;
+            margin-left: -18px;
+            opacity: 0.85;
+            border: 1px dashed var(--border-soft);
+            border-radius: 8px;
+            padding: 14px;
+        }
+
+        .toast-container {
+            position: fixed;
+            right: 12px;
+            bottom: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            z-index: 70;
+            pointer-events: none;
+        }
+
+        .toast {
+            min-width: 220px;
+            max-width: min(420px, calc(100vw - 24px));
+            padding: 9px 12px;
+            border-radius: 10px;
+            border: 1px solid var(--border-soft);
+            background: var(--surface-muted);
+            color: var(--color-light);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+            opacity: 0;
+            transform: translateY(8px);
+            transition: opacity 0.16s ease, transform 0.16s ease;
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .toast.error {
+            border-color: #bb5566;
+        }
+
+        .toast.success {
+            border-color: #6fa87a;
+        }
+
+        @media (max-width: 1050px) {
+            .form-grid {
+                grid-template-columns: repeat(2, minmax(190px, 1fr));
+            }
+        }
+
+        @media (max-width: 900px) {
+            .tooltip {
+                position: fixed;
+                left: 12px;
+                right: 12px;
+                top: auto;
+                bottom: 12px;
+                width: auto;
+                transform: none;
+            }
+
+            .panes {
+                grid-template-columns: 1fr;
+            }
+
+            .pane {
+                min-height: 360px;
+            }
+
+            .preview-list {
+                max-height: 46vh;
+            }
+        }
+
+        @media (max-width: 560px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .divider-field {
+                grid-column: span 1;
+            }
+
+            .title-row {
+                flex-wrap: wrap;
+            }
+
+            .title-actions {
+                align-items: stretch;
+            }
+
+            .title-path {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <section class="anzeige panel">
+            <div class="title-row">
+                <h1>Abfrageliste erstellen</h1>
+                <div class="title-actions">
+                    <div class="split-button download-top">
+                        <button id="submit-button" class="button_style icon-button split-main" type="button" title="Per GitHub einreichen">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M3 12l18-9-4.5 18-5.25-6-8.25-3z"></path>
+                                <path d="M11.25 15l2.25 6"></path>
+                            </svg>
+                            <span>Per GitHub einreichen</span>
+                        </button>
+                        <details id="submit-menu" class="split-menu">
+                            <summary class="button_style split-toggle" title="Weitere Aktionen" aria-label="Weitere Aktionen">▾</summary>
+                            <div class="split-dropdown">
+                                <button id="download-button" class="button_style icon-button split-dropdown-item" type="button" title="JS-Liste herunterladen">
+                                    JS-Liste herunterladen
+                                </button>
+                            </div>
+                        </details>
+                    </div>
+                    <span id="target-path" class="title-path"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="anzeige panel">
+            <div class="form-grid">
+                <div class="field">
+                    <label for="name-input">Name:</label>
+                    <input id="name-input" type="text" value="" placeholder="z. B. franz_2026-03-16">
+                </div>
+
+                <div class="field">
+                    <label for="folder-input">F&uuml;r:</label>
+                    <input id="folder-input" type="text" list="folder-options" value="g2025b" placeholder="Ordnername">
+                    <datalist id="folder-options">
+                        <option value="alt"></option>
+                        <option value="english"></option>
+                        <option value="franz"></option>
+                        <option value="g2020c"></option>
+                        <option value="g2023k"></option>
+                        <option value="g2025ae"></option>
+                        <option value="g2025b"></option>
+                        <option value="ital"></option>
+                        <option value="japanisch"></option>
+                        <option value="latein"></option>
+                        <option value="privat"></option>
+                        <option value="test"></option>
+                    </datalist>
+                </div>
+
+                <div class="field">
+                    <label for="ask-with-input">Fragen mit:</label>
+                    <input id="ask-with-input" type="text" value="Franz&ouml;sisch" placeholder="z. B. Franz&ouml;sisch">
+                </div>
+
+                <div class="field">
+                    <label for="ask-for-input">Fragen nach:</label>
+                    <input id="ask-for-input" type="text" value="Deutsch" placeholder="z. B. Deutsch">
+                </div>
+
+                <div class="field divider-field">
+                    <div class="divider-header">
+                        <span>Trennzeichen</span>
+                        <span class="info-wrap" tabindex="0" aria-label="Hilfe zu Trennzeichen">
+                            i
+                            <span class="tooltip">
+                                Trennzeichen d&uuml;rfen identisch sein, sollten aber nicht in den Vokabeln vorkommen.<br>
+                                Schreibweise wie \n und \t wird automatisch umgewandelt.
+                            </span>
+                        </span>
+                    </div>
+                    <div class="divider-line">
+                        <span>Frage</span>
+                        <input id="divider-attr-input" class="divider-input" type="text" value="\t" placeholder="z. B. \t" aria-label="Trennzeichen zwischen Frage und Antwort">
+                        <span>Antwort</span>
+                    </div>
+                    <input id="divider-question-input" class="divider-input" type="text" value="\n" placeholder="z. B. \n" aria-label="Trennzeichen zwischen Fragegruppen">
+                    <label class="divider-break-text" for="divider-question-input">N&auml;chste Frage &lt;-&gt; n&auml;chste Antwort</label>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="panes">
+            <section class="anzeige pane">
+                <header class="pane-header">
+                    <h2>Import</h2>
+                    <button id="paste-button" class="button_style icon-button" type="button" title="Aus Zwischenablage einf&uuml;gen">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <rect x="9" y="7" width="11" height="13" rx="2"></rect>
+                            <path d="M7 17H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"></path>
+                            <rect x="8" y="2" width="8" height="4" rx="1"></rect>
+                        </svg>
+                        <span>Aus Zwischenablage</span>
+                    </button>
+                </header>
+                <textarea id="input-data" spellcheck="false" placeholder="Frage&lt;TAB&gt;Antwort\nFrage&lt;TAB&gt;Antwort"></textarea>
+            </section>
+
+            <section class="anzeige pane">
+                <header class="pane-header">
+                    <h2>Vorschau</h2>
+                    <span id="preview-count" class="pane-meta">0 Fragen erkannt</span>
+                </header>
+                <ol id="preview-list" class="preview-list"></ol>
+            </section>
+        </section>
+    </main>
+
+    <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="false"></div>
+
+    <script src="erstellen_js.js"></script>
+</body>
+</html>
