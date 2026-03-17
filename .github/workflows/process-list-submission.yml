@@ -46,6 +46,7 @@ jobs:
         env:
           SUBMISSION_BRANCH: ${{ steps.parse.outputs.branch }}
           SUBMISSION_OUTPUT_FILE: ${{ steps.parse.outputs.output_file }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -58,7 +59,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "Process list submission #${{ github.event.issue.number }}"
+            git commit -m "Process list submission #$ISSUE_NUMBER"
             git push --force-with-lease origin "$SUBMISSION_BRANCH"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
@@ -81,16 +82,10 @@ jobs:
 
           if [[ "$SUBMISSION_CHANGED" == "true" ]]; then
             body_prefix="Automatisch aktualisiert aus Issue #$ISSUE_NUMBER."
-            if [[ -z "$pr_number" ]]; then
-              body_prefix="Automatisch erzeugt aus Issue #$ISSUE_NUMBER."
-            fi
+            [[ -z "$pr_number" ]] && body_prefix="Automatisch erzeugt aus Issue #$ISSUE_NUMBER."
 
-            {
-              printf '%s\n\n' "$body_prefix"
-              printf '%s\n' "- Ziel: \`$SUBMISSION_TARGET\`"
-              printf '%s\n' "- Datei: \`$SUBMISSION_OUTPUT_FILE\`"
-              printf '%s\n' "- Fragen: $SUBMISSION_QUESTION_COUNT"
-            } > pr_body.md
+            printf '%s\n\n- Ziel: `%s`\n- Datei: `%s`\n- Fragen: %s\n' \
+              "$body_prefix" "$SUBMISSION_TARGET" "$SUBMISSION_OUTPUT_FILE" "$SUBMISSION_QUESTION_COUNT" > pr_body.md
 
             if [[ -z "$pr_number" ]]; then
               gh pr create \
@@ -144,20 +139,18 @@ jobs:
 
             printf 'Die Einreichung wurde verarbeitet.\n\nPR: %s\n\nDas Issue wurde automatisch geschlossen.\n' "$pr_url" > issue_comment.md
 
-            if [[ "$SUBMITTER_LOGIN" == "einmeterhecht" && "$merge_status" == "auto-enabled" ]]; then
-              printf '\n%s\n' "Auto-Merge: aktiviert." >> issue_comment.md
-            elif [[ "$SUBMITTER_LOGIN" == "einmeterhecht" && "$merge_status" == "merged" ]]; then
-              printf '\n%s\n' "Auto-Merge: sofort zusammengefuehrt." >> issue_comment.md
-            elif [[ "$SUBMITTER_LOGIN" == "einmeterhecht" && "$merge_status" == "failed" ]]; then
-              {
-                printf '\n%s\n\n%s\n' "Auto-Merge konnte nicht aktiviert werden." "Grund:"
-                printf '```\n%s\n```\n' "$merge_note"
-              } >> issue_comment.md
+            if [[ "$SUBMITTER_LOGIN" == "einmeterhecht" ]]; then
+              case "$merge_status" in
+                auto-enabled) printf '\nAuto-Merge: aktiviert.\n'                                                    >> issue_comment.md ;;
+                merged)       printf '\nAuto-Merge: sofort zusammengefuehrt.\n'                                      >> issue_comment.md ;;
+                failed)       printf '\nAuto-Merge konnte nicht aktiviert werden.\n\nGrund:\n```\n%s\n```\n' \
+                                "$merge_note"                                                                        >> issue_comment.md ;;
+              esac
             fi
 
             gh issue comment "$ISSUE_NUMBER" --body-file issue_comment.md
           else
-            printf '%s\n' 'Die Einreichung ist gueltig, erzeugt aber keine Aenderung gegenueber `main`. Es wurde daher kein PR erstellt.' > issue_comment.md
+            printf 'Die Einreichung ist gueltig, erzeugt aber keine Aenderung gegenueber `main`. Es wurde daher kein PR erstellt.\n' > issue_comment.md
             gh issue comment "$ISSUE_NUMBER" --body-file issue_comment.md
           fi
 
@@ -170,9 +163,10 @@ jobs:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
           set -euo pipefail
-          error_message="$(python3 -c 'import json; print(str((json.load(open("result.json", "r", encoding="utf-8")).get("error_message") or "")).strip())')"
+          error_message="$(python3 scripts/process_list_submission.py --print-error result.json)"
 
-          printf 'Die Einreichung konnte nicht verarbeitet werden.\n\nFehler:\n```\n%s\n```\n\nBitte korrigiere den JSON-Block im Issue und speichere das Issue erneut.\n' "$error_message" > invalid_comment.md
+          printf 'Die Einreichung konnte nicht verarbeitet werden.\n\nFehler:\n```\n%s\n```\n\nBitte korrigiere den JSON-Block im Issue und speichere das Issue erneut.\n' \
+            "$error_message" > invalid_comment.md
 
           gh issue comment "$ISSUE_NUMBER" --body-file invalid_comment.md
           gh issue edit "$ISSUE_NUMBER" --add-label invalid-submission --remove-label submission-processed

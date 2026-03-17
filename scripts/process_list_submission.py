@@ -23,7 +23,6 @@ MAX_TITLE_LENGTH = 180
 DEFAULT_HINTS = ["Beispiele", "Lernhilfe"]
 
 SAFE_NAME_RE = re.compile(r"^[A-Za-z0-9._-]+$")
-BRANCH_NAME_RE = re.compile(r"^submission/(?:issue-[0-9]+|manual)$")
 OUTPUT_FILE_RE = re.compile(r"^abfragen/listen/[A-Za-z0-9._-]+/[A-Za-z0-9._-]+\.js$")
 CODE_FENCE_RE = re.compile(r"```(?:json)?\s*(.*?)\s*```", re.IGNORECASE | re.DOTALL)
 
@@ -36,101 +35,79 @@ def _truncate_errors(errors: list[str], limit: int = 10) -> list[str]:
 
 
 def _slugify_title(title: str) -> str:
-    normalized = unicodedata.normalize("NFKD", title)
-    ascii_title = normalized.encode("ascii", "ignore").decode("ascii")
-    ascii_title = re.sub(r"\s+", "_", ascii_title.strip())
-    ascii_title = re.sub(r"[^A-Za-z0-9._-]", "_", ascii_title)
-    ascii_title = re.sub(r"_+", "_", ascii_title)
-    ascii_title = ascii_title.strip("._-")
-    return ascii_title or "liste"
+    s = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode("ascii")
+    s = re.sub(r"\s+", "_", s.strip())
+    s = re.sub(r"[^A-Za-z0-9._-]", "_", s)
+    s = re.sub(r"_+", "_", s).strip("._-")
+    return s or "liste"
 
 
 def _extract_first_string(value: Any) -> str:
     if isinstance(value, str):
         return value.strip()
-    if isinstance(value, list) and value:
-        first = value[0]
-        if isinstance(first, str):
-            return first.strip()
+    if isinstance(value, list) and value and isinstance(value[0], str):
+        return value[0].strip()
     return ""
 
 
 def _extract_issue_body(args: argparse.Namespace) -> tuple[int, str]:
     if args.event_file:
-        event_data = json.loads(Path(args.event_file).read_text(encoding="utf-8"))
-        issue = event_data.get("issue") or {}
-        issue_number = int(issue.get("number") or 0)
-        issue_body = issue.get("body") or ""
-        return issue_number, str(issue_body)
-
-    issue_number = int(args.issue_number or 0)
-    issue_body = Path(args.body_file).read_text(encoding="utf-8")
-    return issue_number, issue_body
+        issue = json.loads(Path(args.event_file).read_text(encoding="utf-8")).get("issue") or {}
+        return int(issue.get("number") or 0), str(issue.get("body") or "")
+    return int(args.issue_number or 0), Path(args.body_file).read_text(encoding="utf-8")
 
 
 def _extract_payload_json(issue_body: str) -> tuple[dict[str, Any] | None, str, str]:
     start = issue_body.find(START_MARKER)
     if start < 0:
         return None, "", "Start-Markierung fehlt: <!-- LIST_SUBMISSION_START -->"
-
     end = issue_body.find(END_MARKER, start + len(START_MARKER))
     if end < 0:
         return None, "", "End-Markierung fehlt: <!-- LIST_SUBMISSION_END -->"
 
-    block = issue_body[start + len(START_MARKER) : end].strip()
+    block = issue_body[start + len(START_MARKER):end].strip()
     if not block:
         return None, "", "Zwischen den Markierungen wurde kein Inhalt gefunden."
 
-    fence_match = CODE_FENCE_RE.search(block)
-    payload_text = fence_match.group(1).strip() if fence_match else block.strip()
+    m = CODE_FENCE_RE.search(block)
+    payload_text = m.group(1).strip() if m else block
     if not payload_text:
         return None, "", "Zwischen den Markierungen wurde kein JSON-Inhalt gefunden."
 
     try:
         payload = json.loads(payload_text)
     except json.JSONDecodeError as exc:
-        return (
-            None,
-            payload_text,
-            f"JSON konnte nicht gelesen werden (Zeile {exc.lineno}, Spalte {exc.colno}): {exc.msg}",
-        )
+        return None, payload_text, f"JSON konnte nicht gelesen werden (Zeile {exc.lineno}, Spalte {exc.colno}): {exc.msg}"
 
     if not isinstance(payload, dict):
         return None, payload_text, "Das JSON muss ein Objekt sein."
-
     return payload, payload_text, ""
 
 
 def _collect_targets(listen_root: Path) -> set[str]:
     if not listen_root.is_dir():
         return set()
-    return {item.name for item in listen_root.iterdir() if item.is_dir()}
+    return {p.name for p in listen_root.iterdir() if p.is_dir()}
 
 
 def _validate_submission(payload: dict[str, Any], repo_root: Path, issue_body: str) -> dict[str, Any]:
     errors: list[str] = []
 
     if len(issue_body) > MAX_ISSUE_BODY_CHARS:
-        errors.append(
-            f"Issue-Text ist zu gross ({len(issue_body)} Zeichen, erlaubt: {MAX_ISSUE_BODY_CHARS})."
-        )
+        errors.append(f"Issue-Text ist zu gross ({len(issue_body)} Zeichen, erlaubt: {MAX_ISSUE_BODY_CHARS}).")
 
     title_raw = str(payload.get("title") or "").strip()
     target_raw = str(payload.get("target") or "").strip()
     frage_attribut = str(payload.get("frage_attribut") or "").strip()
     antwort_attribut = str(payload.get("antwort_attribut") or "").strip()
 
-    if not title_raw:
-        errors.append("Feld 'title' fehlt oder ist leer.")
-    if not target_raw:
-        errors.append("Feld 'target' fehlt oder ist leer.")
-    if not frage_attribut:
-        errors.append("Feld 'frage_attribut' fehlt oder ist leer.")
-    if not antwort_attribut:
-        errors.append("Feld 'antwort_attribut' fehlt oder ist leer.")
+    for field, value in [("title", title_raw), ("target", target_raw),
+                          ("frage_attribut", frage_attribut), ("antwort_attribut", antwort_attribut)]:
+        if not value:
+            errors.append(f"Feld '{field}' fehlt oder ist leer.")
+
     if frage_attribut and antwort_attribut and frage_attribut == antwort_attribut:
         errors.append("'frage_attribut' und 'antwort_attribut' muessen unterschiedlich sein.")
-
     if len(title_raw) > MAX_TITLE_LENGTH:
         errors.append(f"'title' ist zu lang (maximal {MAX_TITLE_LENGTH} Zeichen).")
     if len(frage_attribut) > MAX_ATTR_LENGTH:
@@ -141,7 +118,6 @@ def _validate_submission(payload: dict[str, Any], repo_root: Path, issue_body: s
     slug = _slugify_title(title_raw)
     if not SAFE_NAME_RE.fullmatch(slug):
         errors.append("'title' konnte nicht in einen gueltigen Dateinamen umgewandelt werden.")
-
     if not SAFE_NAME_RE.fullmatch(target_raw) or ".." in target_raw:
         errors.append("'target' enthaelt ungueltige Zeichen.")
 
@@ -156,96 +132,77 @@ def _validate_submission(payload: dict[str, Any], repo_root: Path, issue_body: s
     for idx, value in enumerate(hinweis_attribute):
         if not isinstance(value, str) or not value.strip():
             errors.append(f"hinweis_attribute[{idx}] muss ein nicht-leerer Text sein.")
-            continue
-        cleaned_hinweise.append(value.strip())
+        else:
+            cleaned_hinweise.append(value.strip())
 
     fragen_raw = payload.get("fragen")
     if not isinstance(fragen_raw, list):
         errors.append("'fragen' muss ein Array sein.")
         fragen_raw = []
-
-    if len(fragen_raw) == 0:
+    elif not fragen_raw:
         errors.append("'fragen' muss mindestens einen Eintrag enthalten.")
-    if len(fragen_raw) > MAX_QUESTIONS:
+    elif len(fragen_raw) > MAX_QUESTIONS:
         errors.append(f"'fragen' ist zu gross (maximal {MAX_QUESTIONS} Eintraege).")
 
     normalized_questions: list[dict[str, list[str]]] = []
-
-    for index, row in enumerate(fragen_raw[: MAX_QUESTIONS + 1]):
+    for index, row in enumerate(fragen_raw[:MAX_QUESTIONS]):
         if not isinstance(row, dict):
             errors.append(f"fragen[{index}] muss ein Objekt sein.")
             continue
-
-        question_value = _extract_first_string(row.get(frage_attribut))
-        answer_value = _extract_first_string(row.get(antwort_attribut))
-
-        if not question_value:
+        q = _extract_first_string(row.get(frage_attribut))
+        a = _extract_first_string(row.get(antwort_attribut))
+        if not q:
             errors.append(f"fragen[{index}] hat keinen gueltigen Wert fuer '{frage_attribut}'.")
-        if not answer_value:
+        if not a:
             errors.append(f"fragen[{index}] hat keinen gueltigen Wert fuer '{antwort_attribut}'.")
-
-        if len(question_value) > MAX_ENTRY_LENGTH:
-            errors.append(
-                f"fragen[{index}] '{frage_attribut}' ist zu lang (maximal {MAX_ENTRY_LENGTH} Zeichen)."
-            )
-        if len(answer_value) > MAX_ENTRY_LENGTH:
-            errors.append(
-                f"fragen[{index}] '{antwort_attribut}' ist zu lang (maximal {MAX_ENTRY_LENGTH} Zeichen)."
-            )
-
-        if question_value and answer_value:
-            normalized_questions.append(
-                {
-                    frage_attribut: [question_value],
-                    antwort_attribut: [answer_value],
-                }
-            )
+        if len(q) > MAX_ENTRY_LENGTH:
+            errors.append(f"fragen[{index}] '{frage_attribut}' ist zu lang (maximal {MAX_ENTRY_LENGTH} Zeichen).")
+        if len(a) > MAX_ENTRY_LENGTH:
+            errors.append(f"fragen[{index}] '{antwort_attribut}' ist zu lang (maximal {MAX_ENTRY_LENGTH} Zeichen).")
+        if q and a:
+            normalized_questions.append({frage_attribut: [q], antwort_attribut: [a]})
 
     listen_root = repo_root / "abfragen" / "listen"
     allowed_targets = _collect_targets(listen_root)
-
     if target_raw and target_raw not in allowed_targets:
-        known_targets = ", ".join(sorted(allowed_targets))
-        errors.append(
-            f"'target' ist ungueltig. Erlaubte Werte sind: {known_targets}"
-        )
+        errors.append(f"'target' ist ungueltig. Erlaubte Werte sind: {', '.join(sorted(allowed_targets))}")
 
-    output_relative = ""
-    output_absolute = None
-
+    output_file = ""
     if target_raw and slug:
         target_dir = (listen_root / target_raw).resolve()
-        output_absolute = (target_dir / f"{slug}.js").resolve()
-        if target_dir not in output_absolute.parents:
+        output_abs = (target_dir / f"{slug}.js").resolve()
+        if target_dir not in output_abs.parents:
             errors.append("Ungueltiger Ausgabepfad erkannt (Pfadmanipulation).")
         else:
             try:
-                output_relative = output_absolute.relative_to(repo_root.resolve()).as_posix()
+                rel = output_abs.relative_to(repo_root.resolve()).as_posix()
+                if not OUTPUT_FILE_RE.fullmatch(rel):
+                    errors.append("Ausgabedatei hat ein ungueltiges Format.")
+                else:
+                    output_file = rel
             except ValueError:
                 errors.append("Ausgabedatei liegt ausserhalb des Repository-Roots.")
 
-    if output_relative and not OUTPUT_FILE_RE.fullmatch(output_relative):
-        errors.append("Ausgabedatei hat ein ungueltiges Format.")
-
-    list_object = {
-        "fragen": normalized_questions,
-        "hinweis_attribute": cleaned_hinweise or DEFAULT_HINTS,
-        "titel": slug,
-        "frage_attribut": frage_attribut,
-    }
-
-    js_content = "var liste = " + json.dumps(list_object, indent=4, ensure_ascii=True) + ";\n\nerste_aufgabe();\n"
+    js_content = (
+        "var liste = "
+        + json.dumps({
+            "fragen": normalized_questions,
+            "hinweis_attribute": cleaned_hinweise or DEFAULT_HINTS,
+            "titel": slug,
+            "frage_attribut": frage_attribut,
+        }, indent=4, ensure_ascii=True)
+        + ";\n\nerste_aufgabe();\n"
+    )
 
     return {
-        "valid": len(errors) == 0,
+        "valid": not errors,
         "errors": _truncate_errors(errors),
         "slug": slug,
         "target": target_raw,
         "frage_attribut": frage_attribut,
         "antwort_attribut": antwort_attribut,
         "question_count": len(normalized_questions),
-        "output_file": output_relative,
-        "output_absolute": str(output_absolute) if output_absolute else "",
+        "output_file": output_file,
         "js_content": js_content,
     }
 
@@ -255,29 +212,8 @@ def _write_output(path: Path, content: str) -> None:
     path.write_text(content, encoding="utf-8")
 
 
-def _base_result(issue_number: int, branch_name: str) -> dict[str, Any]:
-    return {
-        "valid": False,
-        "errors": [],
-        "error_message": "",
-        "issue_number": issue_number,
-        "branch": branch_name,
-        "output_file": "",
-        "target": "",
-        "slug": "",
-        "question_count": 0,
-    }
-
-
-def _invalid_result(issue_number: int, branch_name: str, message: str) -> dict[str, Any]:
-    result = _base_result(issue_number, branch_name)
-    result["errors"] = [message]
-    result["error_message"] = message
-    return result
-
-
 def _write_github_output(path: Path, result: dict[str, Any]) -> None:
-    output_values: dict[str, Any] = {
+    fields = {
         "valid": "true" if result.get("valid") else "false",
         "issue_number": result.get("issue_number", ""),
         "branch": result.get("branch", ""),
@@ -286,73 +222,53 @@ def _write_github_output(path: Path, result: dict[str, Any]) -> None:
         "target": result.get("target", ""),
         "slug": result.get("slug", ""),
     }
-
-    with path.open("a", encoding="utf-8") as handle:
-        for key, value in output_values.items():
+    with path.open("a", encoding="utf-8") as f:
+        for key, value in fields.items():
             text = "" if value is None else str(value)
             if "\n" in text or "\r" in text:
                 raise ValueError(f"Output field must be single-line: {key}")
-            handle.write(f"{key}={text}\n")
-
-
-def _invalidate_result(result: dict[str, Any], message: str) -> None:
-    result["valid"] = False
-    result["errors"] = [message]
-    result["error_message"] = message
-    result["output_file"] = ""
-    result["target"] = ""
-    result["slug"] = ""
-    result["question_count"] = 0
-
-
-def _enforce_result_invariants(result: dict[str, Any]) -> None:
-    branch = str(result.get("branch") or "")
-    if not BRANCH_NAME_RE.fullmatch(branch):
-        _invalidate_result(result, "Interner Fehler: Ungueltiger Branch-Name erzeugt.")
-        return
-
-    if result.get("valid"):
-        output_file = str(result.get("output_file") or "")
-        if not OUTPUT_FILE_RE.fullmatch(output_file):
-            _invalidate_result(result, "Interner Fehler: Ungueltiger Ausgabepfad erzeugt.")
+            f.write(f"{key}={text}\n")
 
 
 def process_submission(args: argparse.Namespace) -> dict[str, Any]:
     repo_root = Path(args.repo_root).resolve()
     issue_number, issue_body = _extract_issue_body(args)
+    branch = f"submission/issue-{issue_number}" if issue_number else "submission/manual"
 
-    branch_name = f"submission/issue-{issue_number}" if issue_number else "submission/manual"
+    def fail(message: str) -> dict[str, Any]:
+        return {
+            "valid": False, "errors": [message], "error_message": message,
+            "issue_number": issue_number, "branch": branch,
+            "output_file": "", "target": "", "slug": "", "question_count": 0,
+        }
 
     payload, payload_text, parse_error = _extract_payload_json(issue_body)
     if parse_error:
-        return _invalid_result(issue_number, branch_name, parse_error)
-
+        return fail(parse_error)
     if len(payload_text) > MAX_JSON_CHARS:
-        message = (
-            f"JSON-Block ist zu gross ({len(payload_text)} Zeichen, erlaubt: {MAX_JSON_CHARS})."
-        )
-        return _invalid_result(issue_number, branch_name, message)
+        return fail(f"JSON-Block ist zu gross ({len(payload_text)} Zeichen, erlaubt: {MAX_JSON_CHARS}).")
 
-    validation = _validate_submission(payload, repo_root=repo_root, issue_body=issue_body)
+    v = _validate_submission(payload, repo_root=repo_root, issue_body=issue_body)
 
-    result = _base_result(issue_number, branch_name)
-    result.update(
-        {
-            "valid": validation["valid"],
-            "errors": validation["errors"],
-            "error_message": "\n".join(validation["errors"]) if validation["errors"] else "",
-            "output_file": validation["output_file"],
-            "target": validation["target"],
-            "slug": validation["slug"],
-            "question_count": validation["question_count"],
-        }
-    )
+    result: dict[str, Any] = {
+        "valid": v["valid"],
+        "errors": v["errors"],
+        "error_message": "\n".join(v["errors"]) if v["errors"] else "",
+        "issue_number": issue_number,
+        "branch": branch,
+        "output_file": v["output_file"],
+        "target": v["target"],
+        "slug": v["slug"],
+        "question_count": v["question_count"],
+    }
 
-    _enforce_result_invariants(result)
+    # Guard: output_file must still match the regex after all transformations
+    if result["valid"] and not OUTPUT_FILE_RE.fullmatch(result["output_file"]):
+        return fail("Interner Fehler: Ungueltiger Ausgabepfad erzeugt.")
 
+    # Write using the validated relative path from result, not the validation intermediate
     if result["valid"] and args.write:
-        output_file = Path(validation["output_absolute"])
-        _write_output(output_file, validation["js_content"])
+        _write_output(repo_root / result["output_file"], v["js_content"])
 
     return result
 
@@ -366,12 +282,18 @@ def _build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--write", action="store_true", help="Write generated JS file when valid")
     parser.add_argument("--output-json", help="Write result JSON to this path")
     parser.add_argument("--github-output", help="Write workflow outputs to this file")
+    parser.add_argument("--print-error", metavar="JSON_FILE", help="Print error_message from a result JSON and exit")
     return parser
 
 
 def main() -> int:
     parser = _build_parser()
     args = parser.parse_args()
+
+    if args.print_error:
+        data = json.loads(Path(args.print_error).read_text(encoding="utf-8"))
+        print(str(data.get("error_message") or "").strip())
+        return 0
 
     if bool(args.event_file) == bool(args.body_file):
         parser.error("Exactly one of --event-file or --body-file is required.")
@@ -393,6 +315,6 @@ def main() -> int:
 if __name__ == "__main__":
     try:
         raise SystemExit(main())
-    except Exception as exc:  # pragma: no cover - hard fail for unexpected runner issues
+    except Exception as exc:  # pragma: no cover
         print(f"Fatal error: {exc}", file=sys.stderr)
         raise
