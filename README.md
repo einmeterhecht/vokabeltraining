@@ -37,6 +37,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2025b:
 
+- [English L5, 6](/vokabeltraining/abfragen?folder=g2025b&file=English_L5,_6)
+
 - [Franz Le CI2 L2B entrée, A](/vokabeltraining/abfragen?folder=g2025b&file=Franz_Le_CI2_L2B_L3_entrée,_A)
 
 - [English Li L2&3](/vokabeltraining/abfragen?folder=g2025b&file=English_LI_L2,3)
