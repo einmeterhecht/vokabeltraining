@@ -55,6 +55,8 @@ Dieser webbasiertes Vokabeltrainer ist für ein Lernen mit Tastatureingabe optim
 
 ### Für g2025ae:
 
+- [Griechisch 23.3.26](/vokabeltraining/abfragen?folder=g2025ae&file=Griechisch_2026-03-23)
+
 - [Französische Länder](/vokabeltraining/abfragen?folder=g2025ae&file=Französische_Länder)
 
 - [Franz L4+Mon Dico Personel](/vokabeltraining/abfragen?folder=g2025ae&file=Franz_L4+Mon_Dico_personnel)
