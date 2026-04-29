@@ -7839,6 +7839,1414 @@ var liste = {
             "Deutsch": [
                 "wirklich, t\u00e4ts\u00e4chlich"
             ]
+        },
+        {
+            "Griechisch": [
+                "\u03b5\u1f34\u03ba\u03bf\u03c3\u03b9(\u03bd)"
+            ],
+            "Deutsch": [
+                "zwanzig"
+            ]
+        },
+        {
+            "Griechisch": [
+                "-\u03ba\u03bf\u03bd\u03c4\u03b1"
+            ],
+            "Deutsch": [
+                "-zig (-ssig)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f11\u03ba\u03b1\u03c4\u03cc\u03bd"
+            ],
+            "Deutsch": [
+                "hundert"
+            ]
+        },
+        {
+            "Griechisch": [
+                "-\u03ba\u03cc\u03c3\u03b9\u03bf\u03b9, -\u03b1\u03b9, -\u03b1"
+            ],
+            "Deutsch": [
+                "-hundert"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c7\u03af\u03bb\u03b9\u03bf\u03b9, -\u03b1\u03b9, -\u03b1"
+            ],
+            "Deutsch": [
+                "tausend"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03bc\u03cd\u03c1\u03b9\u03bf\u03b9, -\u03b1\u03b9, -\u03b1"
+            ],
+            "Deutsch": [
+                "zehntausend"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b4\u03af\u03c2 (Adv.)"
+            ],
+            "Deutsch": [
+                "zweimal"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u03c1\u03af\u03c2 (Adv.)"
+            ],
+            "Deutsch": [
+                "dreimal"
+            ]
+        },
+        {
+            "Griechisch": [
+                "-(\u03ac)\u03ba\u03b9\u03c2"
+            ],
+            "Deutsch": [
+                "-mal"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u03c0\u03c1\u1ff6\u03c4\u03bf\u03c2 (-\u03b7, -\u03bf\u03bd)"
+            ],
+            "Deutsch": [
+                "der (die, das) erste"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u03b4\u03b5\u03cd\u03c4\u03b5\u03c1\u03bf\u03c2 (-\u03b7, -\u03bf\u03bd)"
+            ],
+            "Deutsch": [
+                "der (die, das) zweite"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u03c4\u03c1\u03af\u03c4\u03bf\u03c2 (-\u03b7, -\u03bf\u03bd)"
+            ],
+            "Deutsch": [
+                "der (die, das) dritte"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u03c4\u03ad\u03c4\u03b1\u03c1\u03c4\u03bf\u03c2 (-\u03b7, -\u03bf\u03bd)"
+            ],
+            "Deutsch": [
+                "der (die, das) vierte"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u03c0\u03ad\u03bc\u03c0\u03c4\u03bf\u03c2 (-\u03b7, -\u03bf\u03bd)"
+            ],
+            "Deutsch": [
+                "der (die, das) f\u00fcnfte"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u03b4\u03ad\u03ba\u03b1\u03c4\u03bf\u03c2 (-\u03b7, -\u03bf\u03bd)"
+            ],
+            "Deutsch": [
+                "der (die, das) zehnte"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 -\u03ba\u03bf\u03c3\u03c4\u03cc\u03c2 (-\u03ae, -\u03cc\u03bd)"
+            ],
+            "Deutsch": [
+                "der (die, das) -zigste (-ssigste)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u1f21\u03c3\u03c5\u03c7\u03af\u03b1, \u03c4\u1fc6\u03c2 \u1f21\u03c3\u03c5\u03c7\u03af\u03b1\u03c2"
+            ],
+            "Deutsch": [
+                "die Ruhe, Stille"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f00\u03ba\u03c1\u03b9\u03b2\u03ae\u03c2, -\u03ad\u03c2"
+            ],
+            "Deutsch": [
+                "sorgf\u00e4ltig, genau"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03c0\u03bb\u1fc6\u03b8\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u03c0\u03bb\u03ae\u03b8\u03bf\u03c5\u03c2"
+            ],
+            "Deutsch": [
+                "die Menge, die grosse Anzahl"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03bc\u03ac\u03bb\u03b9\u03c3\u03c4\u03b1 (Adv.)"
+            ],
+            "Deutsch": [
+                "am meisten, besonders"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u03c3\u03cd\u03bc-\u03bc\u03b1\u03c7\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u03c3\u03c5\u03bc\u03bc\u03ac\u03c7\u03bf\u03c5"
+            ],
+            "Deutsch": [
+                "der Verb\u00fcndete, der Bundesgenosse"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u03b1\u03c7\u03cd\u03c2, -\u03b5\u1fd6\u03b1, -\u03cd"
+            ],
+            "Deutsch": [
+                "schnell"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f61\u03c2 (mit Superlativ)"
+            ],
+            "Deutsch": [
+                "m\u00f6glichst"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f61\u03c2 \u03c0\u03bb\u03b5\u1fd6\u03c3\u03c4\u03bf\u03b9 \u1f04\u03bd\u03b8\u03c1\u03c9\u03c0\u03bf\u03b9"
+            ],
+            "Deutsch": [
+                "m\u00f6glichst viele Menschen"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b4\u03bf\u03c5\u03bb\u03b5\u03cd\u03c9"
+            ],
+            "Deutsch": [
+                "ich diene, bin Sklave"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b5\u1f34\u03c1\u03b3\u03b1\u03c3\u03c4\u03b1\u03b9 (Perf. zu \u1f10\u03c1\u03b3\u03ac\u03b6\u03bf\u03bc\u03b1\u03b9)"
+            ],
+            "Deutsch": [
+                "er/sie/es hat verfertigt, gearbeitet (Medium), er/sie/es ist verfertigt, gearbeitet (worden)(Passiv)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b4\u03b5\u03b4\u03af\u03b4\u03b1\u03b3\u03bc\u03b1\u03b9 (Perf. Pass. zu \u03b4\u03b9\u03b4\u03ac\u03c3\u03ba\u03c9)"
+            ],
+            "Deutsch": [
+                "ich bin gelehrt, unterrichtet (worden)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u03c1\u03ad\u03c0\u03c9 (Perf. Med. o. Pass. \u03c4\u03ad-\u03c4\u03c1\u03b1\u03bc\u03bc\u03b1\u03b9)"
+            ],
+            "Deutsch": [
+                "ich wende, schlage in die Flucht"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u03b8\u03c5\u03b3\u03ac\u03c4\u03b7\u03c1, \u03c4\u1fc6\u03c2 \u03b8\u03c5\u03b3\u03b1\u03c4\u03c1\u03cc\u03c2"
+            ],
+            "Deutsch": [
+                "die Tochter"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03c0\u03bf\u03af\u03b7\u03bc\u03b1, \u03c4\u03bf\u1fe6 \u03c0\u03bf\u03b9\u03ae\u03bc\u03b1\u03c4\u03bf\u03c2"
+            ],
+            "Deutsch": [
+                "die Tat, das Werk, das Gedicht"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u1f21\u03bc\u03ad\u03c1\u03b1, \u03c4\u1fc6\u03c2 \u1f21\u03bc\u03ad\u03c1\u03b1\u03c2"
+            ],
+            "Deutsch": [
+                "der Tag"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f45\u03c0\u03c9\u03c2"
+            ],
+            "Deutsch": [
+                "wie"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b4\u03ad-\u03b4\u03bf\u03b9\u03ba\u03b1/\u03b4\u03ad-\u03b4\u03b9\u03b1"
+            ],
+            "Deutsch": [
+                "ich f\u00fcrchte"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03ad-\u03c0\u03bf\u03b9\u03b8\u03b1"
+            ],
+            "Deutsch": [
+                "ich vertraue"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u03ad-\u03b8\u03bd\u03b7\u03ba\u03b5(\u03bd)"
+            ],
+            "Deutsch": [
+                "er/sie/es ist gestorben, tot"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b3\u03ad-\u03b3\u03bf\u03bd\u03b1"
+            ],
+            "Deutsch": [
+                "ich bin geworden, geboren"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f14-\u03bf\u03b9\u03ba\u03b1"
+            ],
+            "Deutsch": [
+                "ich gleiche, scheine (zu sein/tun)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b5\u1f34\u03c9\u03b8\u03b1"
+            ],
+            "Deutsch": [
+                "ich bin gewohnt, pflege (zu tun)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b5\u1f30"
+            ],
+            "Deutsch": [
+                "wenn, ob"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f04\u03bd"
+            ],
+            "Deutsch": [
+                "(Signalwort)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03bd\u03ad\u03bc\u03bf\u03bc\u03b1\u03b9"
+            ],
+            "Deutsch": [
+                "ich bebaue (Ackerland), bewohne, n\u00e4hre mich"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03ba\u03bf\u03b9\u03bd\u1fc7 (Adv.)"
+            ],
+            "Deutsch": [
+                "gemeinsam, \u00f6ffentlich, im Staatsinteresse"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c3\u03c5\u03bd\u03b5\u03c7\u03ae\u03c2, -\u03ad\u03c2"
+            ],
+            "Deutsch": [
+                "zusammenh\u00e4ngend, andauernd"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u03ba\u03ce\u03bc\u03b7, \u03c4\u1fc6\u03c2 \u03ba\u03ce\u03bc\u03b7\u03c2"
+            ],
+            "Deutsch": [
+                "das Dorf"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03ba\u03c4\u1fc6\u03bc\u03b1, \u03c4\u03bf\u1fe6 \u03ba\u03c4\u03ae\u03bc\u03b1\u03c4\u03bf\u03c2"
+            ],
+            "Deutsch": [
+                "der Besitz"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03c4\u03b5\u1fd6\u03c7\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u03c4\u03b5\u03af\u03c7\u03bf\u03c5\u03c2"
+            ],
+            "Deutsch": [
+                "die Mauer"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f10\u03c0\u03b9\u03c4\u03ae\u03b4\u03b5\u03b9\u03bf\u03c2, -\u03b1, -\u03bf\u03bd"
+            ],
+            "Deutsch": [
+                "geeignet, passend, befreundet"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f10\u03be\u1fc6\u03bd"
+            ],
+            "Deutsch": [
+                "es war m\u00f6glich, es w\u00e4re m\u00f6glich (gewesen)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f14\u03b4\u03b5\u03b9"
+            ],
+            "Deutsch": [
+                "es war n\u00f6tig, es w\u00e4re n\u00f6tig (gewesen)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f40\u03bb\u03af\u03b3\u03bf\u03c5/\u03bc\u03b9\u03ba\u03c1\u03bf\u1fe6 (\u03b4\u03b5\u1fd6\u03bd)"
+            ],
+            "Deutsch": [
+                "beinahe"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f30\u03c3\u03c7\u03cd\u03c9"
+            ],
+            "Deutsch": [
+                "ich bin stark, m\u00e4chtig"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03c1\u03bf\u03c3\u03ad\u03c1\u03c7\u03bf\u03bc\u03b1\u03b9 (mit Dat., Aor.: \u03c0\u03c1\u03bf\u03c3\u1fc6\u03bb\u03b8\u03bf\u03bd)"
+            ],
+            "Deutsch": [
+                "ich gehe hin, n\u00e4here mich, greife an"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u039f\u1f31 \u1f1d\u03bb\u03bb\u03b7\u03bd\u03b5\u03c2 \u03c0\u03c1\u03c3\u03bf\u1fc6\u03bb\u03b8\u03bf\u03bd \u03c4\u03bf\u1fd6\u03c2 \u03a0\u03ad\u03c1\u03c3\u03b1\u03b9\u03c2."
+            ],
+            "Deutsch": [
+                "Die Griechen griffen die Perser an."
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f10\u03c0\u03af (m. Dat.)"
+            ],
+            "Deutsch": [
+                "(\u00f6rtlich) (dicht) bei, (\u00fcbertragen) aufgrund, unter der Bedingung, zum Zweck von, wegen"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b1\u1f31 \u03c0\u03cc\u03bb\u03b5\u03b9\u03c2 \u03b1\u1f31 \u1f10\u03c0\u1f76 \u03c4\u1fc7 \u03b8\u03b1\u03bb\u03ac\u03c4\u03c4\u1fc3"
+            ],
+            "Deutsch": [
+                "die St\u00e4dte (dicht) am Meer"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f40\u03c1\u03b3\u03af\u03b6\u03b5\u03c3\u03b8\u03b1\u03b9 \u1f10\u03c0\u1f76 \u03c4\u1fc7 \u1f55\u03b2\u03c1\u03b5\u03b9"
+            ],
+            "Deutsch": [
+                "zornig sein aufgrund der Missandlung"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f10\u03c0\u1f76 \u03bc\u03b9\u03c3\u03b8\u1ff7 \u1f10\u03c1\u03b3\u03ac\u03b6\u03b5\u03c3\u03b8\u03b1\u03b9"
+            ],
+            "Deutsch": [
+                "wegen/um Lohn arbeiten"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u1f60\u03c6\u03b5\u03bb\u03af\u03b1, \u03c4\u1fc6\u03c2 \u1f60\u03c6\u03b5\u03bb\u03af\u03b1\u03c2"
+            ],
+            "Deutsch": [
+                "der Nutzen, der Vorteil, die Hilfe"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u03b5\u1f50\u03b5\u03c1\u03b3\u03ad\u03c4\u03b7\u03c2, \u03c4\u03bf\u1fe6 \u03b5\u1f50\u03b5\u03c1\u03b3\u03ad\u03c4\u03bf\u03c5"
+            ],
+            "Deutsch": [
+                "der Wohlt\u00e4ter"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03c9\u03c2 (Adv., enklitisch)"
+            ],
+            "Deutsch": [
+                "irgendwie, ungef\u00e4hr"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u03bc\u03bd\u03ae\u03bc\u03b7, \u03c4\u1fc6\u03c2 \u03bc\u03bd\u03ae\u03bc\u03b7\u03c2"
+            ],
+            "Deutsch": [
+                "das Ged\u00e4chtnis, das Andenken, die Erw\u00e4hnung"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b5\u1f31\u03bb\u03cc\u03bc\u03b7\u03bd (starker Aorist zu \u03b1\u1f31\u03c1\u03ad\u03bf\u03bc\u03b1\u03b9, Infinitiv \u1f11\u03bb\u03ad\u03c3\u03b8\u03b1\u03b9)"
+            ],
+            "Deutsch": [
+                "ich nahm mir, w\u00e4hlte"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b4\u03b9\u03b1\u03bb\u03bb\u03ac\u03c4\u03c4\u03c9"
+            ],
+            "Deutsch": [
+                "ich vers\u00f6hne"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u03bf\u1f30\u03ba\u03ad\u03c4\u03b7\u03c2, \u03c4\u03bf\u1fe6 \u03bf\u1f30\u03ba\u03ad\u03c4\u03bf\u03c5"
+            ],
+            "Deutsch": [
+                "der Hausgenosse, der Sklave"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b5\u1f36\u03c4\u03b1 (Adv.)"
+            ],
+            "Deutsch": [
+                "da, dann, ferner"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f04\u03b8\u03bb\u03b9\u03bf\u03c2, -\u03bf\u03bd"
+            ],
+            "Deutsch": [
+                "elend, ungl\u00fccklich"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b4\u1fc6\u03c4\u03b1 (Adv.)"
+            ],
+            "Deutsch": [
+                "bestimmt"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u03af \u03b4\u1fc6\u03c4\u03b1, (in Fragen)"
+            ],
+            "Deutsch": [
+                "was denn?"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f35\u03bd\u03b1/\u1f45\u03c0\u03c9\u03c2 (mit Konjunktiv)"
+            ],
+            "Deutsch": [
+                "damit"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f35\u03bd\u03b1 \u03bc\u03ae/\u1f45\u03c0\u03c9\u03c2 \u03bc\u03ae"
+            ],
+            "Deutsch": [
+                "damit nicht"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f51\u03c0\u03ad\u03c1 (mit Akk.)"
+            ],
+            "Deutsch": [
+                "\u00fcber ... hinaus"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03bc\u03ad\u03c4\u03c1\u03bf\u03bd, \u03c4\u03bf\u1fe6 \u03bc\u03ad\u03c4\u03c1\u03bf\u03c5"
+            ],
+            "Deutsch": [
+                "das Mass, das rechte Mass"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f51\u03c0\u1f72\u03c1 \u03bc\u03ad\u03c4\u03c1\u03bf\u03bd"
+            ],
+            "Deutsch": [
+                "\u00fcber das rechte Mass hinaus"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u03b6\u03c9\u03ae, \u03c4\u1fc6\u03c2 \u03b6\u03c9\u1fc6\u03c2"
+            ],
+            "Deutsch": [
+                "das Leben"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f14\u03bd\u03b8\u03b1 (Adv.)"
+            ],
+            "Deutsch": [
+                "(\u00f6rtlich) hier, (zeitlich) da, damals"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03b9\u03c3\u03c4\u03cc\u03c2, -\u03ae, -\u03cc\u03bd"
+            ],
+            "Deutsch": [
+                "treu, zuverl\u00e4ssig, glaubw\u00fcrdig"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03b4\u03ad\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u03b4\u03ad\u03bf\u03c5\u03c2"
+            ],
+            "Deutsch": [
+                "die Furcht, die Angst"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u1f26\u03b8\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u1f24\u03b8\u03bf\u03c5\u03c2"
+            ],
+            "Deutsch": [
+                "der Charakter, die (innere) Haltung, die Gewohnheit"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03b5\u03c1\u03b9\u03c4\u03c4\u03cc\u03c2, -\u03ae, -\u03cc\u03bd"
+            ],
+            "Deutsch": [
+                "\u00fcberm\u00e4ssig, \u00fcberfl\u00fcssig"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b8\u03b1\u03c5\u03bc\u03ac\u03c3\u03b9\u03bf\u03c2, -\u03b1, -\u03bf\u03bd"
+            ],
+            "Deutsch": [
+                "erstaunlich, seltsam, bewundernswert"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03bc\u03ad\u03b3\u03b5\u03b8\u03bf\u03c2, \u03c4\u03bf\u1fe6 \u03bc\u03b5\u03b3\u03ad\u03b8\u03bf\u03c5\u03c2"
+            ],
+            "Deutsch": [
+                "die Gr\u00f6sse"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03c0\u03b1\u03c1\u03ac\u03b4\u03b5\u03b9\u03b3\u03bc\u03b1, \u03c4\u03bf\u1fe6 \u03c0\u03b1\u03c1\u03b1\u03b4\u03b5\u03af\u03b3\u03bc\u03b1\u03c4\u03bf\u03c2"
+            ],
+            "Deutsch": [
+                "das Beispiel, das Vorbild"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u03bc\u03ac\u03bd\u03c4\u03b9\u03c2, \u03c4\u03bf\u1fe6 \u03bc\u03ac\u03bd\u03c4\u03b5\u03c9\u03c2"
+            ],
+            "Deutsch": [
+                "der Seher, der Wahrsager"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u03bb\u03ad\u03c9\u03bd, \u03c4\u03bf\u1fe6 \u03bb\u03ad\u03bf\u03bd\u03c4\u03bf\u03c2"
+            ],
+            "Deutsch": [
+                "der L\u00f6we"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03c0\u1fe6\u03c1, \u03c4\u03bf\u1fe6 \u03c0\u03c5\u03c1\u03cc\u03c2"
+            ],
+            "Deutsch": [
+                "das Feuer"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f14\u03c3\u03c4\u03b9\u03bd, \u03bf\u1f35/\u03b5\u1f30\u03c3\u03af\u03bd, \u03bf\u1f35"
+            ],
+            "Deutsch": [
+                "einige, manche(\"es gibt welche, die\")"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b5\u1f30\u03ba\u03ac\u03b6\u03c9"
+            ],
+            "Deutsch": [
+                "ich vermute"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03bc\u03ad\u03bb\u03bb\u03c9\u03bd, -\u03bf\u03c5\u03c3\u03b1, -\u03bf\u03bd"
+            ],
+            "Deutsch": [
+                "zuk\u00fcnftig"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f70 \u03bc\u03ad\u03bb\u03bb\u03bf\u03bd\u03c4\u03b1, \u03c4\u1ff6\u03bd \u03bc\u03b5\u03bb\u03bb\u03cc\u03bd\u03c4\u03c9\u03bd"
+            ],
+            "Deutsch": [
+                "die Zukunft"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03c1\u03cc\u03c2 (mit Dat.)"
+            ],
+            "Deutsch": [
+                "bei, ausser"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03c1\u1f78\u03c2 \u03c4\u1fc7 \u03c0\u03cc\u03bb\u03b5\u03b9"
+            ],
+            "Deutsch": [
+                "bei der Stadt"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03c1\u1f78\u03c2 \u03c4\u03bf\u03cd\u03c4\u03bf\u03b9\u03c2"
+            ],
+            "Deutsch": [
+                "ausserdem"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03c3\u03b7\u03bc\u03b5\u1fd6\u03bf\u03bd, \u03c4\u03bf\u1fe6 \u03c3\u03b7\u03bc\u03b5\u03af\u03bf\u03c5"
+            ],
+            "Deutsch": [
+                "das Zeichen, das Vorzeichen"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03bf\u1f50\u03ba\u03bf\u1fe6\u03bd"
+            ],
+            "Deutsch": [
+                "folglich, (bei Fragen:) nicht wahr?"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03bf\u1f54\u03ba\u03bf\u03c5\u03bd"
+            ],
+            "Deutsch": [
+                "also nicht, folglich nicht"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f26\u03bd \u03b4' \u1f10\u03b3\u03ce"
+            ],
+            "Deutsch": [
+                "sagte ich"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f26 \u03b4' \u1f45\u03c2"
+            ],
+            "Deutsch": [
+                "sagte er"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f10\u03ac\u03bd (kontrahiert \u1f24\u03bd, mit Konjunktiv)"
+            ],
+            "Deutsch": [
+                "wenn, jedesmal wenn"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u03b4\u03b9\u03ba\u03b1\u03b9\u03bf\u03c3\u03cd\u03bd\u03b7"
+            ],
+            "Deutsch": [
+                "die Gerechtigkeit"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f04\u03b4\u03b9\u03ba\u03bf\u03c2, -\u03bf\u03bd"
+            ],
+            "Deutsch": [
+                "ungerecht, unrechtm\u00e4ssig"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f00\u03b4\u03b9\u03ba\u03ad\u03c9"
+            ],
+            "Deutsch": [
+                "ich tue Unrecht"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f00\u03b4\u03b9\u03ba\u03ad\u03bf\u03bc\u03b1\u03b9"
+            ],
+            "Deutsch": [
+                "ich erleide Unrecht"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f04\u03b8\u03bb\u03b9\u03bf\u03c2, (-\u03b1), -\u03bf\u03bd"
+            ],
+            "Deutsch": [
+                "ungl\u00fccklich, elend"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b5\u1f50\u03b4\u03b1\u03af\u03bc\u03c9\u03bd, -\u03bf\u03bd"
+            ],
+            "Deutsch": [
+                "gl\u00fccklich, gl\u00fcckselig"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b4\u03bf\u03ba\u03b5\u1fd6 \u03bc\u03bf\u03b9"
+            ],
+            "Deutsch": [
+                "es scheint mir, ich glaube, ich beschliesse"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f00\u03c0\u03bf\u03b4\u03af\u03b4\u03c9\u03bc\u03b9"
+            ],
+            "Deutsch": [
+                "ich gebe (Schuldiges/Versprochenes) zur\u00fcck"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u03c6\u03cd\u03bb\u03b1\u03be, \u03c6\u03cd\u03bb\u03b1\u03ba\u03bf\u03c2"
+            ],
+            "Deutsch": [
+                "W\u00e4chter"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03bf\u1f36\u03b4\u03b1 [Inf.: \u03b5\u1f30\u03b4\u03ad\u03bd\u03b1\u03b9]"
+            ],
+            "Deutsch": [
+                "ich weiss"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03b1\u03bd\u03c4\u03ac\u03c0\u03b1\u03c3\u03b9(\u03bd)"
+            ],
+            "Deutsch": [
+                "ganz und gar, durchaus"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u03bf\u1f34\u03ba\u03b7\u03c3\u03b9\u03c2, \u03bf\u1f30\u03ba\u03ae\u03c3\u03b5\u03c9\u03c2"
+            ],
+            "Deutsch": [
+                "Behausung"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f34\u03b4\u03b9\u03bf\u03c2, -\u03b1, -\u03bf\u03bd"
+            ],
+            "Deutsch": [
+                "eigen"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03b6\u1ff7\u03bf\u03bd, -\u03bf\u03c5"
+            ],
+            "Deutsch": [
+                "Lebewesen, Tier"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b8\u03b5\u03ac\u03bf\u03bc\u03b1\u03b9"
+            ],
+            "Deutsch": [
+                "ich schaue an"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u03c3\u03b5\u03bb\u03ae\u03bd\u03b7, -\u03b7\u03c2"
+            ],
+            "Deutsch": [
+                "Mond"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03c6\u1ff6\u03c2, \u03c6\u03c9\u03c4\u03cc\u03c2"
+            ],
+            "Deutsch": [
+                "Licht"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u1f30\u03b4\u03ad\u03b1, -\u03b1\u03c2"
+            ],
+            "Deutsch": [
+                "Urbild, Idee"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u1f10\u03c0\u03b9\u03b8\u03c5\u03bc\u03af\u03b1, \u03b1\u03c2"
+            ],
+            "Deutsch": [
+                "Begierde, Verlangen"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b4\u03b9\u03b1\u03c4\u03c1\u03af\u03b2\u03c9"
+            ],
+            "Deutsch": [
+                "ich verbringe (die) Zeit, besch\u00e4ftige mich mit"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f10\u03ac\u03bd (= \u03b5\u1f30 + \u1f04\u03bd)"
+            ],
+            "Deutsch": [
+                "wenn"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f10\u03be\u03b5\u03c4\u03ac\u03b6\u03c9"
+            ],
+            "Deutsch": [
+                "ich pr\u00fcfe"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03b1\u03c1\u03ac (+ Gen.)"
+            ],
+            "Deutsch": [
+                "von (... her)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03b1\u03c1\u1f70 \u03c4\u03bf\u1fe6 \u03c6\u03af\u03bb\u03bf\u03c5 \u03bb\u03b1\u03bc\u03b2\u03ac\u03bd\u03b5\u03b9\u03bd"
+            ],
+            "Deutsch": [
+                "vom Freund bekommen"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03bc\u03b5\u03c4\u03ad\u03c7\u03c9 (+ Gen.)"
+            ],
+            "Deutsch": [
+                "ich habe Anteil (an), nehme teil (an)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f15\u03c0\u03bf\u03bc\u03b1\u03b9 (+ Dat.)(Impf.: \u03b5\u1f31\u03c0\u03cc\u03bc\u03b7\u03bd)"
+            ],
+            "Deutsch": [
+                "ich folge, befolge, gehorche"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f08\u03b5\u1f76 \u03b5\u1f35\u03c0\u03b5\u03c4\u03bf \u03c4\u03bf\u1fd6\u03c2 \u1f00\u03c1\u03af\u03c3\u03c4\u03bf\u03b9\u03c2."
+            ],
+            "Deutsch": [
+                "Er folgte immer den Besten."
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1fe5\u1fb4\u03b4\u03af\u03bf\u03c2, -\u03b1, -\u03bf\u03bd(Komp.: \u1fe5\u1fb4\u03c9\u03bd, \u1fe5\u1fb7\u03bf\u03bd/Superl.: \u1fe5\u1fb7\u03c3\u03c4\u03bf\u03c2, -\u03b7, -\u03bf\u03bd)"
+            ],
+            "Deutsch": [
+                "leicht"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c7\u03c9\u03c1\u03af\u03c2 (+ Gen.)"
+            ],
+            "Deutsch": [
+                "ohne"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c7\u03c9\u03c1\u1f76\u03c2 \u03c4\u1ff6\u03bd \u03c6\u03af\u03bb\u03c9\u03bd"
+            ],
+            "Deutsch": [
+                "ohne die Freunde"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u1f51\u03b3\u03af\u03b5\u03b9\u03b1, \u03c4\u1fc6\u03c2 \u1f51\u03b3\u03b9\u03b5\u03af\u03b1\u03c2"
+            ],
+            "Deutsch": [
+                "die Gesundheit"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f51\u03b3\u03b9\u03ae\u03c2, -\u03ad\u03c2"
+            ],
+            "Deutsch": [
+                "gesund"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u1f10\u03c0\u03b9\u03bc\u03ad\u03bb\u03b5\u03b9\u03b1, \u03c4\u1fc6\u03c2 \u1f10\u03c0\u03b9\u03bc\u03b5\u03bb\u03b5\u03af\u03b1\u03c2"
+            ],
+            "Deutsch": [
+                "die Sorge, die F\u00fcrsorge"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03ac\u03bd\u03c4\u03c9\u03c2 (Adv.)"
+            ],
+            "Deutsch": [
+                "ganz (und gar), gewiss"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03c1\u03ad\u03c0\u03b5\u03b9"
+            ],
+            "Deutsch": [
+                "es geh\u00f6rt sich, ist angemessen"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u03c3\u03c9\u03c6\u03c1\u03bf\u03c3\u03cd\u03bd\u03b7, \u03c4\u1fc6\u03c2 \u03c3\u03c9\u03c6\u03c1\u03bf\u03c3\u03cd\u03bd\u03b7\u03c2"
+            ],
+            "Deutsch": [
+                "die Besonnenheit, die Selbstbeherrschung"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03bf\u03c1\u03af\u03b6\u03c9"
+            ],
+            "Deutsch": [
+                "ich verschaffe"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b5\u1f30 \u03b3\u03ac\u03c1/\u03b5\u1f34\u03b8\u03b5 (mit Optativ)"
+            ],
+            "Deutsch": [
+                "(h\u00e4ufig un\u00fcbersetzt), hoffentlich (mit Indikativ)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u03c7\u03b5\u03b9\u03bc\u03ce\u03bd, \u03c4\u03bf\u1fe6 \u03c7\u03b5\u03b9\u03bc\u1ff6\u03bd\u03bf\u03c2"
+            ],
+            "Deutsch": [
+                "der Winter, der Sturm, die Not"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b4\u03b9\u03b1\u03bb\u03cd\u03c9"
+            ],
+            "Deutsch": [
+                "ich l\u00f6se auf, zerst\u00f6re"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c7\u03b1\u03bb\u03b5\u03c0\u03cc\u03c2, -\u03ae, -\u03cc\u03bd"
+            ],
+            "Deutsch": [
+                "schwer, schwierig, hart"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u03ba\u03b1\u03ba\u03af\u03b1, \u03c4\u1fc6\u03c2 \u03ba\u03b1\u03ba\u03af\u03b1\u03c2"
+            ],
+            "Deutsch": [
+                "die Schlechtigkeit, die Verdorbenheit"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03b9\u03ba\u03c1\u03cc\u03c2, -\u03ac, -\u03cc\u03bd"
+            ],
+            "Deutsch": [
+                "bitter, widerw\u00e4rtig, scharf"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b5\u1f56 (\u03ba\u03b1\u03ba\u1ff6\u03c2) \u1f00\u03ba\u03bf\u03cd\u03c9 \u1f51\u03c0\u03cc (mit Gen.)"
+            ],
+            "Deutsch": [
+                "ich stehe in gutem (schlechtem) Ruf (bei), habe einen guten (schlechten) Ruf (bei)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f49 \u1f08\u03bb\u03ad\u03be\u03b1\u03bd\u03b4\u03c1\u03bf\u03c2 \u03b5\u1f56 \u1f00\u03ba\u03bf\u03cd\u03b5\u03b9 \u1f51\u03c0\u1f78 \u03c4\u1ff6\u03bd \u03c3\u03c4\u03c1\u03b1\u03c4\u03b9\u03c9\u03c4\u1ff6\u03bd."
+            ],
+            "Deutsch": [
+                "Alexander hat bei seinen Soldaten einen guten Ruf."
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b5\u1f50\u03c3\u03b5\u03b2\u03ae\u03c2, -\u03ad\u03c2"
+            ],
+            "Deutsch": [
+                "fromm, pflichtbewusst, gewissenhaft"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03c1\u03cc\u03c2 (+ Gen.)"
+            ],
+            "Deutsch": [
+                "von (... her), (bei Schw\u00fcren) bei"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c0\u03c1\u1f78\u03c2 \u03c4\u1ff6\u03bd \u03b8\u03b5\u1ff6\u03bd"
+            ],
+            "Deutsch": [
+                "von den G\u00f6ttern, bei den G\u00f6ttern (im Schwur)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f04\u03b4\u03b9\u03ba\u03bf\u03c2, -\u03bf\u03bd"
+            ],
+            "Deutsch": [
+                "ungerecht"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c3\u03b7\u03bc\u03b1\u03af\u03bd\u03c9"
+            ],
+            "Deutsch": [
+                "ich zeigen (an), gebe ein Zeichen, befehle"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f61\u03c3\u03b1\u03cd\u03c4\u03c9\u03c2 (Adv.)"
+            ],
+            "Deutsch": [
+                "ebenso"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f40\u03b4\u03cd\u03c1\u03bf\u03bc\u03b1\u03b9"
+            ],
+            "Deutsch": [
+                "ich (be)klage, jammere"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03ba\u03bb\u03b1\u03af\u03c9"
+            ],
+            "Deutsch": [
+                "ich weine, beweine"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41\u03bc\u03bf\u1fe6"
+            ],
+            "Deutsch": [
+                "(Adv.) zusammen, zugleich(mit Dat.) zusammen mit, zugleich mit"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41\u03bc\u03bf\u1fe6 \u03c4\u03bf\u1fd6\u03c2 \u03c6\u03af\u03bb\u03bf\u03b9\u03c2"
+            ],
+            "Deutsch": [
+                "zusammen mit den Freunden"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f40\u03bd\u03b5\u03b9\u03b4\u03af\u03b6\u03c9"
+            ],
+            "Deutsch": [
+                "ich tadle, werfe vor"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b4\u03b1\u03b9\u03bc\u03cc\u03bd\u03b9\u03bf\u03c2, -\u03b1, -\u03bf\u03bd"
+            ],
+            "Deutsch": [
+                "g\u00f6ttlich, \u00fcbermenschlich, unbegreiflich"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u1f44\u03c8\u03b9\u03c2, \u03c4\u1fc6\u03c2 \u1f44\u03c8\u03b5\u03c9\u03c2"
+            ],
+            "Deutsch": [
+                "die Sehkraft, das Aussehen"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b1\u1f30\u03c3\u03c7\u03cd\u03bd\u03bf\u03bc\u03b1\u03b9"
+            ],
+            "Deutsch": [
+                "(mit Akk.) ich sch\u00e4me mich (vor), (mit Partizip oder Infinitiv) ich sch\u00e4me mich (zu tun)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u0391\u1f30\u03c3\u03c7\u03cd\u03bd\u03bf\u03bc\u03b1\u03b9 \u03c4\u03bf\u1f7a\u03c2 \u03c6\u03af\u03bb\u03bf\u03c5\u03c2."
+            ],
+            "Deutsch": [
+                "Ich sch\u00e4me mich vor den Freunden."
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u0391\u1f30\u03c3\u03c7\u03cd\u03bd\u03bf\u03bc\u03b1\u03b9 \u1f04\u03b4\u03b9\u03ba\u03b1 \u03c0\u03c1\u03ac\u03c4\u03c4\u03c9\u03bd/\u03c0\u03c1\u03ac\u03c4\u03c4\u03b5\u03b9\u03bd."
+            ],
+            "Deutsch": [
+                "Ich sch\u00e4me mich, ungerechte Dinge zu tun."
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03bc\u03c5\u03c1\u03af\u03bf\u03c2, -\u03b1, -\u03bf\u03bd"
+            ],
+            "Deutsch": [
+                "unz\u00e4hlig, unendlich viel, unendlich gross"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f00\u03bd\u03b1\u03bb\u03b1\u03bc\u03b2\u03ac\u03bd\u03c9"
+            ],
+            "Deutsch": [
+                "ich nehme auf"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u1f00\u03c3\u03c0\u03af\u03c2, \u03c4\u1fc6\u03c2 \u1f00\u03c3\u03c0\u03af\u03b4\u03bf\u03c2"
+            ],
+            "Deutsch": [
+                "der Schild"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u03b4\u03cc\u03c1\u03c5, \u03c4\u03bf\u1fe6 \u03b4\u03cc\u03c1\u03b1\u03c4\u03bf\u03c2"
+            ],
+            "Deutsch": [
+                "der Speer"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u1f25\u03c1\u03c9\u03c2, \u03c4\u03bf\u1fe6 \u1f25\u03c1\u03c9\u03bf\u03c2"
+            ],
+            "Deutsch": [
+                "der Held, der Halbgott"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u1f78 \u1f45\u03c0\u03bb\u03bf\u03bd, \u03c4\u03bf\u1fe6 \u1f45\u03c0\u03bb\u03bf\u03c5"
+            ],
+            "Deutsch": [
+                "die Waffe"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f21 \u03b2\u03bf\u03ae\u03b8\u03b5\u03b9\u03b1, \u03c4\u1fc6\u03c2 \u03b2\u03bf\u03b7\u03b8\u03b5\u03af\u03b1\u03c2"
+            ],
+            "Deutsch": [
+                "die Hilfe"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f04\u03bb\u03bb\u03bf\u03c4\u03b5 (Adv.)"
+            ],
+            "Deutsch": [
+                "ein andermal"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c7\u03b1\u03bb\u03b5\u03c0\u03b1\u03af\u03bd\u03c9 (+ Dat.)"
+            ],
+            "Deutsch": [
+                "ich z\u00fcrne, bin ver\u00e4rgert (\u00fcber)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f29 \u1f19\u03bb\u03ad\u03bd\u03b7 \u03c4\u1ff7 \u03a0\u03ac\u03c1\u03b9\u03b4\u03b9 \u03c7\u03b1\u03bb\u03b5\u03c0\u03b1\u03af\u03bd\u03b5\u03b9."
+            ],
+            "Deutsch": [
+                "Helena z\u00fcrnt Paris./Helena ist ver\u00e4rgert \u00fcber Paris."
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u03ad\u03c1\u03c0\u03bf\u03bc\u03b1\u03b9 (+ Dat.)"
+            ],
+            "Deutsch": [
+                "ich freue mich (\u00fcber)"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03a4\u03ad\u03c1\u03c0\u03bf\u03bc\u03b1\u03b9 \u03c4\u1ff7 \u1f10\u03c0\u03b1\u03af\u03bd\u1ff3."
+            ],
+            "Deutsch": [
+                "Ich freue mich \u00fcber das Lob."
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u1f41 \u1f14\u03c1\u03c9\u03c2, \u03c4\u03bf\u1fe6 \u1f14\u03c1\u03c9\u03c4\u03bf\u03c2"
+            ],
+            "Deutsch": [
+                "die Liebe, das Verlangen"
+            ]
+        },
+        {
+            "Griechisch": [
+                "(\u1f41) \u03b2\u03c1\u03bf\u03c4\u03cc\u03c2, \u03c4\u03bf\u1fe6 \u03b2\u03c1\u03bf\u03c4\u03bf\u1fe6"
+            ],
+            "Deutsch": [
+                "der Sterbliche, sterblich"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u03bf\u03c4\u03ad (Adv.)"
+            ],
+            "Deutsch": [
+                "(irgend)einmal"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03c4\u03bf\u03c4\u1f72 \u03bc\u03ad\u03bd ... \u03c4\u03bf\u03c4\u1f72 \u03b4\u03ad/\u1f04\u03bb\u03bb\u03bf\u03c4\u03b5 \u03bc\u03ad\u03bd ... \u1f04\u03bb\u03bb\u03bf\u03c4\u03b5 \u03b4\u03ad"
+            ],
+            "Deutsch": [
+                "einmal ... ein andermal, bald ... bald"
+            ]
+        },
+        {
+            "Griechisch": [
+                "\u03b3\u03bb\u03c5\u03ba\u03cd\u03c2, -\u03b5\u1fd6\u03b1, -\u03cd"
+            ],
+            "Deutsch": [
+                "s\u00fcss, lieb, beliebt"
+            ]
         }
     ],
     "hinweis_attribute": [
