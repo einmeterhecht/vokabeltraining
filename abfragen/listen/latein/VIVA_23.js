@@ -77,7 +77,7 @@ var liste = {
                 "s\u0113d\u0113s, s\u0113dis f."
             ],
             "Deutsch": [
-                "1. Sitz2. Wohnsitz3. Heimat"
+                "Sitz Wohnsitz Heimat"
             ]
         },
         {
@@ -141,7 +141,7 @@ var liste = {
                 "serm\u014d, serm\u014dnis m."
             ],
             "Deutsch": [
-                "1. Gespr\u00e4ch2. Redeweise3. Sprache"
+                "Gespr\u00e4ch Redeweise Sprache"
             ]
         },
         {
