@@ -11,13 +11,6 @@ import sys
 from pathlib import Path
 from urllib.parse import quote
 
-try:
-    import markdown
-except ImportError as exc:
-    raise SystemExit(
-        "Missing dependency: pip install markdown"
-    ) from exc
-
 SECTION_SPECS: list[tuple[str, str]] = [
     ("g2025b", "Für g2025b"),
     ("g2025ae", "Für g2025ae"),
@@ -68,7 +61,64 @@ DEFAULT_LAYOUT_FOOT = """
 </html>
 """
 
-FRONT_MATTER_RE = re.compile(r"^---\s*\n.*?\n---\s*\n", re.DOTALL)
+def _markdown_minimal(text: str) -> str:
+    out: list[str] = []
+    in_ul = in_ol = False
+    for line in text.splitlines():
+        s = line.strip()
+        if not s:
+            if in_ul:
+                out.append("</ul>")
+                in_ul = False
+            if in_ol:
+                out.append("</ol>")
+                in_ol = False
+            continue
+        if s.startswith("## "):
+            if in_ul:
+                out.append("</ul>")
+                in_ul = False
+            if in_ol:
+                out.append("</ol>")
+                in_ol = False
+            out.append(f"<h2>{s[3:]}</h2>")
+        elif s.startswith("- "):
+            if in_ol:
+                out.append("</ol>")
+                in_ol = False
+            if not in_ul:
+                out.append("<ul>")
+                in_ul = True
+            out.append(f"<li>{s[2:]}</li>")
+        elif m := re.match(r"^\d+\. (.+)$", s):
+            if in_ul:
+                out.append("</ul>")
+                in_ul = False
+            if not in_ol:
+                out.append("<ol>")
+                in_ol = True
+            out.append(f"<li>{m.group(1)}</li>")
+        elif s.startswith("*") and s.endswith("*"):
+            if in_ul:
+                out.append("</ul>")
+                in_ul = False
+            if in_ol:
+                out.append("</ol>")
+                in_ol = False
+            out.append(f"<p><em>{s[1:-1]}</em></p>")
+        else:
+            if in_ul:
+                out.append("</ul>")
+                in_ul = False
+            if in_ol:
+                out.append("</ol>")
+                in_ol = False
+            out.append(f"<p>{s}</p>")
+    if in_ul:
+        out.append("</ul>")
+    if in_ol:
+        out.append("</ol>")
+    return "\n".join(out)
 
 
 def _load_index_source(path: Path) -> tuple[str, dict[str, str]]:
@@ -140,20 +190,9 @@ def build_index_html(repo_root: Path) -> str:
     return page.replace(INDEX_PLACEHOLDER, "\n".join(sections))
 
 
-def _strip_front_matter(text: str) -> str:
-    return FRONT_MATTER_RE.sub("", text, count=1)
-
-
-def _fix_quiz_links(text: str) -> str:
-    return text.replace("](/vokabeltraining/abfragen", "](/abfragen")
-
-
 def build_readme_html(repo_root: Path) -> str:
-    readme_path = repo_root / "README.md"
-    raw = readme_path.read_text(encoding="utf-8")
-    body = _fix_quiz_links(_strip_front_matter(raw))
-    md = markdown.Markdown(extensions=["extra", "smarty"])
-    content = md.convert(body)
+    body = (repo_root / "README.md").read_text(encoding="utf-8").strip()
+    content = _markdown_minimal(body)
     return (
         DEFAULT_LAYOUT_HEAD.format(title=html.escape("Anleitung"))
         + content

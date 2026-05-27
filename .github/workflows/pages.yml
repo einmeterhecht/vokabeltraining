@@ -21,9 +21,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Markdown
-        run: pip install markdown --disable-pip-version-check
-
       - name: Build site
         run: python3 scripts/generate_pages.py --repo-root . --output-dir _deploy
 
