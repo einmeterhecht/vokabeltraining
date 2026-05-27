@@ -1,5 +1,8 @@
 abfragen/listen/privat/
-.jekyll-cache
+_deploy
 _site
+.jekyll-cache
+index.html
+README.html
 
 **/__pycache__/
