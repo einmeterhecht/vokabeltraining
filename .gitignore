@@ -2,7 +2,6 @@ abfragen/listen/privat/
 _deploy
 _site
 .jekyll-cache
-index.html
 README.html
 
 **/__pycache__/

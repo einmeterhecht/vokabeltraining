@@ -30,65 +30,12 @@ SECTION_SPECS: list[tuple[str, str]] = [
 DEPLOY_COPY_DIRS = ("abfragen", "erstellen", "fonts")
 DEPLOY_COPY_FILES = ("shared.css", "CNAME")
 
-TITLE_PAGE_HEAD = """<link rel="stylesheet" href="shared.css" />
-<style>
-    body {
-        margin-top: 0;
-    }
-    h1, h2 {
-        font-size: 1.8rem;
-        text-align: center;
-        margin-top: 0rem;
-        margin-bottom: 1rem;
-    }
+INDEX_PLACEHOLDER = "%%LIST_SECTIONS%%"
 
-    .section {
-        border: 2px solid var(--color-outer);
-        border-radius: 15px;
-        padding: 20px;
-    }
-
-    .section ul {
-        list-style-type: none;
-        padding: 0;
-        text-align: center;
-    }
-
-    .section p {
-        margin: 6px;
-        font-size: 1.3rem;
-    }
-
-    .section a {
-        text-transform: capitalize;
-    }
-
-    .section a:hover {
-        text-decoration: none;
-    }
-
-    .anleitung-link {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 1rem;
-    }
-</style>
-
-<div class="anleitung-link">
-<a href="README.html">Anleitung</a>
-</div>
-
-<h1>Listen</h1>
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px;">
-"""
-
-TITLE_PAGE_FOOT = """
-</div>
-
-<link rel="stylesheet" href="../fonts/cmu-serif.css" />
-"""
+TEMPLATE_RE = re.compile(
+    r"<!--\s*template:(\w+)\s*\n(.*?)-->",
+    re.DOTALL,
+)
 
 DEFAULT_LAYOUT_HEAD = """<!DOCTYPE html>
 <html>
@@ -124,6 +71,28 @@ DEFAULT_LAYOUT_FOOT = """
 FRONT_MATTER_RE = re.compile(r"^---\s*\n.*?\n---\s*\n", re.DOTALL)
 
 
+def _load_index_source(path: Path) -> tuple[str, dict[str, str]]:
+    text = path.read_text(encoding="utf-8")
+    templates = {
+        name: body.strip()
+        for name, body in TEMPLATE_RE.findall(text)
+    }
+    page = TEMPLATE_RE.sub("", text).strip()
+    if INDEX_PLACEHOLDER not in page:
+        raise ValueError(f"{path} must contain {INDEX_PLACEHOLDER}")
+    for name in ("section", "list_item"):
+        if name not in templates:
+            raise ValueError(f"{path} missing <!-- template:{name} --> block")
+    return page, templates
+
+
+def _replace(template: str, **values: str) -> str:
+    result = template
+    for key, value in values.items():
+        result = result.replace(f"%%{key}%%", value)
+    return result
+
+
 def _list_js_files(listen_dir: Path) -> list[str]:
     if not listen_dir.is_dir():
         return []
@@ -142,26 +111,33 @@ def _quiz_href(folder: str, file_stem: str) -> str:
 
 
 def build_index_html(repo_root: Path) -> str:
-    parts = [TITLE_PAGE_HEAD]
+    page, templates = _load_index_source(repo_root / "index.html")
     listen_root = repo_root / "abfragen" / "listen"
+    sections: list[str] = []
 
     for folder, section_title in SECTION_SPECS:
         files = _list_js_files(listen_root / folder)
-        parts.append('<div class="section">\n')
-        parts.append(f"<h2>{html.escape(section_title)}:</h2>\n")
-        if files:
-            parts.append("<ul>\n")
-            for file_stem in files:
-                label = html.escape(file_stem.replace("_", " "))
-                href = html.escape(_quiz_href(folder, file_stem), quote=True)
-                parts.append('  <li class="button_style">\n')
-                parts.append(f'    <p><a href="{href}">{label}</a></p>\n')
-                parts.append("  </li>\n")
-            parts.append("</ul>\n")
-        parts.append("</div>\n")
+        items: list[str] = []
+        for file_stem in files:
+            items.append(
+                _replace(
+                    templates["list_item"],
+                    HREF=html.escape(_quiz_href(folder, file_stem), quote=True),
+                    LABEL=html.escape(file_stem.replace("_", " ")),
+                )
+            )
+        list_items = ""
+        if items:
+            list_items = "<ul>\n" + "\n".join(items) + "\n</ul>\n"
+        sections.append(
+            _replace(
+                templates["section"],
+                SECTION_TITLE=html.escape(section_title),
+                LIST_ITEMS=list_items,
+            )
+        )
 
-    parts.append(TITLE_PAGE_FOOT)
-    return "".join(parts)
+    return page.replace(INDEX_PLACEHOLDER, "\n".join(sections))
 
 
 def _strip_front_matter(text: str) -> str:
@@ -221,7 +197,7 @@ def main() -> int:
         "--output-dir",
         type=Path,
         default=None,
-        help="Write deploy artifact here (default: only index.html and README.html in repo root)",
+        help="Write deploy artifact here (default: write README.html only in repo root)",
     )
     args = parser.parse_args()
     repo_root = args.repo_root.resolve()
@@ -231,13 +207,10 @@ def main() -> int:
         print(f"Deploy artifact written to {args.output_dir}")
         return 0
 
-    (repo_root / "index.html").write_text(
-        build_index_html(repo_root), encoding="utf-8", newline="\n"
-    )
     (repo_root / "README.html").write_text(
         build_readme_html(repo_root), encoding="utf-8", newline="\n"
     )
-    print("Wrote index.html and README.html")
+    print("Wrote README.html (index.html is the source template in the repo)")
     return 0
 
 
