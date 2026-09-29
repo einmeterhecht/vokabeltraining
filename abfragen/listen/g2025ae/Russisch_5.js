@@ -2,794 +2,794 @@ var liste = {
     "fragen": [
         {
             "Franz\u00f6sisch": [
-                "\u0448\u043a\u043e\u043b\u0430"
+                "\u043c\u0443\u043a\u0430"
             ],
             "Deutsch": [
-                "Schule"
+                "Mehl"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439 (\u044f\u0437\u044b\u043a)"
+                "\u043a\u0430\u043f\u0443\u0441\u0442\u0430"
             ],
             "Deutsch": [
-                "Chinesisch"
+                "Kohl"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043e\u0434\u0438\u043d, \u043e\u0434\u043d\u0430"
+                "\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430"
             ],
             "Deutsch": [
-                "eins (m\u00e4nnl./weibl.), allein"
+                "Kartoffel"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043f\u043e-\u0444\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438"
+                "\u0438\u0434\u0435\u044f"
             ],
             "Deutsch": [
-                "auf Franz\u00f6sisch"
+                "Idee"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0444\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0439 (\u044f\u0437\u044b\u043a)"
+                "\u0442\u043e\u0433\u0434\u0430"
             ],
             "Deutsch": [
-                "Franz\u00f6sisch"
+                "dann; damals"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u044f\u043a\u0443\u0442\u0441\u043a\u0438\u0439"
+                "\u043a\u0432\u0430\u0440\u0442\u0438\u0440\u0430"
             ],
             "Deutsch": [
-                "Jakutisch"
+                "Wohnung"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043f\u043e-\u044f\u043a\u0443\u0442\u0441\u043a\u0438"
+                "\u0434\u0430\u043b\u0435\u043a\u043e"
             ],
             "Deutsch": [
-                "auf Jakutisch"
+                "weit"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0438\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0438\u0439"
+                "\u0432\u0441\u0435 \u0434\u0435\u0442\u0430\u043b\u0438"
             ],
             "Deutsch": [
-                "Italienisch"
+                "alle Details"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043f\u043e-\u0438\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0438"
+                "\u0437\u0430\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u043e"
             ],
             "Deutsch": [
-                "auf Italienisch"
+                "super"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0438\u0441\u043f\u0430\u043d\u0441\u043a\u0438\u0439"
+                "\u0441\u043e\u0443\u0441"
             ],
             "Deutsch": [
-                "Spanisch"
+                "Sosse"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043f\u043e-\u0438\u0441\u043f\u0430\u043d\u0441\u043a\u0438"
+                "\u0433\u043e\u0440\u0430"
             ],
             "Deutsch": [
-                "auf Spanisch"
+                "Berg"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0433\u043e\u0440\u043e\u0434"
+                "\u0432\u0438\u0448\u043d\u044f"
             ],
             "Deutsch": [
-                "Stadt"
+                "Kirsche"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441 \u0442\u043e\u0431\u043e\u0439"
+                "\u0441\u043d\u0430\u0447\u0430\u043b\u0430"
             ],
             "Deutsch": [
-                "mit dir"
+                "zuerst"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441\u0435\u0439\u0447\u0430\u0441"
+                "\u0442\u0435\u0441\u0442\u043e"
             ],
             "Deutsch": [
-                "jetzt"
+                "Teig"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0432\u043e\u043f\u0440\u043e\u0441"
+                "\u043d\u0430\u0447\u0438\u043d\u043a\u0430"
             ],
             "Deutsch": [
-                "Frage"
+                "F\u00fcllung"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0427\u0442\u043e \u0437\u0430 \u0432\u043e\u043f\u0440\u043e\u0441?!"
+                "\u0434\u0430\u0447\u0430"
             ],
             "Deutsch": [
-                "Was ist das f\u00fcr eine Frage?"
+                "Ferienhaus"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0436\u0435"
+                "\u044f\u043d\u0432\u0430\u0440\u044c"
             ],
             "Deutsch": [
-                "denn, doch"
+                "Januar"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u044f\u0437\u044b\u043a"
+                "\u0444\u0435\u0432\u0440\u0430\u043b\u044c"
             ],
             "Deutsch": [
-                "Sprache, Zunge"
+                "Februar"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043c\u0443\u0437\u044b\u043a\u0430"
+                "\u043c\u0430\u0440\u0442"
             ],
             "Deutsch": [
-                "Musik"
+                "M\u00e4rz"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e (\u043d\u0435\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e)"
+                "\u0430\u043f\u0440\u0435\u043b\u044c"
             ],
             "Deutsch": [
-                "richtig (nicht richtig)"
+                "April"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0444\u0438\u0437\u0438\u043a\u0430"
+                "\u043c\u0430\u0439"
             ],
             "Deutsch": [
-                "Physik"
+                "Mai"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0447\u0435\u043c\u043f\u0438\u043e\u043d"
+                "\u0438\u044e\u043d\u044c"
             ],
             "Deutsch": [
-                "Champion"
+                "Juni"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043e\u043f\u0435\u0440\u0430"
+                "\u0438\u044e\u043b\u044c"
             ],
             "Deutsch": [
-                "Oper"
+                "Juli"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0442\u0443\u0440\u0438\u0437\u043c"
+                "\u0430\u0432\u0433\u0443\u0441\u0442"
             ],
             "Deutsch": [
-                "Tourismus"
+                "August"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441\u0442\u0430\u0434\u0438\u043e\u043d"
+                "\u0441\u0435\u043d\u0442\u044f\u0431\u0440\u044c"
             ],
             "Deutsch": [
-                "Stadion"
+                "September"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430"
+                "\u043e\u043a\u0442\u044f\u0431\u0440\u044c"
             ],
             "Deutsch": [
-                "Literatur"
+                "Oktober"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441\u043f\u043e\u0440\u0442"
+                "\u043d\u043e\u044f\u0431\u0440\u044c"
             ],
             "Deutsch": [
-                "Sport"
+                "November"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0433\u0435\u043e\u0433\u0440\u0430\u0444\u0438\u044f"
+                "\u0434\u0435\u043a\u0430\u0431\u0440\u044c"
             ],
             "Deutsch": [
-                "Geographie"
+                "Dezember"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0442\u0435\u043d\u043d\u0438\u0441"
+                "\u0423\u0440\u043e\u043a 12 \u0440\u0430\u0434, \u0440\u0430\u0434\u0430, \u0440\u0430\u0434\u044b"
             ],
             "Deutsch": [
-                "Tennis"
+                "froh sein"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043a\u043b\u0430\u0441\u0441\u0438\u043a\u0430"
+                "\u0443\u043b\u0438\u0446\u0430 (\u043d\u0430 \u0443\u043b\u0438\u0446\u0435)"
             ],
             "Deutsch": [
-                "Klassische Musik oder klassische Literatur"
+                "Strasse"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043f\u043e\u043f"
+                "\u0443\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u0438\u0446\u0430 (\u0443\u0447\u0438\u0442\u0435\u043b\u044c)"
             ],
             "Deutsch": [
-                "Pop"
+                "Lehrerin (Lehrer)"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0418\u0442\u0430\u043b\u0438\u044f"
+                "\u043d\u0443\u0436\u043d\u044b"
             ],
             "Deutsch": [
-                "Italien"
+                "n\u00f6tig"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0424\u0440\u0430\u043d\u0446\u0438\u044f"
+                "\u0437\u0434\u043e\u0440\u043e\u0432\u043e"
             ],
             "Deutsch": [
-                "Frankreich"
+                "wunderbar"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0434\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u044f"
+                "\u0443\u0436\u0435"
             ],
             "Deutsch": [
-                "Demokratie"
+                "schon"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0434\u0438\u043a\u0442\u0430\u0442\u0443\u0440\u0430"
+                "\u043f\u043e\u043a\u0430"
             ],
             "Deutsch": [
-                "Diktatur"
+                "so lang"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0447\u0438\u043f\u0441\u044b"
+                "\u0442\u043e\u043b\u044c\u043a\u043e"
             ],
             "Deutsch": [
-                "Chips"
+                "Nur; ausschliesslich"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441\u043d\u0435\u0433"
+                "\u0430\u0440\u043a\u0430"
             ],
             "Deutsch": [
-                "Schnee"
+                "Bogen"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043f\u043b\u044f\u0436"
+                "\u0441\u0442\u0435\u043b\u0430"
             ],
             "Deutsch": [
-                "Strand"
+                "Stele (freistehende, mit Relief oder Inschrift versehene Platte oder S\u00e4ule)"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043b\u044b\u0436\u0438"
+                "\u043a\u0440\u0443\u0442\u043e"
             ],
             "Deutsch": [
-                "Ski"
+                "Cool; steil"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441\u043d\u043e\u0443\u0431\u043e\u0440\u0434"
+                "\u0442\u0430\u043a"
             ],
             "Deutsch": [
-                "Snowboard"
+                "so"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0433\u043e\u0440\u044b"
+                "\u043b\u0430\u0434\u043d\u043e"
             ],
             "Deutsch": [
-                "Berge"
+                "okay!"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043c\u043e\u0440\u0435"
+                "\u0443\u0434\u0430\u0447\u0430 (\u0443\u0434\u0430\u0447\u0438 \u0442\u0435\u0431\u0435!)"
             ],
             "Deutsch": [
-                "Meer"
+                "Gl\u00fcck"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043a\u043e\u043b\u043b\u0435\u0434\u0436"
+                "\u043f\u0440\u043e\u0448\u0435\u0434\u0448\u0435\u0435 \u0432\u0440\u0435\u043c\u044f"
             ],
             "Deutsch": [
-                "College"
+                "Vergangenheit"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043c\u0430\u0433\u0430\u0437\u0438\u043d (\u044b)"
+                "\u0431\u0443\u0434\u0443\u0449\u0435\u0435"
             ],
             "Deutsch": [
-                "Laden"
+                "Zukunft"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043a\u043e\u0433\u043e"
+                "\u0434\u043e\u043c\u0430"
             ],
             "Deutsch": [
-                "wen"
+                "zuhause"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043a\u0430\u043a\u043e\u0439"
+                "\u043a\u043e\u043c\u0438\u0441\u0441\u0438\u044f"
             ],
             "Deutsch": [
-                "was f\u00fcr einen, welchen"
+                "Kommission"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e"
+                "\u0434\u0443\u0448"
             ],
             "Deutsch": [
-                "ein Interview"
+                "Dusche"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0443\u0440\u043e\u043a 8 \u0440\u0430\u0431\u043e\u0442\u0430"
+                "\u0434\u0435\u0434\u0443\u0448\u043a\u0430"
             ],
             "Deutsch": [
-                "Arbeit"
+                "Opa"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0425\u043e\u0440\u043e\u0448\u0435\u0433\u043e (\u0442\u0435\u0431\u0435/\u0412\u0430\u043c) \u0434\u043d\u044f!"
+                "\u043e\u0434\u0435\u0436\u0434\u0430"
             ],
             "Deutsch": [
-                "einen guten (sch\u00f6nen) Tag!"
+                "Kleidung"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441\u0435\u0433\u043e\u0434\u043d\u044f"
+                "\u0432\u0447\u0435\u0440\u0430"
             ],
             "Deutsch": [
-                "heute"
+                "gestern"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043b\u0430\u043c\u0430"
+                "\u043a\u043e\u0442 (\u0434\u0432\u0430 \u043a\u043e\u0442\u0430)"
             ],
             "Deutsch": [
-                "Lama"
+                "Kater (zwei Kater)"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u043a\u0430"
+                "\u0434\u0440\u0443\u0436\u043d\u0430\u044f (\u0434\u0440\u0443\u0436\u043d\u044b\u0439, \u0434\u0440\u0443\u0436\u043d\u044b\u0435)"
             ],
             "Deutsch": [
-                "Bratpfanne"
+                "nahestehend"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u044f\u0438\u0447\u043d\u0438\u0446\u0430"
+                "\u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432"
             ],
             "Deutsch": [
-                "Spiegelei"
+                "Krimi"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0438\u0441\u0442\u043e\u0440\u0438\u044f"
+                "1 \u0433\u043e\u0434, 2-4 \u0433\u043e\u0434\u0430, 5-20 \u043b\u0435\u0442 1"
             ],
             "Deutsch": [
-                "Geschichte"
+                "Jahr, 2-4 Jahre, 5-20 Jahren"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441\u043f\u0435\u043a\u0442\u0430\u043a\u043b\u044c"
+                "\u0441\u0433\u0443\u0449\u0451\u043d\u043a\u0430 (\u0441\u0433\u0443\u0449\u0451\u043d\u043d\u043e\u0435 \u043c\u043e\u043b\u043e\u043a\u043e)"
             ],
             "Deutsch": [
-                "Theaterspektakel"
+                "gezuckerte Kondensmilch"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043a\u043b\u0430\u0441\u0441"
+                "\u0431\u043b\u0438\u043d"
             ],
             "Deutsch": [
-                "Klasse, Klassenzimmer"
+                "Pfannkuchen"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043c\u0443\u0437\u0435\u0439 \u043a\u043e\u0441\u043c\u043e\u0441\u0430"
+                "\u0435\u0449\u0451"
             ],
             "Deutsch": [
-                "Weltall Museum"
+                "noch"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0438 \u0432\u043e\u0442"
+                "\u0441\u0438\u0434\u0435\u0442\u044c (\u0441\u0438\u0436\u0443, \u0441\u0438\u0434\u0438\u0448\u044c, \u0441\u0438\u0434\u044f\u0442)"
             ],
             "Deutsch": [
-                "und jetzt"
+                "sitzen (Ich sitze usw.)"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0437\u0434\u0435\u0441\u044c"
+                "\u043f\u0440\u0438\u0432\u0435\u0442"
             ],
             "Deutsch": [
-                "hier"
+                "Hallo"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0440\u0430\u043a\u0435\u0442\u0430 (\u0440\u0430\u043a\u0435\u0442\u044b)"
+                "\u043d\u043e\u0432\u044b\u0439, (\u043d\u043e\u0432\u0430\u044f, \u043d\u043e\u0432\u043e\u0435, \u043d\u043e\u0432\u044b\u0435)"
             ],
             "Deutsch": [
-                "Rakete"
+                "neu"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441\u043f\u0443\u0442\u043d\u0438\u043a (\u0441\u043f\u0443\u0442\u043d\u0438\u043a\u0438)"
+                "\u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430"
             ],
             "Deutsch": [
-                "Satellit"
+                "Praktik"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e"
+                "\u0432\u043a\u0443\u0441\u043d\u044b\u0439, (\u0432\u043a\u0443\u0441\u043d\u0430\u044f, \u0432\u043a\u0443\u0441\u043d\u043e\u0435, \u0432\u043a\u0443\u0441\u043d\u044b\u0435)"
             ],
             "Deutsch": [
-                "interessant"
+                "lecker"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043a\u043b\u0430\u0441\u0441\u043d\u043e"
+                "\u043f\u043b\u043e\u0445\u043e"
             ],
             "Deutsch": [
-                "klasse"
+                "schlecht"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043e, \u043e\u0431 \u00fc"
+                "\u043f\u0440\u0435\u043a\u0440\u0430\u0441\u043d\u043e"
             ],
             "Deutsch": [
-                "ber; an"
+                "wunderbar"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043b\u0438"
+                "\u043e\u0442\u043b\u0438\u0447\u043d\u043e"
             ],
             "Deutsch": [
-                "ob"
+                "ausgezeichnet"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043a\u043e\u0440\u0438\u0434\u043e\u0440"
+                "\u043a\u0440\u0430\u0441\u0438\u0432\u043e"
             ],
             "Deutsch": [
-                "ein Korridor, ein Flur"
+                "sch\u00f6n"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043e\u043c\u043b\u0435\u0442"
+                "\u043f\u0440\u0438\u044f\u0442\u043d\u043e"
             ],
             "Deutsch": [
-                "R\u00fchrei"
+                "angenehm"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0444\u0438\u043d\u0430\u043d\u0441\u044b"
+                "\u0448\u0430\u043f\u043a\u0430"
             ],
             "Deutsch": [
-                "Finance, Geld"
+                "M\u00fctze"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0434\u043d\u0438 \u043d\u0435\u0434\u0435\u043b\u0438 \u043f\u043e\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u0438\u043a, \u0432 \u043f\u043e\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u0438\u043a"
+                "\u0431\u0438\u0436\u0443\u0442\u0435\u0440\u0438\u044f"
             ],
             "Deutsch": [
-                "Montag, am Montag"
+                "Bijouterie"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0432\u0442\u043e\u0440\u043d\u0438\u043a, \u0432\u043e \u0432\u0442\u043e\u0440\u043d\u0438\u043a"
+                "\u0442\u043e\u0436\u0435"
             ],
             "Deutsch": [
-                "Dienstag, am Dienstag"
+                "auch"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441\u0440\u0435\u0434\u0443, \u0432 \u0441\u0440\u0435\u0434\u0443"
+                "\u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438"
             ],
             "Deutsch": [
-                "Mittwoch, am Mittwoch"
+                "Fotos"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0447\u0435\u0442\u0432\u0435\u0440\u0433, \u0432 \u0447\u0435\u0442\u0432\u0435\u0440\u0433"
+                "\u0434\u0430\u0432\u0430\u0439, \u0434\u0430\u0432\u0430\u0439"
             ],
             "Deutsch": [
-                "Donnerstag, am Donnerstag"
+                "Mach das!"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043f\u044f\u0442\u043d\u0438\u0446\u0430, \u0432 \u043f\u044f\u0442\u043d\u0438\u0446\u0443"
+                "\u044e\u0440\u0438\u0441\u0442"
             ],
             "Deutsch": [
-                "Freitag, am Freitag"
+                "Jurist"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441\u0443\u0431\u0431\u043e\u0442\u0430, \u0432 \u0441\u0443\u0431\u0431\u043e\u0442\u0443"
+                "\u043f\u0438\u0441\u044c\u043c\u043e (\u043f\u0438\u0441\u044c\u043c\u0430)"
             ],
             "Deutsch": [
-                "Samstag, am Samstag"
+                "Brief"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0432\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435, \u0432 \u0432\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435"
+                "\u043d\u0430\u0448\u0430"
             ],
             "Deutsch": [
-                "Sonntag, am Sonntag"
+                "unsere"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u041a\u0430\u043a\u043e\u0439 \u0441\u0435\u0433\u043e\u0434\u043d\u044f \u0434\u0435\u043d\u044c \u043d\u0435\u0434\u0435\u043b\u0438?"
+                "\u0441\u0443\u0448\u0438"
             ],
             "Deutsch": [
-                "Welcher Wochentag ist heute?"
+                "Suschi"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0423\u0440\u043e\u043a 9 \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u043e"
+                "\u043a\u043b\u0430\u0441\u0441\u043d\u044b\u0439 \u0434\u0435\u043d\u044c"
             ],
             "Deutsch": [
-                "Kunst"
+                "ein sch\u00f6ner Tag"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f"
+                "\u0434\u0438\u043a\u0442\u0430\u043d\u0442"
             ],
             "Deutsch": [
-                "Quai"
+                "Diktat"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0440\u0435\u043a\u0430"
+                "\u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439"
             ],
             "Deutsch": [
-                "Fluss"
+                "mathematisch"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0445\u0440\u0430\u043c"
+                "\u0448\u0430\u0445\u043c\u0430\u0442\u0438\u0441\u0442"
             ],
             "Deutsch": [
-                "Tempel"
+                "Schachspieler"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0440\u0430\u0441\u043f\u0440\u043e\u0434\u0430\u0436\u0430"
+                "\u043f\u043e\u043a\u0430 \u0447\u0442\u043e"
             ],
             "Deutsch": [
-                "Ausverkauf"
+                "erst mal"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c"
+                "\u0433\u043e\u043b\u044c\u0444"
             ],
             "Deutsch": [
-                "vielleicht (kann sein)"
+                "Golfspiel"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0432\u043c\u0435\u0441\u0442\u0435"
+                "\u043b\u044e\u0431\u043e\u0432\u044c"
             ],
             "Deutsch": [
-                "zusammen"
+                "Liebe"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441 \u0443\u0434\u043e\u0432\u043e\u043b\u044c\u0441\u0442\u0432\u0438\u0435\u043c"
+                "\u043e\u0444\u0438\u0441"
             ],
             "Deutsch": [
-                "mit Vergn\u00fcgen (gerne)"
+                "Office"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0430"
+                "\u0441\u0442\u0430\u0440\u0448\u0438\u0439 \u00e4"
             ],
             "Deutsch": [
-                "Training"
+                "ltere"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0437\u0430\u043b"
+                "\u0441\u043f\u0430\u0433\u0435\u0442\u0442\u0438"
             ],
             "Deutsch": [
-                "Kraftraum, Tanzraum, Aula"
+                "Spagetti"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0437\u0430\u043b \u0434\u043b\u044f \u043b\u0430\u0437\u0430\u043d\u0438\u044f"
+                "\u0431\u0438\u0437\u043d\u0435\u0441\u043c\u0435\u043d"
             ],
             "Deutsch": [
-                "Kletterraum"
+                "Businessman"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "(\u043d\u0435)\u0447\u0430\u0441\u0442\u043e"
+                "\u043f\u0438\u0430\u043d\u0438\u0441\u0442"
             ],
             "Deutsch": [
-                "(nicht) oft"
+                "Klavierspieler"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0438\u043d\u043e\u0433\u0434\u0430"
+                "\u0423\u0440\u043e\u043a 13 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0430\u044f"
             ],
             "Deutsch": [
-                "manchmal"
+                "Werkstatt"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "(\u043c\u043d\u0435/\u0442\u0435\u0431\u0435..) \u043f\u043e\u0440\u0430"
+                "\u0434\u0435\u043b\u043e \u0432\u043a\u0443\u0441\u0430"
             ],
             "Deutsch": [
-                "Es ist Zeit zu"
+                "Geschmackssache"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0438\u0434\u0435\u0430\u043b"
+                "\u043e\u0442\u0435\u043b\u044c"
             ],
             "Deutsch": [
-                "Ideal"
+                "Hotel"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0440\u0435\u0446\u0435\u043f\u0442\u044b"
+                "\u0432\u0435\u043b\u0438\u043a\u0438\u0439"
             ],
             "Deutsch": [
-                "Rezepte"
+                "gross"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0433\u0440\u0435\u0447\u0430 (\u0438\u043b\u0438 \u0433\u0440\u0435\u0447\u043a\u0430)"
+                "\u0434\u0440\u0435\u0432\u043d\u0438\u0439 (\u0434\u0440\u0435\u0432\u043d\u044f\u044f, \u0434\u0440\u0435\u0432\u043d\u0435\u0435, \u0434\u0440\u0435\u0432\u043d\u0438\u0435)"
             ],
             "Deutsch": [
-                "Buchweizen"
+                "uralt"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0441\u0442\u0430\u043a\u0430\u043d"
+                "\u0441\u0442\u0430\u0440\u044b\u0439, (\u0441\u0442\u0430\u0440\u0430\u044f, \u0441\u0442\u0430\u0440\u043e\u0435, \u0441\u0442\u0430\u0440\u044b\u0435)"
             ],
             "Deutsch": [
-                "Glas"
+                "alt"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043b\u0443\u043a"
+                "\u043c\u0435\u0441\u0442\u043e (pl. \u043c\u0435\u0441\u0442\u0430)"
             ],
             "Deutsch": [
-                "Zwiebel"
+                "Platz, Ort, Stelle"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0437\u0435\u043b\u0451\u043d\u0430\u044f \u0444\u0430\u0441\u043e\u043b\u044c"
+                "\u0431\u043e\u043b\u044c\u0448\u0435"
             ],
             "Deutsch": [
-                "gr\u00fcne Bohnen"
+                "mehr"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u043f\u043e\u0442\u043e\u043c"
+                "\u0431\u043e\u043b\u044c\u0448\u0435 \u0442\u044b\u0441\u044f\u0447\u0438 \u043b\u0435\u0442"
             ],
             "Deutsch": [
-                "dann, danach"
+                "mehr als tausend Jahre"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0423\u0440\u043e\u043a 10 \u043c\u043e\u0436\u043d\u043e"
+                "\u043d\u0430\u0448 (\u043d\u0430\u0448\u0430, \u043d\u0430\u0448\u0435, \u043d\u0430\u0448\u0438)"
             ],
             "Deutsch": [
-                "Man kann, man darf"
+                "unser"
             ]
         },
         {
             "Franz\u00f6sisch": [
-                "\u0446\u0435\u0440\u043a\u043e\u0432\u044c (f.)"
+                "\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439, (\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u0430\u044f, \u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e\u0435, \u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0435)"
             ],
             "Deutsch": [
-                "Kirche"
+                "bekannt"
             ]
         }
     ],
@@ -797,7 +797,7 @@ var liste = {
         "Beispiele",
         "Lernhilfe"
     ],
-    "titel": "Russisch_2",
+    "titel": "Russisch_5",
     "frage_attribut": "Deutsch"
 };
 
