@@ -1,99 +1,115 @@
 var liste = {
     "fragen": [
         {
-            "Latein": [
-                "sub (+ Akk./+ Abl.loc.)"
+            "Franz\u00f6sisch": [
+                "appetere 3k, appeto, appet\u012bv\u012b, appet\u012btum"
             ],
             "Deutsch": [
-                "unter etw. (+ Akk.: wohin?/+ Abl.: wo?)"
+                "(verst\u00e4rktes petere)"
             ]
         },
         {
-            "Latein": [
-                "arbor, \u00e1rboris f."
+            "Franz\u00f6sisch": [
+                "imperium, -\u012b n."
             ],
             "Deutsch": [
-                "Baum"
+                "1. Befehl2. Herrschaft3. Reich"
             ]
         },
         {
-            "Latein": [
-                "i\u016bdic\u0101re 1"
+            "Franz\u00f6sisch": [
+                "sapi\u0113ns (Gen.: sapientis)"
             ],
             "Deutsch": [
-                "1. beurteilen2. entscheiden"
+                "klug, weiseder Weise, der Philosoph"
             ]
         },
         {
-            "Latein": [
-                "cert\u0101re 1"
+            "Franz\u00f6sisch": [
+                "fav\u0113re 2, fave\u014d, f\u0101v\u012b, fautum (+ Dat.)"
             ],
             "Deutsch": [
-                "streiten, (wett-)k\u00e4mpfen"
+                "jmd beg\u00fcnstigen"
             ]
         },
         {
-            "Latein": [
-                "d\u0113cernere 3k, d\u0113cern\u014d, d\u0113cr\u0113v\u012b, d\u0113cr\u0113tum"
+            "Franz\u00f6sisch": [
+                "dubit\u0101re 1"
             ],
             "Deutsch": [
-                "entscheiden, beschliessen"
+                "1. z\u00f6gern2. (be-)zweifeln"
             ]
         },
         {
-            "Latein": [
-                "difficilis, -e"
+            "Franz\u00f6sisch": [
+                "sapientia, -ae f."
             ],
             "Deutsch": [
-                "schwierig"
+                "Klugheit, Weisheit"
             ]
         },
         {
-            "Latein": [
-                "habitus, -\u016bs m."
+            "Franz\u00f6sisch": [
+                "gl\u014dria, -ae f."
             ],
             "Deutsch": [
-                "1. Haltung, Zustand, Aussehen2. Kleidung"
+                "Ruhm, Ehre"
             ]
         },
         {
-            "Latein": [
-                "compar\u0101re 1"
+            "Franz\u00f6sisch": [
+                "\u0113gregius, -a, -um"
             ],
             "Deutsch": [
-                "1. beschaffen2. vergleichen"
+                "hervorragend"
             ]
         },
         {
-            "Latein": [
-                "adiuv\u0101re, adiuv\u014d, adi\u016bv\u012b, adi\u016btum (+ Akk.)"
+            "Franz\u00f6sisch": [
+                "ait"
             ],
             "Deutsch": [
-                "unterst\u00fctzen, helfen"
+                "er/sie/es sagt(e)"
             ]
         },
         {
-            "Latein": [
-                "pulchrit\u016bd\u014d, pulchrit\u016bdinis f."
+            "Franz\u00f6sisch": [
+                "gerere 3k, ger\u014d, gess\u012b, gestum"
             ],
             "Deutsch": [
-                "Sch\u00f6nheit"
+                "tragen, f\u00fchren, ausf\u00fchren"
             ]
         },
         {
-            "Latein": [
-                "c\u0113teri, -ae, -a"
+            "Franz\u00f6sisch": [
+                "bellum gerere"
             ],
             "Deutsch": [
-                "die anderen, die \u00fcbrigen"
+                "Krieg f\u00fchren"
             ]
         },
         {
-            "Latein": [
-                "praest\u0101re 1, praest\u014d, praestit\u012b, praestitum"
+            "Franz\u00f6sisch": [
+                "persu\u0101d\u0113re 2, persu\u0101de\u014d, persu\u0101s\u012b, persu\u0101sum (+ Dat.)"
             ],
             "Deutsch": [
-                "1. (+ Dat.) \u00fcbertreffen2. (+ Akk.) etw. geben, etw. leisten"
+                "1. \u00fcberzeugen (+ AcI)2. \u00fcberreden (+ ut-Satz)"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "praemium, -\u012b n."
+            ],
+            "Deutsch": [
+                "Belohnung"
+            ]
+        },
+        {
+            "Franz\u00f6sisch": [
+                "maximus, -a, -um"
+            ],
+            "Deutsch": [
+                "1. der gr\u00f6sste2. sehr gross, sehr bedeutend"
             ]
         }
     ],
