@@ -1,7 +1,103 @@
 var liste = {
     "fragen": [
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
+                "sub (+ Akk./+ Abl.loc.)"
+            ],
+            "Deutsch": [
+                "unter etw. (+ Akk.: wohin?/+ Abl.: wo?)"
+            ]
+        },
+        {
+            "Latein": [
+                "arbor, \u00e1rboris f."
+            ],
+            "Deutsch": [
+                "Baum"
+            ]
+        },
+        {
+            "Latein": [
+                "i\u016bdic\u0101re 1"
+            ],
+            "Deutsch": [
+                "1. beurteilen2. entscheiden"
+            ]
+        },
+        {
+            "Latein": [
+                "cert\u0101re 1"
+            ],
+            "Deutsch": [
+                "streiten, (wett-)k\u00e4mpfen"
+            ]
+        },
+        {
+            "Latein": [
+                "d\u0113cernere 3k, d\u0113cern\u014d, d\u0113cr\u0113v\u012b, d\u0113cr\u0113tum"
+            ],
+            "Deutsch": [
+                "entscheiden, beschliessen"
+            ]
+        },
+        {
+            "Latein": [
+                "difficilis, -e"
+            ],
+            "Deutsch": [
+                "schwierig"
+            ]
+        },
+        {
+            "Latein": [
+                "habitus, -\u016bs m."
+            ],
+            "Deutsch": [
+                "1. Haltung, Zustand, Aussehen2. Kleidung"
+            ]
+        },
+        {
+            "Latein": [
+                "compar\u0101re 1"
+            ],
+            "Deutsch": [
+                "1. beschaffen2. vergleichen"
+            ]
+        },
+        {
+            "Latein": [
+                "adiuv\u0101re, adiuv\u014d, adi\u016bv\u012b, adi\u016btum (+ Akk.)"
+            ],
+            "Deutsch": [
+                "unterst\u00fctzen, helfen"
+            ]
+        },
+        {
+            "Latein": [
+                "pulchrit\u016bd\u014d, pulchrit\u016bdinis f."
+            ],
+            "Deutsch": [
+                "Sch\u00f6nheit"
+            ]
+        },
+        {
+            "Latein": [
+                "c\u0113teri, -ae, -a"
+            ],
+            "Deutsch": [
+                "die anderen, die \u00fcbrigen"
+            ]
+        },
+        {
+            "Latein": [
+                "praest\u0101re 1, praest\u014d, praestit\u012b, praestitum"
+            ],
+            "Deutsch": [
+                "1. (+ Dat.) \u00fcbertreffen2. (+ Akk.) etw. geben, etw. leisten"
+            ]
+        },
+        {
+            "Latein": [
                 "appetere 3k, appeto, appet\u012bv\u012b, appet\u012btum"
             ],
             "Deutsch": [
@@ -9,7 +105,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "imperium, -\u012b n."
             ],
             "Deutsch": [
@@ -17,7 +113,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "sapi\u0113ns (Gen.: sapientis)"
             ],
             "Deutsch": [
@@ -25,7 +121,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "fav\u0113re 2, fave\u014d, f\u0101v\u012b, fautum (+ Dat.)"
             ],
             "Deutsch": [
@@ -33,7 +129,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "dubit\u0101re 1"
             ],
             "Deutsch": [
@@ -41,7 +137,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "sapientia, -ae f."
             ],
             "Deutsch": [
@@ -49,7 +145,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "gl\u014dria, -ae f."
             ],
             "Deutsch": [
@@ -57,7 +153,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "\u0113gregius, -a, -um"
             ],
             "Deutsch": [
@@ -65,7 +161,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "ait"
             ],
             "Deutsch": [
@@ -73,7 +169,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "gerere 3k, ger\u014d, gess\u012b, gestum"
             ],
             "Deutsch": [
@@ -81,7 +177,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "bellum gerere"
             ],
             "Deutsch": [
@@ -89,7 +185,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "persu\u0101d\u0113re 2, persu\u0101de\u014d, persu\u0101s\u012b, persu\u0101sum (+ Dat.)"
             ],
             "Deutsch": [
@@ -97,7 +193,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "praemium, -\u012b n."
             ],
             "Deutsch": [
@@ -105,7 +201,7 @@ var liste = {
             ]
         },
         {
-            "Franz\u00f6sisch": [
+            "Latein": [
                 "maximus, -a, -um"
             ],
             "Deutsch": [
